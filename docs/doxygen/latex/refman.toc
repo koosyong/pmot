@@ -1,0 +1,661 @@
+\contentsline {chapter}{\numberline {1}\discretionary {-}{}{}Class \discretionary {-}{}{}Index}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}\discretionary {-}{}{}Class \discretionary {-}{}{}Hierarchy}{1}{section.1.1}
+\contentsline {chapter}{\numberline {2}\discretionary {-}{}{}Class \discretionary {-}{}{}Index}{3}{chapter.2}
+\contentsline {section}{\numberline {2.1}\discretionary {-}{}{}Class \discretionary {-}{}{}List}{3}{section.2.1}
+\contentsline {chapter}{\numberline {3}\discretionary {-}{}{}File \discretionary {-}{}{}Index}{5}{chapter.3}
+\contentsline {section}{\numberline {3.1}\discretionary {-}{}{}File \discretionary {-}{}{}List}{5}{section.3.1}
+\contentsline {chapter}{\numberline {4}\discretionary {-}{}{}Class \discretionary {-}{}{}Documentation}{7}{chapter.4}
+\contentsline {section}{\numberline {4.1}\discretionary {-}{}{}Bounding\discretionary {-}{}{}Box \discretionary {-}{}{}Struct \discretionary {-}{}{}Reference}{7}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}\discretionary {-}{}{}Member \discretionary {-}{}{}Data \discretionary {-}{}{}Documentation}{7}{subsection.4.1.1}
+\contentsline {subsubsection}{\numberline {4.1.1.1}is\discretionary {-}{}{}Init}{7}{subsubsection.4.1.1.1}
+\contentsline {subsubsection}{\numberline {4.1.1.2}x\discretionary {-}{}{}\_\discretionary {-}{}{}max}{7}{subsubsection.4.1.1.2}
+\contentsline {subsubsection}{\numberline {4.1.1.3}x\discretionary {-}{}{}\_\discretionary {-}{}{}min}{7}{subsubsection.4.1.1.3}
+\contentsline {subsubsection}{\numberline {4.1.1.4}y\discretionary {-}{}{}\_\discretionary {-}{}{}max}{7}{subsubsection.4.1.1.4}
+\contentsline {subsubsection}{\numberline {4.1.1.5}y\discretionary {-}{}{}\_\discretionary {-}{}{}min}{7}{subsubsection.4.1.1.5}
+\contentsline {subsubsection}{\numberline {4.1.1.6}z\discretionary {-}{}{}\_\discretionary {-}{}{}max}{7}{subsubsection.4.1.1.6}
+\contentsline {subsubsection}{\numberline {4.1.1.7}z\discretionary {-}{}{}\_\discretionary {-}{}{}min}{8}{subsubsection.4.1.1.7}
+\contentsline {section}{\numberline {4.2}\discretionary {-}{}{}Cs\discretionary {-}{}{}Feature \discretionary {-}{}{}Class \discretionary {-}{}{}Reference}{8}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}\discretionary {-}{}{}Constructor \& \discretionary {-}{}{}Destructor \discretionary {-}{}{}Documentation}{8}{subsection.4.2.1}
+\contentsline {subsubsection}{\numberline {4.2.1.1}\discretionary {-}{}{}Cs\discretionary {-}{}{}Feature}{8}{subsubsection.4.2.1.1}
+\contentsline {subsubsection}{\numberline {4.2.1.2}$\sim $\discretionary {-}{}{}Cs\discretionary {-}{}{}Feature}{8}{subsubsection.4.2.1.2}
+\contentsline {subsection}{\numberline {4.2.2}\discretionary {-}{}{}Member \discretionary {-}{}{}Function \discretionary {-}{}{}Documentation}{8}{subsection.4.2.2}
+\contentsline {subsubsection}{\numberline {4.2.2.1}get\discretionary {-}{}{}Dist}{8}{subsubsection.4.2.2.1}
+\contentsline {subsubsection}{\numberline {4.2.2.2}get\discretionary {-}{}{}Long\discretionary {-}{}{}Dist}{8}{subsubsection.4.2.2.2}
+\contentsline {subsection}{\numberline {4.2.3}\discretionary {-}{}{}Member \discretionary {-}{}{}Data \discretionary {-}{}{}Documentation}{8}{subsection.4.2.3}
+\contentsline {subsubsection}{\numberline {4.2.3.1}hist}{8}{subsubsection.4.2.3.1}
+\contentsline {section}{\numberline {4.3}\discretionary {-}{}{}Cs\discretionary {-}{}{}Feature\discretionary {-}{}{}Estimation \discretionary {-}{}{}Class \discretionary {-}{}{}Reference}{9}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}\discretionary {-}{}{}Constructor \& \discretionary {-}{}{}Destructor \discretionary {-}{}{}Documentation}{10}{subsection.4.3.1}
+\contentsline {subsubsection}{\numberline {4.3.1.1}\discretionary {-}{}{}Cs\discretionary {-}{}{}Feature\discretionary {-}{}{}Estimation}{10}{subsubsection.4.3.1.1}
+\contentsline {subsubsection}{\numberline {4.3.1.2}$\sim $\discretionary {-}{}{}Cs\discretionary {-}{}{}Feature\discretionary {-}{}{}Estimation}{10}{subsubsection.4.3.1.2}
+\contentsline {subsection}{\numberline {4.3.2}\discretionary {-}{}{}Member \discretionary {-}{}{}Function \discretionary {-}{}{}Documentation}{10}{subsection.4.3.2}
+\contentsline {subsubsection}{\numberline {4.3.2.1}compute}{10}{subsubsection.4.3.2.1}
+\contentsline {subsubsection}{\numberline {4.3.2.2}eval\discretionary {-}{}{}One\discretionary {-}{}{}Point}{10}{subsubsection.4.3.2.2}
+\contentsline {subsubsection}{\numberline {4.3.2.3}init\discretionary {-}{}{}Box}{10}{subsubsection.4.3.2.3}
+\contentsline {subsection}{\numberline {4.3.3}\discretionary {-}{}{}Member \discretionary {-}{}{}Data \discretionary {-}{}{}Documentation}{10}{subsection.4.3.3}
+\contentsline {subsubsection}{\numberline {4.3.3.1}m\discretionary {-}{}{}\_\discretionary {-}{}{}box\discretionary {-}{}{}Max}{10}{subsubsection.4.3.3.1}
+\contentsline {subsubsection}{\numberline {4.3.3.2}m\discretionary {-}{}{}\_\discretionary {-}{}{}box\discretionary {-}{}{}Min}{10}{subsubsection.4.3.3.2}
+\contentsline {subsubsection}{\numberline {4.3.3.3}m\discretionary {-}{}{}\_\discretionary {-}{}{}grid\discretionary {-}{}{}Nr}{11}{subsubsection.4.3.3.3}
+\contentsline {subsubsection}{\numberline {4.3.3.4}m\discretionary {-}{}{}\_\discretionary {-}{}{}gridsize}{11}{subsubsection.4.3.3.4}
+\contentsline {subsubsection}{\numberline {4.3.3.5}m\discretionary {-}{}{}\_\discretionary {-}{}{}keypoints}{11}{subsubsection.4.3.3.5}
+\contentsline {subsubsection}{\numberline {4.3.3.6}m\discretionary {-}{}{}\_\discretionary {-}{}{}key\discretionary {-}{}{}Size}{11}{subsubsection.4.3.3.6}
+\contentsline {subsubsection}{\numberline {4.3.3.7}m\discretionary {-}{}{}\_\discretionary {-}{}{}x\discretionary {-}{}{}Nr}{11}{subsubsection.4.3.3.7}
+\contentsline {subsubsection}{\numberline {4.3.3.8}m\discretionary {-}{}{}\_\discretionary {-}{}{}y\discretionary {-}{}{}Nr}{11}{subsubsection.4.3.3.8}
+\contentsline {subsubsection}{\numberline {4.3.3.9}m\discretionary {-}{}{}\_\discretionary {-}{}{}z\discretionary {-}{}{}Nr}{11}{subsubsection.4.3.3.9}
+\contentsline {subsubsection}{\numberline {4.3.3.10}out\discretionary {-}{}{}F}{11}{subsubsection.4.3.3.10}
+\contentsline {section}{\numberline {4.4}\discretionary {-}{}{}C\discretionary {-}{}{}S\discretionary {-}{}{}G\discretionary {-}{}{}P\discretionary {-}{}{}U \discretionary {-}{}{}Class \discretionary {-}{}{}Reference}{11}{section.4.4}
+\contentsline {subsection}{\numberline {4.4.1}\discretionary {-}{}{}Constructor \& \discretionary {-}{}{}Destructor \discretionary {-}{}{}Documentation}{12}{subsection.4.4.1}
+\contentsline {subsubsection}{\numberline {4.4.1.1}\discretionary {-}{}{}C\discretionary {-}{}{}S\discretionary {-}{}{}G\discretionary {-}{}{}P\discretionary {-}{}{}U}{12}{subsubsection.4.4.1.1}
+\contentsline {subsubsection}{\numberline {4.4.1.2}\discretionary {-}{}{}C\discretionary {-}{}{}S\discretionary {-}{}{}G\discretionary {-}{}{}P\discretionary {-}{}{}U}{12}{subsubsection.4.4.1.2}
+\contentsline {subsubsection}{\numberline {4.4.1.3}$\sim $\discretionary {-}{}{}C\discretionary {-}{}{}S\discretionary {-}{}{}G\discretionary {-}{}{}P\discretionary {-}{}{}U}{12}{subsubsection.4.4.1.3}
+\contentsline {subsection}{\numberline {4.4.2}\discretionary {-}{}{}Member \discretionary {-}{}{}Function \discretionary {-}{}{}Documentation}{12}{subsection.4.4.2}
+\contentsline {subsubsection}{\numberline {4.4.2.1}compute}{12}{subsubsection.4.4.2.1}
+\contentsline {subsection}{\numberline {4.4.3}\discretionary {-}{}{}Member \discretionary {-}{}{}Data \discretionary {-}{}{}Documentation}{12}{subsection.4.4.3}
+\contentsline {subsubsection}{\numberline {4.4.3.1}aa}{12}{subsubsection.4.4.3.1}
+\contentsline {subsubsection}{\numberline {4.4.3.2}cloudhsv}{12}{subsubsection.4.4.3.2}
+\contentsline {subsubsection}{\numberline {4.4.3.3}cloudpos}{12}{subsubsection.4.4.3.3}
+\contentsline {subsubsection}{\numberline {4.4.3.4}cloud\discretionary {-}{}{}Size}{12}{subsubsection.4.4.3.4}
+\contentsline {subsubsection}{\numberline {4.4.3.5}gridsize}{12}{subsubsection.4.4.3.5}
+\contentsline {subsubsection}{\numberline {4.4.3.6}histsize}{12}{subsubsection.4.4.3.6}
+\contentsline {subsubsection}{\numberline {4.4.3.7}max\discretionary {-}{}{}Pt}{12}{subsubsection.4.4.3.7}
+\contentsline {subsubsection}{\numberline {4.4.3.8}min\discretionary {-}{}{}Pt}{12}{subsubsection.4.4.3.8}
+\contentsline {subsubsection}{\numberline {4.4.3.9}part\discretionary {-}{}{}Nr}{12}{subsubsection.4.4.3.9}
+\contentsline {subsubsection}{\numberline {4.4.3.10}partpos}{12}{subsubsection.4.4.3.10}
+\contentsline {subsubsection}{\numberline {4.4.3.11}partrot}{12}{subsubsection.4.4.3.11}
+\contentsline {subsubsection}{\numberline {4.4.3.12}refcloud}{12}{subsubsection.4.4.3.12}
+\contentsline {subsubsection}{\numberline {4.4.3.13}refcloud\discretionary {-}{}{}Size}{13}{subsubsection.4.4.3.13}
+\contentsline {subsubsection}{\numberline {4.4.3.14}refhist}{13}{subsubsection.4.4.3.14}
+\contentsline {subsubsection}{\numberline {4.4.3.15}x\discretionary {-}{}{}Nr}{13}{subsubsection.4.4.3.15}
+\contentsline {subsubsection}{\numberline {4.4.3.16}y\discretionary {-}{}{}Nr}{13}{subsubsection.4.4.3.16}
+\contentsline {subsubsection}{\numberline {4.4.3.17}z\discretionary {-}{}{}Nr}{13}{subsubsection.4.4.3.17}
+\contentsline {section}{\numberline {4.5}\discretionary {-}{}{}P\discretionary {-}{}{}C\discretionary {-}{}{}Object\discretionary {-}{}{}:\discretionary {-}{}{}:\discretionary {-}{}{}Edge \discretionary {-}{}{}Struct \discretionary {-}{}{}Reference}{13}{section.4.5}
+\contentsline {subsection}{\numberline {4.5.1}\discretionary {-}{}{}Member \discretionary {-}{}{}Data \discretionary {-}{}{}Documentation}{13}{subsection.4.5.1}
+\contentsline {subsubsection}{\numberline {4.5.1.1}u}{14}{subsubsection.4.5.1.1}
+\contentsline {subsubsection}{\numberline {4.5.1.2}v}{14}{subsubsection.4.5.1.2}
+\contentsline {subsubsection}{\numberline {4.5.1.3}weight}{14}{subsubsection.4.5.1.3}
+\contentsline {section}{\numberline {4.6}\discretionary {-}{}{}P\discretionary {-}{}{}C\discretionary {-}{}{}Object\discretionary {-}{}{}:\discretionary {-}{}{}:\discretionary {-}{}{}Edge\discretionary {-}{}{}\_\discretionary {-}{}{}spatial \discretionary {-}{}{}Struct \discretionary {-}{}{}Reference}{14}{section.4.6}
+\contentsline {subsection}{\numberline {4.6.1}\discretionary {-}{}{}Member \discretionary {-}{}{}Data \discretionary {-}{}{}Documentation}{14}{subsection.4.6.1}
+\contentsline {subsubsection}{\numberline {4.6.1.1}u}{14}{subsubsection.4.6.1.1}
+\contentsline {subsubsection}{\numberline {4.6.1.2}v}{14}{subsubsection.4.6.1.2}
+\contentsline {subsubsection}{\numberline {4.6.1.3}weight\discretionary {-}{}{}\_\discretionary {-}{}{}pos}{14}{subsubsection.4.6.1.3}
+\contentsline {subsubsection}{\numberline {4.6.1.4}weight\discretionary {-}{}{}\_\discretionary {-}{}{}vel}{14}{subsubsection.4.6.1.4}
+\contentsline {section}{\numberline {4.7}\discretionary {-}{}{}False\discretionary {-}{}{}Objects \discretionary {-}{}{}Struct \discretionary {-}{}{}Reference}{14}{section.4.7}
+\contentsline {subsection}{\numberline {4.7.1}\discretionary {-}{}{}Member \discretionary {-}{}{}Data \discretionary {-}{}{}Documentation}{15}{subsection.4.7.1}
+\contentsline {subsubsection}{\numberline {4.7.1.1}childs}{15}{subsubsection.4.7.1.1}
+\contentsline {subsubsection}{\numberline {4.7.1.2}parent}{15}{subsubsection.4.7.1.2}
+\contentsline {section}{\numberline {4.8}\discretionary {-}{}{}Frame \discretionary {-}{}{}Struct \discretionary {-}{}{}Reference}{15}{section.4.8}
+\contentsline {subsection}{\numberline {4.8.1}\discretionary {-}{}{}Member \discretionary {-}{}{}Data \discretionary {-}{}{}Documentation}{16}{subsection.4.8.1}
+\contentsline {subsubsection}{\numberline {4.8.1.1}time}{16}{subsubsection.4.8.1.1}
+\contentsline {subsubsection}{\numberline {4.8.1.2}track\discretionary {-}{}{}Points}{16}{subsubsection.4.8.1.2}
+\contentsline {section}{\numberline {4.9}\discretionary {-}{}{}Track$<$ \discretionary {-}{}{}Object $>$\discretionary {-}{}{}:\discretionary {-}{}{}:\discretionary {-}{}{}Frame \discretionary {-}{}{}Struct \discretionary {-}{}{}Reference}{16}{section.4.9}
+\contentsline {subsection}{\numberline {4.9.1}\discretionary {-}{}{}Member \discretionary {-}{}{}Data \discretionary {-}{}{}Documentation}{16}{subsection.4.9.1}
+\contentsline {subsubsection}{\numberline {4.9.1.1}id}{16}{subsubsection.4.9.1.1}
+\contentsline {subsubsection}{\numberline {4.9.1.2}object}{16}{subsubsection.4.9.1.2}
+\contentsline {subsubsection}{\numberline {4.9.1.3}time}{17}{subsubsection.4.9.1.3}
+\contentsline {section}{\numberline {4.10}\discretionary {-}{}{}Gaus \discretionary {-}{}{}Class \discretionary {-}{}{}Reference}{17}{section.4.10}
+\contentsline {subsection}{\numberline {4.10.1}\discretionary {-}{}{}Constructor \& \discretionary {-}{}{}Destructor \discretionary {-}{}{}Documentation}{17}{subsection.4.10.1}
+\contentsline {subsubsection}{\numberline {4.10.1.1}\discretionary {-}{}{}Gaus}{17}{subsubsection.4.10.1.1}
+\contentsline {subsubsection}{\numberline {4.10.1.2}$\sim $\discretionary {-}{}{}Gaus}{17}{subsubsection.4.10.1.2}
+\contentsline {subsection}{\numberline {4.10.2}\discretionary {-}{}{}Member \discretionary {-}{}{}Data \discretionary {-}{}{}Documentation}{17}{subsection.4.10.2}
+\contentsline {subsubsection}{\numberline {4.10.2.1}cov\discretionary {-}{}{}\_\discretionary {-}{}{}inverse}{17}{subsubsection.4.10.2.1}
+\contentsline {subsubsection}{\numberline {4.10.2.2}covariance}{17}{subsubsection.4.10.2.2}
+\contentsline {subsubsection}{\numberline {4.10.2.3}mean}{17}{subsubsection.4.10.2.3}
+\contentsline {subsubsection}{\numberline {4.10.2.4}points}{17}{subsubsection.4.10.2.4}
+\contentsline {section}{\numberline {4.11}\discretionary {-}{}{}Gaussian \discretionary {-}{}{}Class \discretionary {-}{}{}Reference}{18}{section.4.11}
+\contentsline {subsection}{\numberline {4.11.1}\discretionary {-}{}{}Constructor \& \discretionary {-}{}{}Destructor \discretionary {-}{}{}Documentation}{18}{subsection.4.11.1}
+\contentsline {subsubsection}{\numberline {4.11.1.1}\discretionary {-}{}{}Gaussian}{18}{subsubsection.4.11.1.1}
+\contentsline {subsubsection}{\numberline {4.11.1.2}\discretionary {-}{}{}Gaussian}{18}{subsubsection.4.11.1.2}
+\contentsline {subsection}{\numberline {4.11.2}\discretionary {-}{}{}Member \discretionary {-}{}{}Function \discretionary {-}{}{}Documentation}{19}{subsection.4.11.2}
+\contentsline {subsubsection}{\numberline {4.11.2.1}init}{19}{subsubsection.4.11.2.1}
+\contentsline {subsubsection}{\numberline {4.11.2.2}init\discretionary {-}{}{}Prediction}{19}{subsubsection.4.11.2.2}
+\contentsline {subsubsection}{\numberline {4.11.2.3}quaternion2rotation}{19}{subsubsection.4.11.2.3}
+\contentsline {subsubsection}{\numberline {4.11.2.4}quaternion2rotation}{19}{subsubsection.4.11.2.4}
+\contentsline {subsubsection}{\numberline {4.11.2.5}update\discretionary {-}{}{}Param}{20}{subsubsection.4.11.2.5}
+\contentsline {subsection}{\numberline {4.11.3}\discretionary {-}{}{}Member \discretionary {-}{}{}Data \discretionary {-}{}{}Documentation}{20}{subsection.4.11.3}
+\contentsline {subsubsection}{\numberline {4.11.3.1}cov\discretionary {-}{}{}\_\discretionary {-}{}{}determinant}{20}{subsubsection.4.11.3.1}
+\contentsline {subsubsection}{\numberline {4.11.3.2}cov\discretionary {-}{}{}\_\discretionary {-}{}{}inverse}{20}{subsubsection.4.11.3.2}
+\contentsline {subsubsection}{\numberline {4.11.3.3}covariance}{20}{subsubsection.4.11.3.3}
+\contentsline {subsubsection}{\numberline {4.11.3.4}dim}{20}{subsubsection.4.11.3.4}
+\contentsline {subsubsection}{\numberline {4.11.3.5}eigenvalues}{20}{subsubsection.4.11.3.5}
+\contentsline {subsubsection}{\numberline {4.11.3.6}eigenvectors}{20}{subsubsection.4.11.3.6}
+\contentsline {subsubsection}{\numberline {4.11.3.7}is\discretionary {-}{}{}Empty}{20}{subsubsection.4.11.3.7}
+\contentsline {subsubsection}{\numberline {4.11.3.8}mean}{20}{subsubsection.4.11.3.8}
+\contentsline {subsubsection}{\numberline {4.11.3.9}n\discretionary {-}{}{}Point}{20}{subsubsection.4.11.3.9}
+\contentsline {subsubsection}{\numberline {4.11.3.10}predictive\discretionary {-}{}{}\_\discretionary {-}{}{}covariance}{20}{subsubsection.4.11.3.10}
+\contentsline {subsubsection}{\numberline {4.11.3.11}predictive\discretionary {-}{}{}\_\discretionary {-}{}{}mean}{21}{subsubsection.4.11.3.11}
+\contentsline {subsubsection}{\numberline {4.11.3.12}rotation}{21}{subsubsection.4.11.3.12}
+\contentsline {subsubsection}{\numberline {4.11.3.13}translation}{21}{subsubsection.4.11.3.13}
+\contentsline {subsubsection}{\numberline {4.11.3.14}velocity}{21}{subsubsection.4.11.3.14}
+\contentsline {subsubsection}{\numberline {4.11.3.15}weight}{21}{subsubsection.4.11.3.15}
+\contentsline {section}{\numberline {4.12}\discretionary {-}{}{}Gaussian\discretionary {-}{}{}Track\discretionary {-}{}{}Container \discretionary {-}{}{}Class \discretionary {-}{}{}Reference}{21}{section.4.12}
+\contentsline {subsection}{\numberline {4.12.1}\discretionary {-}{}{}Constructor \& \discretionary {-}{}{}Destructor \discretionary {-}{}{}Documentation}{22}{subsection.4.12.1}
+\contentsline {subsubsection}{\numberline {4.12.1.1}\discretionary {-}{}{}Gaussian\discretionary {-}{}{}Track\discretionary {-}{}{}Container}{22}{subsubsection.4.12.1.1}
+\contentsline {section}{\numberline {4.13}\discretionary {-}{}{}Gaus\discretionary {-}{}{}Vcsh \discretionary {-}{}{}Class \discretionary {-}{}{}Reference}{22}{section.4.13}
+\contentsline {subsection}{\numberline {4.13.1}\discretionary {-}{}{}Member \discretionary {-}{}{}Function \discretionary {-}{}{}Documentation}{23}{subsection.4.13.1}
+\contentsline {subsubsection}{\numberline {4.13.1.1}generate}{23}{subsubsection.4.13.1.1}
+\contentsline {subsubsection}{\numberline {4.13.1.2}get\discretionary {-}{}{}Dist}{24}{subsubsection.4.13.1.2}
+\contentsline {subsection}{\numberline {4.13.2}\discretionary {-}{}{}Member \discretionary {-}{}{}Data \discretionary {-}{}{}Documentation}{24}{subsection.4.13.2}
+\contentsline {subsubsection}{\numberline {4.13.2.1}color}{24}{subsubsection.4.13.2.1}
+\contentsline {subsubsection}{\numberline {4.13.2.2}points}{24}{subsubsection.4.13.2.2}
+\contentsline {subsubsection}{\numberline {4.13.2.3}shape}{24}{subsubsection.4.13.2.3}
+\contentsline {section}{\numberline {4.14}\discretionary {-}{}{}I\discretionary {-}{}{}M\discretionary {-}{}{}F\discretionary {-}{}{}T$<$ \discretionary {-}{}{}Object $>$ \discretionary {-}{}{}Class \discretionary {-}{}{}Template \discretionary {-}{}{}Reference}{24}{section.4.14}
+\contentsline {subsection}{\numberline {4.14.1}\discretionary {-}{}{}Member \discretionary {-}{}{}Typedef \discretionary {-}{}{}Documentation}{26}{subsection.4.14.1}
+\contentsline {subsubsection}{\numberline {4.14.1.1}func\discretionary {-}{}{}Weight}{26}{subsubsection.4.14.1.1}
+\contentsline {subsubsection}{\numberline {4.14.1.2}\discretionary {-}{}{}Object\discretionary {-}{}{}Ptr}{26}{subsubsection.4.14.1.2}
+\contentsline {subsubsection}{\numberline {4.14.1.3}\discretionary {-}{}{}Ptr}{26}{subsubsection.4.14.1.3}
+\contentsline {subsubsection}{\numberline {4.14.1.4}\discretionary {-}{}{}Track\discretionary {-}{}{}Container\discretionary {-}{}{}T}{26}{subsubsection.4.14.1.4}
+\contentsline {subsubsection}{\numberline {4.14.1.5}\discretionary {-}{}{}Track\discretionary {-}{}{}T}{26}{subsubsection.4.14.1.5}
+\contentsline {subsubsection}{\numberline {4.14.1.6}\discretionary {-}{}{}V}{26}{subsubsection.4.14.1.6}
+\contentsline {subsubsection}{\numberline {4.14.1.7}\discretionary {-}{}{}Vec\discretionary {-}{}{}Object\discretionary {-}{}{}Ptr}{26}{subsubsection.4.14.1.7}
+\contentsline {subsubsection}{\numberline {4.14.1.8}\discretionary {-}{}{}Vec\discretionary {-}{}{}Ptr}{26}{subsubsection.4.14.1.8}
+\contentsline {subsubsection}{\numberline {4.14.1.9}\discretionary {-}{}{}Vec\discretionary {-}{}{}Track}{26}{subsubsection.4.14.1.9}
+\contentsline {subsection}{\numberline {4.14.2}\discretionary {-}{}{}Constructor \& \discretionary {-}{}{}Destructor \discretionary {-}{}{}Documentation}{26}{subsection.4.14.2}
+\contentsline {subsubsection}{\numberline {4.14.2.1}\discretionary {-}{}{}I\discretionary {-}{}{}M\discretionary {-}{}{}F\discretionary {-}{}{}T}{26}{subsubsection.4.14.2.1}
+\contentsline {subsubsection}{\numberline {4.14.2.2}$\sim $\discretionary {-}{}{}I\discretionary {-}{}{}M\discretionary {-}{}{}F\discretionary {-}{}{}T}{26}{subsubsection.4.14.2.2}
+\contentsline {subsection}{\numberline {4.14.3}\discretionary {-}{}{}Member \discretionary {-}{}{}Function \discretionary {-}{}{}Documentation}{26}{subsection.4.14.3}
+\contentsline {subsubsection}{\numberline {4.14.3.1}add\discretionary {-}{}{}To\discretionary {-}{}{}D\discretionary {-}{}{}Graph}{26}{subsubsection.4.14.3.1}
+\contentsline {subsubsection}{\numberline {4.14.3.2}confirm\discretionary {-}{}{}D\discretionary {-}{}{}Graph}{26}{subsubsection.4.14.3.2}
+\contentsline {subsubsection}{\numberline {4.14.3.3}delete\discretionary {-}{}{}Last\discretionary {-}{}{}Frame}{27}{subsubsection.4.14.3.3}
+\contentsline {subsubsection}{\numberline {4.14.3.4}extension}{27}{subsubsection.4.14.3.4}
+\contentsline {subsubsection}{\numberline {4.14.3.5}extract\discretionary {-}{}{}Tracks}{27}{subsubsection.4.14.3.5}
+\contentsline {subsubsection}{\numberline {4.14.3.6}get\discretionary {-}{}{}Maximum\discretionary {-}{}{}Matched\discretionary {-}{}{}Object}{27}{subsubsection.4.14.3.6}
+\contentsline {subsubsection}{\numberline {4.14.3.7}get\discretionary {-}{}{}Maximum\discretionary {-}{}{}Matched\discretionary {-}{}{}Track}{27}{subsubsection.4.14.3.7}
+\contentsline {subsubsection}{\numberline {4.14.3.8}get\discretionary {-}{}{}Terminal\discretionary {-}{}{}Nodes}{27}{subsubsection.4.14.3.8}
+\contentsline {subsubsection}{\numberline {4.14.3.9}get\discretionary {-}{}{}Terminal\discretionary {-}{}{}Nodes\discretionary {-}{}{}Last\discretionary {-}{}{}Frame}{27}{subsubsection.4.14.3.9}
+\contentsline {subsubsection}{\numberline {4.14.3.10}get\discretionary {-}{}{}Unmatched\discretionary {-}{}{}Objects}{27}{subsubsection.4.14.3.10}
+\contentsline {subsubsection}{\numberline {4.14.3.11}get\discretionary {-}{}{}Unmatched\discretionary {-}{}{}Tracks}{27}{subsubsection.4.14.3.11}
+\contentsline {subsubsection}{\numberline {4.14.3.12}matching}{28}{subsubsection.4.14.3.12}
+\contentsline {subsubsection}{\numberline {4.14.3.13}moving\discretionary {-}{}{}Window}{28}{subsubsection.4.14.3.13}
+\contentsline {subsubsection}{\numberline {4.14.3.14}set\discretionary {-}{}{}Frame}{28}{subsubsection.4.14.3.14}
+\contentsline {subsubsection}{\numberline {4.14.3.15}two\discretionary {-}{}{}Frame\discretionary {-}{}{}Corresponding}{28}{subsubsection.4.14.3.15}
+\contentsline {subsubsection}{\numberline {4.14.3.16}update\discretionary {-}{}{}Tracks}{29}{subsubsection.4.14.3.16}
+\contentsline {subsection}{\numberline {4.14.4}\discretionary {-}{}{}Member \discretionary {-}{}{}Data \discretionary {-}{}{}Documentation}{29}{subsection.4.14.4}
+\contentsline {subsubsection}{\numberline {4.14.4.1}cnt}{29}{subsubsection.4.14.4.1}
+\contentsline {subsubsection}{\numberline {4.14.4.2}m\discretionary {-}{}{}\_\discretionary {-}{}{}current\discretionary {-}{}{}T}{29}{subsubsection.4.14.4.2}
+\contentsline {subsubsection}{\numberline {4.14.4.3}m\discretionary {-}{}{}\_\discretionary {-}{}{}g}{29}{subsubsection.4.14.4.3}
+\contentsline {subsubsection}{\numberline {4.14.4.4}m\discretionary {-}{}{}\_\discretionary {-}{}{}g\discretionary {-}{}{}Edge\discretionary {-}{}{}Map}{29}{subsubsection.4.14.4.4}
+\contentsline {subsubsection}{\numberline {4.14.4.5}m\discretionary {-}{}{}\_\discretionary {-}{}{}g\discretionary {-}{}{}Node\discretionary {-}{}{}Map}{29}{subsubsection.4.14.4.5}
+\contentsline {subsubsection}{\numberline {4.14.4.6}m\discretionary {-}{}{}\_\discretionary {-}{}{}is\discretionary {-}{}{}Debug}{29}{subsubsection.4.14.4.6}
+\contentsline {subsubsection}{\numberline {4.14.4.7}m\discretionary {-}{}{}\_\discretionary {-}{}{}max\discretionary {-}{}{}Weight}{29}{subsubsection.4.14.4.7}
+\contentsline {subsubsection}{\numberline {4.14.4.8}m\discretionary {-}{}{}\_\discretionary {-}{}{}new\discretionary {-}{}{}Track\discretionary {-}{}{}I\discretionary {-}{}{}D}{29}{subsubsection.4.14.4.8}
+\contentsline {subsubsection}{\numberline {4.14.4.9}m\discretionary {-}{}{}\_\discretionary {-}{}{}vec\discretionary {-}{}{}Old\discretionary {-}{}{}Edge}{29}{subsubsection.4.14.4.9}
+\contentsline {subsubsection}{\numberline {4.14.4.10}m\discretionary {-}{}{}\_\discretionary {-}{}{}wsum}{29}{subsubsection.4.14.4.10}
+\contentsline {subsubsection}{\numberline {4.14.4.11}max\discretionary {-}{}{}I\discretionary {-}{}{}D}{29}{subsubsection.4.14.4.11}
+\contentsline {subsubsection}{\numberline {4.14.4.12}track\discretionary {-}{}{}Container}{29}{subsubsection.4.14.4.12}
+\contentsline {subsubsection}{\numberline {4.14.4.13}weight}{29}{subsubsection.4.14.4.13}
+\contentsline {subsubsection}{\numberline {4.14.4.14}weight\discretionary {-}{}{}\_\discretionary {-}{}{}fast}{29}{subsubsection.4.14.4.14}
+\contentsline {subsubsection}{\numberline {4.14.4.15}window\discretionary {-}{}{}\_\discretionary {-}{}{}long}{29}{subsubsection.4.14.4.15}
+\contentsline {subsubsection}{\numberline {4.14.4.16}window\discretionary {-}{}{}\_\discretionary {-}{}{}short}{30}{subsubsection.4.14.4.16}
+\contentsline {section}{\numberline {4.15}\discretionary {-}{}{}Track$<$ \discretionary {-}{}{}Object $>$\discretionary {-}{}{}:\discretionary {-}{}{}:\discretionary {-}{}{}Node \discretionary {-}{}{}Struct \discretionary {-}{}{}Reference}{30}{section.4.15}
+\contentsline {subsection}{\numberline {4.15.1}\discretionary {-}{}{}Member \discretionary {-}{}{}Data \discretionary {-}{}{}Documentation}{30}{subsection.4.15.1}
+\contentsline {subsubsection}{\numberline {4.15.1.1}frame}{31}{subsubsection.4.15.1.1}
+\contentsline {subsubsection}{\numberline {4.15.1.2}node\discretionary {-}{}{}Id}{31}{subsubsection.4.15.1.2}
+\contentsline {subsubsection}{\numberline {4.15.1.3}ptr}{31}{subsubsection.4.15.1.3}
+\contentsline {section}{\numberline {4.16}\discretionary {-}{}{}Object\discretionary {-}{}{}Node \discretionary {-}{}{}Struct \discretionary {-}{}{}Reference}{31}{section.4.16}
+\contentsline {subsection}{\numberline {4.16.1}\discretionary {-}{}{}Member \discretionary {-}{}{}Data \discretionary {-}{}{}Documentation}{31}{subsection.4.16.1}
+\contentsline {subsubsection}{\numberline {4.16.1.1}n\discretionary {-}{}{}In}{32}{subsubsection.4.16.1.1}
+\contentsline {subsubsection}{\numberline {4.16.1.2}n\discretionary {-}{}{}Out}{32}{subsubsection.4.16.1.2}
+\contentsline {subsubsection}{\numberline {4.16.1.3}object}{32}{subsubsection.4.16.1.3}
+\contentsline {subsubsection}{\numberline {4.16.1.4}time}{32}{subsubsection.4.16.1.4}
+\contentsline {subsubsection}{\numberline {4.16.1.5}type}{32}{subsubsection.4.16.1.5}
+\contentsline {section}{\numberline {4.17}\discretionary {-}{}{}Particlepose \discretionary {-}{}{}Class \discretionary {-}{}{}Reference}{32}{section.4.17}
+\contentsline {subsection}{\numberline {4.17.1}\discretionary {-}{}{}Constructor \& \discretionary {-}{}{}Destructor \discretionary {-}{}{}Documentation}{34}{subsection.4.17.1}
+\contentsline {subsubsection}{\numberline {4.17.1.1}\discretionary {-}{}{}Particlepose}{34}{subsubsection.4.17.1.1}
+\contentsline {subsubsection}{\numberline {4.17.1.2}$\sim $\discretionary {-}{}{}Particlepose}{34}{subsubsection.4.17.1.2}
+\contentsline {subsection}{\numberline {4.17.2}\discretionary {-}{}{}Member \discretionary {-}{}{}Function \discretionary {-}{}{}Documentation}{34}{subsection.4.17.2}
+\contentsline {subsubsection}{\numberline {4.17.2.1}distfeature}{34}{subsubsection.4.17.2.1}
+\contentsline {subsubsection}{\numberline {4.17.2.2}get\discretionary {-}{}{}Patch\discretionary {-}{}{}Score}{34}{subsubsection.4.17.2.2}
+\contentsline {subsubsection}{\numberline {4.17.2.3}get\discretionary {-}{}{}Result}{34}{subsubsection.4.17.2.3}
+\contentsline {subsubsection}{\numberline {4.17.2.4}init\discretionary {-}{}{}Sample}{34}{subsubsection.4.17.2.4}
+\contentsline {subsubsection}{\numberline {4.17.2.5}resample}{34}{subsubsection.4.17.2.5}
+\contentsline {subsubsection}{\numberline {4.17.2.6}sample\discretionary {-}{}{}With\discretionary {-}{}{}Var}{34}{subsubsection.4.17.2.6}
+\contentsline {subsubsection}{\numberline {4.17.2.7}setdata}{34}{subsubsection.4.17.2.7}
+\contentsline {subsubsection}{\numberline {4.17.2.8}to\discretionary {-}{}{}Cloud}{34}{subsubsection.4.17.2.8}
+\contentsline {subsubsection}{\numberline {4.17.2.9}update\discretionary {-}{}{}Model}{34}{subsubsection.4.17.2.9}
+\contentsline {subsubsection}{\numberline {4.17.2.10}weight}{34}{subsubsection.4.17.2.10}
+\contentsline {subsubsection}{\numberline {4.17.2.11}weight\discretionary {-}{}{}By\discretionary {-}{}{}Dist}{35}{subsubsection.4.17.2.11}
+\contentsline {subsubsection}{\numberline {4.17.2.12}weight\discretionary {-}{}{}G\discretionary {-}{}{}P\discretionary {-}{}{}U}{35}{subsubsection.4.17.2.12}
+\contentsline {subsection}{\numberline {4.17.3}\discretionary {-}{}{}Member \discretionary {-}{}{}Data \discretionary {-}{}{}Documentation}{35}{subsection.4.17.3}
+\contentsline {subsubsection}{\numberline {4.17.3.1}csest}{35}{subsubsection.4.17.3.1}
+\contentsline {subsubsection}{\numberline {4.17.3.2}m\discretionary {-}{}{}\_\discretionary {-}{}{}acc}{35}{subsubsection.4.17.3.2}
+\contentsline {subsubsection}{\numberline {4.17.3.3}m\discretionary {-}{}{}\_\discretionary {-}{}{}bestspeed}{35}{subsubsection.4.17.3.3}
+\contentsline {subsubsection}{\numberline {4.17.3.4}m\discretionary {-}{}{}\_\discretionary {-}{}{}cnt}{35}{subsubsection.4.17.3.4}
+\contentsline {subsubsection}{\numberline {4.17.3.5}m\discretionary {-}{}{}\_\discretionary {-}{}{}final\discretionary {-}{}{}Particle}{35}{subsubsection.4.17.3.5}
+\contentsline {subsubsection}{\numberline {4.17.3.6}m\discretionary {-}{}{}\_\discretionary {-}{}{}gen}{35}{subsubsection.4.17.3.6}
+\contentsline {subsubsection}{\numberline {4.17.3.7}m\discretionary {-}{}{}\_\discretionary {-}{}{}internal\discretionary {-}{}{}Counter}{35}{subsubsection.4.17.3.7}
+\contentsline {subsubsection}{\numberline {4.17.3.8}m\discretionary {-}{}{}\_\discretionary {-}{}{}kdtree\discretionary {-}{}{}Scene\discretionary {-}{}{}N}{35}{subsubsection.4.17.3.8}
+\contentsline {subsubsection}{\numberline {4.17.3.9}m\discretionary {-}{}{}\_\discretionary {-}{}{}last\discretionary {-}{}{}Final\discretionary {-}{}{}Particle}{35}{subsubsection.4.17.3.9}
+\contentsline {subsubsection}{\numberline {4.17.3.10}m\discretionary {-}{}{}\_\discretionary {-}{}{}lastlast\discretionary {-}{}{}Final\discretionary {-}{}{}Particle}{35}{subsubsection.4.17.3.10}
+\contentsline {subsubsection}{\numberline {4.17.3.11}m\discretionary {-}{}{}\_\discretionary {-}{}{}lastlastlast\discretionary {-}{}{}Final\discretionary {-}{}{}Particle}{35}{subsubsection.4.17.3.11}
+\contentsline {subsubsection}{\numberline {4.17.3.12}m\discretionary {-}{}{}\_\discretionary {-}{}{}lastspeed}{35}{subsubsection.4.17.3.12}
+\contentsline {subsubsection}{\numberline {4.17.3.13}m\discretionary {-}{}{}\_\discretionary {-}{}{}model}{36}{subsubsection.4.17.3.13}
+\contentsline {subsubsection}{\numberline {4.17.3.14}m\discretionary {-}{}{}\_\discretionary {-}{}{}model\discretionary {-}{}{}Centroid}{36}{subsubsection.4.17.3.14}
+\contentsline {subsubsection}{\numberline {4.17.3.15}m\discretionary {-}{}{}\_\discretionary {-}{}{}model\discretionary {-}{}{}F}{36}{subsubsection.4.17.3.15}
+\contentsline {subsubsection}{\numberline {4.17.3.16}m\discretionary {-}{}{}\_\discretionary {-}{}{}model\discretionary {-}{}{}N}{36}{subsubsection.4.17.3.16}
+\contentsline {subsubsection}{\numberline {4.17.3.17}m\discretionary {-}{}{}\_\discretionary {-}{}{}model\discretionary {-}{}{}Orig}{36}{subsubsection.4.17.3.17}
+\contentsline {subsubsection}{\numberline {4.17.3.18}m\discretionary {-}{}{}\_\discretionary {-}{}{}octreegpu}{36}{subsubsection.4.17.3.18}
+\contentsline {subsubsection}{\numberline {4.17.3.19}m\discretionary {-}{}{}\_\discretionary {-}{}{}particlenum}{36}{subsubsection.4.17.3.19}
+\contentsline {subsubsection}{\numberline {4.17.3.20}m\discretionary {-}{}{}\_\discretionary {-}{}{}particles}{36}{subsubsection.4.17.3.20}
+\contentsline {subsubsection}{\numberline {4.17.3.21}m\discretionary {-}{}{}\_\discretionary {-}{}{}scene}{36}{subsubsection.4.17.3.21}
+\contentsline {subsubsection}{\numberline {4.17.3.22}m\discretionary {-}{}{}\_\discretionary {-}{}{}scene\discretionary {-}{}{}Centroid}{36}{subsubsection.4.17.3.22}
+\contentsline {subsubsection}{\numberline {4.17.3.23}m\discretionary {-}{}{}\_\discretionary {-}{}{}scene\discretionary {-}{}{}N}{36}{subsubsection.4.17.3.23}
+\contentsline {subsubsection}{\numberline {4.17.3.24}m\discretionary {-}{}{}\_\discretionary {-}{}{}vel}{36}{subsubsection.4.17.3.24}
+\contentsline {subsubsection}{\numberline {4.17.3.25}max\discretionary {-}{}{}Dist}{36}{subsubsection.4.17.3.25}
+\contentsline {subsubsection}{\numberline {4.17.3.26}min\discretionary {-}{}{}Dist}{36}{subsubsection.4.17.3.26}
+\contentsline {subsubsection}{\numberline {4.17.3.27}usegpu}{36}{subsubsection.4.17.3.27}
+\contentsline {section}{\numberline {4.18}\discretionary {-}{}{}P\discretionary {-}{}{}C\discretionary {-}{}{}Object \discretionary {-}{}{}Class \discretionary {-}{}{}Reference}{36}{section.4.18}
+\contentsline {subsection}{\numberline {4.18.1}\discretionary {-}{}{}Member \discretionary {-}{}{}Typedef \discretionary {-}{}{}Documentation}{39}{subsection.4.18.1}
+\contentsline {subsubsection}{\numberline {4.18.1.1}func\discretionary {-}{}{}Weight\discretionary {-}{}{}Gaussian}{39}{subsubsection.4.18.1.1}
+\contentsline {subsection}{\numberline {4.18.2}\discretionary {-}{}{}Constructor \& \discretionary {-}{}{}Destructor \discretionary {-}{}{}Documentation}{39}{subsection.4.18.2}
+\contentsline {subsubsection}{\numberline {4.18.2.1}\discretionary {-}{}{}P\discretionary {-}{}{}C\discretionary {-}{}{}Object}{39}{subsubsection.4.18.2.1}
+\contentsline {subsubsection}{\numberline {4.18.2.2}\discretionary {-}{}{}P\discretionary {-}{}{}C\discretionary {-}{}{}Object}{39}{subsubsection.4.18.2.2}
+\contentsline {subsubsection}{\numberline {4.18.2.3}$\sim $\discretionary {-}{}{}P\discretionary {-}{}{}C\discretionary {-}{}{}Object}{39}{subsubsection.4.18.2.3}
+\contentsline {subsection}{\numberline {4.18.3}\discretionary {-}{}{}Member \discretionary {-}{}{}Function \discretionary {-}{}{}Documentation}{39}{subsection.4.18.3}
+\contentsline {subsubsection}{\numberline {4.18.3.1}calculate\discretionary {-}{}{}Velocity}{39}{subsubsection.4.18.3.1}
+\contentsline {subsubsection}{\numberline {4.18.3.2}component\discretionary {-}{}{}Graph}{39}{subsubsection.4.18.3.2}
+\contentsline {subsubsection}{\numberline {4.18.3.3}eval\discretionary {-}{}{}Closest\discretionary {-}{}{}G\discretionary {-}{}{}M\discretionary {-}{}{}M}{39}{subsubsection.4.18.3.3}
+\contentsline {subsubsection}{\numberline {4.18.3.4}eval\discretionary {-}{}{}Closest\discretionary {-}{}{}Normed\discretionary {-}{}{}G\discretionary {-}{}{}M\discretionary {-}{}{}M}{39}{subsubsection.4.18.3.4}
+\contentsline {subsubsection}{\numberline {4.18.3.5}eval\discretionary {-}{}{}G\discretionary {-}{}{}M\discretionary {-}{}{}M}{39}{subsubsection.4.18.3.5}
+\contentsline {subsubsection}{\numberline {4.18.3.6}eval\discretionary {-}{}{}Normed\discretionary {-}{}{}G\discretionary {-}{}{}M\discretionary {-}{}{}M}{39}{subsubsection.4.18.3.6}
+\contentsline {subsubsection}{\numberline {4.18.3.7}filtering\discretionary {-}{}{}G\discretionary {-}{}{}M\discretionary {-}{}{}M\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}E\discretionary {-}{}{}M}{40}{subsubsection.4.18.3.7}
+\contentsline {subsubsection}{\numberline {4.18.3.8}filtering\discretionary {-}{}{}G\discretionary {-}{}{}M\discretionary {-}{}{}M\discretionary {-}{}{}\_\discretionary {-}{}{}incremental\discretionary {-}{}{}E\discretionary {-}{}{}M}{40}{subsubsection.4.18.3.8}
+\contentsline {subsubsection}{\numberline {4.18.3.9}gaussian\discretionary {-}{}{}Tracking}{41}{subsubsection.4.18.3.9}
+\contentsline {subsubsection}{\numberline {4.18.3.10}gaussian\discretionary {-}{}{}Tracking\discretionary {-}{}{}Init}{42}{subsubsection.4.18.3.10}
+\contentsline {subsubsection}{\numberline {4.18.3.11}get\discretionary {-}{}{}Centroid}{42}{subsubsection.4.18.3.11}
+\contentsline {subsubsection}{\numberline {4.18.3.12}getid}{42}{subsubsection.4.18.3.12}
+\contentsline {subsubsection}{\numberline {4.18.3.13}init\discretionary {-}{}{}Gaussian}{42}{subsubsection.4.18.3.13}
+\contentsline {subsubsection}{\numberline {4.18.3.14}initial\discretionary {-}{}{}G\discretionary {-}{}{}M\discretionary {-}{}{}M}{43}{subsubsection.4.18.3.14}
+\contentsline {subsubsection}{\numberline {4.18.3.15}insert}{43}{subsubsection.4.18.3.15}
+\contentsline {subsubsection}{\numberline {4.18.3.16}likelihood}{44}{subsubsection.4.18.3.16}
+\contentsline {subsubsection}{\numberline {4.18.3.17}likelihood\discretionary {-}{}{}\_\discretionary {-}{}{}standard}{44}{subsubsection.4.18.3.17}
+\contentsline {subsubsection}{\numberline {4.18.3.18}make\discretionary {-}{}{}Topology}{44}{subsubsection.4.18.3.18}
+\contentsline {subsubsection}{\numberline {4.18.3.19}merge\discretionary {-}{}{}Two\discretionary {-}{}{}G\discretionary {-}{}{}M\discretionary {-}{}{}Ms}{44}{subsubsection.4.18.3.19}
+\contentsline {subsubsection}{\numberline {4.18.3.20}setid}{44}{subsubsection.4.18.3.20}
+\contentsline {subsubsection}{\numberline {4.18.3.21}set\discretionary {-}{}{}Scale}{44}{subsubsection.4.18.3.21}
+\contentsline {subsubsection}{\numberline {4.18.3.22}set\discretionary {-}{}{}Trans\discretionary {-}{}{}Param}{44}{subsubsection.4.18.3.22}
+\contentsline {subsubsection}{\numberline {4.18.3.23}simplify}{45}{subsubsection.4.18.3.23}
+\contentsline {subsubsection}{\numberline {4.18.3.24}to\discretionary {-}{}{}Point\discretionary {-}{}{}Cloud}{45}{subsubsection.4.18.3.24}
+\contentsline {subsubsection}{\numberline {4.18.3.25}topology\discretionary {-}{}{}\_\discretionary {-}{}{}posweight\discretionary {-}{}{}\_\discretionary {-}{}{}rev}{46}{subsubsection.4.18.3.25}
+\contentsline {subsubsection}{\numberline {4.18.3.26}topology\discretionary {-}{}{}\_\discretionary {-}{}{}velweight\discretionary {-}{}{}\_\discretionary {-}{}{}rev}{46}{subsubsection.4.18.3.26}
+\contentsline {subsubsection}{\numberline {4.18.3.27}topology\discretionary {-}{}{}\_\discretionary {-}{}{}weight}{46}{subsubsection.4.18.3.27}
+\contentsline {subsubsection}{\numberline {4.18.3.28}update\discretionary {-}{}{}Predictive\discretionary {-}{}{}Parameters}{46}{subsubsection.4.18.3.28}
+\contentsline {subsection}{\numberline {4.18.4}\discretionary {-}{}{}Member \discretionary {-}{}{}Data \discretionary {-}{}{}Documentation}{46}{subsection.4.18.4}
+\contentsline {subsubsection}{\numberline {4.18.4.1}alpha}{46}{subsubsection.4.18.4.1}
+\contentsline {subsubsection}{\numberline {4.18.4.2}centroid}{46}{subsubsection.4.18.4.2}
+\contentsline {subsubsection}{\numberline {4.18.4.3}cnt}{47}{subsubsection.4.18.4.3}
+\contentsline {subsubsection}{\numberline {4.18.4.4}diff\discretionary {-}{}{}Weight}{47}{subsubsection.4.18.4.4}
+\contentsline {subsubsection}{\numberline {4.18.4.5}dimension}{47}{subsubsection.4.18.4.5}
+\contentsline {subsubsection}{\numberline {4.18.4.6}edges}{47}{subsubsection.4.18.4.6}
+\contentsline {subsubsection}{\numberline {4.18.4.7}filtered\discretionary {-}{}{}Weight}{47}{subsubsection.4.18.4.7}
+\contentsline {subsubsection}{\numberline {4.18.4.8}frame}{47}{subsubsection.4.18.4.8}
+\contentsline {subsubsection}{\numberline {4.18.4.9}gaussian}{47}{subsubsection.4.18.4.9}
+\contentsline {subsubsection}{\numberline {4.18.4.10}gaussian\discretionary {-}{}{}Tracks}{47}{subsubsection.4.18.4.10}
+\contentsline {subsubsection}{\numberline {4.18.4.11}gmm}{47}{subsubsection.4.18.4.11}
+\contentsline {subsubsection}{\numberline {4.18.4.12}id}{47}{subsubsection.4.18.4.12}
+\contentsline {subsubsection}{\numberline {4.18.4.13}imft\discretionary {-}{}{}Gaussians}{47}{subsubsection.4.18.4.13}
+\contentsline {subsubsection}{\numberline {4.18.4.14}is\discretionary {-}{}{}Param\discretionary {-}{}{}Exist}{47}{subsubsection.4.18.4.14}
+\contentsline {subsubsection}{\numberline {4.18.4.15}percent}{47}{subsubsection.4.18.4.15}
+\contentsline {subsubsection}{\numberline {4.18.4.16}points}{47}{subsubsection.4.18.4.16}
+\contentsline {subsubsection}{\numberline {4.18.4.17}scale}{47}{subsubsection.4.18.4.17}
+\contentsline {subsubsection}{\numberline {4.18.4.18}state}{47}{subsubsection.4.18.4.18}
+\contentsline {subsubsection}{\numberline {4.18.4.19}th\discretionary {-}{}{}\_\discretionary {-}{}{}edge}{47}{subsubsection.4.18.4.19}
+\contentsline {subsubsection}{\numberline {4.18.4.20}topology\discretionary {-}{}{}\_\discretionary {-}{}{}edge\discretionary {-}{}{}Map}{47}{subsubsection.4.18.4.20}
+\contentsline {subsubsection}{\numberline {4.18.4.21}topology\discretionary {-}{}{}\_\discretionary {-}{}{}graph}{47}{subsubsection.4.18.4.21}
+\contentsline {subsubsection}{\numberline {4.18.4.22}topology\discretionary {-}{}{}\_\discretionary {-}{}{}node\discretionary {-}{}{}Map}{47}{subsubsection.4.18.4.22}
+\contentsline {subsubsection}{\numberline {4.18.4.23}trans\discretionary {-}{}{}\_\discretionary {-}{}{}param}{47}{subsubsection.4.18.4.23}
+\contentsline {subsubsection}{\numberline {4.18.4.24}window\discretionary {-}{}{}\_\discretionary {-}{}{}long}{47}{subsubsection.4.18.4.24}
+\contentsline {subsubsection}{\numberline {4.18.4.25}window\discretionary {-}{}{}\_\discretionary {-}{}{}short}{47}{subsubsection.4.18.4.25}
+\contentsline {section}{\numberline {4.19}\discretionary {-}{}{}P\discretionary {-}{}{}C\discretionary {-}{}{}Object\discretionary {-}{}{}Container \discretionary {-}{}{}Class \discretionary {-}{}{}Reference}{48}{section.4.19}
+\contentsline {subsection}{\numberline {4.19.1}\discretionary {-}{}{}Constructor \& \discretionary {-}{}{}Destructor \discretionary {-}{}{}Documentation}{48}{subsection.4.19.1}
+\contentsline {subsubsection}{\numberline {4.19.1.1}\discretionary {-}{}{}P\discretionary {-}{}{}C\discretionary {-}{}{}Object\discretionary {-}{}{}Container}{48}{subsubsection.4.19.1.1}
+\contentsline {subsubsection}{\numberline {4.19.1.2}\discretionary {-}{}{}P\discretionary {-}{}{}C\discretionary {-}{}{}Object\discretionary {-}{}{}Container}{49}{subsubsection.4.19.1.2}
+\contentsline {subsubsection}{\numberline {4.19.1.3}$\sim $\discretionary {-}{}{}P\discretionary {-}{}{}C\discretionary {-}{}{}Object\discretionary {-}{}{}Container}{49}{subsubsection.4.19.1.3}
+\contentsline {subsection}{\numberline {4.19.2}\discretionary {-}{}{}Member \discretionary {-}{}{}Function \discretionary {-}{}{}Documentation}{49}{subsection.4.19.2}
+\contentsline {subsubsection}{\numberline {4.19.2.1}clear\discretionary {-}{}{}All}{49}{subsubsection.4.19.2.1}
+\contentsline {subsubsection}{\numberline {4.19.2.2}delete\discretionary {-}{}{}Object}{49}{subsubsection.4.19.2.2}
+\contentsline {subsubsection}{\numberline {4.19.2.3}init\discretionary {-}{}{}G\discretionary {-}{}{}M\discretionary {-}{}{}M}{49}{subsubsection.4.19.2.3}
+\contentsline {subsubsection}{\numberline {4.19.2.4}make\discretionary {-}{}{}New\discretionary {-}{}{}Object}{50}{subsubsection.4.19.2.4}
+\contentsline {subsubsection}{\numberline {4.19.2.5}making\discretionary {-}{}{}Objects}{50}{subsubsection.4.19.2.5}
+\contentsline {subsubsection}{\numberline {4.19.2.6}num\discretionary {-}{}{}Objects}{50}{subsubsection.4.19.2.6}
+\contentsline {subsection}{\numberline {4.19.3}\discretionary {-}{}{}Member \discretionary {-}{}{}Data \discretionary {-}{}{}Documentation}{50}{subsection.4.19.3}
+\contentsline {subsubsection}{\numberline {4.19.3.1}num}{50}{subsubsection.4.19.3.1}
+\contentsline {subsubsection}{\numberline {4.19.3.2}objects}{51}{subsubsection.4.19.3.2}
+\contentsline {subsubsection}{\numberline {4.19.3.3}p\discretionary {-}{}{}Cloud}{51}{subsubsection.4.19.3.3}
+\contentsline {subsubsection}{\numberline {4.19.3.4}scale}{51}{subsubsection.4.19.3.4}
+\contentsline {section}{\numberline {4.20}\discretionary {-}{}{}P\discretionary {-}{}{}C\discretionary {-}{}{}Track\discretionary {-}{}{}Container \discretionary {-}{}{}Class \discretionary {-}{}{}Reference}{51}{section.4.20}
+\contentsline {subsection}{\numberline {4.20.1}\discretionary {-}{}{}Member \discretionary {-}{}{}Typedef \discretionary {-}{}{}Documentation}{53}{subsection.4.20.1}
+\contentsline {subsubsection}{\numberline {4.20.1.1}\discretionary {-}{}{}Cloud}{53}{subsubsection.4.20.1.1}
+\contentsline {subsubsection}{\numberline {4.20.1.2}\discretionary {-}{}{}Cloud\discretionary {-}{}{}Const\discretionary {-}{}{}Ptr}{53}{subsubsection.4.20.1.2}
+\contentsline {subsubsection}{\numberline {4.20.1.3}\discretionary {-}{}{}Cloud\discretionary {-}{}{}Ptr}{53}{subsubsection.4.20.1.3}
+\contentsline {subsubsection}{\numberline {4.20.1.4}\discretionary {-}{}{}Point\discretionary {-}{}{}T}{53}{subsubsection.4.20.1.4}
+\contentsline {subsection}{\numberline {4.20.2}\discretionary {-}{}{}Constructor \& \discretionary {-}{}{}Destructor \discretionary {-}{}{}Documentation}{53}{subsection.4.20.2}
+\contentsline {subsubsection}{\numberline {4.20.2.1}\discretionary {-}{}{}P\discretionary {-}{}{}C\discretionary {-}{}{}Track\discretionary {-}{}{}Container}{53}{subsubsection.4.20.2.1}
+\contentsline {subsubsection}{\numberline {4.20.2.2}\discretionary {-}{}{}P\discretionary {-}{}{}C\discretionary {-}{}{}Track\discretionary {-}{}{}Container}{53}{subsubsection.4.20.2.2}
+\contentsline {subsection}{\numberline {4.20.3}\discretionary {-}{}{}Member \discretionary {-}{}{}Function \discretionary {-}{}{}Documentation}{53}{subsection.4.20.3}
+\contentsline {subsubsection}{\numberline {4.20.3.1}eigen\discretionary {-}{}{}Ordering}{53}{subsubsection.4.20.3.1}
+\contentsline {subsubsection}{\numberline {4.20.3.2}evaluate}{53}{subsubsection.4.20.3.2}
+\contentsline {subsubsection}{\numberline {4.20.3.3}iros2014}{54}{subsubsection.4.20.3.3}
+\contentsline {subsubsection}{\numberline {4.20.3.4}\discretionary {-}{}{}N\discretionary {-}{}{}O\discretionary {-}{}{}R\discretionary {-}{}{}M}{54}{subsubsection.4.20.3.4}
+\contentsline {subsubsection}{\numberline {4.20.3.5}old\discretionary {-}{}{}Gaussians}{54}{subsubsection.4.20.3.5}
+\contentsline {subsubsection}{\numberline {4.20.3.6}old\discretionary {-}{}{}Marker\discretionary {-}{}{}I\discretionary {-}{}{}Ds}{54}{subsubsection.4.20.3.6}
+\contentsline {subsubsection}{\numberline {4.20.3.7}\discretionary {-}{}{}S\discretionary {-}{}{}I\discretionary {-}{}{}G\discretionary {-}{}{}N}{54}{subsubsection.4.20.3.7}
+\contentsline {subsubsection}{\numberline {4.20.3.8}to\discretionary {-}{}{}Marker\discretionary {-}{}{}Edges}{55}{subsubsection.4.20.3.8}
+\contentsline {subsubsection}{\numberline {4.20.3.9}to\discretionary {-}{}{}Marker\discretionary {-}{}{}Gaussians}{55}{subsubsection.4.20.3.9}
+\contentsline {subsubsection}{\numberline {4.20.3.10}to\discretionary {-}{}{}Marker\discretionary {-}{}{}G\discretionary {-}{}{}M\discretionary {-}{}{}Ms}{56}{subsubsection.4.20.3.10}
+\contentsline {subsubsection}{\numberline {4.20.3.11}to\discretionary {-}{}{}Marker\discretionary {-}{}{}I\discretionary {-}{}{}Ds}{56}{subsubsection.4.20.3.11}
+\contentsline {subsubsection}{\numberline {4.20.3.12}to\discretionary {-}{}{}Point\discretionary {-}{}{}Cloud\discretionary {-}{}{}X\discretionary {-}{}{}Y\discretionary {-}{}{}Z\discretionary {-}{}{}I}{57}{subsubsection.4.20.3.12}
+\contentsline {subsection}{\numberline {4.20.4}\discretionary {-}{}{}Member \discretionary {-}{}{}Data \discretionary {-}{}{}Documentation}{57}{subsection.4.20.4}
+\contentsline {subsubsection}{\numberline {4.20.4.1}is\discretionary {-}{}{}Updated}{57}{subsubsection.4.20.4.1}
+\contentsline {subsubsection}{\numberline {4.20.4.2}max\discretionary {-}{}{}Frame}{57}{subsubsection.4.20.4.2}
+\contentsline {subsubsection}{\numberline {4.20.4.3}num\discretionary {-}{}{}False\discretionary {-}{}{}Points}{57}{subsubsection.4.20.4.3}
+\contentsline {subsubsection}{\numberline {4.20.4.4}num\discretionary {-}{}{}Total\discretionary {-}{}{}Points}{57}{subsubsection.4.20.4.4}
+\contentsline {subsubsection}{\numberline {4.20.4.5}num\discretionary {-}{}{}True\discretionary {-}{}{}Points}{57}{subsubsection.4.20.4.5}
+\contentsline {subsubsection}{\numberline {4.20.4.6}old\discretionary {-}{}{}Gaussians\discretionary {-}{}{}Id}{57}{subsubsection.4.20.4.6}
+\contentsline {subsubsection}{\numberline {4.20.4.7}old\discretionary {-}{}{}Track\discretionary {-}{}{}I\discretionary {-}{}{}Ds}{57}{subsubsection.4.20.4.7}
+\contentsline {section}{\numberline {4.21}\discretionary {-}{}{}P\discretionary {-}{}{}C\discretionary {-}{}{}Tracking \discretionary {-}{}{}Class \discretionary {-}{}{}Reference}{58}{section.4.21}
+\contentsline {subsection}{\numberline {4.21.1}\discretionary {-}{}{}Constructor \& \discretionary {-}{}{}Destructor \discretionary {-}{}{}Documentation}{60}{subsection.4.21.1}
+\contentsline {subsubsection}{\numberline {4.21.1.1}\discretionary {-}{}{}P\discretionary {-}{}{}C\discretionary {-}{}{}Tracking}{60}{subsubsection.4.21.1.1}
+\contentsline {subsubsection}{\numberline {4.21.1.2}$\sim $\discretionary {-}{}{}P\discretionary {-}{}{}C\discretionary {-}{}{}Tracking}{60}{subsubsection.4.21.1.2}
+\contentsline {subsection}{\numberline {4.21.2}\discretionary {-}{}{}Member \discretionary {-}{}{}Function \discretionary {-}{}{}Documentation}{60}{subsection.4.21.2}
+\contentsline {subsubsection}{\numberline {4.21.2.1}ambiguity\discretionary {-}{}{}Test}{61}{subsubsection.4.21.2.1}
+\contentsline {subsubsection}{\numberline {4.21.2.2}clear\discretionary {-}{}{}Objects}{62}{subsubsection.4.21.2.2}
+\contentsline {subsubsection}{\numberline {4.21.2.3}confirm\discretionary {-}{}{}Digraph}{62}{subsubsection.4.21.2.3}
+\contentsline {subsubsection}{\numberline {4.21.2.4}get\discretionary {-}{}{}Filtered\discretionary {-}{}{}P\discretionary {-}{}{}C}{62}{subsubsection.4.21.2.4}
+\contentsline {subsubsection}{\numberline {4.21.2.5}get\discretionary {-}{}{}Last\discretionary {-}{}{}Model}{63}{subsubsection.4.21.2.5}
+\contentsline {subsubsection}{\numberline {4.21.2.6}get\discretionary {-}{}{}Particles}{63}{subsubsection.4.21.2.6}
+\contentsline {subsubsection}{\numberline {4.21.2.7}get\discretionary {-}{}{}Segmented\discretionary {-}{}{}P\discretionary {-}{}{}C}{63}{subsubsection.4.21.2.7}
+\contentsline {subsubsection}{\numberline {4.21.2.8}indexing}{64}{subsubsection.4.21.2.8}
+\contentsline {subsubsection}{\numberline {4.21.2.9}indv\discretionary {-}{}{}Loc}{64}{subsubsection.4.21.2.9}
+\contentsline {subsubsection}{\numberline {4.21.2.10}initdg}{65}{subsubsection.4.21.2.10}
+\contentsline {subsubsection}{\numberline {4.21.2.11}is\discretionary {-}{}{}Boundary}{65}{subsubsection.4.21.2.11}
+\contentsline {subsubsection}{\numberline {4.21.2.12}modify\discretionary {-}{}{}Falsely\discretionary {-}{}{}Merged}{65}{subsubsection.4.21.2.12}
+\contentsline {subsubsection}{\numberline {4.21.2.13}modify\discretionary {-}{}{}Falsely\discretionary {-}{}{}Separated}{66}{subsubsection.4.21.2.13}
+\contentsline {subsubsection}{\numberline {4.21.2.14}point\discretionary {-}{}{}Matching}{67}{subsubsection.4.21.2.14}
+\contentsline {subsubsection}{\numberline {4.21.2.15}run}{68}{subsubsection.4.21.2.15}
+\contentsline {subsubsection}{\numberline {4.21.2.16}segmentation}{69}{subsubsection.4.21.2.16}
+\contentsline {subsubsection}{\numberline {4.21.2.17}segmentation\discretionary {-}{}{}G\discretionary {-}{}{}M\discretionary {-}{}{}M}{69}{subsubsection.4.21.2.17}
+\contentsline {subsubsection}{\numberline {4.21.2.18}tracking\discretionary {-}{}{}Gaussians}{69}{subsubsection.4.21.2.18}
+\contentsline {subsubsection}{\numberline {4.21.2.19}type\discretionary {-}{}{}Clear}{69}{subsubsection.4.21.2.19}
+\contentsline {subsubsection}{\numberline {4.21.2.20}type\discretionary {-}{}{}Problem}{70}{subsubsection.4.21.2.20}
+\contentsline {subsubsection}{\numberline {4.21.2.21}update\discretionary {-}{}{}Tracks}{70}{subsubsection.4.21.2.21}
+\contentsline {subsection}{\numberline {4.21.3}\discretionary {-}{}{}Member \discretionary {-}{}{}Data \discretionary {-}{}{}Documentation}{70}{subsection.4.21.3}
+\contentsline {subsubsection}{\numberline {4.21.3.1}b}{70}{subsubsection.4.21.3.1}
+\contentsline {subsubsection}{\numberline {4.21.3.2}boundary}{70}{subsubsection.4.21.3.2}
+\contentsline {subsubsection}{\numberline {4.21.3.3}boundary\discretionary {-}{}{}Margin}{70}{subsubsection.4.21.3.3}
+\contentsline {subsubsection}{\numberline {4.21.3.4}clear\discretionary {-}{}{}Arcs}{71}{subsubsection.4.21.3.4}
+\contentsline {subsubsection}{\numberline {4.21.3.5}clear\discretionary {-}{}{}Nodes}{71}{subsubsection.4.21.3.5}
+\contentsline {subsubsection}{\numberline {4.21.3.6}cnt}{71}{subsubsection.4.21.3.6}
+\contentsline {subsubsection}{\numberline {4.21.3.7}dg\discretionary {-}{}{}\_\discretionary {-}{}{}ambiguity}{71}{subsubsection.4.21.3.7}
+\contentsline {subsubsection}{\numberline {4.21.3.8}dg\discretionary {-}{}{}\_\discretionary {-}{}{}ambiguity\discretionary {-}{}{}\_\discretionary {-}{}{}arcs}{71}{subsubsection.4.21.3.8}
+\contentsline {subsubsection}{\numberline {4.21.3.9}dg\discretionary {-}{}{}\_\discretionary {-}{}{}ambiguity\discretionary {-}{}{}\_\discretionary {-}{}{}nodes}{71}{subsubsection.4.21.3.9}
+\contentsline {subsubsection}{\numberline {4.21.3.10}dim}{71}{subsubsection.4.21.3.10}
+\contentsline {subsubsection}{\numberline {4.21.3.11}falsely\discretionary {-}{}{}Merged}{71}{subsubsection.4.21.3.11}
+\contentsline {subsubsection}{\numberline {4.21.3.12}falsely\discretionary {-}{}{}Separeted}{71}{subsubsection.4.21.3.12}
+\contentsline {subsubsection}{\numberline {4.21.3.13}frame\discretionary {-}{}{}\_\discretionary {-}{}{}id}{71}{subsubsection.4.21.3.13}
+\contentsline {subsubsection}{\numberline {4.21.3.14}g}{71}{subsubsection.4.21.3.14}
+\contentsline {subsubsection}{\numberline {4.21.3.15}imft}{71}{subsubsection.4.21.3.15}
+\contentsline {subsubsection}{\numberline {4.21.3.16}imft\discretionary {-}{}{}\_\discretionary {-}{}{}loc}{71}{subsubsection.4.21.3.16}
+\contentsline {subsubsection}{\numberline {4.21.3.17}is\discretionary {-}{}{}Debug}{71}{subsubsection.4.21.3.17}
+\contentsline {subsubsection}{\numberline {4.21.3.18}m\discretionary {-}{}{}\_\discretionary {-}{}{}part\discretionary {-}{}{}Filters}{71}{subsubsection.4.21.3.18}
+\contentsline {subsubsection}{\numberline {4.21.3.19}max\discretionary {-}{}{}Frame}{71}{subsubsection.4.21.3.19}
+\contentsline {subsubsection}{\numberline {4.21.3.20}max\discretionary {-}{}{}I\discretionary {-}{}{}D}{71}{subsubsection.4.21.3.20}
+\contentsline {subsubsection}{\numberline {4.21.3.21}max\discretionary {-}{}{}Prob\discretionary {-}{}{}Association}{71}{subsubsection.4.21.3.21}
+\contentsline {subsubsection}{\numberline {4.21.3.22}min\discretionary {-}{}{}Points}{71}{subsubsection.4.21.3.22}
+\contentsline {subsubsection}{\numberline {4.21.3.23}n\discretionary {-}{}{}Objects}{71}{subsubsection.4.21.3.23}
+\contentsline {subsubsection}{\numberline {4.21.3.24}object\discretionary {-}{}{}\_\discretionary {-}{}{}tracks}{71}{subsubsection.4.21.3.24}
+\contentsline {subsubsection}{\numberline {4.21.3.25}objects\discretionary {-}{}{}\_\discretionary {-}{}{}clear}{71}{subsubsection.4.21.3.25}
+\contentsline {subsubsection}{\numberline {4.21.3.26}objects\discretionary {-}{}{}\_\discretionary {-}{}{}false\discretionary {-}{}{}Merg}{71}{subsubsection.4.21.3.26}
+\contentsline {subsubsection}{\numberline {4.21.3.27}objects\discretionary {-}{}{}\_\discretionary {-}{}{}false\discretionary {-}{}{}Sep}{71}{subsubsection.4.21.3.27}
+\contentsline {subsubsection}{\numberline {4.21.3.28}objects\discretionary {-}{}{}\_\discretionary {-}{}{}loc}{72}{subsubsection.4.21.3.28}
+\contentsline {subsubsection}{\numberline {4.21.3.29}objects\discretionary {-}{}{}\_\discretionary {-}{}{}modified}{72}{subsubsection.4.21.3.29}
+\contentsline {subsubsection}{\numberline {4.21.3.30}objects\discretionary {-}{}{}\_\discretionary {-}{}{}prev}{72}{subsubsection.4.21.3.30}
+\contentsline {subsubsection}{\numberline {4.21.3.31}observed\discretionary {-}{}{}Points\discretionary {-}{}{}List}{72}{subsubsection.4.21.3.31}
+\contentsline {subsubsection}{\numberline {4.21.3.32}p\discretionary {-}{}{}Cloud}{72}{subsubsection.4.21.3.32}
+\contentsline {subsubsection}{\numberline {4.21.3.33}p\discretionary {-}{}{}Cloud\discretionary {-}{}{}\_\discretionary {-}{}{}last\discretionary {-}{}{}Model}{72}{subsubsection.4.21.3.33}
+\contentsline {subsubsection}{\numberline {4.21.3.34}p\discretionary {-}{}{}Cloud\discretionary {-}{}{}\_\discretionary {-}{}{}particles}{72}{subsubsection.4.21.3.34}
+\contentsline {subsubsection}{\numberline {4.21.3.35}p\discretionary {-}{}{}Cloud\discretionary {-}{}{}\_\discretionary {-}{}{}seg}{72}{subsubsection.4.21.3.35}
+\contentsline {subsubsection}{\numberline {4.21.3.36}percent}{72}{subsubsection.4.21.3.36}
+\contentsline {subsubsection}{\numberline {4.21.3.37}problem\discretionary {-}{}{}Arcs}{72}{subsubsection.4.21.3.37}
+\contentsline {subsubsection}{\numberline {4.21.3.38}problem\discretionary {-}{}{}Nodes}{72}{subsubsection.4.21.3.38}
+\contentsline {subsubsection}{\numberline {4.21.3.39}pub\discretionary {-}{}{}\_\discretionary {-}{}{}model}{72}{subsubsection.4.21.3.39}
+\contentsline {subsubsection}{\numberline {4.21.3.40}pub\discretionary {-}{}{}\_\discretionary {-}{}{}scene}{72}{subsubsection.4.21.3.40}
+\contentsline {subsubsection}{\numberline {4.21.3.41}r}{72}{subsubsection.4.21.3.41}
+\contentsline {subsubsection}{\numberline {4.21.3.42}scale}{72}{subsubsection.4.21.3.42}
+\contentsline {subsubsection}{\numberline {4.21.3.43}segmentation\discretionary {-}{}{}\_\discretionary {-}{}{}max\discretionary {-}{}{}Size}{72}{subsubsection.4.21.3.43}
+\contentsline {subsubsection}{\numberline {4.21.3.44}segmentation\discretionary {-}{}{}\_\discretionary {-}{}{}min\discretionary {-}{}{}Size}{72}{subsubsection.4.21.3.44}
+\contentsline {subsubsection}{\numberline {4.21.3.45}segmentation\discretionary {-}{}{}\_\discretionary {-}{}{}tolerance}{72}{subsubsection.4.21.3.45}
+\contentsline {subsubsection}{\numberline {4.21.3.46}thr\discretionary {-}{}{}Prob\discretionary {-}{}{}Scene}{72}{subsubsection.4.21.3.46}
+\contentsline {subsubsection}{\numberline {4.21.3.47}unmatched\discretionary {-}{}{}Points}{72}{subsubsection.4.21.3.47}
+\contentsline {section}{\numberline {4.22}\discretionary {-}{}{}Point \discretionary {-}{}{}Class \discretionary {-}{}{}Reference}{73}{section.4.22}
+\contentsline {subsection}{\numberline {4.22.1}\discretionary {-}{}{}Constructor \& \discretionary {-}{}{}Destructor \discretionary {-}{}{}Documentation}{73}{subsection.4.22.1}
+\contentsline {subsubsection}{\numberline {4.22.1.1}\discretionary {-}{}{}Point}{73}{subsubsection.4.22.1.1}
+\contentsline {subsubsection}{\numberline {4.22.1.2}\discretionary {-}{}{}Point}{73}{subsubsection.4.22.1.2}
+\contentsline {subsection}{\numberline {4.22.2}\discretionary {-}{}{}Member \discretionary {-}{}{}Function \discretionary {-}{}{}Documentation}{73}{subsection.4.22.2}
+\contentsline {subsubsection}{\numberline {4.22.2.1}to\discretionary {-}{}{}Pcl\discretionary {-}{}{}Pt}{73}{subsubsection.4.22.2.1}
+\contentsline {subsection}{\numberline {4.22.3}\discretionary {-}{}{}Member \discretionary {-}{}{}Data \discretionary {-}{}{}Documentation}{73}{subsection.4.22.3}
+\contentsline {subsubsection}{\numberline {4.22.3.1}dim}{73}{subsubsection.4.22.3.1}
+\contentsline {subsubsection}{\numberline {4.22.3.2}id}{73}{subsubsection.4.22.3.2}
+\contentsline {subsubsection}{\numberline {4.22.3.3}pos}{73}{subsubsection.4.22.3.3}
+\contentsline {subsubsection}{\numberline {4.22.3.4}rgb}{73}{subsubsection.4.22.3.4}
+\contentsline {section}{\numberline {4.23}\discretionary {-}{}{}Scene \discretionary {-}{}{}Struct \discretionary {-}{}{}Reference}{74}{section.4.23}
+\contentsline {subsection}{\numberline {4.23.1}\discretionary {-}{}{}Member \discretionary {-}{}{}Data \discretionary {-}{}{}Documentation}{74}{subsection.4.23.1}
+\contentsline {subsubsection}{\numberline {4.23.1.1}models}{74}{subsubsection.4.23.1.1}
+\contentsline {subsubsection}{\numberline {4.23.1.2}scene}{74}{subsubsection.4.23.1.2}
+\contentsline {subsubsection}{\numberline {4.23.1.3}trasformed\discretionary {-}{}{}Models}{74}{subsubsection.4.23.1.3}
+\contentsline {section}{\numberline {4.24}\discretionary {-}{}{}Track$<$ \discretionary {-}{}{}Object $>$ \discretionary {-}{}{}Class \discretionary {-}{}{}Template \discretionary {-}{}{}Reference}{75}{section.4.24}
+\contentsline {subsection}{\numberline {4.24.1}\discretionary {-}{}{}Constructor \& \discretionary {-}{}{}Destructor \discretionary {-}{}{}Documentation}{75}{subsection.4.24.1}
+\contentsline {subsubsection}{\numberline {4.24.1.1}\discretionary {-}{}{}Track}{75}{subsubsection.4.24.1.1}
+\contentsline {subsection}{\numberline {4.24.2}\discretionary {-}{}{}Member \discretionary {-}{}{}Function \discretionary {-}{}{}Documentation}{75}{subsection.4.24.2}
+\contentsline {subsubsection}{\numberline {4.24.2.1}frame\discretionary {-}{}{}Ptr\discretionary {-}{}{}From\discretionary {-}{}{}Last}{75}{subsubsection.4.24.2.1}
+\contentsline {subsubsection}{\numberline {4.24.2.2}frame\discretionary {-}{}{}Size}{75}{subsubsection.4.24.2.2}
+\contentsline {subsubsection}{\numberline {4.24.2.3}get\discretionary {-}{}{}Frame\discretionary {-}{}{}From\discretionary {-}{}{}Last}{75}{subsubsection.4.24.2.3}
+\contentsline {subsubsection}{\numberline {4.24.2.4}insert}{76}{subsubsection.4.24.2.4}
+\contentsline {subsubsection}{\numberline {4.24.2.5}last\discretionary {-}{}{}Frame}{76}{subsubsection.4.24.2.5}
+\contentsline {subsubsection}{\numberline {4.24.2.6}last\discretionary {-}{}{}Frame\discretionary {-}{}{}Ptr}{76}{subsubsection.4.24.2.6}
+\contentsline {subsubsection}{\numberline {4.24.2.7}terminate}{76}{subsubsection.4.24.2.7}
+\contentsline {subsubsection}{\numberline {4.24.2.8}update\discretionary {-}{}{}Object\discretionary {-}{}{}At\discretionary {-}{}{}Frame}{77}{subsubsection.4.24.2.8}
+\contentsline {subsection}{\numberline {4.24.3}\discretionary {-}{}{}Member \discretionary {-}{}{}Data \discretionary {-}{}{}Documentation}{77}{subsection.4.24.3}
+\contentsline {subsubsection}{\numberline {4.24.3.1}frames}{77}{subsubsection.4.24.3.1}
+\contentsline {subsubsection}{\numberline {4.24.3.2}id}{77}{subsubsection.4.24.3.2}
+\contentsline {subsubsection}{\numberline {4.24.3.3}max\discretionary {-}{}{}Frame}{77}{subsubsection.4.24.3.3}
+\contentsline {section}{\numberline {4.25}\discretionary {-}{}{}Track\discretionary {-}{}{}Container$<$ \discretionary {-}{}{}Object $>$ \discretionary {-}{}{}Class \discretionary {-}{}{}Template \discretionary {-}{}{}Reference}{77}{section.4.25}
+\contentsline {subsection}{\numberline {4.25.1}\discretionary {-}{}{}Member \discretionary {-}{}{}Typedef \discretionary {-}{}{}Documentation}{78}{subsection.4.25.1}
+\contentsline {subsubsection}{\numberline {4.25.1.1}\discretionary {-}{}{}Track\discretionary {-}{}{}T}{78}{subsubsection.4.25.1.1}
+\contentsline {subsubsection}{\numberline {4.25.1.2}\discretionary {-}{}{}Vec\discretionary {-}{}{}Track\discretionary {-}{}{}Ptr}{78}{subsubsection.4.25.1.2}
+\contentsline {subsection}{\numberline {4.25.2}\discretionary {-}{}{}Constructor \& \discretionary {-}{}{}Destructor \discretionary {-}{}{}Documentation}{78}{subsection.4.25.2}
+\contentsline {subsubsection}{\numberline {4.25.2.1}\discretionary {-}{}{}Track\discretionary {-}{}{}Container}{78}{subsubsection.4.25.2.1}
+\contentsline {subsubsection}{\numberline {4.25.2.2}$\sim $\discretionary {-}{}{}Track\discretionary {-}{}{}Container}{78}{subsubsection.4.25.2.2}
+\contentsline {subsection}{\numberline {4.25.3}\discretionary {-}{}{}Member \discretionary {-}{}{}Function \discretionary {-}{}{}Documentation}{78}{subsection.4.25.3}
+\contentsline {subsubsection}{\numberline {4.25.3.1}create\discretionary {-}{}{}Track}{79}{subsubsection.4.25.3.1}
+\contentsline {subsubsection}{\numberline {4.25.3.2}create\discretionary {-}{}{}Track}{79}{subsubsection.4.25.3.2}
+\contentsline {subsubsection}{\numberline {4.25.3.3}delete\discretionary {-}{}{}No\discretionary {-}{}{}Updated\discretionary {-}{}{}Tracks}{80}{subsubsection.4.25.3.3}
+\contentsline {subsubsection}{\numberline {4.25.3.4}is\discretionary {-}{}{}Newly\discretionary {-}{}{}Updated}{80}{subsubsection.4.25.3.4}
+\contentsline {subsubsection}{\numberline {4.25.3.5}merge}{80}{subsubsection.4.25.3.5}
+\contentsline {subsubsection}{\numberline {4.25.3.6}new\discretionary {-}{}{}Id}{80}{subsubsection.4.25.3.6}
+\contentsline {subsubsection}{\numberline {4.25.3.7}num\discretionary {-}{}{}Tracks}{81}{subsubsection.4.25.3.7}
+\contentsline {subsubsection}{\numberline {4.25.3.8}push\discretionary {-}{}{}\_\discretionary {-}{}{}back\discretionary {-}{}{}\_\discretionary {-}{}{}track}{81}{subsubsection.4.25.3.8}
+\contentsline {subsubsection}{\numberline {4.25.3.9}update\discretionary {-}{}{}Object}{82}{subsubsection.4.25.3.9}
+\contentsline {subsection}{\numberline {4.25.4}\discretionary {-}{}{}Member \discretionary {-}{}{}Data \discretionary {-}{}{}Documentation}{82}{subsection.4.25.4}
+\contentsline {subsubsection}{\numberline {4.25.4.1}b}{82}{subsubsection.4.25.4.1}
+\contentsline {subsubsection}{\numberline {4.25.4.2}current\discretionary {-}{}{}T}{82}{subsubsection.4.25.4.2}
+\contentsline {subsubsection}{\numberline {4.25.4.3}deleted\discretionary {-}{}{}Track\discretionary {-}{}{}I\discretionary {-}{}{}Ds}{82}{subsubsection.4.25.4.3}
+\contentsline {subsubsection}{\numberline {4.25.4.4}g}{82}{subsubsection.4.25.4.4}
+\contentsline {subsubsection}{\numberline {4.25.4.5}max\discretionary {-}{}{}Frame}{82}{subsubsection.4.25.4.5}
+\contentsline {subsubsection}{\numberline {4.25.4.6}max\discretionary {-}{}{}I\discretionary {-}{}{}D}{82}{subsubsection.4.25.4.6}
+\contentsline {subsubsection}{\numberline {4.25.4.7}old\discretionary {-}{}{}Cnt}{82}{subsubsection.4.25.4.7}
+\contentsline {subsubsection}{\numberline {4.25.4.8}old\discretionary {-}{}{}Cnt\discretionary {-}{}{}\_\discretionary {-}{}{}gaussians}{82}{subsubsection.4.25.4.8}
+\contentsline {subsubsection}{\numberline {4.25.4.9}r}{82}{subsubsection.4.25.4.9}
+\contentsline {subsubsection}{\numberline {4.25.4.10}tracks}{82}{subsubsection.4.25.4.10}
+\contentsline {section}{\numberline {4.26}\discretionary {-}{}{}Track\discretionary {-}{}{}Point \discretionary {-}{}{}Struct \discretionary {-}{}{}Reference}{83}{section.4.26}
+\contentsline {subsection}{\numberline {4.26.1}\discretionary {-}{}{}Member \discretionary {-}{}{}Data \discretionary {-}{}{}Documentation}{83}{subsection.4.26.1}
+\contentsline {subsubsection}{\numberline {4.26.1.1}point\discretionary {-}{}{}I\discretionary {-}{}{}D}{83}{subsubsection.4.26.1.1}
+\contentsline {subsubsection}{\numberline {4.26.1.2}track\discretionary {-}{}{}I\discretionary {-}{}{}D}{83}{subsubsection.4.26.1.2}
+\contentsline {section}{\numberline {4.27}\discretionary {-}{}{}Track$<$ \discretionary {-}{}{}Object $>$\discretionary {-}{}{}:\discretionary {-}{}{}:\discretionary {-}{}{}V \discretionary {-}{}{}Struct \discretionary {-}{}{}Reference}{83}{section.4.27}
+\contentsline {subsection}{\numberline {4.27.1}\discretionary {-}{}{}Member \discretionary {-}{}{}Data \discretionary {-}{}{}Documentation}{84}{subsection.4.27.1}
+\contentsline {subsubsection}{\numberline {4.27.1.1}edge\discretionary {-}{}{}I\discretionary {-}{}{}D}{84}{subsubsection.4.27.1.1}
+\contentsline {subsubsection}{\numberline {4.27.1.2}id}{84}{subsubsection.4.27.1.2}
+\contentsline {subsubsection}{\numberline {4.27.1.3}is\discretionary {-}{}{}In}{84}{subsubsection.4.27.1.3}
+\contentsline {subsubsection}{\numberline {4.27.1.4}is\discretionary {-}{}{}Track}{84}{subsubsection.4.27.1.4}
+\contentsline {subsubsection}{\numberline {4.27.1.5}n\discretionary {-}{}{}Frame}{84}{subsubsection.4.27.1.5}
+\contentsline {subsubsection}{\numberline {4.27.1.6}n\discretionary {-}{}{}Track}{84}{subsubsection.4.27.1.6}
+\contentsline {subsubsection}{\numberline {4.27.1.7}ptr}{84}{subsubsection.4.27.1.7}
+\contentsline {section}{\numberline {4.28}\discretionary {-}{}{}Vcsh \discretionary {-}{}{}Class \discretionary {-}{}{}Reference}{84}{section.4.28}
+\contentsline {subsection}{\numberline {4.28.1}\discretionary {-}{}{}Constructor \& \discretionary {-}{}{}Destructor \discretionary {-}{}{}Documentation}{85}{subsection.4.28.1}
+\contentsline {subsubsection}{\numberline {4.28.1.1}\discretionary {-}{}{}Vcsh}{85}{subsubsection.4.28.1.1}
+\contentsline {subsubsection}{\numberline {4.28.1.2}$\sim $\discretionary {-}{}{}Vcsh}{85}{subsubsection.4.28.1.2}
+\contentsline {subsection}{\numberline {4.28.2}\discretionary {-}{}{}Member \discretionary {-}{}{}Function \discretionary {-}{}{}Documentation}{85}{subsection.4.28.2}
+\contentsline {subsubsection}{\numberline {4.28.2.1}addrgb}{85}{subsubsection.4.28.2.1}
+\contentsline {subsection}{\numberline {4.28.3}\discretionary {-}{}{}Member \discretionary {-}{}{}Data \discretionary {-}{}{}Documentation}{85}{subsection.4.28.3}
+\contentsline {subsubsection}{\numberline {4.28.3.1}hist}{85}{subsubsection.4.28.3.1}
+\contentsline {section}{\numberline {4.29}\discretionary {-}{}{}Weight \discretionary {-}{}{}Struct \discretionary {-}{}{}Reference}{85}{section.4.29}
+\contentsline {subsection}{\numberline {4.29.1}\discretionary {-}{}{}Member \discretionary {-}{}{}Data \discretionary {-}{}{}Documentation}{85}{subsection.4.29.1}
+\contentsline {subsubsection}{\numberline {4.29.1.1}kl}{85}{subsubsection.4.29.1.1}
+\contentsline {subsubsection}{\numberline {4.29.1.2}l2}{85}{subsubsection.4.29.1.2}
+\contentsline {subsubsection}{\numberline {4.29.1.3}type}{85}{subsubsection.4.29.1.3}
+\contentsline {chapter}{\numberline {5}\discretionary {-}{}{}File \discretionary {-}{}{}Documentation}{87}{chapter.5}
+\contentsline {section}{\numberline {5.1}/home/koosy/koosywork/pmot\discretionary {-}{}{}\_\discretionary {-}{}{}realtime/pmot\discretionary {-}{}{}\_\discretionary {-}{}{}realtime/src/common.h \discretionary {-}{}{}File \discretionary {-}{}{}Reference}{87}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}\discretionary {-}{}{}Typedef \discretionary {-}{}{}Documentation}{88}{subsection.5.1.1}
+\contentsline {subsubsection}{\numberline {5.1.1.1}\discretionary {-}{}{}Cloud}{88}{subsubsection.5.1.1.1}
+\contentsline {subsubsection}{\numberline {5.1.1.2}\discretionary {-}{}{}Cloud\discretionary {-}{}{}Const\discretionary {-}{}{}Ptr}{88}{subsubsection.5.1.1.2}
+\contentsline {subsubsection}{\numberline {5.1.1.3}\discretionary {-}{}{}Cloud\discretionary {-}{}{}N}{88}{subsubsection.5.1.1.3}
+\contentsline {subsubsection}{\numberline {5.1.1.4}\discretionary {-}{}{}Cloud\discretionary {-}{}{}N\discretionary {-}{}{}Ptr}{88}{subsubsection.5.1.1.4}
+\contentsline {subsubsection}{\numberline {5.1.1.5}\discretionary {-}{}{}Cloud\discretionary {-}{}{}Ptr}{88}{subsubsection.5.1.1.5}
+\contentsline {subsubsection}{\numberline {5.1.1.6}\discretionary {-}{}{}Point\discretionary {-}{}{}N\discretionary {-}{}{}T}{88}{subsubsection.5.1.1.6}
+\contentsline {subsubsection}{\numberline {5.1.1.7}\discretionary {-}{}{}Point\discretionary {-}{}{}T}{88}{subsubsection.5.1.1.7}
+\contentsline {subsection}{\numberline {5.1.2}\discretionary {-}{}{}Function \discretionary {-}{}{}Documentation}{88}{subsection.5.1.2}
+\contentsline {subsubsection}{\numberline {5.1.2.1}colordist}{88}{subsubsection.5.1.2.1}
+\contentsline {subsubsection}{\numberline {5.1.2.2}rgb\discretionary {-}{}{}Tohsv}{89}{subsubsection.5.1.2.2}
+\contentsline {section}{\numberline {5.2}/home/koosy/koosywork/pmot\discretionary {-}{}{}\_\discretionary {-}{}{}realtime/pmot\discretionary {-}{}{}\_\discretionary {-}{}{}realtime/src/csfeature.cpp \discretionary {-}{}{}File \discretionary {-}{}{}Reference}{90}{section.5.2}
+\contentsline {section}{\numberline {5.3}/home/koosy/koosywork/pmot\discretionary {-}{}{}\_\discretionary {-}{}{}realtime/pmot\discretionary {-}{}{}\_\discretionary {-}{}{}realtime/src/csfeature.h \discretionary {-}{}{}File \discretionary {-}{}{}Reference}{90}{section.5.3}
+\contentsline {section}{\numberline {5.4}/home/koosy/koosywork/pmot\discretionary {-}{}{}\_\discretionary {-}{}{}realtime/pmot\discretionary {-}{}{}\_\discretionary {-}{}{}realtime/src/csgpu.h \discretionary {-}{}{}File \discretionary {-}{}{}Reference}{91}{section.5.4}
+\contentsline {section}{\numberline {5.5}/home/koosy/koosywork/pmot\discretionary {-}{}{}\_\discretionary {-}{}{}realtime/pmot\discretionary {-}{}{}\_\discretionary {-}{}{}realtime/src/gaussian.cpp \discretionary {-}{}{}File \discretionary {-}{}{}Reference}{92}{section.5.5}
+\contentsline {section}{\numberline {5.6}/home/koosy/koosywork/pmot\discretionary {-}{}{}\_\discretionary {-}{}{}realtime/pmot\discretionary {-}{}{}\_\discretionary {-}{}{}realtime/src/gaussian.h \discretionary {-}{}{}File \discretionary {-}{}{}Reference}{92}{section.5.6}
+\contentsline {subsection}{\numberline {5.6.1}\discretionary {-}{}{}Typedef \discretionary {-}{}{}Documentation}{93}{subsection.5.6.1}
+\contentsline {subsubsection}{\numberline {5.6.1.1}\discretionary {-}{}{}Cloud}{93}{subsubsection.5.6.1.1}
+\contentsline {subsubsection}{\numberline {5.6.1.2}\discretionary {-}{}{}Cloud\discretionary {-}{}{}Const\discretionary {-}{}{}Ptr}{93}{subsubsection.5.6.1.2}
+\contentsline {subsubsection}{\numberline {5.6.1.3}\discretionary {-}{}{}Cloud\discretionary {-}{}{}Ptr}{93}{subsubsection.5.6.1.3}
+\contentsline {subsubsection}{\numberline {5.6.1.4}\discretionary {-}{}{}Points}{93}{subsubsection.5.6.1.4}
+\contentsline {subsubsection}{\numberline {5.6.1.5}\discretionary {-}{}{}Point\discretionary {-}{}{}T}{93}{subsubsection.5.6.1.5}
+\contentsline {section}{\numberline {5.7}/home/koosy/koosywork/pmot\discretionary {-}{}{}\_\discretionary {-}{}{}realtime/pmot\discretionary {-}{}{}\_\discretionary {-}{}{}realtime/src/gaussiantrackcontainer.cpp \discretionary {-}{}{}File \discretionary {-}{}{}Reference}{93}{section.5.7}
+\contentsline {section}{\numberline {5.8}/home/koosy/koosywork/pmot\discretionary {-}{}{}\_\discretionary {-}{}{}realtime/pmot\discretionary {-}{}{}\_\discretionary {-}{}{}realtime/src/gaussiantrackcontainer.h \discretionary {-}{}{}File \discretionary {-}{}{}Reference}{93}{section.5.8}
+\contentsline {section}{\numberline {5.9}/home/koosy/koosywork/pmot\discretionary {-}{}{}\_\discretionary {-}{}{}realtime/pmot\discretionary {-}{}{}\_\discretionary {-}{}{}realtime/src/imft.h \discretionary {-}{}{}File \discretionary {-}{}{}Reference}{94}{section.5.9}
+\contentsline {subsection}{\numberline {5.9.1}\discretionary {-}{}{}Define \discretionary {-}{}{}Documentation}{95}{subsection.5.9.1}
+\contentsline {subsubsection}{\numberline {5.9.1.1}\discretionary {-}{}{}M\discretionary {-}{}{}A\discretionary {-}{}{}X\discretionary {-}{}{}W\discretionary {-}{}{}E\discretionary {-}{}{}I\discretionary {-}{}{}G\discretionary {-}{}{}H\discretionary {-}{}{}T}{95}{subsubsection.5.9.1.1}
+\contentsline {section}{\numberline {5.10}/home/koosy/koosywork/pmot\discretionary {-}{}{}\_\discretionary {-}{}{}realtime/pmot\discretionary {-}{}{}\_\discretionary {-}{}{}realtime/src/imft.hpp \discretionary {-}{}{}File \discretionary {-}{}{}Reference}{96}{section.5.10}
+\contentsline {section}{\numberline {5.11}/home/koosy/koosywork/pmot\discretionary {-}{}{}\_\discretionary {-}{}{}realtime/pmot\discretionary {-}{}{}\_\discretionary {-}{}{}realtime/src/main.cpp \discretionary {-}{}{}File \discretionary {-}{}{}Reference}{96}{section.5.11}
+\contentsline {subsection}{\numberline {5.11.1}\discretionary {-}{}{}Function \discretionary {-}{}{}Documentation}{98}{subsection.5.11.1}
+\contentsline {subsubsection}{\numberline {5.11.1.1}cb\discretionary {-}{}{}\_\discretionary {-}{}{}rgb}{99}{subsubsection.5.11.1.1}
+\contentsline {subsubsection}{\numberline {5.11.1.2}cutting\discretionary {-}{}{}Range}{99}{subsubsection.5.11.1.2}
+\contentsline {subsubsection}{\numberline {5.11.1.3}downsampling}{100}{subsubsection.5.11.1.3}
+\contentsline {subsubsection}{\numberline {5.11.1.4}main}{100}{subsubsection.5.11.1.4}
+\contentsline {subsubsection}{\numberline {5.11.1.5}plane\discretionary {-}{}{}Extraction}{100}{subsubsection.5.11.1.5}
+\contentsline {subsubsection}{\numberline {5.11.1.6}read\discretionary {-}{}{}Parameters}{101}{subsubsection.5.11.1.6}
+\contentsline {subsubsection}{\numberline {5.11.1.7}transform}{101}{subsubsection.5.11.1.7}
+\contentsline {subsubsection}{\numberline {5.11.1.8}workingspace}{101}{subsubsection.5.11.1.8}
+\contentsline {subsection}{\numberline {5.11.2}\discretionary {-}{}{}Variable \discretionary {-}{}{}Documentation}{101}{subsection.5.11.2}
+\contentsline {subsubsection}{\numberline {5.11.2.1}computation\discretionary {-}{}{}T}{102}{subsubsection.5.11.2.1}
+\contentsline {subsubsection}{\numberline {5.11.2.2}cont\discretionary {-}{}{}\_\discretionary {-}{}{}sampling}{102}{subsubsection.5.11.2.2}
+\contentsline {subsubsection}{\numberline {5.11.2.3}cont\discretionary {-}{}{}\_\discretionary {-}{}{}simplify}{102}{subsubsection.5.11.2.3}
+\contentsline {subsubsection}{\numberline {5.11.2.4}isdebug}{102}{subsubsection.5.11.2.4}
+\contentsline {subsubsection}{\numberline {5.11.2.5}last\discretionary {-}{}{}T}{102}{subsubsection.5.11.2.5}
+\contentsline {subsubsection}{\numberline {5.11.2.6}now\discretionary {-}{}{}T}{102}{subsubsection.5.11.2.6}
+\contentsline {subsubsection}{\numberline {5.11.2.7}param\discretionary {-}{}{}\_\discretionary {-}{}{}3d6d}{102}{subsubsection.5.11.2.7}
+\contentsline {subsubsection}{\numberline {5.11.2.8}param\discretionary {-}{}{}\_\discretionary {-}{}{}buffernum}{102}{subsubsection.5.11.2.8}
+\contentsline {subsubsection}{\numberline {5.11.2.9}param\discretionary {-}{}{}\_\discretionary {-}{}{}filtering\discretionary {-}{}{}\_\discretionary {-}{}{}range}{102}{subsubsection.5.11.2.9}
+\contentsline {subsubsection}{\numberline {5.11.2.10}param\discretionary {-}{}{}\_\discretionary {-}{}{}frame\discretionary {-}{}{}\_\discretionary {-}{}{}id}{102}{subsubsection.5.11.2.10}
+\contentsline {subsubsection}{\numberline {5.11.2.11}param\discretionary {-}{}{}\_\discretionary {-}{}{}pub\discretionary {-}{}{}\_\discretionary {-}{}{}gmmreg\discretionary {-}{}{}\_\discretionary {-}{}{}model}{102}{subsubsection.5.11.2.11}
+\contentsline {subsubsection}{\numberline {5.11.2.12}param\discretionary {-}{}{}\_\discretionary {-}{}{}pub\discretionary {-}{}{}\_\discretionary {-}{}{}gmmreg\discretionary {-}{}{}\_\discretionary {-}{}{}scene}{102}{subsubsection.5.11.2.12}
+\contentsline {subsubsection}{\numberline {5.11.2.13}param\discretionary {-}{}{}\_\discretionary {-}{}{}pub\discretionary {-}{}{}\_\discretionary {-}{}{}markers\discretionary {-}{}{}\_\discretionary {-}{}{}edges}{102}{subsubsection.5.11.2.13}
+\contentsline {subsubsection}{\numberline {5.11.2.14}param\discretionary {-}{}{}\_\discretionary {-}{}{}pub\discretionary {-}{}{}\_\discretionary {-}{}{}markers\discretionary {-}{}{}\_\discretionary {-}{}{}gaussians}{102}{subsubsection.5.11.2.14}
+\contentsline {subsubsection}{\numberline {5.11.2.15}param\discretionary {-}{}{}\_\discretionary {-}{}{}pub\discretionary {-}{}{}\_\discretionary {-}{}{}markers\discretionary {-}{}{}\_\discretionary {-}{}{}gmms}{102}{subsubsection.5.11.2.15}
+\contentsline {subsubsection}{\numberline {5.11.2.16}param\discretionary {-}{}{}\_\discretionary {-}{}{}pub\discretionary {-}{}{}\_\discretionary {-}{}{}markers\discretionary {-}{}{}\_\discretionary {-}{}{}track\discretionary {-}{}{}I\discretionary {-}{}{}D}{102}{subsubsection.5.11.2.16}
+\contentsline {subsubsection}{\numberline {5.11.2.17}param\discretionary {-}{}{}\_\discretionary {-}{}{}pub\discretionary {-}{}{}\_\discretionary {-}{}{}points\discretionary {-}{}{}\_\discretionary {-}{}{}filtered}{102}{subsubsection.5.11.2.17}
+\contentsline {subsubsection}{\numberline {5.11.2.18}param\discretionary {-}{}{}\_\discretionary {-}{}{}pub\discretionary {-}{}{}\_\discretionary {-}{}{}points\discretionary {-}{}{}\_\discretionary {-}{}{}segmented}{102}{subsubsection.5.11.2.18}
+\contentsline {subsubsection}{\numberline {5.11.2.19}param\discretionary {-}{}{}\_\discretionary {-}{}{}pub\discretionary {-}{}{}\_\discretionary {-}{}{}points\discretionary {-}{}{}\_\discretionary {-}{}{}track\discretionary {-}{}{}I\discretionary {-}{}{}D}{102}{subsubsection.5.11.2.19}
+\contentsline {subsubsection}{\numberline {5.11.2.20}param\discretionary {-}{}{}\_\discretionary {-}{}{}sampling\discretionary {-}{}{}Ratio}{102}{subsubsection.5.11.2.20}
+\contentsline {subsubsection}{\numberline {5.11.2.21}param\discretionary {-}{}{}\_\discretionary {-}{}{}segment\discretionary {-}{}{}Tolerance}{102}{subsubsection.5.11.2.21}
+\contentsline {subsubsection}{\numberline {5.11.2.22}param\discretionary {-}{}{}\_\discretionary {-}{}{}simplify\discretionary {-}{}{}Ratio}{102}{subsubsection.5.11.2.22}
+\contentsline {subsubsection}{\numberline {5.11.2.23}param\discretionary {-}{}{}\_\discretionary {-}{}{}sub\discretionary {-}{}{}\_\discretionary {-}{}{}topic}{102}{subsubsection.5.11.2.23}
+\contentsline {subsubsection}{\numberline {5.11.2.24}param\discretionary {-}{}{}\_\discretionary {-}{}{}workspace\discretionary {-}{}{}\_\discretionary {-}{}{}height}{102}{subsubsection.5.11.2.24}
+\contentsline {subsubsection}{\numberline {5.11.2.25}param\discretionary {-}{}{}\_\discretionary {-}{}{}workspace\discretionary {-}{}{}\_\discretionary {-}{}{}topic}{103}{subsubsection.5.11.2.25}
+\contentsline {subsubsection}{\numberline {5.11.2.26}param\discretionary {-}{}{}\_\discretionary {-}{}{}workspace\discretionary {-}{}{}\_\discretionary {-}{}{}width}{103}{subsubsection.5.11.2.26}
+\contentsline {subsubsection}{\numberline {5.11.2.27}param\discretionary {-}{}{}\_\discretionary {-}{}{}workspace\discretionary {-}{}{}\_\discretionary {-}{}{}x}{103}{subsubsection.5.11.2.27}
+\contentsline {subsubsection}{\numberline {5.11.2.28}param\discretionary {-}{}{}\_\discretionary {-}{}{}workspace\discretionary {-}{}{}\_\discretionary {-}{}{}y}{103}{subsubsection.5.11.2.28}
+\contentsline {subsubsection}{\numberline {5.11.2.29}param\discretionary {-}{}{}\_\discretionary {-}{}{}workspace\discretionary {-}{}{}\_\discretionary {-}{}{}z}{103}{subsubsection.5.11.2.29}
+\contentsline {subsubsection}{\numberline {5.11.2.30}param\discretionary {-}{}{}\_\discretionary {-}{}{}workspace\discretionary {-}{}{}\_\discretionary {-}{}{}zheight}{103}{subsubsection.5.11.2.30}
+\contentsline {subsubsection}{\numberline {5.11.2.31}p\discretionary {-}{}{}Cloud}{103}{subsubsection.5.11.2.31}
+\contentsline {subsubsection}{\numberline {5.11.2.32}p\discretionary {-}{}{}Cloud\discretionary {-}{}{}\_\discretionary {-}{}{}input}{103}{subsubsection.5.11.2.32}
+\contentsline {subsubsection}{\numberline {5.11.2.33}pctracking}{103}{subsubsection.5.11.2.33}
+\contentsline {subsubsection}{\numberline {5.11.2.34}pub\discretionary {-}{}{}\_\discretionary {-}{}{}edges}{103}{subsubsection.5.11.2.34}
+\contentsline {subsubsection}{\numberline {5.11.2.35}pub\discretionary {-}{}{}\_\discretionary {-}{}{}filtered}{103}{subsubsection.5.11.2.35}
+\contentsline {subsubsection}{\numberline {5.11.2.36}pub\discretionary {-}{}{}\_\discretionary {-}{}{}gaussians}{103}{subsubsection.5.11.2.36}
+\contentsline {subsubsection}{\numberline {5.11.2.37}pub\discretionary {-}{}{}\_\discretionary {-}{}{}gmms}{103}{subsubsection.5.11.2.37}
+\contentsline {subsubsection}{\numberline {5.11.2.38}pub\discretionary {-}{}{}\_\discretionary {-}{}{}lastmodel}{103}{subsubsection.5.11.2.38}
+\contentsline {subsubsection}{\numberline {5.11.2.39}pub\discretionary {-}{}{}\_\discretionary {-}{}{}model}{103}{subsubsection.5.11.2.39}
+\contentsline {subsubsection}{\numberline {5.11.2.40}pub\discretionary {-}{}{}\_\discretionary {-}{}{}particles}{103}{subsubsection.5.11.2.40}
+\contentsline {subsubsection}{\numberline {5.11.2.41}pub\discretionary {-}{}{}\_\discretionary {-}{}{}scene}{103}{subsubsection.5.11.2.41}
+\contentsline {subsubsection}{\numberline {5.11.2.42}pub\discretionary {-}{}{}\_\discretionary {-}{}{}segmented}{103}{subsubsection.5.11.2.42}
+\contentsline {subsubsection}{\numberline {5.11.2.43}pub\discretionary {-}{}{}\_\discretionary {-}{}{}track}{103}{subsubsection.5.11.2.43}
+\contentsline {subsubsection}{\numberline {5.11.2.44}pub\discretionary {-}{}{}\_\discretionary {-}{}{}track\discretionary {-}{}{}I\discretionary {-}{}{}D}{103}{subsubsection.5.11.2.44}
+\contentsline {subsubsection}{\numberline {5.11.2.45}pub\discretionary {-}{}{}\_\discretionary {-}{}{}workspace}{103}{subsubsection.5.11.2.45}
+\contentsline {subsubsection}{\numberline {5.11.2.46}sum\discretionary {-}{}{}Error\discretionary {-}{}{}Point}{103}{subsubsection.5.11.2.46}
+\contentsline {subsubsection}{\numberline {5.11.2.47}sum\discretionary {-}{}{}Total\discretionary {-}{}{}Point}{103}{subsubsection.5.11.2.47}
+\contentsline {subsubsection}{\numberline {5.11.2.48}sum\discretionary {-}{}{}True\discretionary {-}{}{}Point}{103}{subsubsection.5.11.2.48}
+\contentsline {subsubsection}{\numberline {5.11.2.49}tf\discretionary {-}{}{}\_\discretionary {-}{}{}listener}{104}{subsubsection.5.11.2.49}
+\contentsline {subsubsection}{\numberline {5.11.2.50}workspace}{104}{subsubsection.5.11.2.50}
+\contentsline {section}{\numberline {5.12}/home/koosy/koosywork/pmot\discretionary {-}{}{}\_\discretionary {-}{}{}realtime/pmot\discretionary {-}{}{}\_\discretionary {-}{}{}realtime/src/particlepose.cpp \discretionary {-}{}{}File \discretionary {-}{}{}Reference}{104}{section.5.12}
+\contentsline {section}{\numberline {5.13}/home/koosy/koosywork/pmot\discretionary {-}{}{}\_\discretionary {-}{}{}realtime/pmot\discretionary {-}{}{}\_\discretionary {-}{}{}realtime/src/particlepose.h \discretionary {-}{}{}File \discretionary {-}{}{}Reference}{104}{section.5.13}
+\contentsline {section}{\numberline {5.14}/home/koosy/koosywork/pmot\discretionary {-}{}{}\_\discretionary {-}{}{}realtime/pmot\discretionary {-}{}{}\_\discretionary {-}{}{}realtime/src/pcobject.cpp \discretionary {-}{}{}File \discretionary {-}{}{}Reference}{105}{section.5.14}
+\contentsline {subsection}{\numberline {5.14.1}\discretionary {-}{}{}Define \discretionary {-}{}{}Documentation}{105}{subsection.5.14.1}
+\contentsline {subsubsection}{\numberline {5.14.1.1}pi}{105}{subsubsection.5.14.1.1}
+\contentsline {subsection}{\numberline {5.14.2}\discretionary {-}{}{}Variable \discretionary {-}{}{}Documentation}{106}{subsection.5.14.2}
+\contentsline {subsubsection}{\numberline {5.14.2.1}is\discretionary {-}{}{}Debug}{106}{subsubsection.5.14.2.1}
+\contentsline {section}{\numberline {5.15}/home/koosy/koosywork/pmot\discretionary {-}{}{}\_\discretionary {-}{}{}realtime/pmot\discretionary {-}{}{}\_\discretionary {-}{}{}realtime/src/pcobject.h \discretionary {-}{}{}File \discretionary {-}{}{}Reference}{106}{section.5.15}
+\contentsline {subsection}{\numberline {5.15.1}\discretionary {-}{}{}Define \discretionary {-}{}{}Documentation}{107}{subsection.5.15.1}
+\contentsline {subsubsection}{\numberline {5.15.1.1}\discretionary {-}{}{}M\discretionary {-}{}{}I\discretionary {-}{}{}N\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}W\discretionary {-}{}{}E\discretionary {-}{}{}I\discretionary {-}{}{}G\discretionary {-}{}{}H\discretionary {-}{}{}T\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}R\discretionary {-}{}{}A\discretionary {-}{}{}T\discretionary {-}{}{}I\discretionary {-}{}{}O}{107}{subsubsection.5.15.1.1}
+\contentsline {subsection}{\numberline {5.15.2}\discretionary {-}{}{}Enumeration \discretionary {-}{}{}Type \discretionary {-}{}{}Documentation}{107}{subsection.5.15.2}
+\contentsline {subsubsection}{\numberline {5.15.2.1}\discretionary {-}{}{}S\discretionary {-}{}{}I\discretionary {-}{}{}M\discretionary {-}{}{}P\discretionary {-}{}{}L\discretionary {-}{}{}E}{107}{subsubsection.5.15.2.1}
+\contentsline {subsubsection}{\numberline {5.15.2.2}\discretionary {-}{}{}S\discretionary {-}{}{}T\discretionary {-}{}{}A\discretionary {-}{}{}T\discretionary {-}{}{}E}{107}{subsubsection.5.15.2.2}
+\contentsline {section}{\numberline {5.16}/home/koosy/koosywork/pmot\discretionary {-}{}{}\_\discretionary {-}{}{}realtime/pmot\discretionary {-}{}{}\_\discretionary {-}{}{}realtime/src/pcobjectcontainer.cpp \discretionary {-}{}{}File \discretionary {-}{}{}Reference}{107}{section.5.16}
+\contentsline {section}{\numberline {5.17}/home/koosy/koosywork/pmot\discretionary {-}{}{}\_\discretionary {-}{}{}realtime/pmot\discretionary {-}{}{}\_\discretionary {-}{}{}realtime/src/pcobjectcontainer.h \discretionary {-}{}{}File \discretionary {-}{}{}Reference}{107}{section.5.17}
+\contentsline {section}{\numberline {5.18}/home/koosy/koosywork/pmot\discretionary {-}{}{}\_\discretionary {-}{}{}realtime/pmot\discretionary {-}{}{}\_\discretionary {-}{}{}realtime/src/pctrackcontainer.cpp \discretionary {-}{}{}File \discretionary {-}{}{}Reference}{108}{section.5.18}
+\contentsline {section}{\numberline {5.19}/home/koosy/koosywork/pmot\discretionary {-}{}{}\_\discretionary {-}{}{}realtime/pmot\discretionary {-}{}{}\_\discretionary {-}{}{}realtime/src/pctrackcontainer.h \discretionary {-}{}{}File \discretionary {-}{}{}Reference}{109}{section.5.19}
+\contentsline {subsection}{\numberline {5.19.1}\discretionary {-}{}{}Define \discretionary {-}{}{}Documentation}{109}{subsection.5.19.1}
+\contentsline {subsubsection}{\numberline {5.19.1.1}\discretionary {-}{}{}P\discretionary {-}{}{}I}{109}{subsubsection.5.19.1.1}
+\contentsline {section}{\numberline {5.20}/home/koosy/koosywork/pmot\discretionary {-}{}{}\_\discretionary {-}{}{}realtime/pmot\discretionary {-}{}{}\_\discretionary {-}{}{}realtime/src/pctracking.cpp \discretionary {-}{}{}File \discretionary {-}{}{}Reference}{110}{section.5.20}
+\contentsline {subsection}{\numberline {5.20.1}\discretionary {-}{}{}Variable \discretionary {-}{}{}Documentation}{110}{subsection.5.20.1}
+\contentsline {subsubsection}{\numberline {5.20.1.1}is\discretionary {-}{}{}Debug\discretionary {-}{}{}\_\discretionary {-}{}{}comp}{110}{subsubsection.5.20.1.1}
+\contentsline {section}{\numberline {5.21}/home/koosy/koosywork/pmot\discretionary {-}{}{}\_\discretionary {-}{}{}realtime/pmot\discretionary {-}{}{}\_\discretionary {-}{}{}realtime/src/pctracking.h \discretionary {-}{}{}File \discretionary {-}{}{}Reference}{110}{section.5.21}
+\contentsline {subsection}{\numberline {5.21.1}\discretionary {-}{}{}Define \discretionary {-}{}{}Documentation}{111}{subsection.5.21.1}
+\contentsline {subsubsection}{\numberline {5.21.1.1}\discretionary {-}{}{}F\discretionary {-}{}{}P\discretionary {-}{}{}S\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}C\discretionary {-}{}{}A\discretionary {-}{}{}L\discretionary {-}{}{}C}{111}{subsubsection.5.21.1.1}
+\contentsline {subsubsection}{\numberline {5.21.1.2}\discretionary {-}{}{}L2\discretionary {-}{}{}C\discretionary {-}{}{}U\discretionary {-}{}{}T}{112}{subsubsection.5.21.1.2}
+\contentsline {subsubsection}{\numberline {5.21.1.3}pi}{112}{subsubsection.5.21.1.3}
+\contentsline {subsubsection}{\numberline {5.21.1.4}\discretionary {-}{}{}S\discretionary {-}{}{}Q\discretionary {-}{}{}R}{112}{subsubsection.5.21.1.4}
+\contentsline {subsection}{\numberline {5.21.2}\discretionary {-}{}{}Typedef \discretionary {-}{}{}Documentation}{112}{subsection.5.21.2}
+\contentsline {subsubsection}{\numberline {5.21.2.1}\discretionary {-}{}{}Vec\discretionary {-}{}{}Object}{112}{subsubsection.5.21.2.1}
+\contentsline {subsubsection}{\numberline {5.21.2.2}\discretionary {-}{}{}Vec\discretionary {-}{}{}Object\discretionary {-}{}{}Ptr}{112}{subsubsection.5.21.2.2}
+\contentsline {subsection}{\numberline {5.21.3}\discretionary {-}{}{}Enumeration \discretionary {-}{}{}Type \discretionary {-}{}{}Documentation}{112}{subsection.5.21.3}
+\contentsline {subsubsection}{\numberline {5.21.3.1}\discretionary {-}{}{}Time}{112}{subsubsection.5.21.3.1}
+\contentsline {subsubsection}{\numberline {5.21.3.2}\discretionary {-}{}{}Type}{112}{subsubsection.5.21.3.2}
+\contentsline {section}{\numberline {5.22}/home/koosy/koosywork/pmot\discretionary {-}{}{}\_\discretionary {-}{}{}realtime/pmot\discretionary {-}{}{}\_\discretionary {-}{}{}realtime/src/pctracking\discretionary {-}{}{}\_\discretionary {-}{}{}weight.cpp \discretionary {-}{}{}File \discretionary {-}{}{}Reference}{113}{section.5.22}
+\contentsline {subsection}{\numberline {5.22.1}\discretionary {-}{}{}Function \discretionary {-}{}{}Documentation}{113}{subsection.5.22.1}
+\contentsline {subsubsection}{\numberline {5.22.1.1}weight\discretionary {-}{}{}\_\discretionary {-}{}{}gaussian\discretionary {-}{}{}\_\discretionary {-}{}{}predictive\discretionary {-}{}{}\_\discretionary {-}{}{}rev}{113}{subsubsection.5.22.1.1}
+\contentsline {subsubsection}{\numberline {5.22.1.2}weight\discretionary {-}{}{}\_\discretionary {-}{}{}l2\discretionary {-}{}{}\_\discretionary {-}{}{}gauss}{113}{subsubsection.5.22.1.2}
+\contentsline {subsubsection}{\numberline {5.22.1.3}weight\discretionary {-}{}{}\_\discretionary {-}{}{}l2\discretionary {-}{}{}\_\discretionary {-}{}{}rev}{113}{subsubsection.5.22.1.3}
+\contentsline {subsubsection}{\numberline {5.22.1.4}weight\discretionary {-}{}{}\_\discretionary {-}{}{}loc}{113}{subsubsection.5.22.1.4}
+\contentsline {subsubsection}{\numberline {5.22.1.5}weight\discretionary {-}{}{}\_\discretionary {-}{}{}symkl\discretionary {-}{}{}\_\discretionary {-}{}{}gauss}{114}{subsubsection.5.22.1.5}
+\contentsline {subsubsection}{\numberline {5.22.1.6}weight\discretionary {-}{}{}\_\discretionary {-}{}{}unsymkl\discretionary {-}{}{}\_\discretionary {-}{}{}gauss}{114}{subsubsection.5.22.1.6}
+\contentsline {section}{\numberline {5.23}/home/koosy/koosywork/pmot\discretionary {-}{}{}\_\discretionary {-}{}{}realtime/pmot\discretionary {-}{}{}\_\discretionary {-}{}{}realtime/src/pctracking\discretionary {-}{}{}\_\discretionary {-}{}{}weight.h \discretionary {-}{}{}File \discretionary {-}{}{}Reference}{115}{section.5.23}
+\contentsline {subsection}{\numberline {5.23.1}\discretionary {-}{}{}Define \discretionary {-}{}{}Documentation}{115}{subsection.5.23.1}
+\contentsline {subsubsection}{\numberline {5.23.1.1}pi}{115}{subsubsection.5.23.1.1}
+\contentsline {subsubsection}{\numberline {5.23.1.2}\discretionary {-}{}{}S\discretionary {-}{}{}Q\discretionary {-}{}{}R}{115}{subsubsection.5.23.1.2}
+\contentsline {subsection}{\numberline {5.23.2}\discretionary {-}{}{}Function \discretionary {-}{}{}Documentation}{116}{subsection.5.23.2}
+\contentsline {subsubsection}{\numberline {5.23.2.1}weight\discretionary {-}{}{}\_\discretionary {-}{}{}gaussian\discretionary {-}{}{}\_\discretionary {-}{}{}predictive\discretionary {-}{}{}\_\discretionary {-}{}{}rev}{116}{subsubsection.5.23.2.1}
+\contentsline {subsubsection}{\numberline {5.23.2.2}weight\discretionary {-}{}{}\_\discretionary {-}{}{}l2\discretionary {-}{}{}\_\discretionary {-}{}{}gauss}{116}{subsubsection.5.23.2.2}
+\contentsline {subsubsection}{\numberline {5.23.2.3}weight\discretionary {-}{}{}\_\discretionary {-}{}{}l2\discretionary {-}{}{}\_\discretionary {-}{}{}rev}{116}{subsubsection.5.23.2.3}
+\contentsline {subsubsection}{\numberline {5.23.2.4}weight\discretionary {-}{}{}\_\discretionary {-}{}{}loc}{116}{subsubsection.5.23.2.4}
+\contentsline {subsubsection}{\numberline {5.23.2.5}weight\discretionary {-}{}{}\_\discretionary {-}{}{}symkl\discretionary {-}{}{}\_\discretionary {-}{}{}gauss}{116}{subsubsection.5.23.2.5}
+\contentsline {subsubsection}{\numberline {5.23.2.6}weight\discretionary {-}{}{}\_\discretionary {-}{}{}unsymkl\discretionary {-}{}{}\_\discretionary {-}{}{}gauss}{117}{subsubsection.5.23.2.6}
+\contentsline {section}{\numberline {5.24}/home/koosy/koosywork/pmot\discretionary {-}{}{}\_\discretionary {-}{}{}realtime/pmot\discretionary {-}{}{}\_\discretionary {-}{}{}realtime/src/track.h \discretionary {-}{}{}File \discretionary {-}{}{}Reference}{117}{section.5.24}
+\contentsline {section}{\numberline {5.25}/home/koosy/koosywork/pmot\discretionary {-}{}{}\_\discretionary {-}{}{}realtime/pmot\discretionary {-}{}{}\_\discretionary {-}{}{}realtime/src/track.hpp \discretionary {-}{}{}File \discretionary {-}{}{}Reference}{118}{section.5.25}
+\contentsline {section}{\numberline {5.26}/home/koosy/koosywork/pmot\discretionary {-}{}{}\_\discretionary {-}{}{}realtime/pmot\discretionary {-}{}{}\_\discretionary {-}{}{}realtime/src/trackcontainer.h \discretionary {-}{}{}File \discretionary {-}{}{}Reference}{118}{section.5.26}
+\contentsline {section}{\numberline {5.27}/home/koosy/koosywork/pmot\discretionary {-}{}{}\_\discretionary {-}{}{}realtime/pmot\discretionary {-}{}{}\_\discretionary {-}{}{}realtime/src/trackcontainer.hpp \discretionary {-}{}{}File \discretionary {-}{}{}Reference}{119}{section.5.27}

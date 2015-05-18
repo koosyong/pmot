@@ -1,0 +1,33 @@
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Existing point-cloud object tracking softwares\relax }}{6}{figure.caption.2}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Model-based 3D object tracking in \cite {Rusu_ICRA2011_PCL}}}}{6}{subfigure.1.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Model-based 3D object tracking in \cite {choi2013rgb}}}}{6}{subfigure.1.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Model-free multiple object segmentation and tracking in \cite {papon2013point}}}}{6}{subfigure.1.3}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {Model-free multiple object segmentation and tracking in \cite {koo2013multiple}}}}{6}{subfigure.1.4}
+\contentsline {figure}{\numberline {1.2}{\ignorespaces Input and output of PMOT\relax }}{7}{figure.caption.3}
+\contentsline {figure}{\numberline {1.3}{\ignorespaces An example of constructive object models and their coordinates\relax }}{8}{figure.caption.4}
+\contentsline {figure}{\numberline {1.4}{\ignorespaces A conceptual block diagram of SMOST\relax }}{9}{figure.caption.5}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces CMake Wizard\relax }}{15}{figure.caption.6}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Run CMake\relax }}{15}{figure.caption.7}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Finish CMake\relax }}{16}{figure.caption.8}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces PMOT include files\relax }}{16}{figure.caption.9}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Camera calibration coordinates\relax }}{23}{figure.caption.10}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces An example of usable checker pattern\relax }}{24}{figure.caption.11}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces The first GUI of camcalib\relax }}{25}{figure.caption.12}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Transformed point-cloud and coordinates displayed in RVIZ\relax }}{26}{figure.caption.13}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Transformed point-cloud and coordinates displayed in RVIZ\relax }}{27}{figure.caption.14}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Existing point-cloud object tracking softwares\relax }}{27}{figure.caption.15}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {x = 0}}}{27}{subfigure.6.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {x = 1.13}}}{27}{subfigure.6.2}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces A set of grids to represent spatial distribution of an object.\relax }}{29}{figure.caption.16}
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Existing point-cloud object tracking softwares\relax }}{30}{figure.caption.18}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Input point-cloud data}}}{30}{subfigure.8.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Filtered point-cloud in the work space}}}{30}{subfigure.8.2}
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Existing point-cloud object tracking softwares\relax }}{31}{figure.caption.20}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {The separation case }}}{31}{subfigure.9.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {The contact case}}}{31}{subfigure.9.2}
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Existing point-cloud object tracking softwares\relax }}{32}{figure.caption.22}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {The separation case}}}{32}{subfigure.10.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {The contact case}}}{32}{subfigure.10.2}

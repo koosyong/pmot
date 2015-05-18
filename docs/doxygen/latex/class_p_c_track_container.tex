@@ -1,0 +1,407 @@
+\hypertarget{class_p_c_track_container}{\section{\-P\-C\-Track\-Container \-Class \-Reference}
+\label{class_p_c_track_container}\index{\-P\-C\-Track\-Container@{\-P\-C\-Track\-Container}}
+}
+
+
+{\ttfamily \#include $<$pctrackcontainer.\-h$>$}
+
+
+
+\-Inheritance diagram for \-P\-C\-Track\-Container\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=224pt]{class_p_c_track_container__inherit__graph}
+\end{center}
+\end{figure}
+
+
+\-Collaboration diagram for \-P\-C\-Track\-Container\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=224pt]{class_p_c_track_container__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{\-Public \-Member \-Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_p_c_track_container_a57b7ba43e31583d6e0c2660ce79c6e0a}{\-P\-C\-Track\-Container} ()
+\item 
+\hyperlink{class_p_c_track_container_aa3f42b51f7c0148dd8cf2936194ab9dc}{\-P\-C\-Track\-Container} (int \-\_\-max\-Frame=1000)
+\item 
+void \hyperlink{class_p_c_track_container_a4881bd9b8b1692193f07e48c3389c5db}{to\-Point\-Cloud\-X\-Y\-Z\-I} (\hyperlink{class_p_c_track_container_ad70a8e8d9236664790fd8d76a2ebeadb}{\-Cloud} \&cloud\-Out)
+\item 
+visualization\-\_\-msgs\-::\-Marker\-Array \hyperlink{class_p_c_track_container_acda2db186798fe99100c11c622d93f27}{to\-Marker\-Gaussians} ()
+\item 
+visualization\-\_\-msgs\-::\-Marker\-Array \hyperlink{class_p_c_track_container_a6b4e74ccf8ffbc81eef4843b5b300fa3}{to\-Marker\-G\-M\-Ms} ()
+\item 
+visualization\-\_\-msgs\-::\-Marker\-Array \hyperlink{class_p_c_track_container_ab62240a09d2587f15cf0f346bdac9b14}{old\-Gaussians} ()
+\item 
+visualization\-\_\-msgs\-::\-Marker\-Array \hyperlink{class_p_c_track_container_a5bd37d304d5fab465535c395d3c8a86f}{to\-Marker\-I\-Ds} ()
+\item 
+visualization\-\_\-msgs\-::\-Marker\-Array \hyperlink{class_p_c_track_container_a584a5f8b8043959c78f415f7b98d70bf}{old\-Marker\-I\-Ds} ()
+\item 
+visualization\-\_\-msgs\-::\-Marker \hyperlink{class_p_c_track_container_a4330fcbefe00381504c8493b0c8c4c4b}{to\-Marker\-Edges} ()
+\item 
+void \hyperlink{class_p_c_track_container_a661c9e504ba3f4a2e9b4bf5d12d5a76c}{evaluate} ()
+\item 
+void \hyperlink{class_p_c_track_container_a32a1137979b67b2bba51a768a6d2398b}{iros2014} ()
+\end{DoxyCompactItemize}
+\subsection*{\-Public \-Attributes}
+\begin{DoxyCompactItemize}
+\item 
+int \hyperlink{class_p_c_track_container_a5ac828bfcaa2932955a67c3e478849c0}{num\-True\-Points}
+\item 
+int \hyperlink{class_p_c_track_container_a8e9b9d663f2227fad5f9a6743d8dd254}{num\-False\-Points}
+\item 
+int \hyperlink{class_p_c_track_container_a8289947fa7796de78ec1d84e7768db83}{num\-Total\-Points}
+\item 
+bool \hyperlink{class_p_c_track_container_a51514b479f4c23c13f412dc36766f73f}{is\-Updated}
+\end{DoxyCompactItemize}
+\subsection*{\-Private \-Types}
+\begin{DoxyCompactItemize}
+\item 
+typedef pcl\-::\-Point\-X\-Y\-Z\-R\-G\-B \hyperlink{class_p_c_track_container_a37571d1fb0e896825033974c21a59ada}{\-Point\-T}
+\item 
+typedef pcl\-::\-Point\-Cloud$<$ \hyperlink{class_p_c_track_container_a37571d1fb0e896825033974c21a59ada}{\-Point\-T} $>$ \hyperlink{class_p_c_track_container_ad70a8e8d9236664790fd8d76a2ebeadb}{\-Cloud}
+\item 
+typedef \-Cloud\-::\-Ptr \hyperlink{class_p_c_track_container_a6e14769099ac04f16c881162f9397f56}{\-Cloud\-Ptr}
+\item 
+typedef \-Cloud\-::\-Const\-Ptr \hyperlink{class_p_c_track_container_a14e4333a2498a4a5728e888fc473b129}{\-Cloud\-Const\-Ptr}
+\end{DoxyCompactItemize}
+\subsection*{\-Private \-Member \-Functions}
+\begin{DoxyCompactItemize}
+\item 
+float \hyperlink{class_p_c_track_container_a048f09bbd1d6c1655e1d58a113e86b1d}{\-S\-I\-G\-N} (float x)
+\item 
+float \hyperlink{class_p_c_track_container_ab722f94e8a660331d1c987a91af50179}{\-N\-O\-R\-M} (float a, float \hyperlink{class_track_container_a090d3d6e83acad80cad082cd718a4ab3}{b}, float c, float d)
+\item 
+void \hyperlink{class_p_c_track_container_a5d2ad9da112f92800e67d2da8f1ac531}{eigen\-Ordering} (const \-Eigen\-::\-Vector3d \&values, const \-Eigen\-::\-Matrix3d \&vectors, \-Eigen\-::\-Vector3d \&values\-\_\-ordered, \-Eigen\-::\-Matrix3d \&vectors\-\_\-ordered)
+\end{DoxyCompactItemize}
+\subsection*{\-Private \-Attributes}
+\begin{DoxyCompactItemize}
+\item 
+int \hyperlink{class_p_c_track_container_afa0c55015d7b49548fa196d3091dacba}{max\-Frame}
+\item 
+vector$<$ int $>$ \hyperlink{class_p_c_track_container_a3bc617cd354340024249e246b9843a67}{old\-Gaussians\-Id}
+\item 
+vector$<$ int $>$ \hyperlink{class_p_c_track_container_ad2a1026f52411833d07d1fbf741e7cd5}{old\-Track\-I\-Ds}
+\end{DoxyCompactItemize}
+
+
+\subsection{\-Member \-Typedef \-Documentation}
+\hypertarget{class_p_c_track_container_ad70a8e8d9236664790fd8d76a2ebeadb}{\index{\-P\-C\-Track\-Container@{\-P\-C\-Track\-Container}!\-Cloud@{\-Cloud}}
+\index{\-Cloud@{\-Cloud}!PCTrackContainer@{\-P\-C\-Track\-Container}}
+\subsubsection[{\-Cloud}]{\setlength{\rightskip}{0pt plus 5cm}typedef pcl\-::\-Point\-Cloud$<${\bf \-Point\-T}$>$ {\bf \-P\-C\-Track\-Container\-::\-Cloud}\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}\label{class_p_c_track_container_ad70a8e8d9236664790fd8d76a2ebeadb}
+\hypertarget{class_p_c_track_container_a14e4333a2498a4a5728e888fc473b129}{\index{\-P\-C\-Track\-Container@{\-P\-C\-Track\-Container}!\-Cloud\-Const\-Ptr@{\-Cloud\-Const\-Ptr}}
+\index{\-Cloud\-Const\-Ptr@{\-Cloud\-Const\-Ptr}!PCTrackContainer@{\-P\-C\-Track\-Container}}
+\subsubsection[{\-Cloud\-Const\-Ptr}]{\setlength{\rightskip}{0pt plus 5cm}typedef \-Cloud\-::\-Const\-Ptr {\bf \-P\-C\-Track\-Container\-::\-Cloud\-Const\-Ptr}\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}\label{class_p_c_track_container_a14e4333a2498a4a5728e888fc473b129}
+\hypertarget{class_p_c_track_container_a6e14769099ac04f16c881162f9397f56}{\index{\-P\-C\-Track\-Container@{\-P\-C\-Track\-Container}!\-Cloud\-Ptr@{\-Cloud\-Ptr}}
+\index{\-Cloud\-Ptr@{\-Cloud\-Ptr}!PCTrackContainer@{\-P\-C\-Track\-Container}}
+\subsubsection[{\-Cloud\-Ptr}]{\setlength{\rightskip}{0pt plus 5cm}typedef \-Cloud\-::\-Ptr {\bf \-P\-C\-Track\-Container\-::\-Cloud\-Ptr}\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}\label{class_p_c_track_container_a6e14769099ac04f16c881162f9397f56}
+\hypertarget{class_p_c_track_container_a37571d1fb0e896825033974c21a59ada}{\index{\-P\-C\-Track\-Container@{\-P\-C\-Track\-Container}!\-Point\-T@{\-Point\-T}}
+\index{\-Point\-T@{\-Point\-T}!PCTrackContainer@{\-P\-C\-Track\-Container}}
+\subsubsection[{\-Point\-T}]{\setlength{\rightskip}{0pt plus 5cm}typedef pcl\-::\-Point\-X\-Y\-Z\-R\-G\-B {\bf \-P\-C\-Track\-Container\-::\-Point\-T}\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}\label{class_p_c_track_container_a37571d1fb0e896825033974c21a59ada}
+
+
+\subsection{\-Constructor \& \-Destructor \-Documentation}
+\hypertarget{class_p_c_track_container_a57b7ba43e31583d6e0c2660ce79c6e0a}{\index{\-P\-C\-Track\-Container@{\-P\-C\-Track\-Container}!\-P\-C\-Track\-Container@{\-P\-C\-Track\-Container}}
+\index{\-P\-C\-Track\-Container@{\-P\-C\-Track\-Container}!PCTrackContainer@{\-P\-C\-Track\-Container}}
+\subsubsection[{\-P\-C\-Track\-Container}]{\setlength{\rightskip}{0pt plus 5cm}{\bf \-P\-C\-Track\-Container\-::\-P\-C\-Track\-Container} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_p_c_track_container_a57b7ba43e31583d6e0c2660ce79c6e0a}
+\hypertarget{class_p_c_track_container_aa3f42b51f7c0148dd8cf2936194ab9dc}{\index{\-P\-C\-Track\-Container@{\-P\-C\-Track\-Container}!\-P\-C\-Track\-Container@{\-P\-C\-Track\-Container}}
+\index{\-P\-C\-Track\-Container@{\-P\-C\-Track\-Container}!PCTrackContainer@{\-P\-C\-Track\-Container}}
+\subsubsection[{\-P\-C\-Track\-Container}]{\setlength{\rightskip}{0pt plus 5cm}{\bf \-P\-C\-Track\-Container\-::\-P\-C\-Track\-Container} (
+\begin{DoxyParamCaption}
+\item[{int}]{\-\_\-max\-Frame = {\ttfamily 1000}}
+\end{DoxyParamCaption}
+)}}\label{class_p_c_track_container_aa3f42b51f7c0148dd8cf2936194ab9dc}
+
+
+\subsection{\-Member \-Function \-Documentation}
+\hypertarget{class_p_c_track_container_a5d2ad9da112f92800e67d2da8f1ac531}{\index{\-P\-C\-Track\-Container@{\-P\-C\-Track\-Container}!eigen\-Ordering@{eigen\-Ordering}}
+\index{eigen\-Ordering@{eigen\-Ordering}!PCTrackContainer@{\-P\-C\-Track\-Container}}
+\subsubsection[{eigen\-Ordering}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf \-P\-C\-Track\-Container\-::eigen\-Ordering} (
+\begin{DoxyParamCaption}
+\item[{const \-Eigen\-::\-Vector3d \&}]{values, }
+\item[{const \-Eigen\-::\-Matrix3d \&}]{vectors, }
+\item[{\-Eigen\-::\-Vector3d \&}]{values\-\_\-ordered, }
+\item[{\-Eigen\-::\-Matrix3d \&}]{vectors\-\_\-ordered}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}\label{class_p_c_track_container_a5d2ad9da112f92800e67d2da8f1ac531}
+
+
+\-Here is the caller graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_p_c_track_container_a5d2ad9da112f92800e67d2da8f1ac531_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{class_p_c_track_container_a661c9e504ba3f4a2e9b4bf5d12d5a76c}{\index{\-P\-C\-Track\-Container@{\-P\-C\-Track\-Container}!evaluate@{evaluate}}
+\index{evaluate@{evaluate}!PCTrackContainer@{\-P\-C\-Track\-Container}}
+\subsubsection[{evaluate}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf \-P\-C\-Track\-Container\-::evaluate} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_p_c_track_container_a661c9e504ba3f4a2e9b4bf5d12d5a76c}
+
+
+\-Here is the call graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_p_c_track_container_a661c9e504ba3f4a2e9b4bf5d12d5a76c_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{class_p_c_track_container_a32a1137979b67b2bba51a768a6d2398b}{\index{\-P\-C\-Track\-Container@{\-P\-C\-Track\-Container}!iros2014@{iros2014}}
+\index{iros2014@{iros2014}!PCTrackContainer@{\-P\-C\-Track\-Container}}
+\subsubsection[{iros2014}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf \-P\-C\-Track\-Container\-::iros2014} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_p_c_track_container_a32a1137979b67b2bba51a768a6d2398b}
+
+
+\-Here is the call graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_p_c_track_container_a32a1137979b67b2bba51a768a6d2398b_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{class_p_c_track_container_ab722f94e8a660331d1c987a91af50179}{\index{\-P\-C\-Track\-Container@{\-P\-C\-Track\-Container}!\-N\-O\-R\-M@{\-N\-O\-R\-M}}
+\index{\-N\-O\-R\-M@{\-N\-O\-R\-M}!PCTrackContainer@{\-P\-C\-Track\-Container}}
+\subsubsection[{\-N\-O\-R\-M}]{\setlength{\rightskip}{0pt plus 5cm}float {\bf \-P\-C\-Track\-Container\-::\-N\-O\-R\-M} (
+\begin{DoxyParamCaption}
+\item[{float}]{a, }
+\item[{float}]{b, }
+\item[{float}]{c, }
+\item[{float}]{d}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}inline, private\mbox{]}}}}\label{class_p_c_track_container_ab722f94e8a660331d1c987a91af50179}
+\hypertarget{class_p_c_track_container_ab62240a09d2587f15cf0f346bdac9b14}{\index{\-P\-C\-Track\-Container@{\-P\-C\-Track\-Container}!old\-Gaussians@{old\-Gaussians}}
+\index{old\-Gaussians@{old\-Gaussians}!PCTrackContainer@{\-P\-C\-Track\-Container}}
+\subsubsection[{old\-Gaussians}]{\setlength{\rightskip}{0pt plus 5cm}visualization\-\_\-msgs\-::\-Marker\-Array {\bf \-P\-C\-Track\-Container\-::old\-Gaussians} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_p_c_track_container_ab62240a09d2587f15cf0f346bdac9b14}
+
+
+\-Here is the caller graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_p_c_track_container_ab62240a09d2587f15cf0f346bdac9b14_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{class_p_c_track_container_a584a5f8b8043959c78f415f7b98d70bf}{\index{\-P\-C\-Track\-Container@{\-P\-C\-Track\-Container}!old\-Marker\-I\-Ds@{old\-Marker\-I\-Ds}}
+\index{old\-Marker\-I\-Ds@{old\-Marker\-I\-Ds}!PCTrackContainer@{\-P\-C\-Track\-Container}}
+\subsubsection[{old\-Marker\-I\-Ds}]{\setlength{\rightskip}{0pt plus 5cm}visualization\-\_\-msgs\-::\-Marker\-Array {\bf \-P\-C\-Track\-Container\-::old\-Marker\-I\-Ds} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_p_c_track_container_a584a5f8b8043959c78f415f7b98d70bf}
+
+
+\-Here is the caller graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_p_c_track_container_a584a5f8b8043959c78f415f7b98d70bf_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{class_p_c_track_container_a048f09bbd1d6c1655e1d58a113e86b1d}{\index{\-P\-C\-Track\-Container@{\-P\-C\-Track\-Container}!\-S\-I\-G\-N@{\-S\-I\-G\-N}}
+\index{\-S\-I\-G\-N@{\-S\-I\-G\-N}!PCTrackContainer@{\-P\-C\-Track\-Container}}
+\subsubsection[{\-S\-I\-G\-N}]{\setlength{\rightskip}{0pt plus 5cm}float {\bf \-P\-C\-Track\-Container\-::\-S\-I\-G\-N} (
+\begin{DoxyParamCaption}
+\item[{float}]{x}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}inline, private\mbox{]}}}}\label{class_p_c_track_container_a048f09bbd1d6c1655e1d58a113e86b1d}
+\hypertarget{class_p_c_track_container_a4330fcbefe00381504c8493b0c8c4c4b}{\index{\-P\-C\-Track\-Container@{\-P\-C\-Track\-Container}!to\-Marker\-Edges@{to\-Marker\-Edges}}
+\index{to\-Marker\-Edges@{to\-Marker\-Edges}!PCTrackContainer@{\-P\-C\-Track\-Container}}
+\subsubsection[{to\-Marker\-Edges}]{\setlength{\rightskip}{0pt plus 5cm}visualization\-\_\-msgs\-::\-Marker {\bf \-P\-C\-Track\-Container\-::to\-Marker\-Edges} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_p_c_track_container_a4330fcbefe00381504c8493b0c8c4c4b}
+
+
+\-Here is the call graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_p_c_track_container_a4330fcbefe00381504c8493b0c8c4c4b_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{class_p_c_track_container_acda2db186798fe99100c11c622d93f27}{\index{\-P\-C\-Track\-Container@{\-P\-C\-Track\-Container}!to\-Marker\-Gaussians@{to\-Marker\-Gaussians}}
+\index{to\-Marker\-Gaussians@{to\-Marker\-Gaussians}!PCTrackContainer@{\-P\-C\-Track\-Container}}
+\subsubsection[{to\-Marker\-Gaussians}]{\setlength{\rightskip}{0pt plus 5cm}visualization\-\_\-msgs\-::\-Marker\-Array {\bf \-P\-C\-Track\-Container\-::to\-Marker\-Gaussians} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_p_c_track_container_acda2db186798fe99100c11c622d93f27}
+
+
+\-Here is the call graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_p_c_track_container_acda2db186798fe99100c11c622d93f27_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+\-Here is the caller graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_p_c_track_container_acda2db186798fe99100c11c622d93f27_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{class_p_c_track_container_a6b4e74ccf8ffbc81eef4843b5b300fa3}{\index{\-P\-C\-Track\-Container@{\-P\-C\-Track\-Container}!to\-Marker\-G\-M\-Ms@{to\-Marker\-G\-M\-Ms}}
+\index{to\-Marker\-G\-M\-Ms@{to\-Marker\-G\-M\-Ms}!PCTrackContainer@{\-P\-C\-Track\-Container}}
+\subsubsection[{to\-Marker\-G\-M\-Ms}]{\setlength{\rightskip}{0pt plus 5cm}visualization\-\_\-msgs\-::\-Marker\-Array {\bf \-P\-C\-Track\-Container\-::to\-Marker\-G\-M\-Ms} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_p_c_track_container_a6b4e74ccf8ffbc81eef4843b5b300fa3}
+
+
+\-Here is the call graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_p_c_track_container_a6b4e74ccf8ffbc81eef4843b5b300fa3_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{class_p_c_track_container_a5bd37d304d5fab465535c395d3c8a86f}{\index{\-P\-C\-Track\-Container@{\-P\-C\-Track\-Container}!to\-Marker\-I\-Ds@{to\-Marker\-I\-Ds}}
+\index{to\-Marker\-I\-Ds@{to\-Marker\-I\-Ds}!PCTrackContainer@{\-P\-C\-Track\-Container}}
+\subsubsection[{to\-Marker\-I\-Ds}]{\setlength{\rightskip}{0pt plus 5cm}visualization\-\_\-msgs\-::\-Marker\-Array {\bf \-P\-C\-Track\-Container\-::to\-Marker\-I\-Ds} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_p_c_track_container_a5bd37d304d5fab465535c395d3c8a86f}
+
+
+\-Here is the call graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_p_c_track_container_a5bd37d304d5fab465535c395d3c8a86f_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+\-Here is the caller graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_p_c_track_container_a5bd37d304d5fab465535c395d3c8a86f_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{class_p_c_track_container_a4881bd9b8b1692193f07e48c3389c5db}{\index{\-P\-C\-Track\-Container@{\-P\-C\-Track\-Container}!to\-Point\-Cloud\-X\-Y\-Z\-I@{to\-Point\-Cloud\-X\-Y\-Z\-I}}
+\index{to\-Point\-Cloud\-X\-Y\-Z\-I@{to\-Point\-Cloud\-X\-Y\-Z\-I}!PCTrackContainer@{\-P\-C\-Track\-Container}}
+\subsubsection[{to\-Point\-Cloud\-X\-Y\-Z\-I}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf \-P\-C\-Track\-Container\-::to\-Point\-Cloud\-X\-Y\-Z\-I} (
+\begin{DoxyParamCaption}
+\item[{{\bf \-Cloud} \&}]{cloud\-Out}
+\end{DoxyParamCaption}
+)}}\label{class_p_c_track_container_a4881bd9b8b1692193f07e48c3389c5db}
+
+
+\-Here is the call graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_p_c_track_container_a4881bd9b8b1692193f07e48c3389c5db_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+\-Here is the caller graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_p_c_track_container_a4881bd9b8b1692193f07e48c3389c5db_icgraph}
+\end{center}
+\end{figure}
+
+
+
+
+\subsection{\-Member \-Data \-Documentation}
+\hypertarget{class_p_c_track_container_a51514b479f4c23c13f412dc36766f73f}{\index{\-P\-C\-Track\-Container@{\-P\-C\-Track\-Container}!is\-Updated@{is\-Updated}}
+\index{is\-Updated@{is\-Updated}!PCTrackContainer@{\-P\-C\-Track\-Container}}
+\subsubsection[{is\-Updated}]{\setlength{\rightskip}{0pt plus 5cm}bool {\bf \-P\-C\-Track\-Container\-::is\-Updated}}}\label{class_p_c_track_container_a51514b479f4c23c13f412dc36766f73f}
+\hypertarget{class_p_c_track_container_afa0c55015d7b49548fa196d3091dacba}{\index{\-P\-C\-Track\-Container@{\-P\-C\-Track\-Container}!max\-Frame@{max\-Frame}}
+\index{max\-Frame@{max\-Frame}!PCTrackContainer@{\-P\-C\-Track\-Container}}
+\subsubsection[{max\-Frame}]{\setlength{\rightskip}{0pt plus 5cm}int {\bf \-P\-C\-Track\-Container\-::max\-Frame}\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}\label{class_p_c_track_container_afa0c55015d7b49548fa196d3091dacba}
+
+
+\-Reimplemented from \hyperlink{class_track_container_a095e227d79bf2b5c25412aa983db0f60}{\-Track\-Container$<$ P\-C\-Object $>$}.
+
+\hypertarget{class_p_c_track_container_a8e9b9d663f2227fad5f9a6743d8dd254}{\index{\-P\-C\-Track\-Container@{\-P\-C\-Track\-Container}!num\-False\-Points@{num\-False\-Points}}
+\index{num\-False\-Points@{num\-False\-Points}!PCTrackContainer@{\-P\-C\-Track\-Container}}
+\subsubsection[{num\-False\-Points}]{\setlength{\rightskip}{0pt plus 5cm}int {\bf \-P\-C\-Track\-Container\-::num\-False\-Points}}}\label{class_p_c_track_container_a8e9b9d663f2227fad5f9a6743d8dd254}
+\hypertarget{class_p_c_track_container_a8289947fa7796de78ec1d84e7768db83}{\index{\-P\-C\-Track\-Container@{\-P\-C\-Track\-Container}!num\-Total\-Points@{num\-Total\-Points}}
+\index{num\-Total\-Points@{num\-Total\-Points}!PCTrackContainer@{\-P\-C\-Track\-Container}}
+\subsubsection[{num\-Total\-Points}]{\setlength{\rightskip}{0pt plus 5cm}int {\bf \-P\-C\-Track\-Container\-::num\-Total\-Points}}}\label{class_p_c_track_container_a8289947fa7796de78ec1d84e7768db83}
+\hypertarget{class_p_c_track_container_a5ac828bfcaa2932955a67c3e478849c0}{\index{\-P\-C\-Track\-Container@{\-P\-C\-Track\-Container}!num\-True\-Points@{num\-True\-Points}}
+\index{num\-True\-Points@{num\-True\-Points}!PCTrackContainer@{\-P\-C\-Track\-Container}}
+\subsubsection[{num\-True\-Points}]{\setlength{\rightskip}{0pt plus 5cm}int {\bf \-P\-C\-Track\-Container\-::num\-True\-Points}}}\label{class_p_c_track_container_a5ac828bfcaa2932955a67c3e478849c0}
+\hypertarget{class_p_c_track_container_a3bc617cd354340024249e246b9843a67}{\index{\-P\-C\-Track\-Container@{\-P\-C\-Track\-Container}!old\-Gaussians\-Id@{old\-Gaussians\-Id}}
+\index{old\-Gaussians\-Id@{old\-Gaussians\-Id}!PCTrackContainer@{\-P\-C\-Track\-Container}}
+\subsubsection[{old\-Gaussians\-Id}]{\setlength{\rightskip}{0pt plus 5cm}vector$<$int$>$ {\bf \-P\-C\-Track\-Container\-::old\-Gaussians\-Id}\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}\label{class_p_c_track_container_a3bc617cd354340024249e246b9843a67}
+\hypertarget{class_p_c_track_container_ad2a1026f52411833d07d1fbf741e7cd5}{\index{\-P\-C\-Track\-Container@{\-P\-C\-Track\-Container}!old\-Track\-I\-Ds@{old\-Track\-I\-Ds}}
+\index{old\-Track\-I\-Ds@{old\-Track\-I\-Ds}!PCTrackContainer@{\-P\-C\-Track\-Container}}
+\subsubsection[{old\-Track\-I\-Ds}]{\setlength{\rightskip}{0pt plus 5cm}vector$<$int$>$ {\bf \-P\-C\-Track\-Container\-::old\-Track\-I\-Ds}\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}\label{class_p_c_track_container_ad2a1026f52411833d07d1fbf741e7cd5}
+
+
+\-The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+/home/koosy/koosywork/pmot\-\_\-realtime/pmot\-\_\-realtime/src/\hyperlink{pctrackcontainer_8h}{pctrackcontainer.\-h}\item 
+/home/koosy/koosywork/pmot\-\_\-realtime/pmot\-\_\-realtime/src/\hyperlink{pctrackcontainer_8cpp}{pctrackcontainer.\-cpp}\end{DoxyCompactItemize}

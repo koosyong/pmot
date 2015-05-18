@@ -1,0 +1,344 @@
+\hypertarget{class_particlepose}{\section{\-Particlepose \-Class \-Reference}
+\label{class_particlepose}\index{\-Particlepose@{\-Particlepose}}
+}
+
+
+{\ttfamily \#include $<$particlepose.\-h$>$}
+
+
+
+\-Collaboration diagram for \-Particlepose\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=274pt]{class_particlepose__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{\-Public \-Member \-Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_particlepose_ad0812c3c3ae574cd927f25980d63262c}{\-Particlepose} ()
+\item 
+\hyperlink{class_particlepose_a3a6c9be74fe45665ba536de53a91d268}{$\sim$\-Particlepose} ()
+\item 
+void \hyperlink{class_particlepose_ad32cef58fb6f06fc41332170241ad132}{setdata} (\hyperlink{common_8h_a36884aa4a3c181fa4c284d79329ad166}{\-Cloud\-Ptr} scene, \hyperlink{common_8h_a36884aa4a3c181fa4c284d79329ad166}{\-Cloud\-Ptr} model, int cnt)
+\item 
+\hyperlink{common_8h_a36884aa4a3c181fa4c284d79329ad166}{\-Cloud\-Ptr} \hyperlink{class_particlepose_ad3ff7daa451218d902b0bffcf5c4e5bc}{get\-Result} ()
+\item 
+void \hyperlink{class_particlepose_ab579314deee0989210524ac33a0507e5}{init\-Sample} ()
+\item 
+void \hyperlink{class_particlepose_af5322a5db6b412a5a057c687511424ef}{resample} (float var\-Dist, float var\-Ang)
+\item 
+void \hyperlink{class_particlepose_a5969de8804b86d863d03eaf2b2f24480}{weight} ()
+\item 
+\hyperlink{common_8h_a36884aa4a3c181fa4c284d79329ad166}{\-Cloud\-Ptr} \hyperlink{class_particlepose_a719e82e44ddb312a54f6728afa6300ec}{to\-Cloud} ()
+\item 
+void \hyperlink{class_particlepose_a58a07a0b87e10acbf73de973e8dd9618}{update\-Model} (\hyperlink{common_8h_a36884aa4a3c181fa4c284d79329ad166}{\-Cloud\-Ptr} cloud)
+\item 
+std\-::vector$<$ float $>$ \hyperlink{class_particlepose_a2dfff2c77bd7367a0413cbb463c2986a}{weight\-G\-P\-U} (float gridsize, int xnr, int ynr, int znr, \-Vector4f min, \-Vector4f max, std\-::vector$<$ float $>$ refhist)
+\item 
+float \hyperlink{class_particlepose_a37277d19b404d2dc338f56ff98049868}{distfeature} (\-V\-F\-H\-Signature308 f1, \-V\-F\-H\-Signature308 f2)
+\item 
+void \hyperlink{class_particlepose_af53e0c58df04f1cc6edaea13f6530d05}{weight\-By\-Dist} ()
+\item 
+std\-::vector$<$ float $>$ \hyperlink{class_particlepose_ad42796cd810c3d078604c8a286fe90bd}{get\-Patch\-Score} (\hyperlink{common_8h_a36884aa4a3c181fa4c284d79329ad166}{\-Cloud\-Ptr} cloud)
+\end{DoxyCompactItemize}
+\subsection*{\-Public \-Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_cs_feature}{\-Cs\-Feature} \hyperlink{class_particlepose_a4d0304244af04da649472549e3a57f05}{m\-\_\-model\-F}
+\item 
+\hyperlink{class_cs_feature_estimation}{\-Cs\-Feature\-Estimation} \hyperlink{class_particlepose_af41bfccd67a035c391b1e4655d66f631}{csest}
+\end{DoxyCompactItemize}
+\subsection*{\-Private \-Member \-Functions}
+\begin{DoxyCompactItemize}
+\item 
+tracking\-::\-Particle\-X\-Y\-Z\-R\-P\-Y \hyperlink{class_particlepose_a248a7f70bff04020c78dca31c3d35053}{sample\-With\-Var} (tracking\-::\-Particle\-X\-Y\-Z\-R\-P\-Y part, float var\-Dist, float var\-Ang)
+\end{DoxyCompactItemize}
+\subsection*{\-Private \-Attributes}
+\begin{DoxyCompactItemize}
+\item 
+boost\-::mt19937 \hyperlink{class_particlepose_a0449123f3b8952410023d15b202be7a5}{m\-\_\-gen}
+\item 
+tracking\-::\-Particle\-X\-Y\-Z\-R\-P\-Y \hyperlink{class_particlepose_ac013ac13e2a6c5a676714a4a9bccd8c1}{m\-\_\-final\-Particle}
+\item 
+tracking\-::\-Particle\-X\-Y\-Z\-R\-P\-Y \hyperlink{class_particlepose_a1b1424c075e6c1010d02cb558b26a1e3}{m\-\_\-last\-Final\-Particle}
+\item 
+tracking\-::\-Particle\-X\-Y\-Z\-R\-P\-Y \hyperlink{class_particlepose_acbd0492a1807c3e7c8be11b89549084d}{m\-\_\-lastlast\-Final\-Particle}
+\item 
+tracking\-::\-Particle\-X\-Y\-Z\-R\-P\-Y \hyperlink{class_particlepose_a6397839aacb6f69e3230596cfa6f79c7}{m\-\_\-lastlastlast\-Final\-Particle}
+\item 
+tracking\-::\-Particle\-X\-Y\-Z\-R\-P\-Y \hyperlink{class_particlepose_a524fa648db6f575f6c8891d11863d3f0}{m\-\_\-vel}
+\item 
+tracking\-::\-Particle\-X\-Y\-Z\-R\-P\-Y \hyperlink{class_particlepose_af03fc2a655e8d55116285f7c6b84b008}{m\-\_\-acc}
+\item 
+\-Eigen\-::\-Vector4f \hyperlink{class_particlepose_a15f08163cf8864a6536cb3eee81aaacd}{m\-\_\-scene\-Centroid}
+\item 
+\-Eigen\-::\-Vector4f \hyperlink{class_particlepose_aa5617380ebdece16240b76b515fb4fee}{m\-\_\-model\-Centroid}
+\item 
+pcl\-::gpu\-::\-Octree \hyperlink{class_particlepose_ab0559e3d6171dd3cec9eddb9b5992c62}{m\-\_\-octreegpu}
+\item 
+\hyperlink{common_8h_a36884aa4a3c181fa4c284d79329ad166}{\-Cloud\-Ptr} \hyperlink{class_particlepose_a8b8ba753e0f7624ad67097faf454d9ba}{m\-\_\-scene}
+\item 
+\hyperlink{common_8h_a36884aa4a3c181fa4c284d79329ad166}{\-Cloud\-Ptr} \hyperlink{class_particlepose_a392f6b998bbda4e33561669cb9a8bac0}{m\-\_\-model}
+\item 
+\hyperlink{common_8h_a36884aa4a3c181fa4c284d79329ad166}{\-Cloud\-Ptr} \hyperlink{class_particlepose_a2911816a0cc8e02c4190d028f32a0b9d}{m\-\_\-model\-Orig}
+\item 
+\hyperlink{common_8h_ac29cd61ffd2436715a9b935fe2122703}{\-Cloud\-N\-Ptr} \hyperlink{class_particlepose_a29c9f00444dd5ed1e42cdd8536873e90}{m\-\_\-scene\-N}
+\item 
+\hyperlink{common_8h_ac29cd61ffd2436715a9b935fe2122703}{\-Cloud\-N\-Ptr} \hyperlink{class_particlepose_a6fcd5ba77748ec02218592201874bb75}{m\-\_\-model\-N}
+\item 
+int \hyperlink{class_particlepose_afbda237928cf27273f3c8e0ac8cb0d2f}{m\-\_\-particlenum}
+\item 
+std\-::vector\*
+$<$ tracking\-::\-Particle\-X\-Y\-Z\-R\-P\-Y $>$ \hyperlink{class_particlepose_a6e0d2bdcd0131039227ccf35ef42d65e}{m\-\_\-particles}
+\item 
+std\-::vector\*
+$<$ tracking\-::\-Particle\-X\-Y\-Z\-R\-P\-Y $>$ \hyperlink{class_particlepose_a0c1673111cdab70b548a9ce5a5cbf8bf}{m\-\_\-lastspeed}
+\item 
+std\-::vector\*
+$<$ tracking\-::\-Particle\-X\-Y\-Z\-R\-P\-Y $>$ \hyperlink{class_particlepose_a555761b64f69c60d7633a30013e0e422}{m\-\_\-bestspeed}
+\item 
+pcl\-::\-Kd\-Tree\-F\-L\-A\-N\-N$<$ \hyperlink{common_8h_a4201c2c72d96e356cbee6fefdaf8da6a}{\-Point\-N\-T} $>$\-::\-Ptr \hyperlink{class_particlepose_ad68d6c6cb6c98cd908a3e9e903fdbac5}{m\-\_\-kdtree\-Scene\-N}
+\item 
+int \hyperlink{class_particlepose_aab1bfddc21050cc4e1ffedd146b4bbaa}{m\-\_\-cnt}
+\item 
+int \hyperlink{class_particlepose_aa4b1d0fe4fc48e68039ee1e9b2cb93dd}{m\-\_\-internal\-Counter}
+\item 
+float \hyperlink{class_particlepose_a827812bbc2da3926fd03c1a7e8e4e287}{min\-Dist}
+\item 
+float \hyperlink{class_particlepose_a5cbcf40f5baa980ff3d948e8f644fda1}{max\-Dist}
+\item 
+bool \hyperlink{class_particlepose_ac70adde4c1af0773ec887721283b98db}{usegpu}
+\end{DoxyCompactItemize}
+
+
+\subsection{\-Constructor \& \-Destructor \-Documentation}
+\hypertarget{class_particlepose_ad0812c3c3ae574cd927f25980d63262c}{\index{\-Particlepose@{\-Particlepose}!\-Particlepose@{\-Particlepose}}
+\index{\-Particlepose@{\-Particlepose}!Particlepose@{\-Particlepose}}
+\subsubsection[{\-Particlepose}]{\setlength{\rightskip}{0pt plus 5cm}{\bf \-Particlepose\-::\-Particlepose} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_particlepose_ad0812c3c3ae574cd927f25980d63262c}
+\hypertarget{class_particlepose_a3a6c9be74fe45665ba536de53a91d268}{\index{\-Particlepose@{\-Particlepose}!$\sim$\-Particlepose@{$\sim$\-Particlepose}}
+\index{$\sim$\-Particlepose@{$\sim$\-Particlepose}!Particlepose@{\-Particlepose}}
+\subsubsection[{$\sim$\-Particlepose}]{\setlength{\rightskip}{0pt plus 5cm}{\bf \-Particlepose\-::$\sim$\-Particlepose} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_particlepose_a3a6c9be74fe45665ba536de53a91d268}
+
+
+\subsection{\-Member \-Function \-Documentation}
+\hypertarget{class_particlepose_a37277d19b404d2dc338f56ff98049868}{\index{\-Particlepose@{\-Particlepose}!distfeature@{distfeature}}
+\index{distfeature@{distfeature}!Particlepose@{\-Particlepose}}
+\subsubsection[{distfeature}]{\setlength{\rightskip}{0pt plus 5cm}float {\bf \-Particlepose\-::distfeature} (
+\begin{DoxyParamCaption}
+\item[{\-V\-F\-H\-Signature308}]{f1, }
+\item[{\-V\-F\-H\-Signature308}]{f2}
+\end{DoxyParamCaption}
+)}}\label{class_particlepose_a37277d19b404d2dc338f56ff98049868}
+\hypertarget{class_particlepose_ad42796cd810c3d078604c8a286fe90bd}{\index{\-Particlepose@{\-Particlepose}!get\-Patch\-Score@{get\-Patch\-Score}}
+\index{get\-Patch\-Score@{get\-Patch\-Score}!Particlepose@{\-Particlepose}}
+\subsubsection[{get\-Patch\-Score}]{\setlength{\rightskip}{0pt plus 5cm}std\-::vector$<$ float $>$ {\bf \-Particlepose\-::get\-Patch\-Score} (
+\begin{DoxyParamCaption}
+\item[{{\bf \-Cloud\-Ptr}}]{cloud}
+\end{DoxyParamCaption}
+)}}\label{class_particlepose_ad42796cd810c3d078604c8a286fe90bd}
+\hypertarget{class_particlepose_ad3ff7daa451218d902b0bffcf5c4e5bc}{\index{\-Particlepose@{\-Particlepose}!get\-Result@{get\-Result}}
+\index{get\-Result@{get\-Result}!Particlepose@{\-Particlepose}}
+\subsubsection[{get\-Result}]{\setlength{\rightskip}{0pt plus 5cm}{\bf \-Cloud\-Ptr} {\bf \-Particlepose\-::get\-Result} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_particlepose_ad3ff7daa451218d902b0bffcf5c4e5bc}
+\hypertarget{class_particlepose_ab579314deee0989210524ac33a0507e5}{\index{\-Particlepose@{\-Particlepose}!init\-Sample@{init\-Sample}}
+\index{init\-Sample@{init\-Sample}!Particlepose@{\-Particlepose}}
+\subsubsection[{init\-Sample}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf \-Particlepose\-::init\-Sample} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_particlepose_ab579314deee0989210524ac33a0507e5}
+\hypertarget{class_particlepose_af5322a5db6b412a5a057c687511424ef}{\index{\-Particlepose@{\-Particlepose}!resample@{resample}}
+\index{resample@{resample}!Particlepose@{\-Particlepose}}
+\subsubsection[{resample}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf \-Particlepose\-::resample} (
+\begin{DoxyParamCaption}
+\item[{float}]{var\-Dist, }
+\item[{float}]{var\-Ang}
+\end{DoxyParamCaption}
+)}}\label{class_particlepose_af5322a5db6b412a5a057c687511424ef}
+\hypertarget{class_particlepose_a248a7f70bff04020c78dca31c3d35053}{\index{\-Particlepose@{\-Particlepose}!sample\-With\-Var@{sample\-With\-Var}}
+\index{sample\-With\-Var@{sample\-With\-Var}!Particlepose@{\-Particlepose}}
+\subsubsection[{sample\-With\-Var}]{\setlength{\rightskip}{0pt plus 5cm}tracking\-::\-Particle\-X\-Y\-Z\-R\-P\-Y {\bf \-Particlepose\-::sample\-With\-Var} (
+\begin{DoxyParamCaption}
+\item[{tracking\-::\-Particle\-X\-Y\-Z\-R\-P\-Y}]{part, }
+\item[{float}]{var\-Dist, }
+\item[{float}]{var\-Ang}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}\label{class_particlepose_a248a7f70bff04020c78dca31c3d35053}
+\hypertarget{class_particlepose_ad32cef58fb6f06fc41332170241ad132}{\index{\-Particlepose@{\-Particlepose}!setdata@{setdata}}
+\index{setdata@{setdata}!Particlepose@{\-Particlepose}}
+\subsubsection[{setdata}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf \-Particlepose\-::setdata} (
+\begin{DoxyParamCaption}
+\item[{{\bf \-Cloud\-Ptr}}]{scene, }
+\item[{{\bf \-Cloud\-Ptr}}]{model, }
+\item[{int}]{cnt}
+\end{DoxyParamCaption}
+)}}\label{class_particlepose_ad32cef58fb6f06fc41332170241ad132}
+\hypertarget{class_particlepose_a719e82e44ddb312a54f6728afa6300ec}{\index{\-Particlepose@{\-Particlepose}!to\-Cloud@{to\-Cloud}}
+\index{to\-Cloud@{to\-Cloud}!Particlepose@{\-Particlepose}}
+\subsubsection[{to\-Cloud}]{\setlength{\rightskip}{0pt plus 5cm}{\bf \-Cloud\-Ptr} {\bf \-Particlepose\-::to\-Cloud} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_particlepose_a719e82e44ddb312a54f6728afa6300ec}
+\hypertarget{class_particlepose_a58a07a0b87e10acbf73de973e8dd9618}{\index{\-Particlepose@{\-Particlepose}!update\-Model@{update\-Model}}
+\index{update\-Model@{update\-Model}!Particlepose@{\-Particlepose}}
+\subsubsection[{update\-Model}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf \-Particlepose\-::update\-Model} (
+\begin{DoxyParamCaption}
+\item[{{\bf \-Cloud\-Ptr}}]{cloud}
+\end{DoxyParamCaption}
+)}}\label{class_particlepose_a58a07a0b87e10acbf73de973e8dd9618}
+\hypertarget{class_particlepose_a5969de8804b86d863d03eaf2b2f24480}{\index{\-Particlepose@{\-Particlepose}!weight@{weight}}
+\index{weight@{weight}!Particlepose@{\-Particlepose}}
+\subsubsection[{weight}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf \-Particlepose\-::weight} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_particlepose_a5969de8804b86d863d03eaf2b2f24480}
+
+
+\-Here is the call graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_particlepose_a5969de8804b86d863d03eaf2b2f24480_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{class_particlepose_af53e0c58df04f1cc6edaea13f6530d05}{\index{\-Particlepose@{\-Particlepose}!weight\-By\-Dist@{weight\-By\-Dist}}
+\index{weight\-By\-Dist@{weight\-By\-Dist}!Particlepose@{\-Particlepose}}
+\subsubsection[{weight\-By\-Dist}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf \-Particlepose\-::weight\-By\-Dist} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}\label{class_particlepose_af53e0c58df04f1cc6edaea13f6530d05}
+\hypertarget{class_particlepose_a2dfff2c77bd7367a0413cbb463c2986a}{\index{\-Particlepose@{\-Particlepose}!weight\-G\-P\-U@{weight\-G\-P\-U}}
+\index{weight\-G\-P\-U@{weight\-G\-P\-U}!Particlepose@{\-Particlepose}}
+\subsubsection[{weight\-G\-P\-U}]{\setlength{\rightskip}{0pt plus 5cm}std\-::vector$<$ float $>$ {\bf \-Particlepose\-::weight\-G\-P\-U} (
+\begin{DoxyParamCaption}
+\item[{float}]{gridsize, }
+\item[{int}]{xnr, }
+\item[{int}]{ynr, }
+\item[{int}]{znr, }
+\item[{\-Vector4f}]{min, }
+\item[{\-Vector4f}]{max, }
+\item[{std\-::vector$<$ float $>$}]{refhist}
+\end{DoxyParamCaption}
+)}}\label{class_particlepose_a2dfff2c77bd7367a0413cbb463c2986a}
+
+
+\-Here is the call graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=302pt]{class_particlepose_a2dfff2c77bd7367a0413cbb463c2986a_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+\subsection{\-Member \-Data \-Documentation}
+\hypertarget{class_particlepose_af41bfccd67a035c391b1e4655d66f631}{\index{\-Particlepose@{\-Particlepose}!csest@{csest}}
+\index{csest@{csest}!Particlepose@{\-Particlepose}}
+\subsubsection[{csest}]{\setlength{\rightskip}{0pt plus 5cm}{\bf \-Cs\-Feature\-Estimation} {\bf \-Particlepose\-::csest}}}\label{class_particlepose_af41bfccd67a035c391b1e4655d66f631}
+\hypertarget{class_particlepose_af03fc2a655e8d55116285f7c6b84b008}{\index{\-Particlepose@{\-Particlepose}!m\-\_\-acc@{m\-\_\-acc}}
+\index{m\-\_\-acc@{m\-\_\-acc}!Particlepose@{\-Particlepose}}
+\subsubsection[{m\-\_\-acc}]{\setlength{\rightskip}{0pt plus 5cm}tracking\-::\-Particle\-X\-Y\-Z\-R\-P\-Y {\bf \-Particlepose\-::m\-\_\-acc}\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}\label{class_particlepose_af03fc2a655e8d55116285f7c6b84b008}
+\hypertarget{class_particlepose_a555761b64f69c60d7633a30013e0e422}{\index{\-Particlepose@{\-Particlepose}!m\-\_\-bestspeed@{m\-\_\-bestspeed}}
+\index{m\-\_\-bestspeed@{m\-\_\-bestspeed}!Particlepose@{\-Particlepose}}
+\subsubsection[{m\-\_\-bestspeed}]{\setlength{\rightskip}{0pt plus 5cm}std\-::vector$<$tracking\-::\-Particle\-X\-Y\-Z\-R\-P\-Y$>$ {\bf \-Particlepose\-::m\-\_\-bestspeed}\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}\label{class_particlepose_a555761b64f69c60d7633a30013e0e422}
+\hypertarget{class_particlepose_aab1bfddc21050cc4e1ffedd146b4bbaa}{\index{\-Particlepose@{\-Particlepose}!m\-\_\-cnt@{m\-\_\-cnt}}
+\index{m\-\_\-cnt@{m\-\_\-cnt}!Particlepose@{\-Particlepose}}
+\subsubsection[{m\-\_\-cnt}]{\setlength{\rightskip}{0pt plus 5cm}int {\bf \-Particlepose\-::m\-\_\-cnt}\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}\label{class_particlepose_aab1bfddc21050cc4e1ffedd146b4bbaa}
+\hypertarget{class_particlepose_ac013ac13e2a6c5a676714a4a9bccd8c1}{\index{\-Particlepose@{\-Particlepose}!m\-\_\-final\-Particle@{m\-\_\-final\-Particle}}
+\index{m\-\_\-final\-Particle@{m\-\_\-final\-Particle}!Particlepose@{\-Particlepose}}
+\subsubsection[{m\-\_\-final\-Particle}]{\setlength{\rightskip}{0pt plus 5cm}tracking\-::\-Particle\-X\-Y\-Z\-R\-P\-Y {\bf \-Particlepose\-::m\-\_\-final\-Particle}\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}\label{class_particlepose_ac013ac13e2a6c5a676714a4a9bccd8c1}
+\hypertarget{class_particlepose_a0449123f3b8952410023d15b202be7a5}{\index{\-Particlepose@{\-Particlepose}!m\-\_\-gen@{m\-\_\-gen}}
+\index{m\-\_\-gen@{m\-\_\-gen}!Particlepose@{\-Particlepose}}
+\subsubsection[{m\-\_\-gen}]{\setlength{\rightskip}{0pt plus 5cm}boost\-::mt19937 {\bf \-Particlepose\-::m\-\_\-gen}\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}\label{class_particlepose_a0449123f3b8952410023d15b202be7a5}
+\hypertarget{class_particlepose_aa4b1d0fe4fc48e68039ee1e9b2cb93dd}{\index{\-Particlepose@{\-Particlepose}!m\-\_\-internal\-Counter@{m\-\_\-internal\-Counter}}
+\index{m\-\_\-internal\-Counter@{m\-\_\-internal\-Counter}!Particlepose@{\-Particlepose}}
+\subsubsection[{m\-\_\-internal\-Counter}]{\setlength{\rightskip}{0pt plus 5cm}int {\bf \-Particlepose\-::m\-\_\-internal\-Counter}\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}\label{class_particlepose_aa4b1d0fe4fc48e68039ee1e9b2cb93dd}
+\hypertarget{class_particlepose_ad68d6c6cb6c98cd908a3e9e903fdbac5}{\index{\-Particlepose@{\-Particlepose}!m\-\_\-kdtree\-Scene\-N@{m\-\_\-kdtree\-Scene\-N}}
+\index{m\-\_\-kdtree\-Scene\-N@{m\-\_\-kdtree\-Scene\-N}!Particlepose@{\-Particlepose}}
+\subsubsection[{m\-\_\-kdtree\-Scene\-N}]{\setlength{\rightskip}{0pt plus 5cm}pcl\-::\-Kd\-Tree\-F\-L\-A\-N\-N$<${\bf \-Point\-N\-T}$>$\-::\-Ptr {\bf \-Particlepose\-::m\-\_\-kdtree\-Scene\-N}\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}\label{class_particlepose_ad68d6c6cb6c98cd908a3e9e903fdbac5}
+\hypertarget{class_particlepose_a1b1424c075e6c1010d02cb558b26a1e3}{\index{\-Particlepose@{\-Particlepose}!m\-\_\-last\-Final\-Particle@{m\-\_\-last\-Final\-Particle}}
+\index{m\-\_\-last\-Final\-Particle@{m\-\_\-last\-Final\-Particle}!Particlepose@{\-Particlepose}}
+\subsubsection[{m\-\_\-last\-Final\-Particle}]{\setlength{\rightskip}{0pt plus 5cm}tracking\-::\-Particle\-X\-Y\-Z\-R\-P\-Y {\bf \-Particlepose\-::m\-\_\-last\-Final\-Particle}\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}\label{class_particlepose_a1b1424c075e6c1010d02cb558b26a1e3}
+\hypertarget{class_particlepose_acbd0492a1807c3e7c8be11b89549084d}{\index{\-Particlepose@{\-Particlepose}!m\-\_\-lastlast\-Final\-Particle@{m\-\_\-lastlast\-Final\-Particle}}
+\index{m\-\_\-lastlast\-Final\-Particle@{m\-\_\-lastlast\-Final\-Particle}!Particlepose@{\-Particlepose}}
+\subsubsection[{m\-\_\-lastlast\-Final\-Particle}]{\setlength{\rightskip}{0pt plus 5cm}tracking\-::\-Particle\-X\-Y\-Z\-R\-P\-Y {\bf \-Particlepose\-::m\-\_\-lastlast\-Final\-Particle}\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}\label{class_particlepose_acbd0492a1807c3e7c8be11b89549084d}
+\hypertarget{class_particlepose_a6397839aacb6f69e3230596cfa6f79c7}{\index{\-Particlepose@{\-Particlepose}!m\-\_\-lastlastlast\-Final\-Particle@{m\-\_\-lastlastlast\-Final\-Particle}}
+\index{m\-\_\-lastlastlast\-Final\-Particle@{m\-\_\-lastlastlast\-Final\-Particle}!Particlepose@{\-Particlepose}}
+\subsubsection[{m\-\_\-lastlastlast\-Final\-Particle}]{\setlength{\rightskip}{0pt plus 5cm}tracking\-::\-Particle\-X\-Y\-Z\-R\-P\-Y {\bf \-Particlepose\-::m\-\_\-lastlastlast\-Final\-Particle}\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}\label{class_particlepose_a6397839aacb6f69e3230596cfa6f79c7}
+\hypertarget{class_particlepose_a0c1673111cdab70b548a9ce5a5cbf8bf}{\index{\-Particlepose@{\-Particlepose}!m\-\_\-lastspeed@{m\-\_\-lastspeed}}
+\index{m\-\_\-lastspeed@{m\-\_\-lastspeed}!Particlepose@{\-Particlepose}}
+\subsubsection[{m\-\_\-lastspeed}]{\setlength{\rightskip}{0pt plus 5cm}std\-::vector$<$tracking\-::\-Particle\-X\-Y\-Z\-R\-P\-Y$>$ {\bf \-Particlepose\-::m\-\_\-lastspeed}\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}\label{class_particlepose_a0c1673111cdab70b548a9ce5a5cbf8bf}
+\hypertarget{class_particlepose_a392f6b998bbda4e33561669cb9a8bac0}{\index{\-Particlepose@{\-Particlepose}!m\-\_\-model@{m\-\_\-model}}
+\index{m\-\_\-model@{m\-\_\-model}!Particlepose@{\-Particlepose}}
+\subsubsection[{m\-\_\-model}]{\setlength{\rightskip}{0pt plus 5cm}{\bf \-Cloud\-Ptr} {\bf \-Particlepose\-::m\-\_\-model}\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}\label{class_particlepose_a392f6b998bbda4e33561669cb9a8bac0}
+\hypertarget{class_particlepose_aa5617380ebdece16240b76b515fb4fee}{\index{\-Particlepose@{\-Particlepose}!m\-\_\-model\-Centroid@{m\-\_\-model\-Centroid}}
+\index{m\-\_\-model\-Centroid@{m\-\_\-model\-Centroid}!Particlepose@{\-Particlepose}}
+\subsubsection[{m\-\_\-model\-Centroid}]{\setlength{\rightskip}{0pt plus 5cm}\-Eigen\-::\-Vector4f {\bf \-Particlepose\-::m\-\_\-model\-Centroid}\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}\label{class_particlepose_aa5617380ebdece16240b76b515fb4fee}
+\hypertarget{class_particlepose_a4d0304244af04da649472549e3a57f05}{\index{\-Particlepose@{\-Particlepose}!m\-\_\-model\-F@{m\-\_\-model\-F}}
+\index{m\-\_\-model\-F@{m\-\_\-model\-F}!Particlepose@{\-Particlepose}}
+\subsubsection[{m\-\_\-model\-F}]{\setlength{\rightskip}{0pt plus 5cm}{\bf \-Cs\-Feature} {\bf \-Particlepose\-::m\-\_\-model\-F}}}\label{class_particlepose_a4d0304244af04da649472549e3a57f05}
+\hypertarget{class_particlepose_a6fcd5ba77748ec02218592201874bb75}{\index{\-Particlepose@{\-Particlepose}!m\-\_\-model\-N@{m\-\_\-model\-N}}
+\index{m\-\_\-model\-N@{m\-\_\-model\-N}!Particlepose@{\-Particlepose}}
+\subsubsection[{m\-\_\-model\-N}]{\setlength{\rightskip}{0pt plus 5cm}{\bf \-Cloud\-N\-Ptr} {\bf \-Particlepose\-::m\-\_\-model\-N}\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}\label{class_particlepose_a6fcd5ba77748ec02218592201874bb75}
+\hypertarget{class_particlepose_a2911816a0cc8e02c4190d028f32a0b9d}{\index{\-Particlepose@{\-Particlepose}!m\-\_\-model\-Orig@{m\-\_\-model\-Orig}}
+\index{m\-\_\-model\-Orig@{m\-\_\-model\-Orig}!Particlepose@{\-Particlepose}}
+\subsubsection[{m\-\_\-model\-Orig}]{\setlength{\rightskip}{0pt plus 5cm}{\bf \-Cloud\-Ptr} {\bf \-Particlepose\-::m\-\_\-model\-Orig}\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}\label{class_particlepose_a2911816a0cc8e02c4190d028f32a0b9d}
+\hypertarget{class_particlepose_ab0559e3d6171dd3cec9eddb9b5992c62}{\index{\-Particlepose@{\-Particlepose}!m\-\_\-octreegpu@{m\-\_\-octreegpu}}
+\index{m\-\_\-octreegpu@{m\-\_\-octreegpu}!Particlepose@{\-Particlepose}}
+\subsubsection[{m\-\_\-octreegpu}]{\setlength{\rightskip}{0pt plus 5cm}pcl\-::gpu\-::\-Octree {\bf \-Particlepose\-::m\-\_\-octreegpu}\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}\label{class_particlepose_ab0559e3d6171dd3cec9eddb9b5992c62}
+\hypertarget{class_particlepose_afbda237928cf27273f3c8e0ac8cb0d2f}{\index{\-Particlepose@{\-Particlepose}!m\-\_\-particlenum@{m\-\_\-particlenum}}
+\index{m\-\_\-particlenum@{m\-\_\-particlenum}!Particlepose@{\-Particlepose}}
+\subsubsection[{m\-\_\-particlenum}]{\setlength{\rightskip}{0pt plus 5cm}int {\bf \-Particlepose\-::m\-\_\-particlenum}\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}\label{class_particlepose_afbda237928cf27273f3c8e0ac8cb0d2f}
+\hypertarget{class_particlepose_a6e0d2bdcd0131039227ccf35ef42d65e}{\index{\-Particlepose@{\-Particlepose}!m\-\_\-particles@{m\-\_\-particles}}
+\index{m\-\_\-particles@{m\-\_\-particles}!Particlepose@{\-Particlepose}}
+\subsubsection[{m\-\_\-particles}]{\setlength{\rightskip}{0pt plus 5cm}std\-::vector$<$tracking\-::\-Particle\-X\-Y\-Z\-R\-P\-Y$>$ {\bf \-Particlepose\-::m\-\_\-particles}\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}\label{class_particlepose_a6e0d2bdcd0131039227ccf35ef42d65e}
+\hypertarget{class_particlepose_a8b8ba753e0f7624ad67097faf454d9ba}{\index{\-Particlepose@{\-Particlepose}!m\-\_\-scene@{m\-\_\-scene}}
+\index{m\-\_\-scene@{m\-\_\-scene}!Particlepose@{\-Particlepose}}
+\subsubsection[{m\-\_\-scene}]{\setlength{\rightskip}{0pt plus 5cm}{\bf \-Cloud\-Ptr} {\bf \-Particlepose\-::m\-\_\-scene}\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}\label{class_particlepose_a8b8ba753e0f7624ad67097faf454d9ba}
+\hypertarget{class_particlepose_a15f08163cf8864a6536cb3eee81aaacd}{\index{\-Particlepose@{\-Particlepose}!m\-\_\-scene\-Centroid@{m\-\_\-scene\-Centroid}}
+\index{m\-\_\-scene\-Centroid@{m\-\_\-scene\-Centroid}!Particlepose@{\-Particlepose}}
+\subsubsection[{m\-\_\-scene\-Centroid}]{\setlength{\rightskip}{0pt plus 5cm}\-Eigen\-::\-Vector4f {\bf \-Particlepose\-::m\-\_\-scene\-Centroid}\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}\label{class_particlepose_a15f08163cf8864a6536cb3eee81aaacd}
+\hypertarget{class_particlepose_a29c9f00444dd5ed1e42cdd8536873e90}{\index{\-Particlepose@{\-Particlepose}!m\-\_\-scene\-N@{m\-\_\-scene\-N}}
+\index{m\-\_\-scene\-N@{m\-\_\-scene\-N}!Particlepose@{\-Particlepose}}
+\subsubsection[{m\-\_\-scene\-N}]{\setlength{\rightskip}{0pt plus 5cm}{\bf \-Cloud\-N\-Ptr} {\bf \-Particlepose\-::m\-\_\-scene\-N}\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}\label{class_particlepose_a29c9f00444dd5ed1e42cdd8536873e90}
+\hypertarget{class_particlepose_a524fa648db6f575f6c8891d11863d3f0}{\index{\-Particlepose@{\-Particlepose}!m\-\_\-vel@{m\-\_\-vel}}
+\index{m\-\_\-vel@{m\-\_\-vel}!Particlepose@{\-Particlepose}}
+\subsubsection[{m\-\_\-vel}]{\setlength{\rightskip}{0pt plus 5cm}tracking\-::\-Particle\-X\-Y\-Z\-R\-P\-Y {\bf \-Particlepose\-::m\-\_\-vel}\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}\label{class_particlepose_a524fa648db6f575f6c8891d11863d3f0}
+\hypertarget{class_particlepose_a5cbcf40f5baa980ff3d948e8f644fda1}{\index{\-Particlepose@{\-Particlepose}!max\-Dist@{max\-Dist}}
+\index{max\-Dist@{max\-Dist}!Particlepose@{\-Particlepose}}
+\subsubsection[{max\-Dist}]{\setlength{\rightskip}{0pt plus 5cm}float {\bf \-Particlepose\-::max\-Dist}\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}\label{class_particlepose_a5cbcf40f5baa980ff3d948e8f644fda1}
+\hypertarget{class_particlepose_a827812bbc2da3926fd03c1a7e8e4e287}{\index{\-Particlepose@{\-Particlepose}!min\-Dist@{min\-Dist}}
+\index{min\-Dist@{min\-Dist}!Particlepose@{\-Particlepose}}
+\subsubsection[{min\-Dist}]{\setlength{\rightskip}{0pt plus 5cm}float {\bf \-Particlepose\-::min\-Dist}\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}\label{class_particlepose_a827812bbc2da3926fd03c1a7e8e4e287}
+\hypertarget{class_particlepose_ac70adde4c1af0773ec887721283b98db}{\index{\-Particlepose@{\-Particlepose}!usegpu@{usegpu}}
+\index{usegpu@{usegpu}!Particlepose@{\-Particlepose}}
+\subsubsection[{usegpu}]{\setlength{\rightskip}{0pt plus 5cm}bool {\bf \-Particlepose\-::usegpu}\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}\label{class_particlepose_ac70adde4c1af0773ec887721283b98db}
+
+
+\-The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+/home/koosy/koosywork/pmot\-\_\-realtime/pmot\-\_\-realtime/src/\hyperlink{particlepose_8h}{particlepose.\-h}\item 
+/home/koosy/koosywork/pmot\-\_\-realtime/pmot\-\_\-realtime/src/\hyperlink{particlepose_8cpp}{particlepose.\-cpp}\end{DoxyCompactItemize}

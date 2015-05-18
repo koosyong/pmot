@@ -1,0 +1,96 @@
+\hypertarget{pcobject_8h}{\section{/home/koosy/koosywork/pmot\-\_\-realtime/pmot\-\_\-realtime/src/pcobject.h \-File \-Reference}
+\label{pcobject_8h}\index{/home/koosy/koosywork/pmot\-\_\-realtime/pmot\-\_\-realtime/src/pcobject.\-h@{/home/koosy/koosywork/pmot\-\_\-realtime/pmot\-\_\-realtime/src/pcobject.\-h}}
+}
+{\ttfamily \#include \char`\"{}vector\char`\"{}}\*
+{\ttfamily \#include \char`\"{}opencv2/highgui/highgui.\-hpp\char`\"{}}\*
+{\ttfamily \#include \char`\"{}opencv2/core/core.\-hpp\char`\"{}}\*
+{\ttfamily \#include \char`\"{}opencv2/flann/flann.\-hpp\char`\"{}}\*
+{\ttfamily \#include $<$vnl/vnl\-\_\-vector.\-h$>$}\*
+{\ttfamily \#include $<$vnl/vnl\-\_\-matrix.\-h$>$}\*
+{\ttfamily \#include $<$iostream$>$}\*
+{\ttfamily \#include $<$lemon/connectivity.\-h$>$}\*
+{\ttfamily \#include \char`\"{}gaussian.\-h\char`\"{}}\*
+{\ttfamily \#include \char`\"{}imft.\-h\char`\"{}}\*
+{\ttfamily \#include \char`\"{}gaussiantrackcontainer.\-h\char`\"{}}\*
+\-Include dependency graph for pcobject.\-h\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{pcobject_8h__incl}
+\end{center}
+\end{figure}
+\-This graph shows which files directly or indirectly include this file\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{pcobject_8h__dep__incl}
+\end{center}
+\end{figure}
+\subsection*{\-Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \hyperlink{class_p_c_object}{\-P\-C\-Object}
+\item 
+struct \hyperlink{struct_p_c_object_1_1_edge}{\-P\-C\-Object\-::\-Edge}
+\item 
+struct \hyperlink{struct_p_c_object_1_1_edge__spatial}{\-P\-C\-Object\-::\-Edge\-\_\-spatial}
+\end{DoxyCompactItemize}
+\subsection*{\-Defines}
+\begin{DoxyCompactItemize}
+\item 
+\#define \hyperlink{pcobject_8h_ac2a7c00038a243164f4f22f9f679cce0}{\-M\-I\-N\-\_\-\-W\-E\-I\-G\-H\-T\-\_\-\-R\-A\-T\-I\-O}~5
+\end{DoxyCompactItemize}
+\subsection*{\-Enumerations}
+\begin{DoxyCompactItemize}
+\item 
+enum \hyperlink{pcobject_8h_a41767bf2343b5367995c795ada4b6946}{\-S\-I\-M\-P\-L\-E} \{ \hyperlink{pcobject_8h_a41767bf2343b5367995c795ada4b6946ad87c86c5e3918b1d973770b3828480cd}{\-S\-I\-M\-P\-L\-E\-\_\-\-H\-C\-K\-L}, 
+\hyperlink{pcobject_8h_a41767bf2343b5367995c795ada4b6946adecd5b38dbee3f537474ae406ddc67ac}{\-S\-I\-M\-P\-L\-E\-\_\-\-H\-C\-L2}, 
+\hyperlink{pcobject_8h_a41767bf2343b5367995c795ada4b6946a4f83185a297f9c44b7409f185cfc431b}{\-S\-I\-M\-P\-L\-E\-\_\-\-F\-A}
+ \}
+\item 
+enum \hyperlink{pcobject_8h_a275a67132f10277ada3a0ee3d616b647}{\-S\-T\-A\-T\-E} \{ \hyperlink{pcobject_8h_a275a67132f10277ada3a0ee3d616b647a0aac8bf1df75bf81c25b0270e56f0bc4}{\-N\-O\-G\-M\-M}, 
+\hyperlink{pcobject_8h_a275a67132f10277ada3a0ee3d616b647afc1436590fd0570210f1e50d24f8f53f}{\-P\-R\-I\-O\-R\-G\-M\-M}, 
+\hyperlink{pcobject_8h_a275a67132f10277ada3a0ee3d616b647a0c4c30a387142de0a2f5f1ef6254700c}{\-P\-O\-S\-T\-G\-M\-M}
+ \}
+\end{DoxyCompactItemize}
+
+
+\subsection{\-Define \-Documentation}
+\hypertarget{pcobject_8h_ac2a7c00038a243164f4f22f9f679cce0}{\index{pcobject.\-h@{pcobject.\-h}!\-M\-I\-N\-\_\-\-W\-E\-I\-G\-H\-T\-\_\-\-R\-A\-T\-I\-O@{\-M\-I\-N\-\_\-\-W\-E\-I\-G\-H\-T\-\_\-\-R\-A\-T\-I\-O}}
+\index{\-M\-I\-N\-\_\-\-W\-E\-I\-G\-H\-T\-\_\-\-R\-A\-T\-I\-O@{\-M\-I\-N\-\_\-\-W\-E\-I\-G\-H\-T\-\_\-\-R\-A\-T\-I\-O}!pcobject.h@{pcobject.\-h}}
+\subsubsection[{\-M\-I\-N\-\_\-\-W\-E\-I\-G\-H\-T\-\_\-\-R\-A\-T\-I\-O}]{\setlength{\rightskip}{0pt plus 5cm}\#define {\bf \-M\-I\-N\-\_\-\-W\-E\-I\-G\-H\-T\-\_\-\-R\-A\-T\-I\-O}~5}}\label{pcobject_8h_ac2a7c00038a243164f4f22f9f679cce0}
+
+
+\subsection{\-Enumeration \-Type \-Documentation}
+\hypertarget{pcobject_8h_a41767bf2343b5367995c795ada4b6946}{\index{pcobject.\-h@{pcobject.\-h}!\-S\-I\-M\-P\-L\-E@{\-S\-I\-M\-P\-L\-E}}
+\index{\-S\-I\-M\-P\-L\-E@{\-S\-I\-M\-P\-L\-E}!pcobject.h@{pcobject.\-h}}
+\subsubsection[{\-S\-I\-M\-P\-L\-E}]{\setlength{\rightskip}{0pt plus 5cm}enum {\bf \-S\-I\-M\-P\-L\-E}}}\label{pcobject_8h_a41767bf2343b5367995c795ada4b6946}
+\begin{Desc}
+\item[\-Enumerator\-: ]\par
+\begin{description}
+\index{\-S\-I\-M\-P\-L\-E\-\_\-\-H\-C\-K\-L@{\-S\-I\-M\-P\-L\-E\-\_\-\-H\-C\-K\-L}!pcobject.\-h@{pcobject.\-h}}\index{pcobject.\-h@{pcobject.\-h}!\-S\-I\-M\-P\-L\-E\-\_\-\-H\-C\-K\-L@{\-S\-I\-M\-P\-L\-E\-\_\-\-H\-C\-K\-L}}\item[{\em 
+\hypertarget{pcobject_8h_a41767bf2343b5367995c795ada4b6946ad87c86c5e3918b1d973770b3828480cd}{\-S\-I\-M\-P\-L\-E\-\_\-\-H\-C\-K\-L}\label{pcobject_8h_a41767bf2343b5367995c795ada4b6946ad87c86c5e3918b1d973770b3828480cd}
+}]\index{\-S\-I\-M\-P\-L\-E\-\_\-\-H\-C\-L2@{\-S\-I\-M\-P\-L\-E\-\_\-\-H\-C\-L2}!pcobject.\-h@{pcobject.\-h}}\index{pcobject.\-h@{pcobject.\-h}!\-S\-I\-M\-P\-L\-E\-\_\-\-H\-C\-L2@{\-S\-I\-M\-P\-L\-E\-\_\-\-H\-C\-L2}}\item[{\em 
+\hypertarget{pcobject_8h_a41767bf2343b5367995c795ada4b6946adecd5b38dbee3f537474ae406ddc67ac}{\-S\-I\-M\-P\-L\-E\-\_\-\-H\-C\-L2}\label{pcobject_8h_a41767bf2343b5367995c795ada4b6946adecd5b38dbee3f537474ae406ddc67ac}
+}]\index{\-S\-I\-M\-P\-L\-E\-\_\-\-F\-A@{\-S\-I\-M\-P\-L\-E\-\_\-\-F\-A}!pcobject.\-h@{pcobject.\-h}}\index{pcobject.\-h@{pcobject.\-h}!\-S\-I\-M\-P\-L\-E\-\_\-\-F\-A@{\-S\-I\-M\-P\-L\-E\-\_\-\-F\-A}}\item[{\em 
+\hypertarget{pcobject_8h_a41767bf2343b5367995c795ada4b6946a4f83185a297f9c44b7409f185cfc431b}{\-S\-I\-M\-P\-L\-E\-\_\-\-F\-A}\label{pcobject_8h_a41767bf2343b5367995c795ada4b6946a4f83185a297f9c44b7409f185cfc431b}
+}]\end{description}
+\end{Desc}
+
+\hypertarget{pcobject_8h_a275a67132f10277ada3a0ee3d616b647}{\index{pcobject.\-h@{pcobject.\-h}!\-S\-T\-A\-T\-E@{\-S\-T\-A\-T\-E}}
+\index{\-S\-T\-A\-T\-E@{\-S\-T\-A\-T\-E}!pcobject.h@{pcobject.\-h}}
+\subsubsection[{\-S\-T\-A\-T\-E}]{\setlength{\rightskip}{0pt plus 5cm}enum {\bf \-S\-T\-A\-T\-E}}}\label{pcobject_8h_a275a67132f10277ada3a0ee3d616b647}
+\begin{Desc}
+\item[\-Enumerator\-: ]\par
+\begin{description}
+\index{\-N\-O\-G\-M\-M@{\-N\-O\-G\-M\-M}!pcobject.\-h@{pcobject.\-h}}\index{pcobject.\-h@{pcobject.\-h}!\-N\-O\-G\-M\-M@{\-N\-O\-G\-M\-M}}\item[{\em 
+\hypertarget{pcobject_8h_a275a67132f10277ada3a0ee3d616b647a0aac8bf1df75bf81c25b0270e56f0bc4}{\-N\-O\-G\-M\-M}\label{pcobject_8h_a275a67132f10277ada3a0ee3d616b647a0aac8bf1df75bf81c25b0270e56f0bc4}
+}]\index{\-P\-R\-I\-O\-R\-G\-M\-M@{\-P\-R\-I\-O\-R\-G\-M\-M}!pcobject.\-h@{pcobject.\-h}}\index{pcobject.\-h@{pcobject.\-h}!\-P\-R\-I\-O\-R\-G\-M\-M@{\-P\-R\-I\-O\-R\-G\-M\-M}}\item[{\em 
+\hypertarget{pcobject_8h_a275a67132f10277ada3a0ee3d616b647afc1436590fd0570210f1e50d24f8f53f}{\-P\-R\-I\-O\-R\-G\-M\-M}\label{pcobject_8h_a275a67132f10277ada3a0ee3d616b647afc1436590fd0570210f1e50d24f8f53f}
+}]\index{\-P\-O\-S\-T\-G\-M\-M@{\-P\-O\-S\-T\-G\-M\-M}!pcobject.\-h@{pcobject.\-h}}\index{pcobject.\-h@{pcobject.\-h}!\-P\-O\-S\-T\-G\-M\-M@{\-P\-O\-S\-T\-G\-M\-M}}\item[{\em 
+\hypertarget{pcobject_8h_a275a67132f10277ada3a0ee3d616b647a0c4c30a387142de0a2f5f1ef6254700c}{\-P\-O\-S\-T\-G\-M\-M}\label{pcobject_8h_a275a67132f10277ada3a0ee3d616b647a0c4c30a387142de0a2f5f1ef6254700c}
+}]\end{description}
+\end{Desc}
+

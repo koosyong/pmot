@@ -1,0 +1,157 @@
+\hypertarget{class_cs_feature_estimation}{\section{\-Cs\-Feature\-Estimation \-Class \-Reference}
+\label{class_cs_feature_estimation}\index{\-Cs\-Feature\-Estimation@{\-Cs\-Feature\-Estimation}}
+}
+
+
+{\ttfamily \#include $<$csfeature.\-h$>$}
+
+
+
+\-Collaboration diagram for \-Cs\-Feature\-Estimation\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=188pt]{class_cs_feature_estimation__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{\-Public \-Member \-Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_cs_feature_estimation_aa7f0224770d27abed5c151282b0335d5}{\-Cs\-Feature\-Estimation} ()
+\item 
+\hyperlink{class_cs_feature_estimation_afc2f51c2f489b8290900643e011f06df}{$\sim$\-Cs\-Feature\-Estimation} ()
+\item 
+void \hyperlink{class_cs_feature_estimation_ad32a35aa8166ab63e7fdececc2ec313a}{init\-Box} (\hyperlink{common_8h_a36884aa4a3c181fa4c284d79329ad166}{\-Cloud\-Ptr} \&cloud)
+\item 
+\hyperlink{class_cs_feature}{\-Cs\-Feature} \hyperlink{class_cs_feature_estimation_ae3c58e0d970953a13cbd2b250193a297}{compute} (\hyperlink{common_8h_a36884aa4a3c181fa4c284d79329ad166}{\-Cloud\-Ptr} \&cloud)
+\item 
+float \hyperlink{class_cs_feature_estimation_a87416044424af9e1282e68ec43e4c2d6}{eval\-One\-Point} (\hyperlink{common_8h_af63aa02ad22799ec1b392e97942874b5}{\-Point\-T} pt)
+\end{DoxyCompactItemize}
+\subsection*{\-Public \-Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\-Vector4f \hyperlink{class_cs_feature_estimation_a97a02375d6a8869f419db0444f6d7252}{m\-\_\-box\-Min}
+\item 
+\-Vector4f \hyperlink{class_cs_feature_estimation_ad9ed40ac0baf36fe5f1624883baca315}{m\-\_\-box\-Max}
+\item 
+\hyperlink{common_8h_a36884aa4a3c181fa4c284d79329ad166}{\-Cloud\-Ptr} \hyperlink{class_cs_feature_estimation_a7814bdaf2ec7ee028bb381e9e920fe85}{m\-\_\-keypoints}
+\item 
+int \hyperlink{class_cs_feature_estimation_a236193badf883b6eff1bbeb4868734a2}{m\-\_\-key\-Size}
+\item 
+\hyperlink{class_cs_feature}{\-Cs\-Feature} \hyperlink{class_cs_feature_estimation_ae23cbdd6bb125898febbc39c86fe6ed7}{out\-F}
+\item 
+float \hyperlink{class_cs_feature_estimation_acca08a432c066c2514d345cb9b5976b9}{m\-\_\-gridsize}
+\item 
+int \hyperlink{class_cs_feature_estimation_a594822f84ee39bbe6f16dad384459fea}{m\-\_\-x\-Nr}
+\item 
+int \hyperlink{class_cs_feature_estimation_a80110aa818455b337bcde0bbb3cf07be}{m\-\_\-y\-Nr}
+\item 
+int \hyperlink{class_cs_feature_estimation_a7f984e61208d61e119f78003b3cebd99}{m\-\_\-z\-Nr}
+\item 
+int \hyperlink{class_cs_feature_estimation_a1bd986e4871bb35f951274418e4dddaf}{m\-\_\-grid\-Nr}
+\end{DoxyCompactItemize}
+
+
+\subsection{\-Constructor \& \-Destructor \-Documentation}
+\hypertarget{class_cs_feature_estimation_aa7f0224770d27abed5c151282b0335d5}{\index{\-Cs\-Feature\-Estimation@{\-Cs\-Feature\-Estimation}!\-Cs\-Feature\-Estimation@{\-Cs\-Feature\-Estimation}}
+\index{\-Cs\-Feature\-Estimation@{\-Cs\-Feature\-Estimation}!CsFeatureEstimation@{\-Cs\-Feature\-Estimation}}
+\subsubsection[{\-Cs\-Feature\-Estimation}]{\setlength{\rightskip}{0pt plus 5cm}{\bf \-Cs\-Feature\-Estimation\-::\-Cs\-Feature\-Estimation} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_cs_feature_estimation_aa7f0224770d27abed5c151282b0335d5}
+\hypertarget{class_cs_feature_estimation_afc2f51c2f489b8290900643e011f06df}{\index{\-Cs\-Feature\-Estimation@{\-Cs\-Feature\-Estimation}!$\sim$\-Cs\-Feature\-Estimation@{$\sim$\-Cs\-Feature\-Estimation}}
+\index{$\sim$\-Cs\-Feature\-Estimation@{$\sim$\-Cs\-Feature\-Estimation}!CsFeatureEstimation@{\-Cs\-Feature\-Estimation}}
+\subsubsection[{$\sim$\-Cs\-Feature\-Estimation}]{\setlength{\rightskip}{0pt plus 5cm}{\bf \-Cs\-Feature\-Estimation\-::$\sim$\-Cs\-Feature\-Estimation} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_cs_feature_estimation_afc2f51c2f489b8290900643e011f06df}
+
+
+\subsection{\-Member \-Function \-Documentation}
+\hypertarget{class_cs_feature_estimation_ae3c58e0d970953a13cbd2b250193a297}{\index{\-Cs\-Feature\-Estimation@{\-Cs\-Feature\-Estimation}!compute@{compute}}
+\index{compute@{compute}!CsFeatureEstimation@{\-Cs\-Feature\-Estimation}}
+\subsubsection[{compute}]{\setlength{\rightskip}{0pt plus 5cm}{\bf \-Cs\-Feature} {\bf \-Cs\-Feature\-Estimation\-::compute} (
+\begin{DoxyParamCaption}
+\item[{{\bf \-Cloud\-Ptr} \&}]{cloud}
+\end{DoxyParamCaption}
+)}}\label{class_cs_feature_estimation_ae3c58e0d970953a13cbd2b250193a297}
+
+
+\-Here is the call graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=326pt]{class_cs_feature_estimation_ae3c58e0d970953a13cbd2b250193a297_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{class_cs_feature_estimation_a87416044424af9e1282e68ec43e4c2d6}{\index{\-Cs\-Feature\-Estimation@{\-Cs\-Feature\-Estimation}!eval\-One\-Point@{eval\-One\-Point}}
+\index{eval\-One\-Point@{eval\-One\-Point}!CsFeatureEstimation@{\-Cs\-Feature\-Estimation}}
+\subsubsection[{eval\-One\-Point}]{\setlength{\rightskip}{0pt plus 5cm}float {\bf \-Cs\-Feature\-Estimation\-::eval\-One\-Point} (
+\begin{DoxyParamCaption}
+\item[{{\bf \-Point\-T}}]{pt}
+\end{DoxyParamCaption}
+)}}\label{class_cs_feature_estimation_a87416044424af9e1282e68ec43e4c2d6}
+
+
+\-Here is the call graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=348pt]{class_cs_feature_estimation_a87416044424af9e1282e68ec43e4c2d6_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{class_cs_feature_estimation_ad32a35aa8166ab63e7fdececc2ec313a}{\index{\-Cs\-Feature\-Estimation@{\-Cs\-Feature\-Estimation}!init\-Box@{init\-Box}}
+\index{init\-Box@{init\-Box}!CsFeatureEstimation@{\-Cs\-Feature\-Estimation}}
+\subsubsection[{init\-Box}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf \-Cs\-Feature\-Estimation\-::init\-Box} (
+\begin{DoxyParamCaption}
+\item[{{\bf \-Cloud\-Ptr} \&}]{cloud}
+\end{DoxyParamCaption}
+)}}\label{class_cs_feature_estimation_ad32a35aa8166ab63e7fdececc2ec313a}
+
+
+\subsection{\-Member \-Data \-Documentation}
+\hypertarget{class_cs_feature_estimation_ad9ed40ac0baf36fe5f1624883baca315}{\index{\-Cs\-Feature\-Estimation@{\-Cs\-Feature\-Estimation}!m\-\_\-box\-Max@{m\-\_\-box\-Max}}
+\index{m\-\_\-box\-Max@{m\-\_\-box\-Max}!CsFeatureEstimation@{\-Cs\-Feature\-Estimation}}
+\subsubsection[{m\-\_\-box\-Max}]{\setlength{\rightskip}{0pt plus 5cm}\-Vector4f {\bf \-Cs\-Feature\-Estimation\-::m\-\_\-box\-Max}}}\label{class_cs_feature_estimation_ad9ed40ac0baf36fe5f1624883baca315}
+\hypertarget{class_cs_feature_estimation_a97a02375d6a8869f419db0444f6d7252}{\index{\-Cs\-Feature\-Estimation@{\-Cs\-Feature\-Estimation}!m\-\_\-box\-Min@{m\-\_\-box\-Min}}
+\index{m\-\_\-box\-Min@{m\-\_\-box\-Min}!CsFeatureEstimation@{\-Cs\-Feature\-Estimation}}
+\subsubsection[{m\-\_\-box\-Min}]{\setlength{\rightskip}{0pt plus 5cm}\-Vector4f {\bf \-Cs\-Feature\-Estimation\-::m\-\_\-box\-Min}}}\label{class_cs_feature_estimation_a97a02375d6a8869f419db0444f6d7252}
+\hypertarget{class_cs_feature_estimation_a1bd986e4871bb35f951274418e4dddaf}{\index{\-Cs\-Feature\-Estimation@{\-Cs\-Feature\-Estimation}!m\-\_\-grid\-Nr@{m\-\_\-grid\-Nr}}
+\index{m\-\_\-grid\-Nr@{m\-\_\-grid\-Nr}!CsFeatureEstimation@{\-Cs\-Feature\-Estimation}}
+\subsubsection[{m\-\_\-grid\-Nr}]{\setlength{\rightskip}{0pt plus 5cm}int {\bf \-Cs\-Feature\-Estimation\-::m\-\_\-grid\-Nr}}}\label{class_cs_feature_estimation_a1bd986e4871bb35f951274418e4dddaf}
+\hypertarget{class_cs_feature_estimation_acca08a432c066c2514d345cb9b5976b9}{\index{\-Cs\-Feature\-Estimation@{\-Cs\-Feature\-Estimation}!m\-\_\-gridsize@{m\-\_\-gridsize}}
+\index{m\-\_\-gridsize@{m\-\_\-gridsize}!CsFeatureEstimation@{\-Cs\-Feature\-Estimation}}
+\subsubsection[{m\-\_\-gridsize}]{\setlength{\rightskip}{0pt plus 5cm}float {\bf \-Cs\-Feature\-Estimation\-::m\-\_\-gridsize}}}\label{class_cs_feature_estimation_acca08a432c066c2514d345cb9b5976b9}
+\hypertarget{class_cs_feature_estimation_a7814bdaf2ec7ee028bb381e9e920fe85}{\index{\-Cs\-Feature\-Estimation@{\-Cs\-Feature\-Estimation}!m\-\_\-keypoints@{m\-\_\-keypoints}}
+\index{m\-\_\-keypoints@{m\-\_\-keypoints}!CsFeatureEstimation@{\-Cs\-Feature\-Estimation}}
+\subsubsection[{m\-\_\-keypoints}]{\setlength{\rightskip}{0pt plus 5cm}{\bf \-Cloud\-Ptr} {\bf \-Cs\-Feature\-Estimation\-::m\-\_\-keypoints}}}\label{class_cs_feature_estimation_a7814bdaf2ec7ee028bb381e9e920fe85}
+\hypertarget{class_cs_feature_estimation_a236193badf883b6eff1bbeb4868734a2}{\index{\-Cs\-Feature\-Estimation@{\-Cs\-Feature\-Estimation}!m\-\_\-key\-Size@{m\-\_\-key\-Size}}
+\index{m\-\_\-key\-Size@{m\-\_\-key\-Size}!CsFeatureEstimation@{\-Cs\-Feature\-Estimation}}
+\subsubsection[{m\-\_\-key\-Size}]{\setlength{\rightskip}{0pt plus 5cm}int {\bf \-Cs\-Feature\-Estimation\-::m\-\_\-key\-Size}}}\label{class_cs_feature_estimation_a236193badf883b6eff1bbeb4868734a2}
+\hypertarget{class_cs_feature_estimation_a594822f84ee39bbe6f16dad384459fea}{\index{\-Cs\-Feature\-Estimation@{\-Cs\-Feature\-Estimation}!m\-\_\-x\-Nr@{m\-\_\-x\-Nr}}
+\index{m\-\_\-x\-Nr@{m\-\_\-x\-Nr}!CsFeatureEstimation@{\-Cs\-Feature\-Estimation}}
+\subsubsection[{m\-\_\-x\-Nr}]{\setlength{\rightskip}{0pt plus 5cm}int {\bf \-Cs\-Feature\-Estimation\-::m\-\_\-x\-Nr}}}\label{class_cs_feature_estimation_a594822f84ee39bbe6f16dad384459fea}
+\hypertarget{class_cs_feature_estimation_a80110aa818455b337bcde0bbb3cf07be}{\index{\-Cs\-Feature\-Estimation@{\-Cs\-Feature\-Estimation}!m\-\_\-y\-Nr@{m\-\_\-y\-Nr}}
+\index{m\-\_\-y\-Nr@{m\-\_\-y\-Nr}!CsFeatureEstimation@{\-Cs\-Feature\-Estimation}}
+\subsubsection[{m\-\_\-y\-Nr}]{\setlength{\rightskip}{0pt plus 5cm}int {\bf \-Cs\-Feature\-Estimation\-::m\-\_\-y\-Nr}}}\label{class_cs_feature_estimation_a80110aa818455b337bcde0bbb3cf07be}
+\hypertarget{class_cs_feature_estimation_a7f984e61208d61e119f78003b3cebd99}{\index{\-Cs\-Feature\-Estimation@{\-Cs\-Feature\-Estimation}!m\-\_\-z\-Nr@{m\-\_\-z\-Nr}}
+\index{m\-\_\-z\-Nr@{m\-\_\-z\-Nr}!CsFeatureEstimation@{\-Cs\-Feature\-Estimation}}
+\subsubsection[{m\-\_\-z\-Nr}]{\setlength{\rightskip}{0pt plus 5cm}int {\bf \-Cs\-Feature\-Estimation\-::m\-\_\-z\-Nr}}}\label{class_cs_feature_estimation_a7f984e61208d61e119f78003b3cebd99}
+\hypertarget{class_cs_feature_estimation_ae23cbdd6bb125898febbc39c86fe6ed7}{\index{\-Cs\-Feature\-Estimation@{\-Cs\-Feature\-Estimation}!out\-F@{out\-F}}
+\index{out\-F@{out\-F}!CsFeatureEstimation@{\-Cs\-Feature\-Estimation}}
+\subsubsection[{out\-F}]{\setlength{\rightskip}{0pt plus 5cm}{\bf \-Cs\-Feature} {\bf \-Cs\-Feature\-Estimation\-::out\-F}}}\label{class_cs_feature_estimation_ae23cbdd6bb125898febbc39c86fe6ed7}
+
+
+\-The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+/home/koosy/koosywork/pmot\-\_\-realtime/pmot\-\_\-realtime/src/\hyperlink{csfeature_8h}{csfeature.\-h}\item 
+/home/koosy/koosywork/pmot\-\_\-realtime/pmot\-\_\-realtime/src/\hyperlink{csfeature_8cpp}{csfeature.\-cpp}\end{DoxyCompactItemize}

@@ -1,0 +1,186 @@
+\hypertarget{class_track}{\section{\-Track$<$ \-Object $>$ \-Class \-Template \-Reference}
+\label{class_track}\index{\-Track$<$ Object $>$@{\-Track$<$ Object $>$}}
+}
+
+
+{\ttfamily \#include $<$track.\-h$>$}
+
+\subsection*{\-Classes}
+\begin{DoxyCompactItemize}
+\item 
+struct \hyperlink{struct_track_1_1_frame}{\-Frame}
+\item 
+struct \hyperlink{struct_track_1_1_node}{\-Node}
+\item 
+struct \hyperlink{struct_track_1_1_v}{\-V}
+\end{DoxyCompactItemize}
+\subsection*{\-Public \-Member \-Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_track_a3fd4137bc777af7f5eabf93464b240e6}{\-Track} (int \-\_\-id, int \-\_\-max\-Frame=1000)
+\item 
+void \hyperlink{class_track_a4d8f8a0343b037a522d702d82becf687}{insert} (\-Object \&object, int time)
+\item 
+\hyperlink{struct_track_1_1_frame}{\-Frame} \hyperlink{class_track_aeed84e499898f72d76d665e86e33ce8a}{last\-Frame} ()
+\item 
+\hyperlink{struct_track_1_1_frame}{\-Frame} $\ast$ \hyperlink{class_track_ad63a6288ce2add6286caf97ab1f86c88}{last\-Frame\-Ptr} ()
+\item 
+\hyperlink{struct_track_1_1_frame}{\-Frame} \hyperlink{class_track_ab1aa988f72821caf1b540cb7ad3bb4ca}{get\-Frame\-From\-Last} (int n)
+\item 
+\hyperlink{struct_track_1_1_frame}{\-Frame} $\ast$ \hyperlink{class_track_ac7a55bb36fb06699fce787360153536c}{frame\-Ptr\-From\-Last} (int n)
+\item 
+void \hyperlink{class_track_adad8d1dfac6b1a5b235a7ed4ec6ba256}{update\-Object\-At\-Frame} (int time, \-Object \&object)
+\item 
+void \hyperlink{class_track_a1cfb242fd6e3ddb4763ff4be83d8b749}{terminate} ()
+\item 
+int \hyperlink{class_track_aced0edd29cf0403972d70920b158116e}{frame\-Size} ()
+\end{DoxyCompactItemize}
+\subsection*{\-Public \-Attributes}
+\begin{DoxyCompactItemize}
+\item 
+vector$<$ \hyperlink{struct_track_1_1_frame}{\-Frame} $>$ \hyperlink{class_track_a6ff7e559c1063626fd12c0036c61b637}{frames}
+\item 
+int \hyperlink{class_track_a8801bf2eacdc01214358b8003a465a11}{id}
+\item 
+int \hyperlink{class_track_aa39a73ae3067ccfd9693bd778e96e729}{max\-Frame}
+\end{DoxyCompactItemize}
+\subsubsection*{template$<$class Object$>$ class Track$<$ Object $>$}
+
+
+
+\subsection{\-Constructor \& \-Destructor \-Documentation}
+\hypertarget{class_track_a3fd4137bc777af7f5eabf93464b240e6}{\index{\-Track@{\-Track}!\-Track@{\-Track}}
+\index{\-Track@{\-Track}!Track@{\-Track}}
+\subsubsection[{\-Track}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Object $>$ {\bf \-Track}$<$ \-Object $>$\-::{\bf \-Track} (
+\begin{DoxyParamCaption}
+\item[{int}]{\-\_\-id, }
+\item[{int}]{\-\_\-max\-Frame = {\ttfamily 1000}}
+\end{DoxyParamCaption}
+)}}\label{class_track_a3fd4137bc777af7f5eabf93464b240e6}
+
+
+\subsection{\-Member \-Function \-Documentation}
+\hypertarget{class_track_ac7a55bb36fb06699fce787360153536c}{\index{\-Track@{\-Track}!frame\-Ptr\-From\-Last@{frame\-Ptr\-From\-Last}}
+\index{frame\-Ptr\-From\-Last@{frame\-Ptr\-From\-Last}!Track@{\-Track}}
+\subsubsection[{frame\-Ptr\-From\-Last}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Object $>$ {\bf \-Frame}$\ast$ {\bf \-Track}$<$ \-Object $>$\-::{\bf frame\-Ptr\-From\-Last} (
+\begin{DoxyParamCaption}
+\item[{int}]{n}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}\label{class_track_ac7a55bb36fb06699fce787360153536c}
+\hypertarget{class_track_aced0edd29cf0403972d70920b158116e}{\index{\-Track@{\-Track}!frame\-Size@{frame\-Size}}
+\index{frame\-Size@{frame\-Size}!Track@{\-Track}}
+\subsubsection[{frame\-Size}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Object $>$ int {\bf \-Track}$<$ \-Object $>$\-::{\bf frame\-Size} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}\label{class_track_aced0edd29cf0403972d70920b158116e}
+\hypertarget{class_track_ab1aa988f72821caf1b540cb7ad3bb4ca}{\index{\-Track@{\-Track}!get\-Frame\-From\-Last@{get\-Frame\-From\-Last}}
+\index{get\-Frame\-From\-Last@{get\-Frame\-From\-Last}!Track@{\-Track}}
+\subsubsection[{get\-Frame\-From\-Last}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Object $>$ {\bf \-Frame} {\bf \-Track}$<$ \-Object $>$\-::{\bf get\-Frame\-From\-Last} (
+\begin{DoxyParamCaption}
+\item[{int}]{n}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}\label{class_track_ab1aa988f72821caf1b540cb7ad3bb4ca}
+\hypertarget{class_track_a4d8f8a0343b037a522d702d82becf687}{\index{\-Track@{\-Track}!insert@{insert}}
+\index{insert@{insert}!Track@{\-Track}}
+\subsubsection[{insert}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Object $>$ void {\bf \-Track}$<$ \-Object $>$\-::{\bf insert} (
+\begin{DoxyParamCaption}
+\item[{\-Object \&}]{object, }
+\item[{int}]{time}
+\end{DoxyParamCaption}
+)}}\label{class_track_a4d8f8a0343b037a522d702d82becf687}
+
+
+\-Here is the caller graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_track_a4d8f8a0343b037a522d702d82becf687_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{class_track_aeed84e499898f72d76d665e86e33ce8a}{\index{\-Track@{\-Track}!last\-Frame@{last\-Frame}}
+\index{last\-Frame@{last\-Frame}!Track@{\-Track}}
+\subsubsection[{last\-Frame}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Object $>$ {\bf \-Frame} {\bf \-Track}$<$ \-Object $>$\-::{\bf last\-Frame} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}\label{class_track_aeed84e499898f72d76d665e86e33ce8a}
+
+
+\-Here is the caller graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_track_aeed84e499898f72d76d665e86e33ce8a_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{class_track_ad63a6288ce2add6286caf97ab1f86c88}{\index{\-Track@{\-Track}!last\-Frame\-Ptr@{last\-Frame\-Ptr}}
+\index{last\-Frame\-Ptr@{last\-Frame\-Ptr}!Track@{\-Track}}
+\subsubsection[{last\-Frame\-Ptr}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Object $>$ {\bf \-Frame}$\ast$ {\bf \-Track}$<$ \-Object $>$\-::{\bf last\-Frame\-Ptr} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}\label{class_track_ad63a6288ce2add6286caf97ab1f86c88}
+\hypertarget{class_track_a1cfb242fd6e3ddb4763ff4be83d8b749}{\index{\-Track@{\-Track}!terminate@{terminate}}
+\index{terminate@{terminate}!Track@{\-Track}}
+\subsubsection[{terminate}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Object $>$ void {\bf \-Track}$<$ \-Object $>$\-::{\bf terminate} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_track_a1cfb242fd6e3ddb4763ff4be83d8b749}
+
+
+\-Here is the caller graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_track_a1cfb242fd6e3ddb4763ff4be83d8b749_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{class_track_adad8d1dfac6b1a5b235a7ed4ec6ba256}{\index{\-Track@{\-Track}!update\-Object\-At\-Frame@{update\-Object\-At\-Frame}}
+\index{update\-Object\-At\-Frame@{update\-Object\-At\-Frame}!Track@{\-Track}}
+\subsubsection[{update\-Object\-At\-Frame}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Object $>$ void {\bf \-Track}$<$ \-Object $>$\-::{\bf update\-Object\-At\-Frame} (
+\begin{DoxyParamCaption}
+\item[{int}]{time, }
+\item[{\-Object \&}]{object}
+\end{DoxyParamCaption}
+)}}\label{class_track_adad8d1dfac6b1a5b235a7ed4ec6ba256}
+
+
+\-Here is the caller graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_track_adad8d1dfac6b1a5b235a7ed4ec6ba256_icgraph}
+\end{center}
+\end{figure}
+
+
+
+
+\subsection{\-Member \-Data \-Documentation}
+\hypertarget{class_track_a6ff7e559c1063626fd12c0036c61b637}{\index{\-Track@{\-Track}!frames@{frames}}
+\index{frames@{frames}!Track@{\-Track}}
+\subsubsection[{frames}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Object $>$ vector$<${\bf \-Frame}$>$ {\bf \-Track}$<$ \-Object $>$\-::{\bf frames}}}\label{class_track_a6ff7e559c1063626fd12c0036c61b637}
+\hypertarget{class_track_a8801bf2eacdc01214358b8003a465a11}{\index{\-Track@{\-Track}!id@{id}}
+\index{id@{id}!Track@{\-Track}}
+\subsubsection[{id}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Object $>$ int {\bf \-Track}$<$ \-Object $>$\-::{\bf id}}}\label{class_track_a8801bf2eacdc01214358b8003a465a11}
+\hypertarget{class_track_aa39a73ae3067ccfd9693bd778e96e729}{\index{\-Track@{\-Track}!max\-Frame@{max\-Frame}}
+\index{max\-Frame@{max\-Frame}!Track@{\-Track}}
+\subsubsection[{max\-Frame}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Object $>$ int {\bf \-Track}$<$ \-Object $>$\-::{\bf max\-Frame}}}\label{class_track_aa39a73ae3067ccfd9693bd778e96e729}
+
+
+\-The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+/home/koosy/koosywork/pmot\-\_\-realtime/pmot\-\_\-realtime/src/\hyperlink{track_8h}{track.\-h}\item 
+/home/koosy/koosywork/pmot\-\_\-realtime/pmot\-\_\-realtime/src/\hyperlink{track_8hpp}{track.\-hpp}\end{DoxyCompactItemize}

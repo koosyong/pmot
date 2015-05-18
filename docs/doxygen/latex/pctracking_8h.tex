@@ -1,0 +1,178 @@
+\hypertarget{pctracking_8h}{\section{/home/koosy/koosywork/pmot\-\_\-realtime/pmot\-\_\-realtime/src/pctracking.h \-File \-Reference}
+\label{pctracking_8h}\index{/home/koosy/koosywork/pmot\-\_\-realtime/pmot\-\_\-realtime/src/pctracking.\-h@{/home/koosy/koosywork/pmot\-\_\-realtime/pmot\-\_\-realtime/src/pctracking.\-h}}
+}
+{\ttfamily \#include \char`\"{}pcobjectcontainer.\-h\char`\"{}}\*
+{\ttfamily \#include \char`\"{}pctrackcontainer.\-h\char`\"{}}\*
+{\ttfamily \#include \char`\"{}imft.\-h\char`\"{}}\*
+{\ttfamily \#include \char`\"{}particlepose.\-h\char`\"{}}\*
+{\ttfamily \#include $<$pcl/filters/extract\-\_\-indices.\-h$>$}\*
+{\ttfamily \#include $<$pcl/filters/voxel\-\_\-grid.\-h$>$}\*
+{\ttfamily \#include $<$pcl/kdtree/kdtree.\-h$>$}\*
+{\ttfamily \#include $<$pcl/segmentation/sac\-\_\-segmentation.\-h$>$}\*
+{\ttfamily \#include $<$pcl/segmentation/extract\-\_\-clusters.\-h$>$}\*
+{\ttfamily \#include $<$pcl/tracking/tracker.\-h$>$}\*
+{\ttfamily \#include $<$pcl/filters/filter.\-h$>$}\*
+{\ttfamily \#include $<$pcl/registration/icp.\-h$>$}\*
+{\ttfamily \#include $<$boost/thread.\-hpp$>$}\*
+{\ttfamily \#include $<$pcl/gpu/octree/octree.\-hpp$>$}\*
+{\ttfamily \#include $<$pcl/gpu/containers/device\-\_\-array.\-hpp$>$}\*
+{\ttfamily \#include $<$pcl/gpu/segmentation/gpu\-\_\-extract\-\_\-labeled\-\_\-clusters.\-h$>$}\*
+{\ttfamily \#include $<$pcl/gpu/segmentation/impl/gpu\-\_\-extract\-\_\-labeled\-\_\-clusters.\-hpp$>$}\*
+{\ttfamily \#include $<$pcl/tracking/particle\-\_\-filter\-\_\-omp.\-h$>$}\*
+{\ttfamily \#include $<$pcl/surface/mls.\-h$>$}\*
+{\ttfamily \#include $<$lemon/list\-\_\-graph.\-h$>$}\*
+\-Include dependency graph for pctracking.\-h\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{pctracking_8h__incl}
+\end{center}
+\end{figure}
+\-This graph shows which files directly or indirectly include this file\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{pctracking_8h__dep__incl}
+\end{center}
+\end{figure}
+\subsection*{\-Classes}
+\begin{DoxyCompactItemize}
+\item 
+struct \hyperlink{struct_scene}{\-Scene}
+\item 
+struct \hyperlink{struct_track_point}{\-Track\-Point}
+\item 
+struct \hyperlink{struct_frame}{\-Frame}
+\item 
+struct \hyperlink{struct_object_node}{\-Object\-Node}
+\item 
+struct \hyperlink{struct_weight}{\-Weight}
+\item 
+struct \hyperlink{struct_false_objects}{\-False\-Objects}
+\item 
+struct \hyperlink{struct_bounding_box}{\-Bounding\-Box}
+\item 
+class \hyperlink{class_p_c_tracking}{\-P\-C\-Tracking}
+\end{DoxyCompactItemize}
+\subsection*{\-Defines}
+\begin{DoxyCompactItemize}
+\item 
+\#define \hyperlink{pctracking_8h_a2eb03319e5ccdc1a14b73a7d8b1724de}{\-S\-Q\-R}(\-X)~((\-X)$\ast$(\-X))
+\item 
+\#define \hyperlink{pctracking_8h_a1daf785e3f68d293c7caa1c756d5cb74}{pi}~3.\-141592
+\item 
+\#define \hyperlink{pctracking_8h_a5980885300866b25d182a7666ac98769}{\-L2\-C\-U\-T}~-\/1
+\item 
+\#define \hyperlink{pctracking_8h_a7e7e0de2038f816290957c894628b263}{\-F\-P\-S\-\_\-\-C\-A\-L\-C}(\-\_\-\-W\-H\-A\-T\-\_\-)
+\end{DoxyCompactItemize}
+\subsection*{\-Typedefs}
+\begin{DoxyCompactItemize}
+\item 
+typedef vector$<$ \hyperlink{class_p_c_object}{\-P\-C\-Object} $\ast$ $>$ \hyperlink{pctracking_8h_acb57bb1f15b5379bb7d839496fbcc30f}{\-Vec\-Object\-Ptr}
+\item 
+typedef vector$<$ \hyperlink{class_p_c_object}{\-P\-C\-Object} $>$ \hyperlink{pctracking_8h_a67df89defefa5da6be86d3703f5a20f3}{\-Vec\-Object}
+\end{DoxyCompactItemize}
+\subsection*{\-Enumerations}
+\begin{DoxyCompactItemize}
+\item 
+enum \hyperlink{pctracking_8h_a1d1cfd8ffb84e947f82999c682b666a7}{\-Type} \{ \*
+\hyperlink{pctracking_8h_a1d1cfd8ffb84e947f82999c682b666a7a605159e8a4c32319fd69b5d151369d93}{\-U\-N\-D\-E\-F\-I\-N\-E\-D}, 
+\hyperlink{pctracking_8h_a1d1cfd8ffb84e947f82999c682b666a7aeb72c2e27fcf7b2f6a5f8a8856cd8f47}{\-P\-R\-O\-B\-L\-E\-M}, 
+\hyperlink{pctracking_8h_a1d1cfd8ffb84e947f82999c682b666a7a1e1a4aba20a5a009e616cbc8fad33ac7}{\-C\-L\-E\-A\-R}, 
+\hyperlink{pctracking_8h_a1d1cfd8ffb84e947f82999c682b666a7a283df3974c567b21c067198a24cd78e6}{\-P\-A\-R\-E\-N\-T}, 
+\*
+\hyperlink{pctracking_8h_a1d1cfd8ffb84e947f82999c682b666a7a1fbfc6416a0d78a967e48395e021d7c7}{\-C\-H\-I\-L\-D}, 
+\hyperlink{pctracking_8h_a1d1cfd8ffb84e947f82999c682b666a7a8f8ad6619cb26aa9565964158fbd3c73}{\-D\-E\-F\-I\-N\-E\-D}
+ \}
+\item 
+enum \hyperlink{pctracking_8h_a80b0d67eccd8a722b335bc1c9679a2f7}{\-Time} \{ \hyperlink{pctracking_8h_a80b0d67eccd8a722b335bc1c9679a2f7ad9600a436d5cc272dfd53f6c45fdeca4}{\-P\-R\-E\-V\-I\-O\-U\-S}, 
+\hyperlink{pctracking_8h_a80b0d67eccd8a722b335bc1c9679a2f7a7770173898835c0954853cb16e8d284a}{\-C\-U\-R\-R\-E\-N\-T}
+ \}
+\end{DoxyCompactItemize}
+
+
+\subsection{\-Define \-Documentation}
+\hypertarget{pctracking_8h_a7e7e0de2038f816290957c894628b263}{\index{pctracking.\-h@{pctracking.\-h}!\-F\-P\-S\-\_\-\-C\-A\-L\-C@{\-F\-P\-S\-\_\-\-C\-A\-L\-C}}
+\index{\-F\-P\-S\-\_\-\-C\-A\-L\-C@{\-F\-P\-S\-\_\-\-C\-A\-L\-C}!pctracking.h@{pctracking.\-h}}
+\subsubsection[{\-F\-P\-S\-\_\-\-C\-A\-L\-C}]{\setlength{\rightskip}{0pt plus 5cm}\#define {\bf \-F\-P\-S\-\_\-\-C\-A\-L\-C}(
+\begin{DoxyParamCaption}
+\item[{}]{\-\_\-\-W\-H\-A\-T\-\_\-}
+\end{DoxyParamCaption}
+)}}\label{pctracking_8h_a7e7e0de2038f816290957c894628b263}
+{\bfseries \-Value\-:}
+\begin{DoxyCode}
+do \
+{ \
+    static unsigned count = 0;\
+    static double last = pcl::getTime ();\
+    double now = pcl::getTime (); \
+    ++count; \
+    if (now - last >= 1.0) \
+{ \
+    ROS_INFO("FPS of %s: %f", _WHAT_, double(count)/double(now - last)); \
+    count = 0; \
+    last = now; \
+    } \
+    }while(false)
+\end{DoxyCode}
+\hypertarget{pctracking_8h_a5980885300866b25d182a7666ac98769}{\index{pctracking.\-h@{pctracking.\-h}!\-L2\-C\-U\-T@{\-L2\-C\-U\-T}}
+\index{\-L2\-C\-U\-T@{\-L2\-C\-U\-T}!pctracking.h@{pctracking.\-h}}
+\subsubsection[{\-L2\-C\-U\-T}]{\setlength{\rightskip}{0pt plus 5cm}\#define {\bf \-L2\-C\-U\-T}~-\/1}}\label{pctracking_8h_a5980885300866b25d182a7666ac98769}
+\hypertarget{pctracking_8h_a1daf785e3f68d293c7caa1c756d5cb74}{\index{pctracking.\-h@{pctracking.\-h}!pi@{pi}}
+\index{pi@{pi}!pctracking.h@{pctracking.\-h}}
+\subsubsection[{pi}]{\setlength{\rightskip}{0pt plus 5cm}\#define {\bf pi}~3.\-141592}}\label{pctracking_8h_a1daf785e3f68d293c7caa1c756d5cb74}
+\hypertarget{pctracking_8h_a2eb03319e5ccdc1a14b73a7d8b1724de}{\index{pctracking.\-h@{pctracking.\-h}!\-S\-Q\-R@{\-S\-Q\-R}}
+\index{\-S\-Q\-R@{\-S\-Q\-R}!pctracking.h@{pctracking.\-h}}
+\subsubsection[{\-S\-Q\-R}]{\setlength{\rightskip}{0pt plus 5cm}\#define {\bf \-S\-Q\-R}(
+\begin{DoxyParamCaption}
+\item[{}]{\-X}
+\end{DoxyParamCaption}
+)~((\-X)$\ast$(\-X))}}\label{pctracking_8h_a2eb03319e5ccdc1a14b73a7d8b1724de}
+
+
+\subsection{\-Typedef \-Documentation}
+\hypertarget{pctracking_8h_a67df89defefa5da6be86d3703f5a20f3}{\index{pctracking.\-h@{pctracking.\-h}!\-Vec\-Object@{\-Vec\-Object}}
+\index{\-Vec\-Object@{\-Vec\-Object}!pctracking.h@{pctracking.\-h}}
+\subsubsection[{\-Vec\-Object}]{\setlength{\rightskip}{0pt plus 5cm}typedef vector$<${\bf \-P\-C\-Object}$>$ {\bf \-Vec\-Object}}}\label{pctracking_8h_a67df89defefa5da6be86d3703f5a20f3}
+\hypertarget{pctracking_8h_acb57bb1f15b5379bb7d839496fbcc30f}{\index{pctracking.\-h@{pctracking.\-h}!\-Vec\-Object\-Ptr@{\-Vec\-Object\-Ptr}}
+\index{\-Vec\-Object\-Ptr@{\-Vec\-Object\-Ptr}!pctracking.h@{pctracking.\-h}}
+\subsubsection[{\-Vec\-Object\-Ptr}]{\setlength{\rightskip}{0pt plus 5cm}typedef vector$<${\bf \-P\-C\-Object}$\ast$$>$ {\bf \-Vec\-Object\-Ptr}}}\label{pctracking_8h_acb57bb1f15b5379bb7d839496fbcc30f}
+
+
+\subsection{\-Enumeration \-Type \-Documentation}
+\hypertarget{pctracking_8h_a80b0d67eccd8a722b335bc1c9679a2f7}{\index{pctracking.\-h@{pctracking.\-h}!\-Time@{\-Time}}
+\index{\-Time@{\-Time}!pctracking.h@{pctracking.\-h}}
+\subsubsection[{\-Time}]{\setlength{\rightskip}{0pt plus 5cm}enum {\bf \-Time}}}\label{pctracking_8h_a80b0d67eccd8a722b335bc1c9679a2f7}
+\begin{Desc}
+\item[\-Enumerator\-: ]\par
+\begin{description}
+\index{\-P\-R\-E\-V\-I\-O\-U\-S@{\-P\-R\-E\-V\-I\-O\-U\-S}!pctracking.\-h@{pctracking.\-h}}\index{pctracking.\-h@{pctracking.\-h}!\-P\-R\-E\-V\-I\-O\-U\-S@{\-P\-R\-E\-V\-I\-O\-U\-S}}\item[{\em 
+\hypertarget{pctracking_8h_a80b0d67eccd8a722b335bc1c9679a2f7ad9600a436d5cc272dfd53f6c45fdeca4}{\-P\-R\-E\-V\-I\-O\-U\-S}\label{pctracking_8h_a80b0d67eccd8a722b335bc1c9679a2f7ad9600a436d5cc272dfd53f6c45fdeca4}
+}]\index{\-C\-U\-R\-R\-E\-N\-T@{\-C\-U\-R\-R\-E\-N\-T}!pctracking.\-h@{pctracking.\-h}}\index{pctracking.\-h@{pctracking.\-h}!\-C\-U\-R\-R\-E\-N\-T@{\-C\-U\-R\-R\-E\-N\-T}}\item[{\em 
+\hypertarget{pctracking_8h_a80b0d67eccd8a722b335bc1c9679a2f7a7770173898835c0954853cb16e8d284a}{\-C\-U\-R\-R\-E\-N\-T}\label{pctracking_8h_a80b0d67eccd8a722b335bc1c9679a2f7a7770173898835c0954853cb16e8d284a}
+}]\end{description}
+\end{Desc}
+
+\hypertarget{pctracking_8h_a1d1cfd8ffb84e947f82999c682b666a7}{\index{pctracking.\-h@{pctracking.\-h}!\-Type@{\-Type}}
+\index{\-Type@{\-Type}!pctracking.h@{pctracking.\-h}}
+\subsubsection[{\-Type}]{\setlength{\rightskip}{0pt plus 5cm}enum {\bf \-Type}}}\label{pctracking_8h_a1d1cfd8ffb84e947f82999c682b666a7}
+\begin{Desc}
+\item[\-Enumerator\-: ]\par
+\begin{description}
+\index{\-U\-N\-D\-E\-F\-I\-N\-E\-D@{\-U\-N\-D\-E\-F\-I\-N\-E\-D}!pctracking.\-h@{pctracking.\-h}}\index{pctracking.\-h@{pctracking.\-h}!\-U\-N\-D\-E\-F\-I\-N\-E\-D@{\-U\-N\-D\-E\-F\-I\-N\-E\-D}}\item[{\em 
+\hypertarget{pctracking_8h_a1d1cfd8ffb84e947f82999c682b666a7a605159e8a4c32319fd69b5d151369d93}{\-U\-N\-D\-E\-F\-I\-N\-E\-D}\label{pctracking_8h_a1d1cfd8ffb84e947f82999c682b666a7a605159e8a4c32319fd69b5d151369d93}
+}]\index{\-P\-R\-O\-B\-L\-E\-M@{\-P\-R\-O\-B\-L\-E\-M}!pctracking.\-h@{pctracking.\-h}}\index{pctracking.\-h@{pctracking.\-h}!\-P\-R\-O\-B\-L\-E\-M@{\-P\-R\-O\-B\-L\-E\-M}}\item[{\em 
+\hypertarget{pctracking_8h_a1d1cfd8ffb84e947f82999c682b666a7aeb72c2e27fcf7b2f6a5f8a8856cd8f47}{\-P\-R\-O\-B\-L\-E\-M}\label{pctracking_8h_a1d1cfd8ffb84e947f82999c682b666a7aeb72c2e27fcf7b2f6a5f8a8856cd8f47}
+}]\index{\-C\-L\-E\-A\-R@{\-C\-L\-E\-A\-R}!pctracking.\-h@{pctracking.\-h}}\index{pctracking.\-h@{pctracking.\-h}!\-C\-L\-E\-A\-R@{\-C\-L\-E\-A\-R}}\item[{\em 
+\hypertarget{pctracking_8h_a1d1cfd8ffb84e947f82999c682b666a7a1e1a4aba20a5a009e616cbc8fad33ac7}{\-C\-L\-E\-A\-R}\label{pctracking_8h_a1d1cfd8ffb84e947f82999c682b666a7a1e1a4aba20a5a009e616cbc8fad33ac7}
+}]\index{\-P\-A\-R\-E\-N\-T@{\-P\-A\-R\-E\-N\-T}!pctracking.\-h@{pctracking.\-h}}\index{pctracking.\-h@{pctracking.\-h}!\-P\-A\-R\-E\-N\-T@{\-P\-A\-R\-E\-N\-T}}\item[{\em 
+\hypertarget{pctracking_8h_a1d1cfd8ffb84e947f82999c682b666a7a283df3974c567b21c067198a24cd78e6}{\-P\-A\-R\-E\-N\-T}\label{pctracking_8h_a1d1cfd8ffb84e947f82999c682b666a7a283df3974c567b21c067198a24cd78e6}
+}]\index{\-C\-H\-I\-L\-D@{\-C\-H\-I\-L\-D}!pctracking.\-h@{pctracking.\-h}}\index{pctracking.\-h@{pctracking.\-h}!\-C\-H\-I\-L\-D@{\-C\-H\-I\-L\-D}}\item[{\em 
+\hypertarget{pctracking_8h_a1d1cfd8ffb84e947f82999c682b666a7a1fbfc6416a0d78a967e48395e021d7c7}{\-C\-H\-I\-L\-D}\label{pctracking_8h_a1d1cfd8ffb84e947f82999c682b666a7a1fbfc6416a0d78a967e48395e021d7c7}
+}]\index{\-D\-E\-F\-I\-N\-E\-D@{\-D\-E\-F\-I\-N\-E\-D}!pctracking.\-h@{pctracking.\-h}}\index{pctracking.\-h@{pctracking.\-h}!\-D\-E\-F\-I\-N\-E\-D@{\-D\-E\-F\-I\-N\-E\-D}}\item[{\em 
+\hypertarget{pctracking_8h_a1d1cfd8ffb84e947f82999c682b666a7a8f8ad6619cb26aa9565964158fbd3c73}{\-D\-E\-F\-I\-N\-E\-D}\label{pctracking_8h_a1d1cfd8ffb84e947f82999c682b666a7a8f8ad6619cb26aa9565964158fbd3c73}
+}]\end{description}
+\end{Desc}
+

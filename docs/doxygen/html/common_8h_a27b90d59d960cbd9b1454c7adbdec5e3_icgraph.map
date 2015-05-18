@@ -1,0 +1,8 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$common_8h.html#a83537dc7b8714f06452e1f8ad20a4dd2" title="colordist" alt="" coords="212,5,281,35"/>
+<area shape="rect" id="node7" href="$class_gaus_vcsh.html#aae7b05d4ce56c36fd9a7dc8f155a1e2a" title="GausVcsh::generate" alt="" coords="176,59,317,88"/>
+<area shape="rect" id="node9" href="$class_cs_feature_estimation.html#ae3c58e0d970953a13cbd2b250193a297" title="CsFeatureEstimation::compute" alt="" coords="145,112,348,141"/>
+<area shape="rect" id="node11" href="$class_cs_feature_estimation.html#a87416044424af9e1282e68ec43e4c2d6" title="CsFeatureEstimation::evalOnePoint" alt="" coords="132,165,361,195"/>
+<area shape="rect" id="node13" href="$class_particlepose.html#a2dfff2c77bd7367a0413cbb463c2986a" title="Particlepose::weightGPU" alt="" coords="163,219,331,248"/>
+<area shape="rect" id="node5" href="$class_particlepose.html#a5969de8804b86d863d03eaf2b2f24480" title="Particlepose::weight" alt="" coords="412,5,551,35"/>
+</map>

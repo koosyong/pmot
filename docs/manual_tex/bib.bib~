@@ -1,0 +1,87 @@
+@inproceedings{li2015realtime,
+  title={Real-time and Model-free object tracking using particle filter with joint color-spatial descriptor},
+  author={Li, Shile and Koo, Seongyong and Lee, Dongheui and Kwon, Dong-Soo},
+  booktitle={IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2015), submitted},
+  pages={},
+  year={2015}
+}
+
+@inproceedings{koo2014unsupervised,
+  title={Unsupervised object individuation from RGB-D image sequences},
+  author={Koo, Seongyong and Lee, Dongheui and Kwon, Dong-Soo},
+  booktitle={IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2014)},
+  pages={4450--4457},
+  year={2014}
+}
+
+@article{koo2014incremental,
+  title={Incremental object learning and robust tracking of multiple objects from RGB-D point set data},
+  author={Koo, Seongyong and Lee, Dongheui and Kwon, Dong-Soo},
+  journal={Journal of Visual Communication and Image Representation},
+  volume={25},
+  number={1},
+  pages={108--121},
+  year={2014},
+  publisher={Elsevier}
+}
+
+@inproceedings{koo2013multiple,
+  title={Multiple object tracking using an rgb-d camera by hierarchical spatiotemporal data association},
+  author={Koo, Seongyong and Lee, Dongheui and Kwon, Dong-Soo},
+  booktitle={Intelligent Robots and Systems (IROS), 2013 IEEE/RSJ International Conference on},
+  pages={1113--1118},
+  year={2013},
+  organization={IEEE}
+}
+
+@inproceedings{koo2013imft,
+  title={Multiple people tracking from 2d depth data by deterministic spatiotemporal data association},
+  author={Koo, Seongyong and Kwon, Dong-Soo},
+  booktitle={RO-MAN, 2013 IEEE},
+  pages={656--661},
+  year={2013},
+  organization={IEEE}
+}
+
+@inproceedings{koo2013gmm,
+  title={GMM-based 3D Object Representation and Robust Tracking in Unconstructed Dynamic Environments},
+  author={Koo, Seongyong and Lee, Dongheui and Kwon, Dong-Soo},
+  booktitle={2013 IEEE International Conference on Robotics and Automation (ICRA)},
+  pages={1106--1113},
+  year={2013},
+  organization={IEEE}
+}
+
+@ONLINE{ros,
+author = {},
+title = {Robot Operating System (ROS)},
+month = {},
+year = {},
+url = {http://www.ros.org/}
+}
+
+@InProceedings{Rusu_ICRA2011_PCL,
+  author    = {Radu Bogdan Rusu and Steve Cousins},
+  title     = {{3D is here: Point Cloud Library (PCL)}},
+  booktitle = {{IEEE International Conference on Robotics and Automation (ICRA)}},
+  month     = {May 9-13},
+  year      = {2011},
+  address   = {Shanghai, China}
+}
+@inproceedings{choi2013rgb,
+  title={Rgb-d object tracking: A particle filter approach on gpu},
+  author={Choi, Changhyun and Christensen, Henrik I},
+  booktitle={Intelligent Robots and Systems (IROS), 2013 IEEE/RSJ International Conference on},
+  pages={1084--1091},
+  year={2013},
+  organization={IEEE}
+}
+@inproceedings{papon2013point,
+  title={Point cloud video object segmentation using a persistent supervoxel world-model},
+  author={Papon, Jeremie and Kulvicius, Tomas and Aksoy, Eren Erdal and Worgotter, Florentin},
+  booktitle={Intelligent Robots and Systems (IROS), 2013 IEEE/RSJ International Conference on},
+  pages={3712--3718},
+  year={2013},
+  organization={IEEE}
+}
+

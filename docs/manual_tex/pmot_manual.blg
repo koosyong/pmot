@@ -1,0 +1,46 @@
+This is BibTeX, Version 0.99c (TeX Live 2009/Debian)
+The top-level auxiliary file: pmot_manual.aux
+The style file: alphaurl.bst
+Database file #1: bib.bib
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+You've used 10 entries,
+            3274 wiz_defined-function locations,
+            728 strings with 7419 characters,
+and the built_in function-call counts, 6344 in all, are:
+= -- 679
+> -- 249
+< -- 6
++ -- 86
+- -- 84
+* -- 345
+:= -- 903
+add.period$ -- 35
+call.type$ -- 10
+change.case$ -- 68
+chr.to.int$ -- 8
+cite$ -- 10
+duplicate$ -- 231
+empty$ -- 544
+format.name$ -- 94
+if$ -- 1578
+int.to.chr$ -- 3
+int.to.str$ -- 0
+missing$ -- 10
+newline$ -- 53
+num.names$ -- 30
+pop$ -- 126
+preamble$ -- 1
+purify$ -- 78
+quote$ -- 0
+skip$ -- 420
+stack$ -- 0
+substring$ -- 327
+swap$ -- 82
+text.length$ -- 6
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 80
+warning$ -- 0
+while$ -- 50
+width$ -- 13
+write$ -- 135

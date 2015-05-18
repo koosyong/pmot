@@ -1,0 +1,153 @@
+\hypertarget{class_c_s_g_p_u}{\section{\-C\-S\-G\-P\-U \-Class \-Reference}
+\label{class_c_s_g_p_u}\index{\-C\-S\-G\-P\-U@{\-C\-S\-G\-P\-U}}
+}
+
+
+{\ttfamily \#include $<$csgpu.\-h$>$}
+
+\subsection*{\-Public \-Member \-Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_c_s_g_p_u_a24d5da075a7960654334096ecbfdb49b}{\-C\-S\-G\-P\-U} ()
+\item 
+\hyperlink{class_c_s_g_p_u_a8443e5cf8518155df3f7ff7adff5fcec}{\-C\-S\-G\-P\-U} (float gridsize\-\_\-, int xnr\-\_\-, int ynr\-\_\-, int znr\-\_\-, int partnr\-\_\-, int cloudsize\-\_\-)
+\item 
+\hyperlink{class_c_s_g_p_u_a4a1672b4a09d646872ddeb4e7edf805a}{$\sim$\-C\-S\-G\-P\-U} ()
+\item 
+std\-::vector$<$ float $>$ \hyperlink{class_c_s_g_p_u_a23ff255887244e1307b41a657e5e26f5}{compute} ()
+\end{DoxyCompactItemize}
+\subsection*{\-Public \-Attributes}
+\begin{DoxyCompactItemize}
+\item 
+int \hyperlink{class_c_s_g_p_u_a8b544902a5b4fe5f7e010dda96ce7e93}{aa}
+\item 
+int \hyperlink{class_c_s_g_p_u_ace2257bc4c7eb29735ee01c03b7a7471}{histsize}
+\item 
+size\-\_\-t \hyperlink{class_c_s_g_p_u_a70716430b4cdd6085222556ef8ef2fb0}{part\-Nr}
+\item 
+size\-\_\-t \hyperlink{class_c_s_g_p_u_a3e3845d161dfaf5087e1a9329f0795cb}{cloud\-Size}
+\item 
+size\-\_\-t \hyperlink{class_c_s_g_p_u_aca9cc9e5ae863e7395d053ad724184da}{refcloud\-Size}
+\item 
+size\-\_\-t \hyperlink{class_c_s_g_p_u_a8f232965ca3bfd56b6d96ea5b9d92a57}{x\-Nr}
+\item 
+size\-\_\-t \hyperlink{class_c_s_g_p_u_a432972a16b011b3f0733b0e88185d8c9}{y\-Nr}
+\item 
+size\-\_\-t \hyperlink{class_c_s_g_p_u_a628e566c47edc244f4ced4ea8fdff40c}{z\-Nr}
+\item 
+float3 \hyperlink{class_c_s_g_p_u_a546cfd9fd17e125e8c1c7530b0783057}{min\-Pt}
+\item 
+float3 \hyperlink{class_c_s_g_p_u_a43d5d65a62bdd4c0529a7c5597526573}{max\-Pt}
+\item 
+float \hyperlink{class_c_s_g_p_u_a819ee6c0a3e2733e3edc350f9e090d39}{gridsize}
+\item 
+float $\ast$ \hyperlink{class_c_s_g_p_u_a8f0488218cd59487bb4900c066e5e250}{refhist}
+\item 
+float3 $\ast$ \hyperlink{class_c_s_g_p_u_aae0654f6af8886eeef6a455efbc1e1ed}{cloudpos}
+\item 
+float3 $\ast$ \hyperlink{class_c_s_g_p_u_a16a0b4b64cd6b658b618ddab15e4106a}{cloudhsv}
+\item 
+float3 $\ast$ \hyperlink{class_c_s_g_p_u_a6342a509f62d97d425b4759804872107}{refcloud}
+\item 
+float3 $\ast$ \hyperlink{class_c_s_g_p_u_aa654de3881bb51f6d9f461955976ac00}{partpos}
+\item 
+float3 $\ast$ \hyperlink{class_c_s_g_p_u_a832b559fdd18b22c2705d4ffa5c0d93d}{partrot}
+\end{DoxyCompactItemize}
+
+
+\subsection{\-Constructor \& \-Destructor \-Documentation}
+\hypertarget{class_c_s_g_p_u_a24d5da075a7960654334096ecbfdb49b}{\index{\-C\-S\-G\-P\-U@{\-C\-S\-G\-P\-U}!\-C\-S\-G\-P\-U@{\-C\-S\-G\-P\-U}}
+\index{\-C\-S\-G\-P\-U@{\-C\-S\-G\-P\-U}!CSGPU@{\-C\-S\-G\-P\-U}}
+\subsubsection[{\-C\-S\-G\-P\-U}]{\setlength{\rightskip}{0pt plus 5cm}{\bf \-C\-S\-G\-P\-U\-::\-C\-S\-G\-P\-U} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}\label{class_c_s_g_p_u_a24d5da075a7960654334096ecbfdb49b}
+\hypertarget{class_c_s_g_p_u_a8443e5cf8518155df3f7ff7adff5fcec}{\index{\-C\-S\-G\-P\-U@{\-C\-S\-G\-P\-U}!\-C\-S\-G\-P\-U@{\-C\-S\-G\-P\-U}}
+\index{\-C\-S\-G\-P\-U@{\-C\-S\-G\-P\-U}!CSGPU@{\-C\-S\-G\-P\-U}}
+\subsubsection[{\-C\-S\-G\-P\-U}]{\setlength{\rightskip}{0pt plus 5cm}{\bf \-C\-S\-G\-P\-U\-::\-C\-S\-G\-P\-U} (
+\begin{DoxyParamCaption}
+\item[{float}]{gridsize\-\_\-, }
+\item[{int}]{xnr\-\_\-, }
+\item[{int}]{ynr\-\_\-, }
+\item[{int}]{znr\-\_\-, }
+\item[{int}]{partnr\-\_\-, }
+\item[{int}]{cloudsize\-\_\-}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}\label{class_c_s_g_p_u_a8443e5cf8518155df3f7ff7adff5fcec}
+\hypertarget{class_c_s_g_p_u_a4a1672b4a09d646872ddeb4e7edf805a}{\index{\-C\-S\-G\-P\-U@{\-C\-S\-G\-P\-U}!$\sim$\-C\-S\-G\-P\-U@{$\sim$\-C\-S\-G\-P\-U}}
+\index{$\sim$\-C\-S\-G\-P\-U@{$\sim$\-C\-S\-G\-P\-U}!CSGPU@{\-C\-S\-G\-P\-U}}
+\subsubsection[{$\sim$\-C\-S\-G\-P\-U}]{\setlength{\rightskip}{0pt plus 5cm}{\bf \-C\-S\-G\-P\-U\-::$\sim$\-C\-S\-G\-P\-U} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}\label{class_c_s_g_p_u_a4a1672b4a09d646872ddeb4e7edf805a}
+
+
+\subsection{\-Member \-Function \-Documentation}
+\hypertarget{class_c_s_g_p_u_a23ff255887244e1307b41a657e5e26f5}{\index{\-C\-S\-G\-P\-U@{\-C\-S\-G\-P\-U}!compute@{compute}}
+\index{compute@{compute}!CSGPU@{\-C\-S\-G\-P\-U}}
+\subsubsection[{compute}]{\setlength{\rightskip}{0pt plus 5cm}std\-::vector$<$float$>$ {\bf \-C\-S\-G\-P\-U\-::compute} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_c_s_g_p_u_a23ff255887244e1307b41a657e5e26f5}
+
+
+\subsection{\-Member \-Data \-Documentation}
+\hypertarget{class_c_s_g_p_u_a8b544902a5b4fe5f7e010dda96ce7e93}{\index{\-C\-S\-G\-P\-U@{\-C\-S\-G\-P\-U}!aa@{aa}}
+\index{aa@{aa}!CSGPU@{\-C\-S\-G\-P\-U}}
+\subsubsection[{aa}]{\setlength{\rightskip}{0pt plus 5cm}int {\bf \-C\-S\-G\-P\-U\-::aa}}}\label{class_c_s_g_p_u_a8b544902a5b4fe5f7e010dda96ce7e93}
+\hypertarget{class_c_s_g_p_u_a16a0b4b64cd6b658b618ddab15e4106a}{\index{\-C\-S\-G\-P\-U@{\-C\-S\-G\-P\-U}!cloudhsv@{cloudhsv}}
+\index{cloudhsv@{cloudhsv}!CSGPU@{\-C\-S\-G\-P\-U}}
+\subsubsection[{cloudhsv}]{\setlength{\rightskip}{0pt plus 5cm}float3$\ast$ {\bf \-C\-S\-G\-P\-U\-::cloudhsv}}}\label{class_c_s_g_p_u_a16a0b4b64cd6b658b618ddab15e4106a}
+\hypertarget{class_c_s_g_p_u_aae0654f6af8886eeef6a455efbc1e1ed}{\index{\-C\-S\-G\-P\-U@{\-C\-S\-G\-P\-U}!cloudpos@{cloudpos}}
+\index{cloudpos@{cloudpos}!CSGPU@{\-C\-S\-G\-P\-U}}
+\subsubsection[{cloudpos}]{\setlength{\rightskip}{0pt plus 5cm}float3$\ast$ {\bf \-C\-S\-G\-P\-U\-::cloudpos}}}\label{class_c_s_g_p_u_aae0654f6af8886eeef6a455efbc1e1ed}
+\hypertarget{class_c_s_g_p_u_a3e3845d161dfaf5087e1a9329f0795cb}{\index{\-C\-S\-G\-P\-U@{\-C\-S\-G\-P\-U}!cloud\-Size@{cloud\-Size}}
+\index{cloud\-Size@{cloud\-Size}!CSGPU@{\-C\-S\-G\-P\-U}}
+\subsubsection[{cloud\-Size}]{\setlength{\rightskip}{0pt plus 5cm}size\-\_\-t {\bf \-C\-S\-G\-P\-U\-::cloud\-Size}}}\label{class_c_s_g_p_u_a3e3845d161dfaf5087e1a9329f0795cb}
+\hypertarget{class_c_s_g_p_u_a819ee6c0a3e2733e3edc350f9e090d39}{\index{\-C\-S\-G\-P\-U@{\-C\-S\-G\-P\-U}!gridsize@{gridsize}}
+\index{gridsize@{gridsize}!CSGPU@{\-C\-S\-G\-P\-U}}
+\subsubsection[{gridsize}]{\setlength{\rightskip}{0pt plus 5cm}float {\bf \-C\-S\-G\-P\-U\-::gridsize}}}\label{class_c_s_g_p_u_a819ee6c0a3e2733e3edc350f9e090d39}
+\hypertarget{class_c_s_g_p_u_ace2257bc4c7eb29735ee01c03b7a7471}{\index{\-C\-S\-G\-P\-U@{\-C\-S\-G\-P\-U}!histsize@{histsize}}
+\index{histsize@{histsize}!CSGPU@{\-C\-S\-G\-P\-U}}
+\subsubsection[{histsize}]{\setlength{\rightskip}{0pt plus 5cm}int {\bf \-C\-S\-G\-P\-U\-::histsize}}}\label{class_c_s_g_p_u_ace2257bc4c7eb29735ee01c03b7a7471}
+\hypertarget{class_c_s_g_p_u_a43d5d65a62bdd4c0529a7c5597526573}{\index{\-C\-S\-G\-P\-U@{\-C\-S\-G\-P\-U}!max\-Pt@{max\-Pt}}
+\index{max\-Pt@{max\-Pt}!CSGPU@{\-C\-S\-G\-P\-U}}
+\subsubsection[{max\-Pt}]{\setlength{\rightskip}{0pt plus 5cm}float3 {\bf \-C\-S\-G\-P\-U\-::max\-Pt}}}\label{class_c_s_g_p_u_a43d5d65a62bdd4c0529a7c5597526573}
+\hypertarget{class_c_s_g_p_u_a546cfd9fd17e125e8c1c7530b0783057}{\index{\-C\-S\-G\-P\-U@{\-C\-S\-G\-P\-U}!min\-Pt@{min\-Pt}}
+\index{min\-Pt@{min\-Pt}!CSGPU@{\-C\-S\-G\-P\-U}}
+\subsubsection[{min\-Pt}]{\setlength{\rightskip}{0pt plus 5cm}float3 {\bf \-C\-S\-G\-P\-U\-::min\-Pt}}}\label{class_c_s_g_p_u_a546cfd9fd17e125e8c1c7530b0783057}
+\hypertarget{class_c_s_g_p_u_a70716430b4cdd6085222556ef8ef2fb0}{\index{\-C\-S\-G\-P\-U@{\-C\-S\-G\-P\-U}!part\-Nr@{part\-Nr}}
+\index{part\-Nr@{part\-Nr}!CSGPU@{\-C\-S\-G\-P\-U}}
+\subsubsection[{part\-Nr}]{\setlength{\rightskip}{0pt plus 5cm}size\-\_\-t {\bf \-C\-S\-G\-P\-U\-::part\-Nr}}}\label{class_c_s_g_p_u_a70716430b4cdd6085222556ef8ef2fb0}
+\hypertarget{class_c_s_g_p_u_aa654de3881bb51f6d9f461955976ac00}{\index{\-C\-S\-G\-P\-U@{\-C\-S\-G\-P\-U}!partpos@{partpos}}
+\index{partpos@{partpos}!CSGPU@{\-C\-S\-G\-P\-U}}
+\subsubsection[{partpos}]{\setlength{\rightskip}{0pt plus 5cm}float3$\ast$ {\bf \-C\-S\-G\-P\-U\-::partpos}}}\label{class_c_s_g_p_u_aa654de3881bb51f6d9f461955976ac00}
+\hypertarget{class_c_s_g_p_u_a832b559fdd18b22c2705d4ffa5c0d93d}{\index{\-C\-S\-G\-P\-U@{\-C\-S\-G\-P\-U}!partrot@{partrot}}
+\index{partrot@{partrot}!CSGPU@{\-C\-S\-G\-P\-U}}
+\subsubsection[{partrot}]{\setlength{\rightskip}{0pt plus 5cm}float3$\ast$ {\bf \-C\-S\-G\-P\-U\-::partrot}}}\label{class_c_s_g_p_u_a832b559fdd18b22c2705d4ffa5c0d93d}
+\hypertarget{class_c_s_g_p_u_a6342a509f62d97d425b4759804872107}{\index{\-C\-S\-G\-P\-U@{\-C\-S\-G\-P\-U}!refcloud@{refcloud}}
+\index{refcloud@{refcloud}!CSGPU@{\-C\-S\-G\-P\-U}}
+\subsubsection[{refcloud}]{\setlength{\rightskip}{0pt plus 5cm}float3$\ast$ {\bf \-C\-S\-G\-P\-U\-::refcloud}}}\label{class_c_s_g_p_u_a6342a509f62d97d425b4759804872107}
+\hypertarget{class_c_s_g_p_u_aca9cc9e5ae863e7395d053ad724184da}{\index{\-C\-S\-G\-P\-U@{\-C\-S\-G\-P\-U}!refcloud\-Size@{refcloud\-Size}}
+\index{refcloud\-Size@{refcloud\-Size}!CSGPU@{\-C\-S\-G\-P\-U}}
+\subsubsection[{refcloud\-Size}]{\setlength{\rightskip}{0pt plus 5cm}size\-\_\-t {\bf \-C\-S\-G\-P\-U\-::refcloud\-Size}}}\label{class_c_s_g_p_u_aca9cc9e5ae863e7395d053ad724184da}
+\hypertarget{class_c_s_g_p_u_a8f0488218cd59487bb4900c066e5e250}{\index{\-C\-S\-G\-P\-U@{\-C\-S\-G\-P\-U}!refhist@{refhist}}
+\index{refhist@{refhist}!CSGPU@{\-C\-S\-G\-P\-U}}
+\subsubsection[{refhist}]{\setlength{\rightskip}{0pt plus 5cm}float$\ast$ {\bf \-C\-S\-G\-P\-U\-::refhist}}}\label{class_c_s_g_p_u_a8f0488218cd59487bb4900c066e5e250}
+\hypertarget{class_c_s_g_p_u_a8f232965ca3bfd56b6d96ea5b9d92a57}{\index{\-C\-S\-G\-P\-U@{\-C\-S\-G\-P\-U}!x\-Nr@{x\-Nr}}
+\index{x\-Nr@{x\-Nr}!CSGPU@{\-C\-S\-G\-P\-U}}
+\subsubsection[{x\-Nr}]{\setlength{\rightskip}{0pt plus 5cm}size\-\_\-t {\bf \-C\-S\-G\-P\-U\-::x\-Nr}}}\label{class_c_s_g_p_u_a8f232965ca3bfd56b6d96ea5b9d92a57}
+\hypertarget{class_c_s_g_p_u_a432972a16b011b3f0733b0e88185d8c9}{\index{\-C\-S\-G\-P\-U@{\-C\-S\-G\-P\-U}!y\-Nr@{y\-Nr}}
+\index{y\-Nr@{y\-Nr}!CSGPU@{\-C\-S\-G\-P\-U}}
+\subsubsection[{y\-Nr}]{\setlength{\rightskip}{0pt plus 5cm}size\-\_\-t {\bf \-C\-S\-G\-P\-U\-::y\-Nr}}}\label{class_c_s_g_p_u_a432972a16b011b3f0733b0e88185d8c9}
+\hypertarget{class_c_s_g_p_u_a628e566c47edc244f4ced4ea8fdff40c}{\index{\-C\-S\-G\-P\-U@{\-C\-S\-G\-P\-U}!z\-Nr@{z\-Nr}}
+\index{z\-Nr@{z\-Nr}!CSGPU@{\-C\-S\-G\-P\-U}}
+\subsubsection[{z\-Nr}]{\setlength{\rightskip}{0pt plus 5cm}size\-\_\-t {\bf \-C\-S\-G\-P\-U\-::z\-Nr}}}\label{class_c_s_g_p_u_a628e566c47edc244f4ced4ea8fdff40c}
+
+
+\-The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+/home/koosy/koosywork/pmot\-\_\-realtime/pmot\-\_\-realtime/src/\hyperlink{csgpu_8h}{csgpu.\-h}\end{DoxyCompactItemize}

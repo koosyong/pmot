@@ -1,0 +1,208 @@
+\hypertarget{class_p_c_object_container}{\section{\-P\-C\-Object\-Container \-Class \-Reference}
+\label{class_p_c_object_container}\index{\-P\-C\-Object\-Container@{\-P\-C\-Object\-Container}}
+}
+
+
+{\ttfamily \#include $<$pcobjectcontainer.\-h$>$}
+
+\subsection*{\-Public \-Member \-Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_p_c_object_container_af21d443878f8f8c78e32db3ba7bdcd0e}{\-P\-C\-Object\-Container} ()
+\item 
+\hyperlink{class_p_c_object_container_a9ba8e8bca146e65e310f3acba0405617}{\-P\-C\-Object\-Container} (\hyperlink{common_8h_a36884aa4a3c181fa4c284d79329ad166}{\-Cloud\-Ptr} \-\_\-p\-Cloud)
+\item 
+\hyperlink{class_p_c_object_container_a62369d4a9a192b8e7266b82065362b01}{$\sim$\-P\-C\-Object\-Container} ()
+\item 
+int \hyperlink{class_p_c_object_container_a3028b503e5f50ee7ba14b9224cdc411d}{num\-Objects} ()
+\item 
+bool \hyperlink{class_p_c_object_container_a22f12c64c44f6d5881762aedad0cfb02}{delete\-Object} (int id)
+\item 
+void \hyperlink{class_p_c_object_container_a2d8ab397f1a69ceec7a916905565f19f}{make\-New\-Object} (\hyperlink{class_p_c_object}{\-P\-C\-Object} \&object)
+\item 
+void \hyperlink{class_p_c_object_container_af032c7cb3ebb37bdb515f9192f609b0e}{init\-G\-M\-M} (double \hyperlink{class_p_c_object_container_af11c2139d36c285b66b3b56ac5b3f96e}{scale}, double percent)
+\item 
+void \hyperlink{class_p_c_object_container_a0ef13acb954dbf3d99a743c6a1983576}{clear\-All} ()
+\end{DoxyCompactItemize}
+\subsection*{\-Public \-Attributes}
+\begin{DoxyCompactItemize}
+\item 
+vector$<$ \hyperlink{class_p_c_object}{\-P\-C\-Object} $>$ \hyperlink{class_p_c_object_container_a92c4994a8b244c531bc1fb3391a9631e}{objects}
+\item 
+int \hyperlink{class_p_c_object_container_a59788043c1ab55a990cb05b26bf3633d}{num}
+\end{DoxyCompactItemize}
+\subsection*{\-Private \-Member \-Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{class_p_c_object_container_a257bc60b28b77508f0acbffc51e32074}{making\-Objects} ()
+\end{DoxyCompactItemize}
+\subsection*{\-Private \-Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{common_8h_a36884aa4a3c181fa4c284d79329ad166}{\-Cloud\-Ptr} \hyperlink{class_p_c_object_container_a9a06969ee10b3dcefccd13e76b7fa0db}{p\-Cloud}
+\item 
+double \hyperlink{class_p_c_object_container_af11c2139d36c285b66b3b56ac5b3f96e}{scale}
+\end{DoxyCompactItemize}
+
+
+\subsection{\-Constructor \& \-Destructor \-Documentation}
+\hypertarget{class_p_c_object_container_af21d443878f8f8c78e32db3ba7bdcd0e}{\index{\-P\-C\-Object\-Container@{\-P\-C\-Object\-Container}!\-P\-C\-Object\-Container@{\-P\-C\-Object\-Container}}
+\index{\-P\-C\-Object\-Container@{\-P\-C\-Object\-Container}!PCObjectContainer@{\-P\-C\-Object\-Container}}
+\subsubsection[{\-P\-C\-Object\-Container}]{\setlength{\rightskip}{0pt plus 5cm}{\bf \-P\-C\-Object\-Container\-::\-P\-C\-Object\-Container} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_p_c_object_container_af21d443878f8f8c78e32db3ba7bdcd0e}
+\hypertarget{class_p_c_object_container_a9ba8e8bca146e65e310f3acba0405617}{\index{\-P\-C\-Object\-Container@{\-P\-C\-Object\-Container}!\-P\-C\-Object\-Container@{\-P\-C\-Object\-Container}}
+\index{\-P\-C\-Object\-Container@{\-P\-C\-Object\-Container}!PCObjectContainer@{\-P\-C\-Object\-Container}}
+\subsubsection[{\-P\-C\-Object\-Container}]{\setlength{\rightskip}{0pt plus 5cm}{\bf \-P\-C\-Object\-Container\-::\-P\-C\-Object\-Container} (
+\begin{DoxyParamCaption}
+\item[{{\bf \-Cloud\-Ptr}}]{\-\_\-p\-Cloud}
+\end{DoxyParamCaption}
+)}}\label{class_p_c_object_container_a9ba8e8bca146e65e310f3acba0405617}
+
+
+\-Here is the call graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_p_c_object_container_a9ba8e8bca146e65e310f3acba0405617_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{class_p_c_object_container_a62369d4a9a192b8e7266b82065362b01}{\index{\-P\-C\-Object\-Container@{\-P\-C\-Object\-Container}!$\sim$\-P\-C\-Object\-Container@{$\sim$\-P\-C\-Object\-Container}}
+\index{$\sim$\-P\-C\-Object\-Container@{$\sim$\-P\-C\-Object\-Container}!PCObjectContainer@{\-P\-C\-Object\-Container}}
+\subsubsection[{$\sim$\-P\-C\-Object\-Container}]{\setlength{\rightskip}{0pt plus 5cm}{\bf \-P\-C\-Object\-Container\-::$\sim$\-P\-C\-Object\-Container} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_p_c_object_container_a62369d4a9a192b8e7266b82065362b01}
+
+
+\subsection{\-Member \-Function \-Documentation}
+\hypertarget{class_p_c_object_container_a0ef13acb954dbf3d99a743c6a1983576}{\index{\-P\-C\-Object\-Container@{\-P\-C\-Object\-Container}!clear\-All@{clear\-All}}
+\index{clear\-All@{clear\-All}!PCObjectContainer@{\-P\-C\-Object\-Container}}
+\subsubsection[{clear\-All}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf \-P\-C\-Object\-Container\-::clear\-All} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_p_c_object_container_a0ef13acb954dbf3d99a743c6a1983576}
+
+
+\-Here is the caller graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_p_c_object_container_a0ef13acb954dbf3d99a743c6a1983576_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{class_p_c_object_container_a22f12c64c44f6d5881762aedad0cfb02}{\index{\-P\-C\-Object\-Container@{\-P\-C\-Object\-Container}!delete\-Object@{delete\-Object}}
+\index{delete\-Object@{delete\-Object}!PCObjectContainer@{\-P\-C\-Object\-Container}}
+\subsubsection[{delete\-Object}]{\setlength{\rightskip}{0pt plus 5cm}bool {\bf \-P\-C\-Object\-Container\-::delete\-Object} (
+\begin{DoxyParamCaption}
+\item[{int}]{id}
+\end{DoxyParamCaption}
+)}}\label{class_p_c_object_container_a22f12c64c44f6d5881762aedad0cfb02}
+\hypertarget{class_p_c_object_container_af032c7cb3ebb37bdb515f9192f609b0e}{\index{\-P\-C\-Object\-Container@{\-P\-C\-Object\-Container}!init\-G\-M\-M@{init\-G\-M\-M}}
+\index{init\-G\-M\-M@{init\-G\-M\-M}!PCObjectContainer@{\-P\-C\-Object\-Container}}
+\subsubsection[{init\-G\-M\-M}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf \-P\-C\-Object\-Container\-::init\-G\-M\-M} (
+\begin{DoxyParamCaption}
+\item[{double}]{scale, }
+\item[{double}]{percent}
+\end{DoxyParamCaption}
+)}}\label{class_p_c_object_container_af032c7cb3ebb37bdb515f9192f609b0e}
+
+
+\-Here is the call graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_p_c_object_container_af032c7cb3ebb37bdb515f9192f609b0e_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{class_p_c_object_container_a2d8ab397f1a69ceec7a916905565f19f}{\index{\-P\-C\-Object\-Container@{\-P\-C\-Object\-Container}!make\-New\-Object@{make\-New\-Object}}
+\index{make\-New\-Object@{make\-New\-Object}!PCObjectContainer@{\-P\-C\-Object\-Container}}
+\subsubsection[{make\-New\-Object}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf \-P\-C\-Object\-Container\-::make\-New\-Object} (
+\begin{DoxyParamCaption}
+\item[{{\bf \-P\-C\-Object} \&}]{object}
+\end{DoxyParamCaption}
+)}}\label{class_p_c_object_container_a2d8ab397f1a69ceec7a916905565f19f}
+
+
+\-Here is the caller graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_p_c_object_container_a2d8ab397f1a69ceec7a916905565f19f_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{class_p_c_object_container_a257bc60b28b77508f0acbffc51e32074}{\index{\-P\-C\-Object\-Container@{\-P\-C\-Object\-Container}!making\-Objects@{making\-Objects}}
+\index{making\-Objects@{making\-Objects}!PCObjectContainer@{\-P\-C\-Object\-Container}}
+\subsubsection[{making\-Objects}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf \-P\-C\-Object\-Container\-::making\-Objects} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}\label{class_p_c_object_container_a257bc60b28b77508f0acbffc51e32074}
+
+
+\-Here is the caller graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_p_c_object_container_a257bc60b28b77508f0acbffc51e32074_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{class_p_c_object_container_a3028b503e5f50ee7ba14b9224cdc411d}{\index{\-P\-C\-Object\-Container@{\-P\-C\-Object\-Container}!num\-Objects@{num\-Objects}}
+\index{num\-Objects@{num\-Objects}!PCObjectContainer@{\-P\-C\-Object\-Container}}
+\subsubsection[{num\-Objects}]{\setlength{\rightskip}{0pt plus 5cm}int {\bf \-P\-C\-Object\-Container\-::num\-Objects} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}\label{class_p_c_object_container_a3028b503e5f50ee7ba14b9224cdc411d}
+
+
+\-Here is the caller graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_p_c_object_container_a3028b503e5f50ee7ba14b9224cdc411d_icgraph}
+\end{center}
+\end{figure}
+
+
+
+
+\subsection{\-Member \-Data \-Documentation}
+\hypertarget{class_p_c_object_container_a59788043c1ab55a990cb05b26bf3633d}{\index{\-P\-C\-Object\-Container@{\-P\-C\-Object\-Container}!num@{num}}
+\index{num@{num}!PCObjectContainer@{\-P\-C\-Object\-Container}}
+\subsubsection[{num}]{\setlength{\rightskip}{0pt plus 5cm}int {\bf \-P\-C\-Object\-Container\-::num}}}\label{class_p_c_object_container_a59788043c1ab55a990cb05b26bf3633d}
+\hypertarget{class_p_c_object_container_a92c4994a8b244c531bc1fb3391a9631e}{\index{\-P\-C\-Object\-Container@{\-P\-C\-Object\-Container}!objects@{objects}}
+\index{objects@{objects}!PCObjectContainer@{\-P\-C\-Object\-Container}}
+\subsubsection[{objects}]{\setlength{\rightskip}{0pt plus 5cm}vector$<${\bf \-P\-C\-Object}$>$ {\bf \-P\-C\-Object\-Container\-::objects}}}\label{class_p_c_object_container_a92c4994a8b244c531bc1fb3391a9631e}
+\hypertarget{class_p_c_object_container_a9a06969ee10b3dcefccd13e76b7fa0db}{\index{\-P\-C\-Object\-Container@{\-P\-C\-Object\-Container}!p\-Cloud@{p\-Cloud}}
+\index{p\-Cloud@{p\-Cloud}!PCObjectContainer@{\-P\-C\-Object\-Container}}
+\subsubsection[{p\-Cloud}]{\setlength{\rightskip}{0pt plus 5cm}{\bf \-Cloud\-Ptr} {\bf \-P\-C\-Object\-Container\-::p\-Cloud}\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}\label{class_p_c_object_container_a9a06969ee10b3dcefccd13e76b7fa0db}
+\hypertarget{class_p_c_object_container_af11c2139d36c285b66b3b56ac5b3f96e}{\index{\-P\-C\-Object\-Container@{\-P\-C\-Object\-Container}!scale@{scale}}
+\index{scale@{scale}!PCObjectContainer@{\-P\-C\-Object\-Container}}
+\subsubsection[{scale}]{\setlength{\rightskip}{0pt plus 5cm}double {\bf \-P\-C\-Object\-Container\-::scale}\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}\label{class_p_c_object_container_af11c2139d36c285b66b3b56ac5b3f96e}
+
+
+\-The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+/home/koosy/koosywork/pmot\-\_\-realtime/pmot\-\_\-realtime/src/\hyperlink{pcobjectcontainer_8h}{pcobjectcontainer.\-h}\item 
+/home/koosy/koosywork/pmot\-\_\-realtime/pmot\-\_\-realtime/src/\hyperlink{pcobjectcontainer_8cpp}{pcobjectcontainer.\-cpp}\end{DoxyCompactItemize}

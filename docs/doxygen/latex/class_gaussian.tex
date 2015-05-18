@@ -1,0 +1,236 @@
+\hypertarget{class_gaussian}{\section{\-Gaussian \-Class \-Reference}
+\label{class_gaussian}\index{\-Gaussian@{\-Gaussian}}
+}
+
+
+{\ttfamily \#include $<$gaussian.\-h$>$}
+
+\subsection*{\-Public \-Member \-Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_gaussian_aa201bf4a8fe1192c9a701e9537691426}{\-Gaussian} ()
+\item 
+\hyperlink{class_gaussian_adf41f13b444bf52b9626cb80719e4955}{\-Gaussian} (int \-\_\-dim)
+\item 
+void \hyperlink{class_gaussian_adf54537aeb68ac96fc3dc0bd42224216}{init} (int \-\_\-dim, \hyperlink{gaussian_8h_a2786dfc8a28e30d6b6385f709a158a37}{\-Points} points)
+\item 
+void \hyperlink{class_gaussian_a6d157086ac90e226afd46887fa43c5a8}{update\-Param} (vnl\-\_\-vector$<$ double $>$ new\-Param)
+\item 
+void \hyperlink{class_gaussian_a8e447c419d940ee28016c56bf1c3fa6c}{init\-Prediction} ()
+\end{DoxyCompactItemize}
+\subsection*{\-Static \-Public \-Member \-Functions}
+\begin{DoxyCompactItemize}
+\item 
+static void \hyperlink{class_gaussian_a7c8e5d982d6c20e36c68d3d042f0e9c5}{quaternion2rotation} (vnl\-\_\-vector$<$ double $>$ q, vnl\-\_\-matrix$<$ double $>$ \&\-R, vnl\-\_\-matrix$<$ double $>$ \&g1, vnl\-\_\-matrix$<$ double $>$ \&g2, vnl\-\_\-matrix$<$ double $>$ \&g3, vnl\-\_\-matrix$<$ double $>$ \&g4)
+\item 
+static void \hyperlink{class_gaussian_aa3bbdc57cb1715d5e97f28e277649ced}{quaternion2rotation} (vnl\-\_\-vector$<$ double $>$ q, vnl\-\_\-matrix$<$ double $>$ \&\-R)
+\end{DoxyCompactItemize}
+\subsection*{\-Public \-Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\-Eigen\-::\-Vector\-Xd \hyperlink{class_gaussian_a2462f56c5ce1b88275ab4c59b99739a4}{mean}
+\item 
+\-Eigen\-::\-Vector3d \hyperlink{class_gaussian_a09ad4d04a27b2e6be4945719da025927}{velocity}
+\item 
+\-Eigen\-::\-Vector3d \hyperlink{class_gaussian_a040f0491de0917c6f9ad79ae7e68c02c}{eigenvalues}
+\item 
+\-Eigen\-::\-Matrix3d \hyperlink{class_gaussian_a430bc29a81c8a70d1ef6d9442bf7ba6f}{eigenvectors}
+\item 
+\-Eigen\-::\-Matrix\-Xd \hyperlink{class_gaussian_a62f08da00092ff4db7e0b864a2a68466}{covariance}
+\item 
+\-Eigen\-::\-Matrix\-Xd \hyperlink{class_gaussian_af2381be5187cf33c49d1c4575382b588}{cov\-\_\-inverse}
+\item 
+double \hyperlink{class_gaussian_a5c2ddadca218776ecc2d47ee7dfb2244}{cov\-\_\-determinant}
+\item 
+\-Eigen\-::\-Vector\-Xd \hyperlink{class_gaussian_af57af53a8c6d0006cc8a6a7658198eb0}{predictive\-\_\-mean}
+\item 
+\-Eigen\-::\-Matrix\-Xd \hyperlink{class_gaussian_afadc9984777174ca00506af635c9db1a}{predictive\-\_\-covariance}
+\item 
+double \hyperlink{class_gaussian_ae6192dadf70b84fa41dcf4498b5aaf52}{weight}
+\item 
+int \hyperlink{class_gaussian_a736f42df8823b1397eff83858e7864d1}{n\-Point}
+\item 
+bool \hyperlink{class_gaussian_acf67c5d6f25b4c13bfcfd72db9ab544f}{is\-Empty}
+\item 
+int \hyperlink{class_gaussian_ac8cca436c08c5c880bc1d7b6f9fae31d}{dim}
+\item 
+vnl\-\_\-matrix$<$ double $>$ \hyperlink{class_gaussian_a2469316effaaf6d03566d534fefa64fc}{translation}
+\item 
+vnl\-\_\-matrix$<$ double $>$ \hyperlink{class_gaussian_a859907145de3080604d20cc1105cd1e5}{rotation}
+\end{DoxyCompactItemize}
+
+
+\subsection{\-Constructor \& \-Destructor \-Documentation}
+\hypertarget{class_gaussian_aa201bf4a8fe1192c9a701e9537691426}{\index{\-Gaussian@{\-Gaussian}!\-Gaussian@{\-Gaussian}}
+\index{\-Gaussian@{\-Gaussian}!Gaussian@{\-Gaussian}}
+\subsubsection[{\-Gaussian}]{\setlength{\rightskip}{0pt plus 5cm}{\bf \-Gaussian\-::\-Gaussian} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_gaussian_aa201bf4a8fe1192c9a701e9537691426}
+\hypertarget{class_gaussian_adf41f13b444bf52b9626cb80719e4955}{\index{\-Gaussian@{\-Gaussian}!\-Gaussian@{\-Gaussian}}
+\index{\-Gaussian@{\-Gaussian}!Gaussian@{\-Gaussian}}
+\subsubsection[{\-Gaussian}]{\setlength{\rightskip}{0pt plus 5cm}{\bf \-Gaussian\-::\-Gaussian} (
+\begin{DoxyParamCaption}
+\item[{int}]{\-\_\-dim}
+\end{DoxyParamCaption}
+)}}\label{class_gaussian_adf41f13b444bf52b9626cb80719e4955}
+
+
+\subsection{\-Member \-Function \-Documentation}
+\hypertarget{class_gaussian_adf54537aeb68ac96fc3dc0bd42224216}{\index{\-Gaussian@{\-Gaussian}!init@{init}}
+\index{init@{init}!Gaussian@{\-Gaussian}}
+\subsubsection[{init}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf \-Gaussian\-::init} (
+\begin{DoxyParamCaption}
+\item[{int}]{\-\_\-dim, }
+\item[{{\bf \-Points}}]{points}
+\end{DoxyParamCaption}
+)}}\label{class_gaussian_adf54537aeb68ac96fc3dc0bd42224216}
+
+
+\-Here is the caller graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_gaussian_adf54537aeb68ac96fc3dc0bd42224216_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{class_gaussian_a8e447c419d940ee28016c56bf1c3fa6c}{\index{\-Gaussian@{\-Gaussian}!init\-Prediction@{init\-Prediction}}
+\index{init\-Prediction@{init\-Prediction}!Gaussian@{\-Gaussian}}
+\subsubsection[{init\-Prediction}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf \-Gaussian\-::init\-Prediction} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_gaussian_a8e447c419d940ee28016c56bf1c3fa6c}
+
+
+\-Here is the caller graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_gaussian_a8e447c419d940ee28016c56bf1c3fa6c_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{class_gaussian_a7c8e5d982d6c20e36c68d3d042f0e9c5}{\index{\-Gaussian@{\-Gaussian}!quaternion2rotation@{quaternion2rotation}}
+\index{quaternion2rotation@{quaternion2rotation}!Gaussian@{\-Gaussian}}
+\subsubsection[{quaternion2rotation}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf \-Gaussian\-::quaternion2rotation} (
+\begin{DoxyParamCaption}
+\item[{vnl\-\_\-vector$<$ double $>$}]{q, }
+\item[{vnl\-\_\-matrix$<$ double $>$ \&}]{\-R, }
+\item[{vnl\-\_\-matrix$<$ double $>$ \&}]{g1, }
+\item[{vnl\-\_\-matrix$<$ double $>$ \&}]{g2, }
+\item[{vnl\-\_\-matrix$<$ double $>$ \&}]{g3, }
+\item[{vnl\-\_\-matrix$<$ double $>$ \&}]{g4}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}\label{class_gaussian_a7c8e5d982d6c20e36c68d3d042f0e9c5}
+
+
+\-Here is the caller graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_gaussian_a7c8e5d982d6c20e36c68d3d042f0e9c5_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{class_gaussian_aa3bbdc57cb1715d5e97f28e277649ced}{\index{\-Gaussian@{\-Gaussian}!quaternion2rotation@{quaternion2rotation}}
+\index{quaternion2rotation@{quaternion2rotation}!Gaussian@{\-Gaussian}}
+\subsubsection[{quaternion2rotation}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf \-Gaussian\-::quaternion2rotation} (
+\begin{DoxyParamCaption}
+\item[{vnl\-\_\-vector$<$ double $>$}]{q, }
+\item[{vnl\-\_\-matrix$<$ double $>$ \&}]{\-R}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}\label{class_gaussian_aa3bbdc57cb1715d5e97f28e277649ced}
+\hypertarget{class_gaussian_a6d157086ac90e226afd46887fa43c5a8}{\index{\-Gaussian@{\-Gaussian}!update\-Param@{update\-Param}}
+\index{update\-Param@{update\-Param}!Gaussian@{\-Gaussian}}
+\subsubsection[{update\-Param}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf \-Gaussian\-::update\-Param} (
+\begin{DoxyParamCaption}
+\item[{vnl\-\_\-vector$<$ double $>$}]{new\-Param}
+\end{DoxyParamCaption}
+)}}\label{class_gaussian_a6d157086ac90e226afd46887fa43c5a8}
+
+
+\-Here is the call graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_gaussian_a6d157086ac90e226afd46887fa43c5a8_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+\-Here is the caller graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_gaussian_a6d157086ac90e226afd46887fa43c5a8_icgraph}
+\end{center}
+\end{figure}
+
+
+
+
+\subsection{\-Member \-Data \-Documentation}
+\hypertarget{class_gaussian_a5c2ddadca218776ecc2d47ee7dfb2244}{\index{\-Gaussian@{\-Gaussian}!cov\-\_\-determinant@{cov\-\_\-determinant}}
+\index{cov\-\_\-determinant@{cov\-\_\-determinant}!Gaussian@{\-Gaussian}}
+\subsubsection[{cov\-\_\-determinant}]{\setlength{\rightskip}{0pt plus 5cm}double {\bf \-Gaussian\-::cov\-\_\-determinant}}}\label{class_gaussian_a5c2ddadca218776ecc2d47ee7dfb2244}
+\hypertarget{class_gaussian_af2381be5187cf33c49d1c4575382b588}{\index{\-Gaussian@{\-Gaussian}!cov\-\_\-inverse@{cov\-\_\-inverse}}
+\index{cov\-\_\-inverse@{cov\-\_\-inverse}!Gaussian@{\-Gaussian}}
+\subsubsection[{cov\-\_\-inverse}]{\setlength{\rightskip}{0pt plus 5cm}\-Eigen\-::\-Matrix\-Xd {\bf \-Gaussian\-::cov\-\_\-inverse}}}\label{class_gaussian_af2381be5187cf33c49d1c4575382b588}
+\hypertarget{class_gaussian_a62f08da00092ff4db7e0b864a2a68466}{\index{\-Gaussian@{\-Gaussian}!covariance@{covariance}}
+\index{covariance@{covariance}!Gaussian@{\-Gaussian}}
+\subsubsection[{covariance}]{\setlength{\rightskip}{0pt plus 5cm}\-Eigen\-::\-Matrix\-Xd {\bf \-Gaussian\-::covariance}}}\label{class_gaussian_a62f08da00092ff4db7e0b864a2a68466}
+\hypertarget{class_gaussian_ac8cca436c08c5c880bc1d7b6f9fae31d}{\index{\-Gaussian@{\-Gaussian}!dim@{dim}}
+\index{dim@{dim}!Gaussian@{\-Gaussian}}
+\subsubsection[{dim}]{\setlength{\rightskip}{0pt plus 5cm}int {\bf \-Gaussian\-::dim}}}\label{class_gaussian_ac8cca436c08c5c880bc1d7b6f9fae31d}
+\hypertarget{class_gaussian_a040f0491de0917c6f9ad79ae7e68c02c}{\index{\-Gaussian@{\-Gaussian}!eigenvalues@{eigenvalues}}
+\index{eigenvalues@{eigenvalues}!Gaussian@{\-Gaussian}}
+\subsubsection[{eigenvalues}]{\setlength{\rightskip}{0pt plus 5cm}\-Eigen\-::\-Vector3d {\bf \-Gaussian\-::eigenvalues}}}\label{class_gaussian_a040f0491de0917c6f9ad79ae7e68c02c}
+\hypertarget{class_gaussian_a430bc29a81c8a70d1ef6d9442bf7ba6f}{\index{\-Gaussian@{\-Gaussian}!eigenvectors@{eigenvectors}}
+\index{eigenvectors@{eigenvectors}!Gaussian@{\-Gaussian}}
+\subsubsection[{eigenvectors}]{\setlength{\rightskip}{0pt plus 5cm}\-Eigen\-::\-Matrix3d {\bf \-Gaussian\-::eigenvectors}}}\label{class_gaussian_a430bc29a81c8a70d1ef6d9442bf7ba6f}
+\hypertarget{class_gaussian_acf67c5d6f25b4c13bfcfd72db9ab544f}{\index{\-Gaussian@{\-Gaussian}!is\-Empty@{is\-Empty}}
+\index{is\-Empty@{is\-Empty}!Gaussian@{\-Gaussian}}
+\subsubsection[{is\-Empty}]{\setlength{\rightskip}{0pt plus 5cm}bool {\bf \-Gaussian\-::is\-Empty}}}\label{class_gaussian_acf67c5d6f25b4c13bfcfd72db9ab544f}
+\hypertarget{class_gaussian_a2462f56c5ce1b88275ab4c59b99739a4}{\index{\-Gaussian@{\-Gaussian}!mean@{mean}}
+\index{mean@{mean}!Gaussian@{\-Gaussian}}
+\subsubsection[{mean}]{\setlength{\rightskip}{0pt plus 5cm}\-Eigen\-::\-Vector\-Xd {\bf \-Gaussian\-::mean}}}\label{class_gaussian_a2462f56c5ce1b88275ab4c59b99739a4}
+\hypertarget{class_gaussian_a736f42df8823b1397eff83858e7864d1}{\index{\-Gaussian@{\-Gaussian}!n\-Point@{n\-Point}}
+\index{n\-Point@{n\-Point}!Gaussian@{\-Gaussian}}
+\subsubsection[{n\-Point}]{\setlength{\rightskip}{0pt plus 5cm}int {\bf \-Gaussian\-::n\-Point}}}\label{class_gaussian_a736f42df8823b1397eff83858e7864d1}
+\hypertarget{class_gaussian_afadc9984777174ca00506af635c9db1a}{\index{\-Gaussian@{\-Gaussian}!predictive\-\_\-covariance@{predictive\-\_\-covariance}}
+\index{predictive\-\_\-covariance@{predictive\-\_\-covariance}!Gaussian@{\-Gaussian}}
+\subsubsection[{predictive\-\_\-covariance}]{\setlength{\rightskip}{0pt plus 5cm}\-Eigen\-::\-Matrix\-Xd {\bf \-Gaussian\-::predictive\-\_\-covariance}}}\label{class_gaussian_afadc9984777174ca00506af635c9db1a}
+\hypertarget{class_gaussian_af57af53a8c6d0006cc8a6a7658198eb0}{\index{\-Gaussian@{\-Gaussian}!predictive\-\_\-mean@{predictive\-\_\-mean}}
+\index{predictive\-\_\-mean@{predictive\-\_\-mean}!Gaussian@{\-Gaussian}}
+\subsubsection[{predictive\-\_\-mean}]{\setlength{\rightskip}{0pt plus 5cm}\-Eigen\-::\-Vector\-Xd {\bf \-Gaussian\-::predictive\-\_\-mean}}}\label{class_gaussian_af57af53a8c6d0006cc8a6a7658198eb0}
+\hypertarget{class_gaussian_a859907145de3080604d20cc1105cd1e5}{\index{\-Gaussian@{\-Gaussian}!rotation@{rotation}}
+\index{rotation@{rotation}!Gaussian@{\-Gaussian}}
+\subsubsection[{rotation}]{\setlength{\rightskip}{0pt plus 5cm}vnl\-\_\-matrix$<$double$>$ {\bf \-Gaussian\-::rotation}}}\label{class_gaussian_a859907145de3080604d20cc1105cd1e5}
+\hypertarget{class_gaussian_a2469316effaaf6d03566d534fefa64fc}{\index{\-Gaussian@{\-Gaussian}!translation@{translation}}
+\index{translation@{translation}!Gaussian@{\-Gaussian}}
+\subsubsection[{translation}]{\setlength{\rightskip}{0pt plus 5cm}vnl\-\_\-matrix$<$double$>$ {\bf \-Gaussian\-::translation}}}\label{class_gaussian_a2469316effaaf6d03566d534fefa64fc}
+\hypertarget{class_gaussian_a09ad4d04a27b2e6be4945719da025927}{\index{\-Gaussian@{\-Gaussian}!velocity@{velocity}}
+\index{velocity@{velocity}!Gaussian@{\-Gaussian}}
+\subsubsection[{velocity}]{\setlength{\rightskip}{0pt plus 5cm}\-Eigen\-::\-Vector3d {\bf \-Gaussian\-::velocity}}}\label{class_gaussian_a09ad4d04a27b2e6be4945719da025927}
+\hypertarget{class_gaussian_ae6192dadf70b84fa41dcf4498b5aaf52}{\index{\-Gaussian@{\-Gaussian}!weight@{weight}}
+\index{weight@{weight}!Gaussian@{\-Gaussian}}
+\subsubsection[{weight}]{\setlength{\rightskip}{0pt plus 5cm}double {\bf \-Gaussian\-::weight}}}\label{class_gaussian_ae6192dadf70b84fa41dcf4498b5aaf52}
+
+
+\-The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+/home/koosy/koosywork/pmot\-\_\-realtime/pmot\-\_\-realtime/src/\hyperlink{gaussian_8h}{gaussian.\-h}\item 
+/home/koosy/koosywork/pmot\-\_\-realtime/pmot\-\_\-realtime/src/\hyperlink{gaussian_8cpp}{gaussian.\-cpp}\end{DoxyCompactItemize}

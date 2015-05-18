@@ -1,0 +1,131 @@
+\hypertarget{common_8h}{\section{/home/koosy/koosywork/pmot\-\_\-realtime/pmot\-\_\-realtime/src/common.h \-File \-Reference}
+\label{common_8h}\index{/home/koosy/koosywork/pmot\-\_\-realtime/pmot\-\_\-realtime/src/common.\-h@{/home/koosy/koosywork/pmot\-\_\-realtime/pmot\-\_\-realtime/src/common.\-h}}
+}
+{\ttfamily \#include $<$pcl/ros/conversions.\-h$>$}\*
+{\ttfamily \#include $<$pcl/point\-\_\-cloud.\-h$>$}\*
+{\ttfamily \#include $<$pcl/point\-\_\-types.\-h$>$}\*
+{\ttfamily \#include $<$pcl/common/time.\-h$>$}\*
+{\ttfamily \#include $<$pcl\-\_\-ros/transforms.\-h$>$}\*
+\-Include dependency graph for common.\-h\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{common_8h__incl}
+\end{center}
+\end{figure}
+\-This graph shows which files directly or indirectly include this file\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{common_8h__dep__incl}
+\end{center}
+\end{figure}
+\subsection*{\-Typedefs}
+\begin{DoxyCompactItemize}
+\item 
+typedef pcl\-::\-Point\-X\-Y\-Z\-R\-G\-B \hyperlink{common_8h_af63aa02ad22799ec1b392e97942874b5}{\-Point\-T}
+\item 
+typedef pcl\-::\-Point\-Cloud$<$ \hyperlink{common_8h_af63aa02ad22799ec1b392e97942874b5}{\-Point\-T} $>$ \hyperlink{common_8h_a42cb4850a47336c49f7bd8801b474c9b}{\-Cloud}
+\item 
+typedef \-Cloud\-::\-Ptr \hyperlink{common_8h_a36884aa4a3c181fa4c284d79329ad166}{\-Cloud\-Ptr}
+\item 
+typedef \-Cloud\-::\-Const\-Ptr \hyperlink{common_8h_a8286f33bc85caed6f93d955568cfcb16}{\-Cloud\-Const\-Ptr}
+\item 
+typedef pcl\-::\-Point\-X\-Y\-Z\-R\-G\-B\-Normal \hyperlink{common_8h_a4201c2c72d96e356cbee6fefdaf8da6a}{\-Point\-N\-T}
+\item 
+typedef pcl\-::\-Point\-Cloud$<$ \hyperlink{common_8h_a4201c2c72d96e356cbee6fefdaf8da6a}{\-Point\-N\-T} $>$ \hyperlink{common_8h_ae046e3ad60dc7ebece4849360342f601}{\-Cloud\-N}
+\item 
+typedef \-Cloud\-N\-::\-Ptr \hyperlink{common_8h_ac29cd61ffd2436715a9b935fe2122703}{\-Cloud\-N\-Ptr}
+\end{DoxyCompactItemize}
+\subsection*{\-Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{common_8h_a27b90d59d960cbd9b1454c7adbdec5e3}{rgb\-Tohsv} (int r, int g, int b, float \&hr, float \&sr, float \&vr)
+\item 
+float \hyperlink{common_8h_a83537dc7b8714f06452e1f8ad20a4dd2}{colordist} (\hyperlink{common_8h_a4201c2c72d96e356cbee6fefdaf8da6a}{\-Point\-N\-T} a, \hyperlink{common_8h_a4201c2c72d96e356cbee6fefdaf8da6a}{\-Point\-N\-T} b)
+\end{DoxyCompactItemize}
+
+
+\subsection{\-Typedef \-Documentation}
+\hypertarget{common_8h_a42cb4850a47336c49f7bd8801b474c9b}{\index{common.\-h@{common.\-h}!\-Cloud@{\-Cloud}}
+\index{\-Cloud@{\-Cloud}!common.h@{common.\-h}}
+\subsubsection[{\-Cloud}]{\setlength{\rightskip}{0pt plus 5cm}typedef pcl\-::\-Point\-Cloud$<${\bf \-Point\-T}$>$ {\bf \-Cloud}}}\label{common_8h_a42cb4850a47336c49f7bd8801b474c9b}
+\hypertarget{common_8h_a8286f33bc85caed6f93d955568cfcb16}{\index{common.\-h@{common.\-h}!\-Cloud\-Const\-Ptr@{\-Cloud\-Const\-Ptr}}
+\index{\-Cloud\-Const\-Ptr@{\-Cloud\-Const\-Ptr}!common.h@{common.\-h}}
+\subsubsection[{\-Cloud\-Const\-Ptr}]{\setlength{\rightskip}{0pt plus 5cm}typedef \-Cloud\-::\-Const\-Ptr {\bf \-Cloud\-Const\-Ptr}}}\label{common_8h_a8286f33bc85caed6f93d955568cfcb16}
+\hypertarget{common_8h_ae046e3ad60dc7ebece4849360342f601}{\index{common.\-h@{common.\-h}!\-Cloud\-N@{\-Cloud\-N}}
+\index{\-Cloud\-N@{\-Cloud\-N}!common.h@{common.\-h}}
+\subsubsection[{\-Cloud\-N}]{\setlength{\rightskip}{0pt plus 5cm}typedef pcl\-::\-Point\-Cloud$<${\bf \-Point\-N\-T}$>$ {\bf \-Cloud\-N}}}\label{common_8h_ae046e3ad60dc7ebece4849360342f601}
+\hypertarget{common_8h_ac29cd61ffd2436715a9b935fe2122703}{\index{common.\-h@{common.\-h}!\-Cloud\-N\-Ptr@{\-Cloud\-N\-Ptr}}
+\index{\-Cloud\-N\-Ptr@{\-Cloud\-N\-Ptr}!common.h@{common.\-h}}
+\subsubsection[{\-Cloud\-N\-Ptr}]{\setlength{\rightskip}{0pt plus 5cm}typedef \-Cloud\-N\-::\-Ptr {\bf \-Cloud\-N\-Ptr}}}\label{common_8h_ac29cd61ffd2436715a9b935fe2122703}
+\hypertarget{common_8h_a36884aa4a3c181fa4c284d79329ad166}{\index{common.\-h@{common.\-h}!\-Cloud\-Ptr@{\-Cloud\-Ptr}}
+\index{\-Cloud\-Ptr@{\-Cloud\-Ptr}!common.h@{common.\-h}}
+\subsubsection[{\-Cloud\-Ptr}]{\setlength{\rightskip}{0pt plus 5cm}typedef \-Cloud\-::\-Ptr {\bf \-Cloud\-Ptr}}}\label{common_8h_a36884aa4a3c181fa4c284d79329ad166}
+\hypertarget{common_8h_a4201c2c72d96e356cbee6fefdaf8da6a}{\index{common.\-h@{common.\-h}!\-Point\-N\-T@{\-Point\-N\-T}}
+\index{\-Point\-N\-T@{\-Point\-N\-T}!common.h@{common.\-h}}
+\subsubsection[{\-Point\-N\-T}]{\setlength{\rightskip}{0pt plus 5cm}typedef pcl\-::\-Point\-X\-Y\-Z\-R\-G\-B\-Normal {\bf \-Point\-N\-T}}}\label{common_8h_a4201c2c72d96e356cbee6fefdaf8da6a}
+\hypertarget{common_8h_af63aa02ad22799ec1b392e97942874b5}{\index{common.\-h@{common.\-h}!\-Point\-T@{\-Point\-T}}
+\index{\-Point\-T@{\-Point\-T}!common.h@{common.\-h}}
+\subsubsection[{\-Point\-T}]{\setlength{\rightskip}{0pt plus 5cm}typedef pcl\-::\-Point\-X\-Y\-Z\-R\-G\-B {\bf \-Point\-T}}}\label{common_8h_af63aa02ad22799ec1b392e97942874b5}
+
+
+\subsection{\-Function \-Documentation}
+\hypertarget{common_8h_a83537dc7b8714f06452e1f8ad20a4dd2}{\index{common.\-h@{common.\-h}!colordist@{colordist}}
+\index{colordist@{colordist}!common.h@{common.\-h}}
+\subsubsection[{colordist}]{\setlength{\rightskip}{0pt plus 5cm}float {\bf colordist} (
+\begin{DoxyParamCaption}
+\item[{{\bf \-Point\-N\-T}}]{a, }
+\item[{{\bf \-Point\-N\-T}}]{b}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}\label{common_8h_a83537dc7b8714f06452e1f8ad20a4dd2}
+
+
+\-Here is the call graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=228pt]{common_8h_a83537dc7b8714f06452e1f8ad20a4dd2_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+\-Here is the caller graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=276pt]{common_8h_a83537dc7b8714f06452e1f8ad20a4dd2_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{common_8h_a27b90d59d960cbd9b1454c7adbdec5e3}{\index{common.\-h@{common.\-h}!rgb\-Tohsv@{rgb\-Tohsv}}
+\index{rgb\-Tohsv@{rgb\-Tohsv}!common.h@{common.\-h}}
+\subsubsection[{rgb\-Tohsv}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf rgb\-Tohsv} (
+\begin{DoxyParamCaption}
+\item[{int}]{r, }
+\item[{int}]{g, }
+\item[{int}]{b, }
+\item[{float \&}]{hr, }
+\item[{float \&}]{sr, }
+\item[{float \&}]{vr}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}\label{common_8h_a27b90d59d960cbd9b1454c7adbdec5e3}
+
+
+\-Here is the caller graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{common_8h_a27b90d59d960cbd9b1454c7adbdec5e3_icgraph}
+\end{center}
+\end{figure}
+
+

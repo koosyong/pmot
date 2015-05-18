@@ -1,0 +1,8 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$class_p_c_tracking.html#ae193eee9a7218ab301736ef42040be83" title="PCTracking::isBoundary" alt="" coords="240,5,403,35"/>
+<area shape="rect" id="node5" href="$pctracking__weight_8cpp.html#adb7d2a1a900643a020a7c5eb9373c223" title="weight_unsymkl_gauss" alt="" coords="243,59,400,88"/>
+<area shape="rect" id="node7" href="$pctracking__weight_8cpp.html#a7254ff0468a3615c279e046ee67e9781" title="weight_l2_gauss" alt="" coords="263,112,380,141"/>
+<area shape="rect" id="node9" href="$class_p_c_tracking.html#a2acf2c4ee72aa0312f6120ab86aec5bc" title="PCTracking::initdg" alt="" coords="256,165,387,195"/>
+<area shape="rect" id="node11" href="$class_p_c_tracking.html#ad0d1aeae2dba8a15938269fda650fd44" title="PCTracking::typeClear" alt="" coords="244,219,399,248"/>
+<area shape="rect" id="node13" href="$class_p_c_tracking.html#aec7386845e746c4d430c674e85b64c1c" title="PCTracking::typeProblem" alt="" coords="236,272,407,301"/>
+</map>

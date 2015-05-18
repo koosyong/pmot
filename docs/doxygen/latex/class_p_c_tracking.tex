@@ -1,0 +1,849 @@
+\hypertarget{class_p_c_tracking}{\section{\-P\-C\-Tracking \-Class \-Reference}
+\label{class_p_c_tracking}\index{\-P\-C\-Tracking@{\-P\-C\-Tracking}}
+}
+
+
+{\ttfamily \#include $<$pctracking.\-h$>$}
+
+
+
+\-Collaboration diagram for \-P\-C\-Tracking\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_p_c_tracking__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{\-Public \-Member \-Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_p_c_tracking_a4480a9bdf9aa029d4d6a72ec476d9204}{\-P\-C\-Tracking} (int \-\_\-is\-Debug, string \-\_\-frame\-\_\-id, ros\-::\-Publisher $\ast$\-\_\-pub\-\_\-scene, ros\-::\-Publisher $\ast$\-\_\-pub\-\_\-model, int dimension, double \hyperlink{main_8cpp_a0a25311ae4d454e85cd8e49128769450}{cont\-\_\-sampling}, double \hyperlink{main_8cpp_ada331b7eda6ecf7597fd0372011d6bb9}{cont\-\_\-simplify}, double seg\-Tol)
+\item 
+\hyperlink{class_p_c_tracking_aa417614aaf71af12379e668a7e7263a9}{$\sim$\-P\-C\-Tracking} ()
+\item 
+void \hyperlink{class_p_c_tracking_a2bb6af5b13ac0b6a349bc71569ee9169}{run} (\hyperlink{common_8h_a36884aa4a3c181fa4c284d79329ad166}{\-Cloud\-Ptr} \-\_\-p\-Cloud)
+\item 
+\hyperlink{common_8h_a36884aa4a3c181fa4c284d79329ad166}{\-Cloud\-Ptr} \hyperlink{class_p_c_tracking_a32952787cd951817440784991e606b83}{get\-Filtered\-P\-C} ()
+\item 
+\hyperlink{common_8h_a36884aa4a3c181fa4c284d79329ad166}{\-Cloud\-Ptr} \hyperlink{class_p_c_tracking_a0ab89d2360e5c86b0213c3562509a4c0}{get\-Segmented\-P\-C} ()
+\item 
+\hyperlink{common_8h_a36884aa4a3c181fa4c284d79329ad166}{\-Cloud\-Ptr} \hyperlink{class_p_c_tracking_afcc7afdfc328c5938ecde97bc93a8bc2}{get\-Last\-Model} ()
+\item 
+\hyperlink{common_8h_a36884aa4a3c181fa4c284d79329ad166}{\-Cloud\-Ptr} \hyperlink{class_p_c_tracking_afafda70997c0f439a09290812130a9e7}{get\-Particles} ()
+\end{DoxyCompactItemize}
+\subsection*{\-Public \-Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_i_m_f_t}{\-I\-M\-F\-T}$<$ \hyperlink{class_p_c_object}{\-P\-C\-Object} $>$ $\ast$ \hyperlink{class_p_c_tracking_aeaa5bcbc69a1c426360f3e06aac7cef9}{imft}
+\item 
+\hyperlink{class_i_m_f_t}{\-I\-M\-F\-T}$<$ \hyperlink{class_p_c_object}{\-P\-C\-Object} $>$ $\ast$ \hyperlink{class_p_c_tracking_a08ee78ad7493830226491b49bf72e514}{imft\-\_\-loc}
+\item 
+\hyperlink{class_p_c_track_container}{\-P\-C\-Track\-Container} $\ast$ \hyperlink{class_p_c_tracking_af632efe77ea5fc04f6d6b7eea0d3bb55}{object\-\_\-tracks}
+\item 
+\-List\-Digraph \hyperlink{class_p_c_tracking_afd47ea4d5013475b7556ebbc2eacb8a4}{dg\-\_\-ambiguity}
+\item 
+\-List\-Digraph\-::\-Node\-Map\*
+$<$ \hyperlink{struct_object_node}{\-Object\-Node} $>$ $\ast$ \hyperlink{class_p_c_tracking_ab0978d139653c88b54b8e0f214ec2e2e}{dg\-\_\-ambiguity\-\_\-nodes}
+\item 
+\-List\-Digraph\-::\-Arc\-Map$<$ \hyperlink{struct_weight}{\-Weight} $>$ $\ast$ \hyperlink{class_p_c_tracking_a58337c79f8c1bc741c17867147f90132}{dg\-\_\-ambiguity\-\_\-arcs}
+\end{DoxyCompactItemize}
+\subsection*{\-Private \-Member \-Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{class_p_c_tracking_aebe4039992fcd7f206f767237452161d}{segmentation\-G\-M\-M} (\hyperlink{common_8h_a36884aa4a3c181fa4c284d79329ad166}{\-Cloud\-Ptr} \hyperlink{class_p_c_tracking_a681c74d181ddbdd09e58093c6467d690}{p\-Cloud}, \hyperlink{class_p_c_object_container}{\-P\-C\-Object\-Container} \&objects)
+\item 
+void \hyperlink{class_p_c_tracking_a902fdb88398522511794fa0582dcf72f}{segmentation} (\hyperlink{common_8h_a36884aa4a3c181fa4c284d79329ad166}{\-Cloud\-Ptr} \hyperlink{class_p_c_tracking_a681c74d181ddbdd09e58093c6467d690}{p\-Cloud}, \hyperlink{class_p_c_object_container}{\-P\-C\-Object\-Container} \&objects)
+\item 
+void \hyperlink{class_p_c_tracking_a0d46f3f2470c6e3e4337a3dbecf9e0e0}{point\-Matching} (\hyperlink{class_p_c_object_container}{\-P\-C\-Object\-Container} \&predictive\-Objects, \hyperlink{class_p_c_object}{\-P\-C\-Object} \&parent\-Object, \hyperlink{common_8h_a36884aa4a3c181fa4c284d79329ad166}{\-Cloud\-Ptr} \hyperlink{class_p_c_tracking_ade7cb8fd4d872bb9eda66ae2f1a264be}{unmatched\-Points}, \hyperlink{class_p_c_object_container}{\-P\-C\-Object\-Container} \&objects\-\_\-separated)
+\item 
+void \hyperlink{class_p_c_tracking_a6b959016b6a593d1774e91100ad3320c}{tracking\-Gaussians} (\hyperlink{class_p_c_object}{\-P\-C\-Object} $\ast$object, \hyperlink{common_8h_a36884aa4a3c181fa4c284d79329ad166}{\-Cloud\-Ptr} observed\-Points, \hyperlink{class_p_c_object_container}{\-P\-C\-Object\-Container} \&updated\-Objects)
+\item 
+void \hyperlink{class_p_c_tracking_a97860708be23118c47c835d072bb6974}{indv\-Loc} ()
+\item 
+void \hyperlink{class_p_c_tracking_a09806f996a08724b25790803859bc379}{ambiguity\-Test} ()
+\item 
+void \hyperlink{class_p_c_tracking_aec7386845e746c4d430c674e85b64c1c}{type\-Problem} (\-List\-Digraph\-::\-Node \&node)
+\item 
+void \hyperlink{class_p_c_tracking_ad0d1aeae2dba8a15938269fda650fd44}{type\-Clear} (\-List\-Digraph\-::\-Node \&node)
+\item 
+void \hyperlink{class_p_c_tracking_a2acf2c4ee72aa0312f6120ab86aec5bc}{initdg} (\hyperlink{pctracking_8h_a1d1cfd8ffb84e947f82999c682b666a7}{\-Type} type)
+\item 
+void \hyperlink{class_p_c_tracking_a4f904fd5f0dd7b76370c2db9eed9e647}{confirm\-Digraph} ()
+\item 
+void \hyperlink{class_p_c_tracking_ad736fc5494cbeaf8aa86f470d79bd4b4}{clear\-Objects} ()
+\item 
+void \hyperlink{class_p_c_tracking_a6e69225b7cfc25dfdda463eceaca2bb4}{modify\-Falsely\-Separated} ()
+\item 
+void \hyperlink{class_p_c_tracking_aaf2bfca37caff62940979e05cd812103}{modify\-Falsely\-Merged} ()
+\item 
+bool \hyperlink{class_p_c_tracking_ae193eee9a7218ab301736ef42040be83}{is\-Boundary} (\hyperlink{class_p_c_object}{\-P\-C\-Object} \&object)
+\item 
+void \hyperlink{class_p_c_tracking_a9d92ce261d40c47e1d49b2ab9c0f5266}{indexing} ()
+\item 
+void \hyperlink{class_p_c_tracking_a85fd8bf718c7919cc302d4d3442f334b}{update\-Tracks} ()
+\end{DoxyCompactItemize}
+\subsection*{\-Private \-Attributes}
+\begin{DoxyCompactItemize}
+\item 
+string \hyperlink{class_p_c_tracking_a62722fbba118f97283808d385c4f61d8}{frame\-\_\-id}
+\item 
+ros\-::\-Publisher $\ast$ \hyperlink{class_p_c_tracking_ae092fc2f00b00b576039fb8da640fc89}{pub\-\_\-scene}
+\item 
+ros\-::\-Publisher $\ast$ \hyperlink{class_p_c_tracking_a049c7f8d8103c26527911ebd9b3bf999}{pub\-\_\-model}
+\item 
+\hyperlink{common_8h_a36884aa4a3c181fa4c284d79329ad166}{\-Cloud\-Ptr} \hyperlink{class_p_c_tracking_a681c74d181ddbdd09e58093c6467d690}{p\-Cloud}
+\item 
+\hyperlink{common_8h_a36884aa4a3c181fa4c284d79329ad166}{\-Cloud\-Ptr} \hyperlink{class_p_c_tracking_adb75ee9bf627c8fdd69cb14bf98e5729}{p\-Cloud\-\_\-seg}
+\item 
+\hyperlink{common_8h_a36884aa4a3c181fa4c284d79329ad166}{\-Cloud\-Ptr} \hyperlink{class_p_c_tracking_a5ce87241fa5ad033c52e5f56fcc06428}{p\-Cloud\-\_\-last\-Model}
+\item 
+\hyperlink{common_8h_a36884aa4a3c181fa4c284d79329ad166}{\-Cloud\-Ptr} \hyperlink{class_p_c_tracking_a2a31d0f071b1b0e25a9967545abedf5a}{p\-Cloud\-\_\-particles}
+\item 
+\hyperlink{class_p_c_object_container}{\-P\-C\-Object\-Container} \hyperlink{class_p_c_tracking_a71470bd8c5c952ecb7441b2ffaa63264}{objects\-\_\-prev}
+\item 
+\hyperlink{class_p_c_object_container}{\-P\-C\-Object\-Container} \hyperlink{class_p_c_tracking_a8a74637e7a4f6ac3694de9d90c3002fa}{objects\-\_\-loc}
+\item 
+\hyperlink{class_p_c_object_container}{\-P\-C\-Object\-Container} \hyperlink{class_p_c_tracking_af9bfa3a7db4a73377ac74b77b2efa30f}{objects\-\_\-modified}
+\item 
+\hyperlink{class_p_c_object_container}{\-P\-C\-Object\-Container} \hyperlink{class_p_c_tracking_aa75a02248faa750b4608ce89903d0904}{objects\-\_\-clear}
+\item 
+\hyperlink{class_p_c_object_container}{\-P\-C\-Object\-Container} \hyperlink{class_p_c_tracking_a569f7a0488d2384e995757743d697e6e}{objects\-\_\-false\-Sep}
+\item 
+\hyperlink{class_p_c_object_container}{\-P\-C\-Object\-Container} \hyperlink{class_p_c_tracking_a124a1d51e7158c64b394a993cacc5f45}{objects\-\_\-false\-Merg}
+\item 
+vector$<$ \hyperlink{struct_false_objects}{\-False\-Objects} $>$ \hyperlink{class_p_c_tracking_a8ee53b44e5c3f9dfd4b33f6719487fa4}{falsely\-Separeted}
+\item 
+vector$<$ \hyperlink{struct_false_objects}{\-False\-Objects} $>$ \hyperlink{class_p_c_tracking_a54d6b67b92c09bc50250c108752c5401}{falsely\-Merged}
+\item 
+\hyperlink{struct_bounding_box}{\-Bounding\-Box} \hyperlink{class_p_c_tracking_a3cbc2f6326c28bc2d136dcb53dac1a5f}{boundary}
+\item 
+double \hyperlink{class_p_c_tracking_a9450eac64c156b259c0c2426b0344f75}{boundary\-Margin}
+\item 
+\hyperlink{common_8h_a36884aa4a3c181fa4c284d79329ad166}{\-Cloud\-Ptr} \hyperlink{class_p_c_tracking_ade7cb8fd4d872bb9eda66ae2f1a264be}{unmatched\-Points}
+\item 
+vector$<$ \hyperlink{common_8h_a36884aa4a3c181fa4c284d79329ad166}{\-Cloud\-Ptr} $>$ \hyperlink{class_p_c_tracking_a64744d8b04a156e22dea3f5eae0fbe66}{observed\-Points\-List}
+\item 
+int \hyperlink{class_p_c_tracking_a7ad3bddfa579851a0c7d34664b2adf0f}{n\-Objects}
+\item 
+int \hyperlink{class_p_c_tracking_aa642907555b7fad809a938b70bd06d8e}{cnt}
+\item 
+bool \hyperlink{class_p_c_tracking_a9f0e2ba11bbca068561a58836decca07}{is\-Debug}
+\item 
+vector$<$ \-List\-Digraph\-::\-Node $>$ \hyperlink{class_p_c_tracking_aab4c50eb3b2f683084a01a32b279f07e}{problem\-Nodes}
+\item 
+vector$<$ \-List\-Digraph\-::\-Arc $>$ \hyperlink{class_p_c_tracking_a8a1d5993a52b155b865f01ce25d89347}{problem\-Arcs}
+\item 
+vector$<$ \-List\-Digraph\-::\-Node $>$ \hyperlink{class_p_c_tracking_a1d232ae428087d499e6696dfa17ed285}{clear\-Nodes}
+\item 
+vector$<$ \-List\-Digraph\-::\-Arc $>$ \hyperlink{class_p_c_tracking_aa7ecd7598977c022ffabbb7e74c80d28}{clear\-Arcs}
+\item 
+vector$<$ \hyperlink{class_particlepose}{\-Particlepose} $>$ \hyperlink{class_p_c_tracking_a8347f3c784c2b3fafc59581dc9aa58fa}{m\-\_\-part\-Filters}
+\item 
+double \hyperlink{class_p_c_tracking_ad1866b9f30cecda195efdadabbe75bec}{scale}
+\item 
+double \hyperlink{class_p_c_tracking_a5db04fafbd2c9a5e94ea8806440c630e}{percent}
+\item 
+int \hyperlink{class_p_c_tracking_a12b9e4818a5dbd1195ef8fa7d39c34b1}{dim}
+\item 
+double \hyperlink{class_p_c_tracking_a6765e0cf16e08dd3cb4cd119f0566929}{segmentation\-\_\-tolerance}
+\item 
+double \hyperlink{class_p_c_tracking_a73877d451da4f7f90e75a5d00bb0f20c}{segmentation\-\_\-min\-Size}
+\item 
+double \hyperlink{class_p_c_tracking_a61c0e4ae5db1d816b45d2e1ec730c540}{segmentation\-\_\-max\-Size}
+\item 
+double \hyperlink{class_p_c_tracking_a887f30c9fe45e3f1f048b4c57098f632}{max\-Prob\-Association}
+\item 
+double \hyperlink{class_p_c_tracking_ae1cfc4fbb5c35558ff52ac6b5c9140bb}{thr\-Prob\-Scene}
+\item 
+int \hyperlink{class_p_c_tracking_adda35af7ff9b01c11271aad26cfd3b92}{min\-Points}
+\item 
+int \hyperlink{class_p_c_tracking_aaf2176fa1ad479e9a85a4c17c3a2508a}{max\-I\-D}
+\item 
+int $\ast$ \hyperlink{class_p_c_tracking_ac44e980291b4108857d48fb22dc2073d}{r}
+\item 
+int $\ast$ \hyperlink{class_p_c_tracking_aeb1f3746d39272933b70b6210298983f}{g}
+\item 
+int $\ast$ \hyperlink{class_p_c_tracking_a418a08ae505fdd999e84c8cc11e00557}{b}
+\item 
+int \hyperlink{class_p_c_tracking_ab6a388338aacd6fcccf5dcd49f7c23fb}{max\-Frame}
+\end{DoxyCompactItemize}
+
+
+\subsection{\-Constructor \& \-Destructor \-Documentation}
+\hypertarget{class_p_c_tracking_a4480a9bdf9aa029d4d6a72ec476d9204}{\index{\-P\-C\-Tracking@{\-P\-C\-Tracking}!\-P\-C\-Tracking@{\-P\-C\-Tracking}}
+\index{\-P\-C\-Tracking@{\-P\-C\-Tracking}!PCTracking@{\-P\-C\-Tracking}}
+\subsubsection[{\-P\-C\-Tracking}]{\setlength{\rightskip}{0pt plus 5cm}{\bf \-P\-C\-Tracking\-::\-P\-C\-Tracking} (
+\begin{DoxyParamCaption}
+\item[{int}]{\-\_\-is\-Debug, }
+\item[{string}]{\-\_\-frame\-\_\-id, }
+\item[{ros\-::\-Publisher $\ast$}]{\-\_\-pub\-\_\-scene, }
+\item[{ros\-::\-Publisher $\ast$}]{\-\_\-pub\-\_\-model, }
+\item[{int}]{dimension, }
+\item[{double}]{cont\-\_\-sampling, }
+\item[{double}]{cont\-\_\-simplify, }
+\item[{double}]{seg\-Tol}
+\end{DoxyParamCaption}
+)}}\label{class_p_c_tracking_a4480a9bdf9aa029d4d6a72ec476d9204}
+
+
+\-Here is the call graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_p_c_tracking_a4480a9bdf9aa029d4d6a72ec476d9204_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{class_p_c_tracking_aa417614aaf71af12379e668a7e7263a9}{\index{\-P\-C\-Tracking@{\-P\-C\-Tracking}!$\sim$\-P\-C\-Tracking@{$\sim$\-P\-C\-Tracking}}
+\index{$\sim$\-P\-C\-Tracking@{$\sim$\-P\-C\-Tracking}!PCTracking@{\-P\-C\-Tracking}}
+\subsubsection[{$\sim$\-P\-C\-Tracking}]{\setlength{\rightskip}{0pt plus 5cm}{\bf \-P\-C\-Tracking\-::$\sim$\-P\-C\-Tracking} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_p_c_tracking_aa417614aaf71af12379e668a7e7263a9}
+
+
+\subsection{\-Member \-Function \-Documentation}
+\hypertarget{class_p_c_tracking_a09806f996a08724b25790803859bc379}{\index{\-P\-C\-Tracking@{\-P\-C\-Tracking}!ambiguity\-Test@{ambiguity\-Test}}
+\index{ambiguity\-Test@{ambiguity\-Test}!PCTracking@{\-P\-C\-Tracking}}
+\subsubsection[{ambiguity\-Test}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf \-P\-C\-Tracking\-::ambiguity\-Test} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}\label{class_p_c_tracking_a09806f996a08724b25790803859bc379}
+
+
+\-Here is the call graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_p_c_tracking_a09806f996a08724b25790803859bc379_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+\-Here is the caller graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_p_c_tracking_a09806f996a08724b25790803859bc379_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{class_p_c_tracking_ad736fc5494cbeaf8aa86f470d79bd4b4}{\index{\-P\-C\-Tracking@{\-P\-C\-Tracking}!clear\-Objects@{clear\-Objects}}
+\index{clear\-Objects@{clear\-Objects}!PCTracking@{\-P\-C\-Tracking}}
+\subsubsection[{clear\-Objects}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf \-P\-C\-Tracking\-::clear\-Objects} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}\label{class_p_c_tracking_ad736fc5494cbeaf8aa86f470d79bd4b4}
+
+
+\-Here is the call graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_p_c_tracking_ad736fc5494cbeaf8aa86f470d79bd4b4_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+\-Here is the caller graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_p_c_tracking_ad736fc5494cbeaf8aa86f470d79bd4b4_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{class_p_c_tracking_a4f904fd5f0dd7b76370c2db9eed9e647}{\index{\-P\-C\-Tracking@{\-P\-C\-Tracking}!confirm\-Digraph@{confirm\-Digraph}}
+\index{confirm\-Digraph@{confirm\-Digraph}!PCTracking@{\-P\-C\-Tracking}}
+\subsubsection[{confirm\-Digraph}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf \-P\-C\-Tracking\-::confirm\-Digraph} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}\label{class_p_c_tracking_a4f904fd5f0dd7b76370c2db9eed9e647}
+\hypertarget{class_p_c_tracking_a32952787cd951817440784991e606b83}{\index{\-P\-C\-Tracking@{\-P\-C\-Tracking}!get\-Filtered\-P\-C@{get\-Filtered\-P\-C}}
+\index{get\-Filtered\-P\-C@{get\-Filtered\-P\-C}!PCTracking@{\-P\-C\-Tracking}}
+\subsubsection[{get\-Filtered\-P\-C}]{\setlength{\rightskip}{0pt plus 5cm}{\bf \-Cloud\-Ptr} {\bf \-P\-C\-Tracking\-::get\-Filtered\-P\-C} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}\label{class_p_c_tracking_a32952787cd951817440784991e606b83}
+
+
+\-Here is the caller graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_p_c_tracking_a32952787cd951817440784991e606b83_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{class_p_c_tracking_afcc7afdfc328c5938ecde97bc93a8bc2}{\index{\-P\-C\-Tracking@{\-P\-C\-Tracking}!get\-Last\-Model@{get\-Last\-Model}}
+\index{get\-Last\-Model@{get\-Last\-Model}!PCTracking@{\-P\-C\-Tracking}}
+\subsubsection[{get\-Last\-Model}]{\setlength{\rightskip}{0pt plus 5cm}{\bf \-Cloud\-Ptr} {\bf \-P\-C\-Tracking\-::get\-Last\-Model} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}\label{class_p_c_tracking_afcc7afdfc328c5938ecde97bc93a8bc2}
+
+
+\-Here is the caller graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_p_c_tracking_afcc7afdfc328c5938ecde97bc93a8bc2_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{class_p_c_tracking_afafda70997c0f439a09290812130a9e7}{\index{\-P\-C\-Tracking@{\-P\-C\-Tracking}!get\-Particles@{get\-Particles}}
+\index{get\-Particles@{get\-Particles}!PCTracking@{\-P\-C\-Tracking}}
+\subsubsection[{get\-Particles}]{\setlength{\rightskip}{0pt plus 5cm}{\bf \-Cloud\-Ptr} {\bf \-P\-C\-Tracking\-::get\-Particles} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}\label{class_p_c_tracking_afafda70997c0f439a09290812130a9e7}
+
+
+\-Here is the caller graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_p_c_tracking_afafda70997c0f439a09290812130a9e7_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{class_p_c_tracking_a0ab89d2360e5c86b0213c3562509a4c0}{\index{\-P\-C\-Tracking@{\-P\-C\-Tracking}!get\-Segmented\-P\-C@{get\-Segmented\-P\-C}}
+\index{get\-Segmented\-P\-C@{get\-Segmented\-P\-C}!PCTracking@{\-P\-C\-Tracking}}
+\subsubsection[{get\-Segmented\-P\-C}]{\setlength{\rightskip}{0pt plus 5cm}{\bf \-Cloud\-Ptr} {\bf \-P\-C\-Tracking\-::get\-Segmented\-P\-C} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}\label{class_p_c_tracking_a0ab89d2360e5c86b0213c3562509a4c0}
+
+
+\-Here is the caller graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_p_c_tracking_a0ab89d2360e5c86b0213c3562509a4c0_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{class_p_c_tracking_a9d92ce261d40c47e1d49b2ab9c0f5266}{\index{\-P\-C\-Tracking@{\-P\-C\-Tracking}!indexing@{indexing}}
+\index{indexing@{indexing}!PCTracking@{\-P\-C\-Tracking}}
+\subsubsection[{indexing}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf \-P\-C\-Tracking\-::indexing} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}\label{class_p_c_tracking_a9d92ce261d40c47e1d49b2ab9c0f5266}
+
+
+\-Here is the call graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=332pt]{class_p_c_tracking_a9d92ce261d40c47e1d49b2ab9c0f5266_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+\-Here is the caller graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_p_c_tracking_a9d92ce261d40c47e1d49b2ab9c0f5266_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{class_p_c_tracking_a97860708be23118c47c835d072bb6974}{\index{\-P\-C\-Tracking@{\-P\-C\-Tracking}!indv\-Loc@{indv\-Loc}}
+\index{indv\-Loc@{indv\-Loc}!PCTracking@{\-P\-C\-Tracking}}
+\subsubsection[{indv\-Loc}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf \-P\-C\-Tracking\-::indv\-Loc} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}\label{class_p_c_tracking_a97860708be23118c47c835d072bb6974}
+
+
+\-Here is the call graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_p_c_tracking_a97860708be23118c47c835d072bb6974_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+\-Here is the caller graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_p_c_tracking_a97860708be23118c47c835d072bb6974_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{class_p_c_tracking_a2acf2c4ee72aa0312f6120ab86aec5bc}{\index{\-P\-C\-Tracking@{\-P\-C\-Tracking}!initdg@{initdg}}
+\index{initdg@{initdg}!PCTracking@{\-P\-C\-Tracking}}
+\subsubsection[{initdg}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf \-P\-C\-Tracking\-::initdg} (
+\begin{DoxyParamCaption}
+\item[{{\bf \-Type}}]{type}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}\label{class_p_c_tracking_a2acf2c4ee72aa0312f6120ab86aec5bc}
+
+
+\-Here is the caller graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_p_c_tracking_a2acf2c4ee72aa0312f6120ab86aec5bc_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{class_p_c_tracking_ae193eee9a7218ab301736ef42040be83}{\index{\-P\-C\-Tracking@{\-P\-C\-Tracking}!is\-Boundary@{is\-Boundary}}
+\index{is\-Boundary@{is\-Boundary}!PCTracking@{\-P\-C\-Tracking}}
+\subsubsection[{is\-Boundary}]{\setlength{\rightskip}{0pt plus 5cm}bool {\bf \-P\-C\-Tracking\-::is\-Boundary} (
+\begin{DoxyParamCaption}
+\item[{{\bf \-P\-C\-Object} \&}]{object}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}\label{class_p_c_tracking_ae193eee9a7218ab301736ef42040be83}
+
+
+\-Here is the caller graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_p_c_tracking_ae193eee9a7218ab301736ef42040be83_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{class_p_c_tracking_aaf2bfca37caff62940979e05cd812103}{\index{\-P\-C\-Tracking@{\-P\-C\-Tracking}!modify\-Falsely\-Merged@{modify\-Falsely\-Merged}}
+\index{modify\-Falsely\-Merged@{modify\-Falsely\-Merged}!PCTracking@{\-P\-C\-Tracking}}
+\subsubsection[{modify\-Falsely\-Merged}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf \-P\-C\-Tracking\-::modify\-Falsely\-Merged} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}\label{class_p_c_tracking_aaf2bfca37caff62940979e05cd812103}
+
+
+\-Here is the call graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_p_c_tracking_aaf2bfca37caff62940979e05cd812103_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+\-Here is the caller graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_p_c_tracking_aaf2bfca37caff62940979e05cd812103_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{class_p_c_tracking_a6e69225b7cfc25dfdda463eceaca2bb4}{\index{\-P\-C\-Tracking@{\-P\-C\-Tracking}!modify\-Falsely\-Separated@{modify\-Falsely\-Separated}}
+\index{modify\-Falsely\-Separated@{modify\-Falsely\-Separated}!PCTracking@{\-P\-C\-Tracking}}
+\subsubsection[{modify\-Falsely\-Separated}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf \-P\-C\-Tracking\-::modify\-Falsely\-Separated} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}\label{class_p_c_tracking_a6e69225b7cfc25dfdda463eceaca2bb4}
+
+
+\-Here is the call graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_p_c_tracking_a6e69225b7cfc25dfdda463eceaca2bb4_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+\-Here is the caller graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_p_c_tracking_a6e69225b7cfc25dfdda463eceaca2bb4_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{class_p_c_tracking_a0d46f3f2470c6e3e4337a3dbecf9e0e0}{\index{\-P\-C\-Tracking@{\-P\-C\-Tracking}!point\-Matching@{point\-Matching}}
+\index{point\-Matching@{point\-Matching}!PCTracking@{\-P\-C\-Tracking}}
+\subsubsection[{point\-Matching}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf \-P\-C\-Tracking\-::point\-Matching} (
+\begin{DoxyParamCaption}
+\item[{{\bf \-P\-C\-Object\-Container} \&}]{predictive\-Objects, }
+\item[{{\bf \-P\-C\-Object} \&}]{parent\-Object, }
+\item[{{\bf \-Cloud\-Ptr}}]{unmatched\-Points, }
+\item[{{\bf \-P\-C\-Object\-Container} \&}]{objects\-\_\-separated}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}\label{class_p_c_tracking_a0d46f3f2470c6e3e4337a3dbecf9e0e0}
+
+
+\-Here is the call graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_p_c_tracking_a0d46f3f2470c6e3e4337a3dbecf9e0e0_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+\-Here is the caller graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_p_c_tracking_a0d46f3f2470c6e3e4337a3dbecf9e0e0_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{class_p_c_tracking_a2bb6af5b13ac0b6a349bc71569ee9169}{\index{\-P\-C\-Tracking@{\-P\-C\-Tracking}!run@{run}}
+\index{run@{run}!PCTracking@{\-P\-C\-Tracking}}
+\subsubsection[{run}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf \-P\-C\-Tracking\-::run} (
+\begin{DoxyParamCaption}
+\item[{{\bf \-Cloud\-Ptr}}]{\-\_\-p\-Cloud}
+\end{DoxyParamCaption}
+)}}\label{class_p_c_tracking_a2bb6af5b13ac0b6a349bc71569ee9169}
+
+
+\-Here is the call graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_p_c_tracking_a2bb6af5b13ac0b6a349bc71569ee9169_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+\-Here is the caller graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=324pt]{class_p_c_tracking_a2bb6af5b13ac0b6a349bc71569ee9169_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{class_p_c_tracking_a902fdb88398522511794fa0582dcf72f}{\index{\-P\-C\-Tracking@{\-P\-C\-Tracking}!segmentation@{segmentation}}
+\index{segmentation@{segmentation}!PCTracking@{\-P\-C\-Tracking}}
+\subsubsection[{segmentation}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf \-P\-C\-Tracking\-::segmentation} (
+\begin{DoxyParamCaption}
+\item[{{\bf \-Cloud\-Ptr}}]{p\-Cloud, }
+\item[{{\bf \-P\-C\-Object\-Container} \&}]{objects}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}\label{class_p_c_tracking_a902fdb88398522511794fa0582dcf72f}
+
+
+\-Here is the call graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_p_c_tracking_a902fdb88398522511794fa0582dcf72f_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+\-Here is the caller graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_p_c_tracking_a902fdb88398522511794fa0582dcf72f_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{class_p_c_tracking_aebe4039992fcd7f206f767237452161d}{\index{\-P\-C\-Tracking@{\-P\-C\-Tracking}!segmentation\-G\-M\-M@{segmentation\-G\-M\-M}}
+\index{segmentation\-G\-M\-M@{segmentation\-G\-M\-M}!PCTracking@{\-P\-C\-Tracking}}
+\subsubsection[{segmentation\-G\-M\-M}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf \-P\-C\-Tracking\-::segmentation\-G\-M\-M} (
+\begin{DoxyParamCaption}
+\item[{{\bf \-Cloud\-Ptr}}]{p\-Cloud, }
+\item[{{\bf \-P\-C\-Object\-Container} \&}]{objects}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}\label{class_p_c_tracking_aebe4039992fcd7f206f767237452161d}
+\hypertarget{class_p_c_tracking_a6b959016b6a593d1774e91100ad3320c}{\index{\-P\-C\-Tracking@{\-P\-C\-Tracking}!tracking\-Gaussians@{tracking\-Gaussians}}
+\index{tracking\-Gaussians@{tracking\-Gaussians}!PCTracking@{\-P\-C\-Tracking}}
+\subsubsection[{tracking\-Gaussians}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf \-P\-C\-Tracking\-::tracking\-Gaussians} (
+\begin{DoxyParamCaption}
+\item[{{\bf \-P\-C\-Object} $\ast$}]{object, }
+\item[{{\bf \-Cloud\-Ptr}}]{observed\-Points, }
+\item[{{\bf \-P\-C\-Object\-Container} \&}]{updated\-Objects}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}\label{class_p_c_tracking_a6b959016b6a593d1774e91100ad3320c}
+\hypertarget{class_p_c_tracking_ad0d1aeae2dba8a15938269fda650fd44}{\index{\-P\-C\-Tracking@{\-P\-C\-Tracking}!type\-Clear@{type\-Clear}}
+\index{type\-Clear@{type\-Clear}!PCTracking@{\-P\-C\-Tracking}}
+\subsubsection[{type\-Clear}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf \-P\-C\-Tracking\-::type\-Clear} (
+\begin{DoxyParamCaption}
+\item[{\-List\-Digraph\-::\-Node \&}]{node}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}\label{class_p_c_tracking_ad0d1aeae2dba8a15938269fda650fd44}
+
+
+\-Here is the caller graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_p_c_tracking_ad0d1aeae2dba8a15938269fda650fd44_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{class_p_c_tracking_aec7386845e746c4d430c674e85b64c1c}{\index{\-P\-C\-Tracking@{\-P\-C\-Tracking}!type\-Problem@{type\-Problem}}
+\index{type\-Problem@{type\-Problem}!PCTracking@{\-P\-C\-Tracking}}
+\subsubsection[{type\-Problem}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf \-P\-C\-Tracking\-::type\-Problem} (
+\begin{DoxyParamCaption}
+\item[{\-List\-Digraph\-::\-Node \&}]{node}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}\label{class_p_c_tracking_aec7386845e746c4d430c674e85b64c1c}
+
+
+\-Here is the caller graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_p_c_tracking_aec7386845e746c4d430c674e85b64c1c_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{class_p_c_tracking_a85fd8bf718c7919cc302d4d3442f334b}{\index{\-P\-C\-Tracking@{\-P\-C\-Tracking}!update\-Tracks@{update\-Tracks}}
+\index{update\-Tracks@{update\-Tracks}!PCTracking@{\-P\-C\-Tracking}}
+\subsubsection[{update\-Tracks}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf \-P\-C\-Tracking\-::update\-Tracks} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}\label{class_p_c_tracking_a85fd8bf718c7919cc302d4d3442f334b}
+
+
+\-Here is the call graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_p_c_tracking_a85fd8bf718c7919cc302d4d3442f334b_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+\-Here is the caller graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_p_c_tracking_a85fd8bf718c7919cc302d4d3442f334b_icgraph}
+\end{center}
+\end{figure}
+
+
+
+
+\subsection{\-Member \-Data \-Documentation}
+\hypertarget{class_p_c_tracking_a418a08ae505fdd999e84c8cc11e00557}{\index{\-P\-C\-Tracking@{\-P\-C\-Tracking}!b@{b}}
+\index{b@{b}!PCTracking@{\-P\-C\-Tracking}}
+\subsubsection[{b}]{\setlength{\rightskip}{0pt plus 5cm}int $\ast$ {\bf \-P\-C\-Tracking\-::b}\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}\label{class_p_c_tracking_a418a08ae505fdd999e84c8cc11e00557}
+\hypertarget{class_p_c_tracking_a3cbc2f6326c28bc2d136dcb53dac1a5f}{\index{\-P\-C\-Tracking@{\-P\-C\-Tracking}!boundary@{boundary}}
+\index{boundary@{boundary}!PCTracking@{\-P\-C\-Tracking}}
+\subsubsection[{boundary}]{\setlength{\rightskip}{0pt plus 5cm}{\bf \-Bounding\-Box} {\bf \-P\-C\-Tracking\-::boundary}\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}\label{class_p_c_tracking_a3cbc2f6326c28bc2d136dcb53dac1a5f}
+\hypertarget{class_p_c_tracking_a9450eac64c156b259c0c2426b0344f75}{\index{\-P\-C\-Tracking@{\-P\-C\-Tracking}!boundary\-Margin@{boundary\-Margin}}
+\index{boundary\-Margin@{boundary\-Margin}!PCTracking@{\-P\-C\-Tracking}}
+\subsubsection[{boundary\-Margin}]{\setlength{\rightskip}{0pt plus 5cm}double {\bf \-P\-C\-Tracking\-::boundary\-Margin}\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}\label{class_p_c_tracking_a9450eac64c156b259c0c2426b0344f75}
+\hypertarget{class_p_c_tracking_aa7ecd7598977c022ffabbb7e74c80d28}{\index{\-P\-C\-Tracking@{\-P\-C\-Tracking}!clear\-Arcs@{clear\-Arcs}}
+\index{clear\-Arcs@{clear\-Arcs}!PCTracking@{\-P\-C\-Tracking}}
+\subsubsection[{clear\-Arcs}]{\setlength{\rightskip}{0pt plus 5cm}vector$<$\-List\-Digraph\-::\-Arc$>$ {\bf \-P\-C\-Tracking\-::clear\-Arcs}\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}\label{class_p_c_tracking_aa7ecd7598977c022ffabbb7e74c80d28}
+\hypertarget{class_p_c_tracking_a1d232ae428087d499e6696dfa17ed285}{\index{\-P\-C\-Tracking@{\-P\-C\-Tracking}!clear\-Nodes@{clear\-Nodes}}
+\index{clear\-Nodes@{clear\-Nodes}!PCTracking@{\-P\-C\-Tracking}}
+\subsubsection[{clear\-Nodes}]{\setlength{\rightskip}{0pt plus 5cm}vector$<$\-List\-Digraph\-::\-Node$>$ {\bf \-P\-C\-Tracking\-::clear\-Nodes}\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}\label{class_p_c_tracking_a1d232ae428087d499e6696dfa17ed285}
+\hypertarget{class_p_c_tracking_aa642907555b7fad809a938b70bd06d8e}{\index{\-P\-C\-Tracking@{\-P\-C\-Tracking}!cnt@{cnt}}
+\index{cnt@{cnt}!PCTracking@{\-P\-C\-Tracking}}
+\subsubsection[{cnt}]{\setlength{\rightskip}{0pt plus 5cm}int {\bf \-P\-C\-Tracking\-::cnt}\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}\label{class_p_c_tracking_aa642907555b7fad809a938b70bd06d8e}
+\hypertarget{class_p_c_tracking_afd47ea4d5013475b7556ebbc2eacb8a4}{\index{\-P\-C\-Tracking@{\-P\-C\-Tracking}!dg\-\_\-ambiguity@{dg\-\_\-ambiguity}}
+\index{dg\-\_\-ambiguity@{dg\-\_\-ambiguity}!PCTracking@{\-P\-C\-Tracking}}
+\subsubsection[{dg\-\_\-ambiguity}]{\setlength{\rightskip}{0pt plus 5cm}\-List\-Digraph {\bf \-P\-C\-Tracking\-::dg\-\_\-ambiguity}}}\label{class_p_c_tracking_afd47ea4d5013475b7556ebbc2eacb8a4}
+\hypertarget{class_p_c_tracking_a58337c79f8c1bc741c17867147f90132}{\index{\-P\-C\-Tracking@{\-P\-C\-Tracking}!dg\-\_\-ambiguity\-\_\-arcs@{dg\-\_\-ambiguity\-\_\-arcs}}
+\index{dg\-\_\-ambiguity\-\_\-arcs@{dg\-\_\-ambiguity\-\_\-arcs}!PCTracking@{\-P\-C\-Tracking}}
+\subsubsection[{dg\-\_\-ambiguity\-\_\-arcs}]{\setlength{\rightskip}{0pt plus 5cm}\-List\-Digraph\-::\-Arc\-Map$<${\bf \-Weight}$>$$\ast$ {\bf \-P\-C\-Tracking\-::dg\-\_\-ambiguity\-\_\-arcs}}}\label{class_p_c_tracking_a58337c79f8c1bc741c17867147f90132}
+\hypertarget{class_p_c_tracking_ab0978d139653c88b54b8e0f214ec2e2e}{\index{\-P\-C\-Tracking@{\-P\-C\-Tracking}!dg\-\_\-ambiguity\-\_\-nodes@{dg\-\_\-ambiguity\-\_\-nodes}}
+\index{dg\-\_\-ambiguity\-\_\-nodes@{dg\-\_\-ambiguity\-\_\-nodes}!PCTracking@{\-P\-C\-Tracking}}
+\subsubsection[{dg\-\_\-ambiguity\-\_\-nodes}]{\setlength{\rightskip}{0pt plus 5cm}\-List\-Digraph\-::\-Node\-Map$<${\bf \-Object\-Node}$>$$\ast$ {\bf \-P\-C\-Tracking\-::dg\-\_\-ambiguity\-\_\-nodes}}}\label{class_p_c_tracking_ab0978d139653c88b54b8e0f214ec2e2e}
+\hypertarget{class_p_c_tracking_a12b9e4818a5dbd1195ef8fa7d39c34b1}{\index{\-P\-C\-Tracking@{\-P\-C\-Tracking}!dim@{dim}}
+\index{dim@{dim}!PCTracking@{\-P\-C\-Tracking}}
+\subsubsection[{dim}]{\setlength{\rightskip}{0pt plus 5cm}int {\bf \-P\-C\-Tracking\-::dim}\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}\label{class_p_c_tracking_a12b9e4818a5dbd1195ef8fa7d39c34b1}
+\hypertarget{class_p_c_tracking_a54d6b67b92c09bc50250c108752c5401}{\index{\-P\-C\-Tracking@{\-P\-C\-Tracking}!falsely\-Merged@{falsely\-Merged}}
+\index{falsely\-Merged@{falsely\-Merged}!PCTracking@{\-P\-C\-Tracking}}
+\subsubsection[{falsely\-Merged}]{\setlength{\rightskip}{0pt plus 5cm}vector$<${\bf \-False\-Objects}$>$ {\bf \-P\-C\-Tracking\-::falsely\-Merged}\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}\label{class_p_c_tracking_a54d6b67b92c09bc50250c108752c5401}
+\hypertarget{class_p_c_tracking_a8ee53b44e5c3f9dfd4b33f6719487fa4}{\index{\-P\-C\-Tracking@{\-P\-C\-Tracking}!falsely\-Separeted@{falsely\-Separeted}}
+\index{falsely\-Separeted@{falsely\-Separeted}!PCTracking@{\-P\-C\-Tracking}}
+\subsubsection[{falsely\-Separeted}]{\setlength{\rightskip}{0pt plus 5cm}vector$<${\bf \-False\-Objects}$>$ {\bf \-P\-C\-Tracking\-::falsely\-Separeted}\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}\label{class_p_c_tracking_a8ee53b44e5c3f9dfd4b33f6719487fa4}
+\hypertarget{class_p_c_tracking_a62722fbba118f97283808d385c4f61d8}{\index{\-P\-C\-Tracking@{\-P\-C\-Tracking}!frame\-\_\-id@{frame\-\_\-id}}
+\index{frame\-\_\-id@{frame\-\_\-id}!PCTracking@{\-P\-C\-Tracking}}
+\subsubsection[{frame\-\_\-id}]{\setlength{\rightskip}{0pt plus 5cm}string {\bf \-P\-C\-Tracking\-::frame\-\_\-id}\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}\label{class_p_c_tracking_a62722fbba118f97283808d385c4f61d8}
+\hypertarget{class_p_c_tracking_aeb1f3746d39272933b70b6210298983f}{\index{\-P\-C\-Tracking@{\-P\-C\-Tracking}!g@{g}}
+\index{g@{g}!PCTracking@{\-P\-C\-Tracking}}
+\subsubsection[{g}]{\setlength{\rightskip}{0pt plus 5cm}int $\ast$ {\bf \-P\-C\-Tracking\-::g}\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}\label{class_p_c_tracking_aeb1f3746d39272933b70b6210298983f}
+\hypertarget{class_p_c_tracking_aeaa5bcbc69a1c426360f3e06aac7cef9}{\index{\-P\-C\-Tracking@{\-P\-C\-Tracking}!imft@{imft}}
+\index{imft@{imft}!PCTracking@{\-P\-C\-Tracking}}
+\subsubsection[{imft}]{\setlength{\rightskip}{0pt plus 5cm}{\bf \-I\-M\-F\-T}$<${\bf \-P\-C\-Object}$>$$\ast$ {\bf \-P\-C\-Tracking\-::imft}}}\label{class_p_c_tracking_aeaa5bcbc69a1c426360f3e06aac7cef9}
+\hypertarget{class_p_c_tracking_a08ee78ad7493830226491b49bf72e514}{\index{\-P\-C\-Tracking@{\-P\-C\-Tracking}!imft\-\_\-loc@{imft\-\_\-loc}}
+\index{imft\-\_\-loc@{imft\-\_\-loc}!PCTracking@{\-P\-C\-Tracking}}
+\subsubsection[{imft\-\_\-loc}]{\setlength{\rightskip}{0pt plus 5cm}{\bf \-I\-M\-F\-T}$<${\bf \-P\-C\-Object}$>$$\ast$ {\bf \-P\-C\-Tracking\-::imft\-\_\-loc}}}\label{class_p_c_tracking_a08ee78ad7493830226491b49bf72e514}
+\hypertarget{class_p_c_tracking_a9f0e2ba11bbca068561a58836decca07}{\index{\-P\-C\-Tracking@{\-P\-C\-Tracking}!is\-Debug@{is\-Debug}}
+\index{is\-Debug@{is\-Debug}!PCTracking@{\-P\-C\-Tracking}}
+\subsubsection[{is\-Debug}]{\setlength{\rightskip}{0pt plus 5cm}bool {\bf \-P\-C\-Tracking\-::is\-Debug}\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}\label{class_p_c_tracking_a9f0e2ba11bbca068561a58836decca07}
+\hypertarget{class_p_c_tracking_a8347f3c784c2b3fafc59581dc9aa58fa}{\index{\-P\-C\-Tracking@{\-P\-C\-Tracking}!m\-\_\-part\-Filters@{m\-\_\-part\-Filters}}
+\index{m\-\_\-part\-Filters@{m\-\_\-part\-Filters}!PCTracking@{\-P\-C\-Tracking}}
+\subsubsection[{m\-\_\-part\-Filters}]{\setlength{\rightskip}{0pt plus 5cm}vector$<${\bf \-Particlepose}$>$ {\bf \-P\-C\-Tracking\-::m\-\_\-part\-Filters}\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}\label{class_p_c_tracking_a8347f3c784c2b3fafc59581dc9aa58fa}
+\hypertarget{class_p_c_tracking_ab6a388338aacd6fcccf5dcd49f7c23fb}{\index{\-P\-C\-Tracking@{\-P\-C\-Tracking}!max\-Frame@{max\-Frame}}
+\index{max\-Frame@{max\-Frame}!PCTracking@{\-P\-C\-Tracking}}
+\subsubsection[{max\-Frame}]{\setlength{\rightskip}{0pt plus 5cm}int {\bf \-P\-C\-Tracking\-::max\-Frame}\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}\label{class_p_c_tracking_ab6a388338aacd6fcccf5dcd49f7c23fb}
+\hypertarget{class_p_c_tracking_aaf2176fa1ad479e9a85a4c17c3a2508a}{\index{\-P\-C\-Tracking@{\-P\-C\-Tracking}!max\-I\-D@{max\-I\-D}}
+\index{max\-I\-D@{max\-I\-D}!PCTracking@{\-P\-C\-Tracking}}
+\subsubsection[{max\-I\-D}]{\setlength{\rightskip}{0pt plus 5cm}int {\bf \-P\-C\-Tracking\-::max\-I\-D}\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}\label{class_p_c_tracking_aaf2176fa1ad479e9a85a4c17c3a2508a}
+\hypertarget{class_p_c_tracking_a887f30c9fe45e3f1f048b4c57098f632}{\index{\-P\-C\-Tracking@{\-P\-C\-Tracking}!max\-Prob\-Association@{max\-Prob\-Association}}
+\index{max\-Prob\-Association@{max\-Prob\-Association}!PCTracking@{\-P\-C\-Tracking}}
+\subsubsection[{max\-Prob\-Association}]{\setlength{\rightskip}{0pt plus 5cm}double {\bf \-P\-C\-Tracking\-::max\-Prob\-Association}\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}\label{class_p_c_tracking_a887f30c9fe45e3f1f048b4c57098f632}
+\hypertarget{class_p_c_tracking_adda35af7ff9b01c11271aad26cfd3b92}{\index{\-P\-C\-Tracking@{\-P\-C\-Tracking}!min\-Points@{min\-Points}}
+\index{min\-Points@{min\-Points}!PCTracking@{\-P\-C\-Tracking}}
+\subsubsection[{min\-Points}]{\setlength{\rightskip}{0pt plus 5cm}int {\bf \-P\-C\-Tracking\-::min\-Points}\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}\label{class_p_c_tracking_adda35af7ff9b01c11271aad26cfd3b92}
+\hypertarget{class_p_c_tracking_a7ad3bddfa579851a0c7d34664b2adf0f}{\index{\-P\-C\-Tracking@{\-P\-C\-Tracking}!n\-Objects@{n\-Objects}}
+\index{n\-Objects@{n\-Objects}!PCTracking@{\-P\-C\-Tracking}}
+\subsubsection[{n\-Objects}]{\setlength{\rightskip}{0pt plus 5cm}int {\bf \-P\-C\-Tracking\-::n\-Objects}\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}\label{class_p_c_tracking_a7ad3bddfa579851a0c7d34664b2adf0f}
+\hypertarget{class_p_c_tracking_af632efe77ea5fc04f6d6b7eea0d3bb55}{\index{\-P\-C\-Tracking@{\-P\-C\-Tracking}!object\-\_\-tracks@{object\-\_\-tracks}}
+\index{object\-\_\-tracks@{object\-\_\-tracks}!PCTracking@{\-P\-C\-Tracking}}
+\subsubsection[{object\-\_\-tracks}]{\setlength{\rightskip}{0pt plus 5cm}{\bf \-P\-C\-Track\-Container}$\ast$ {\bf \-P\-C\-Tracking\-::object\-\_\-tracks}}}\label{class_p_c_tracking_af632efe77ea5fc04f6d6b7eea0d3bb55}
+\hypertarget{class_p_c_tracking_aa75a02248faa750b4608ce89903d0904}{\index{\-P\-C\-Tracking@{\-P\-C\-Tracking}!objects\-\_\-clear@{objects\-\_\-clear}}
+\index{objects\-\_\-clear@{objects\-\_\-clear}!PCTracking@{\-P\-C\-Tracking}}
+\subsubsection[{objects\-\_\-clear}]{\setlength{\rightskip}{0pt plus 5cm}{\bf \-P\-C\-Object\-Container} {\bf \-P\-C\-Tracking\-::objects\-\_\-clear}\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}\label{class_p_c_tracking_aa75a02248faa750b4608ce89903d0904}
+\hypertarget{class_p_c_tracking_a124a1d51e7158c64b394a993cacc5f45}{\index{\-P\-C\-Tracking@{\-P\-C\-Tracking}!objects\-\_\-false\-Merg@{objects\-\_\-false\-Merg}}
+\index{objects\-\_\-false\-Merg@{objects\-\_\-false\-Merg}!PCTracking@{\-P\-C\-Tracking}}
+\subsubsection[{objects\-\_\-false\-Merg}]{\setlength{\rightskip}{0pt plus 5cm}{\bf \-P\-C\-Object\-Container} {\bf \-P\-C\-Tracking\-::objects\-\_\-false\-Merg}\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}\label{class_p_c_tracking_a124a1d51e7158c64b394a993cacc5f45}
+\hypertarget{class_p_c_tracking_a569f7a0488d2384e995757743d697e6e}{\index{\-P\-C\-Tracking@{\-P\-C\-Tracking}!objects\-\_\-false\-Sep@{objects\-\_\-false\-Sep}}
+\index{objects\-\_\-false\-Sep@{objects\-\_\-false\-Sep}!PCTracking@{\-P\-C\-Tracking}}
+\subsubsection[{objects\-\_\-false\-Sep}]{\setlength{\rightskip}{0pt plus 5cm}{\bf \-P\-C\-Object\-Container} {\bf \-P\-C\-Tracking\-::objects\-\_\-false\-Sep}\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}\label{class_p_c_tracking_a569f7a0488d2384e995757743d697e6e}
+\hypertarget{class_p_c_tracking_a8a74637e7a4f6ac3694de9d90c3002fa}{\index{\-P\-C\-Tracking@{\-P\-C\-Tracking}!objects\-\_\-loc@{objects\-\_\-loc}}
+\index{objects\-\_\-loc@{objects\-\_\-loc}!PCTracking@{\-P\-C\-Tracking}}
+\subsubsection[{objects\-\_\-loc}]{\setlength{\rightskip}{0pt plus 5cm}{\bf \-P\-C\-Object\-Container} {\bf \-P\-C\-Tracking\-::objects\-\_\-loc}\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}\label{class_p_c_tracking_a8a74637e7a4f6ac3694de9d90c3002fa}
+\hypertarget{class_p_c_tracking_af9bfa3a7db4a73377ac74b77b2efa30f}{\index{\-P\-C\-Tracking@{\-P\-C\-Tracking}!objects\-\_\-modified@{objects\-\_\-modified}}
+\index{objects\-\_\-modified@{objects\-\_\-modified}!PCTracking@{\-P\-C\-Tracking}}
+\subsubsection[{objects\-\_\-modified}]{\setlength{\rightskip}{0pt plus 5cm}{\bf \-P\-C\-Object\-Container} {\bf \-P\-C\-Tracking\-::objects\-\_\-modified}\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}\label{class_p_c_tracking_af9bfa3a7db4a73377ac74b77b2efa30f}
+\hypertarget{class_p_c_tracking_a71470bd8c5c952ecb7441b2ffaa63264}{\index{\-P\-C\-Tracking@{\-P\-C\-Tracking}!objects\-\_\-prev@{objects\-\_\-prev}}
+\index{objects\-\_\-prev@{objects\-\_\-prev}!PCTracking@{\-P\-C\-Tracking}}
+\subsubsection[{objects\-\_\-prev}]{\setlength{\rightskip}{0pt plus 5cm}{\bf \-P\-C\-Object\-Container} {\bf \-P\-C\-Tracking\-::objects\-\_\-prev}\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}\label{class_p_c_tracking_a71470bd8c5c952ecb7441b2ffaa63264}
+\hypertarget{class_p_c_tracking_a64744d8b04a156e22dea3f5eae0fbe66}{\index{\-P\-C\-Tracking@{\-P\-C\-Tracking}!observed\-Points\-List@{observed\-Points\-List}}
+\index{observed\-Points\-List@{observed\-Points\-List}!PCTracking@{\-P\-C\-Tracking}}
+\subsubsection[{observed\-Points\-List}]{\setlength{\rightskip}{0pt plus 5cm}vector$<${\bf \-Cloud\-Ptr}$>$ {\bf \-P\-C\-Tracking\-::observed\-Points\-List}\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}\label{class_p_c_tracking_a64744d8b04a156e22dea3f5eae0fbe66}
+\hypertarget{class_p_c_tracking_a681c74d181ddbdd09e58093c6467d690}{\index{\-P\-C\-Tracking@{\-P\-C\-Tracking}!p\-Cloud@{p\-Cloud}}
+\index{p\-Cloud@{p\-Cloud}!PCTracking@{\-P\-C\-Tracking}}
+\subsubsection[{p\-Cloud}]{\setlength{\rightskip}{0pt plus 5cm}{\bf \-Cloud\-Ptr} {\bf \-P\-C\-Tracking\-::p\-Cloud}\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}\label{class_p_c_tracking_a681c74d181ddbdd09e58093c6467d690}
+\hypertarget{class_p_c_tracking_a5ce87241fa5ad033c52e5f56fcc06428}{\index{\-P\-C\-Tracking@{\-P\-C\-Tracking}!p\-Cloud\-\_\-last\-Model@{p\-Cloud\-\_\-last\-Model}}
+\index{p\-Cloud\-\_\-last\-Model@{p\-Cloud\-\_\-last\-Model}!PCTracking@{\-P\-C\-Tracking}}
+\subsubsection[{p\-Cloud\-\_\-last\-Model}]{\setlength{\rightskip}{0pt plus 5cm}{\bf \-Cloud\-Ptr} {\bf \-P\-C\-Tracking\-::p\-Cloud\-\_\-last\-Model}\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}\label{class_p_c_tracking_a5ce87241fa5ad033c52e5f56fcc06428}
+\hypertarget{class_p_c_tracking_a2a31d0f071b1b0e25a9967545abedf5a}{\index{\-P\-C\-Tracking@{\-P\-C\-Tracking}!p\-Cloud\-\_\-particles@{p\-Cloud\-\_\-particles}}
+\index{p\-Cloud\-\_\-particles@{p\-Cloud\-\_\-particles}!PCTracking@{\-P\-C\-Tracking}}
+\subsubsection[{p\-Cloud\-\_\-particles}]{\setlength{\rightskip}{0pt plus 5cm}{\bf \-Cloud\-Ptr} {\bf \-P\-C\-Tracking\-::p\-Cloud\-\_\-particles}\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}\label{class_p_c_tracking_a2a31d0f071b1b0e25a9967545abedf5a}
+\hypertarget{class_p_c_tracking_adb75ee9bf627c8fdd69cb14bf98e5729}{\index{\-P\-C\-Tracking@{\-P\-C\-Tracking}!p\-Cloud\-\_\-seg@{p\-Cloud\-\_\-seg}}
+\index{p\-Cloud\-\_\-seg@{p\-Cloud\-\_\-seg}!PCTracking@{\-P\-C\-Tracking}}
+\subsubsection[{p\-Cloud\-\_\-seg}]{\setlength{\rightskip}{0pt plus 5cm}{\bf \-Cloud\-Ptr} {\bf \-P\-C\-Tracking\-::p\-Cloud\-\_\-seg}\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}\label{class_p_c_tracking_adb75ee9bf627c8fdd69cb14bf98e5729}
+\hypertarget{class_p_c_tracking_a5db04fafbd2c9a5e94ea8806440c630e}{\index{\-P\-C\-Tracking@{\-P\-C\-Tracking}!percent@{percent}}
+\index{percent@{percent}!PCTracking@{\-P\-C\-Tracking}}
+\subsubsection[{percent}]{\setlength{\rightskip}{0pt plus 5cm}double {\bf \-P\-C\-Tracking\-::percent}\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}\label{class_p_c_tracking_a5db04fafbd2c9a5e94ea8806440c630e}
+\hypertarget{class_p_c_tracking_a8a1d5993a52b155b865f01ce25d89347}{\index{\-P\-C\-Tracking@{\-P\-C\-Tracking}!problem\-Arcs@{problem\-Arcs}}
+\index{problem\-Arcs@{problem\-Arcs}!PCTracking@{\-P\-C\-Tracking}}
+\subsubsection[{problem\-Arcs}]{\setlength{\rightskip}{0pt plus 5cm}vector$<$\-List\-Digraph\-::\-Arc$>$ {\bf \-P\-C\-Tracking\-::problem\-Arcs}\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}\label{class_p_c_tracking_a8a1d5993a52b155b865f01ce25d89347}
+\hypertarget{class_p_c_tracking_aab4c50eb3b2f683084a01a32b279f07e}{\index{\-P\-C\-Tracking@{\-P\-C\-Tracking}!problem\-Nodes@{problem\-Nodes}}
+\index{problem\-Nodes@{problem\-Nodes}!PCTracking@{\-P\-C\-Tracking}}
+\subsubsection[{problem\-Nodes}]{\setlength{\rightskip}{0pt plus 5cm}vector$<$\-List\-Digraph\-::\-Node$>$ {\bf \-P\-C\-Tracking\-::problem\-Nodes}\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}\label{class_p_c_tracking_aab4c50eb3b2f683084a01a32b279f07e}
+\hypertarget{class_p_c_tracking_a049c7f8d8103c26527911ebd9b3bf999}{\index{\-P\-C\-Tracking@{\-P\-C\-Tracking}!pub\-\_\-model@{pub\-\_\-model}}
+\index{pub\-\_\-model@{pub\-\_\-model}!PCTracking@{\-P\-C\-Tracking}}
+\subsubsection[{pub\-\_\-model}]{\setlength{\rightskip}{0pt plus 5cm}ros\-::\-Publisher$\ast$ {\bf \-P\-C\-Tracking\-::pub\-\_\-model}\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}\label{class_p_c_tracking_a049c7f8d8103c26527911ebd9b3bf999}
+\hypertarget{class_p_c_tracking_ae092fc2f00b00b576039fb8da640fc89}{\index{\-P\-C\-Tracking@{\-P\-C\-Tracking}!pub\-\_\-scene@{pub\-\_\-scene}}
+\index{pub\-\_\-scene@{pub\-\_\-scene}!PCTracking@{\-P\-C\-Tracking}}
+\subsubsection[{pub\-\_\-scene}]{\setlength{\rightskip}{0pt plus 5cm}ros\-::\-Publisher$\ast$ {\bf \-P\-C\-Tracking\-::pub\-\_\-scene}\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}\label{class_p_c_tracking_ae092fc2f00b00b576039fb8da640fc89}
+\hypertarget{class_p_c_tracking_ac44e980291b4108857d48fb22dc2073d}{\index{\-P\-C\-Tracking@{\-P\-C\-Tracking}!r@{r}}
+\index{r@{r}!PCTracking@{\-P\-C\-Tracking}}
+\subsubsection[{r}]{\setlength{\rightskip}{0pt plus 5cm}int$\ast$ {\bf \-P\-C\-Tracking\-::r}\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}\label{class_p_c_tracking_ac44e980291b4108857d48fb22dc2073d}
+\hypertarget{class_p_c_tracking_ad1866b9f30cecda195efdadabbe75bec}{\index{\-P\-C\-Tracking@{\-P\-C\-Tracking}!scale@{scale}}
+\index{scale@{scale}!PCTracking@{\-P\-C\-Tracking}}
+\subsubsection[{scale}]{\setlength{\rightskip}{0pt plus 5cm}double {\bf \-P\-C\-Tracking\-::scale}\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}\label{class_p_c_tracking_ad1866b9f30cecda195efdadabbe75bec}
+\hypertarget{class_p_c_tracking_a61c0e4ae5db1d816b45d2e1ec730c540}{\index{\-P\-C\-Tracking@{\-P\-C\-Tracking}!segmentation\-\_\-max\-Size@{segmentation\-\_\-max\-Size}}
+\index{segmentation\-\_\-max\-Size@{segmentation\-\_\-max\-Size}!PCTracking@{\-P\-C\-Tracking}}
+\subsubsection[{segmentation\-\_\-max\-Size}]{\setlength{\rightskip}{0pt plus 5cm}double {\bf \-P\-C\-Tracking\-::segmentation\-\_\-max\-Size}\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}\label{class_p_c_tracking_a61c0e4ae5db1d816b45d2e1ec730c540}
+\hypertarget{class_p_c_tracking_a73877d451da4f7f90e75a5d00bb0f20c}{\index{\-P\-C\-Tracking@{\-P\-C\-Tracking}!segmentation\-\_\-min\-Size@{segmentation\-\_\-min\-Size}}
+\index{segmentation\-\_\-min\-Size@{segmentation\-\_\-min\-Size}!PCTracking@{\-P\-C\-Tracking}}
+\subsubsection[{segmentation\-\_\-min\-Size}]{\setlength{\rightskip}{0pt plus 5cm}double {\bf \-P\-C\-Tracking\-::segmentation\-\_\-min\-Size}\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}\label{class_p_c_tracking_a73877d451da4f7f90e75a5d00bb0f20c}
+\hypertarget{class_p_c_tracking_a6765e0cf16e08dd3cb4cd119f0566929}{\index{\-P\-C\-Tracking@{\-P\-C\-Tracking}!segmentation\-\_\-tolerance@{segmentation\-\_\-tolerance}}
+\index{segmentation\-\_\-tolerance@{segmentation\-\_\-tolerance}!PCTracking@{\-P\-C\-Tracking}}
+\subsubsection[{segmentation\-\_\-tolerance}]{\setlength{\rightskip}{0pt plus 5cm}double {\bf \-P\-C\-Tracking\-::segmentation\-\_\-tolerance}\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}\label{class_p_c_tracking_a6765e0cf16e08dd3cb4cd119f0566929}
+\hypertarget{class_p_c_tracking_ae1cfc4fbb5c35558ff52ac6b5c9140bb}{\index{\-P\-C\-Tracking@{\-P\-C\-Tracking}!thr\-Prob\-Scene@{thr\-Prob\-Scene}}
+\index{thr\-Prob\-Scene@{thr\-Prob\-Scene}!PCTracking@{\-P\-C\-Tracking}}
+\subsubsection[{thr\-Prob\-Scene}]{\setlength{\rightskip}{0pt plus 5cm}double {\bf \-P\-C\-Tracking\-::thr\-Prob\-Scene}\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}\label{class_p_c_tracking_ae1cfc4fbb5c35558ff52ac6b5c9140bb}
+\hypertarget{class_p_c_tracking_ade7cb8fd4d872bb9eda66ae2f1a264be}{\index{\-P\-C\-Tracking@{\-P\-C\-Tracking}!unmatched\-Points@{unmatched\-Points}}
+\index{unmatched\-Points@{unmatched\-Points}!PCTracking@{\-P\-C\-Tracking}}
+\subsubsection[{unmatched\-Points}]{\setlength{\rightskip}{0pt plus 5cm}{\bf \-Cloud\-Ptr} {\bf \-P\-C\-Tracking\-::unmatched\-Points}\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}\label{class_p_c_tracking_ade7cb8fd4d872bb9eda66ae2f1a264be}
+
+
+\-The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+/home/koosy/koosywork/pmot\-\_\-realtime/pmot\-\_\-realtime/src/\hyperlink{pctracking_8h}{pctracking.\-h}\item 
+/home/koosy/koosywork/pmot\-\_\-realtime/pmot\-\_\-realtime/src/\hyperlink{pctracking_8cpp}{pctracking.\-cpp}\end{DoxyCompactItemize}

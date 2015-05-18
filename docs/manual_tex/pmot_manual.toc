@@ -1,0 +1,27 @@
+\contentsline {chapter}{\numberline {1}Introduction}{5}{chapter.1}
+\contentsline {section}{\numberline {1.1}Background: Point-cloud object segmentation and tracking}{5}{section.1.1}
+\contentsline {section}{\numberline {1.2}Simultaneous multiple object segmentation and tracking (SMOST)}{7}{section.1.2}
+\contentsline {chapter}{\numberline {2}Installation}{11}{chapter.2}
+\contentsline {section}{\numberline {2.1}System requirements}{11}{section.2.1}
+\contentsline {section}{\numberline {2.2}Dependent libraries}{11}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Robot Operating System (ROS)}{11}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}CUDA}{12}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {2.2.3}Point cloud library (PCL)}{12}{subsection.2.2.3}
+\contentsline {subsection}{\numberline {2.2.4}Qt4}{12}{subsection.2.2.4}
+\contentsline {subsection}{\numberline {2.2.5}VXL}{13}{subsection.2.2.5}
+\contentsline {subsection}{\numberline {2.2.6}Lemon}{13}{subsection.2.2.6}
+\contentsline {section}{\numberline {2.3}Compiling and building PMOT}{14}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}PMOT}{15}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}Camera calibration (camcalib)}{21}{subsection.2.3.2}
+\contentsline {chapter}{\numberline {3}Program Execution}{23}{chapter.3}
+\contentsline {section}{\numberline {3.1}Camera calibration (camcalib)}{23}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Setting parameters}{24}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.2}Execution}{25}{subsection.3.1.2}
+\contentsline {section}{\numberline {3.2}PMOT}{27}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Setting parameters}{28}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}Execution}{30}{subsection.3.2.2}
+\contentsline {subsubsection}{Filtered point-cloud}{30}{section*.17}
+\contentsline {subsubsection}{Segmented point-cloud}{31}{section*.19}
+\contentsline {subsubsection}{Object indexed point-cloud}{32}{section*.21}
+\contentsline {chapter}{List of Figures}{33}{figure.caption.22}
+\contentsline {chapter}{Bibliography}{35}{chapter*.23}

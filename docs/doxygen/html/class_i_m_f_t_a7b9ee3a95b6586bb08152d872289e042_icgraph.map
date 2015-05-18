@@ -1,0 +1,8 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$class_p_c_object.html#ac085f8a5dc44cfa8f4e4d2d1a9aeacd5" title="PCObject::gaussianTrackingInit" alt="" coords="196,5,401,35"/>
+<area shape="rect" id="node5" href="$class_p_c_object.html#a0631fbfafe8050f758c14f0b3791fa01" title="PCObject::gaussianTracking" alt="" coords="204,59,393,88"/>
+<area shape="rect" id="node7" href="$class_p_c_tracking.html#a9d92ce261d40c47e1d49b2ab9c0f5266" title="PCTracking::indexing" alt="" coords="225,112,372,141"/>
+<area shape="rect" id="node9" href="$class_p_c_tracking.html#a2bb6af5b13ac0b6a349bc71569ee9169" title="PCTracking::run" alt="" coords="451,112,568,141"/>
+<area shape="rect" id="node11" href="$main_8cpp.html#a2f117ad07bf10262ec219172ca4987d5" title="cb_rgb" alt="" coords="616,112,677,141"/>
+<area shape="rect" id="node13" href="$main_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="725,112,776,141"/>
+</map>

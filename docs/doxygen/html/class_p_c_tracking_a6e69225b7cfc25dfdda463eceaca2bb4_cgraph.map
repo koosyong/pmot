@@ -1,0 +1,6 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$class_p_c_object.html#ac8872c933f6ebf08abfd1aa4ebde6ebd" title="PCObject::insert" alt="" coords="355,5,472,35"/>
+<area shape="rect" id="node5" href="$class_p_c_object.html#adcf48887575738fff69b7e765529520a" title="PCObject::initGaussian" alt="" coords="335,59,492,88"/>
+<area shape="rect" id="node9" href="$class_p_c_object_container.html#a2d8ab397f1a69ceec7a916905565f19f" title="PCObjectContainer::makeNewObject" alt="" coords="293,112,533,141"/>
+<area shape="rect" id="node7" href="$class_gaussian.html#adf54537aeb68ac96fc3dc0bd42224216" title="Gaussian::init" alt="" coords="583,59,684,88"/>
+</map>

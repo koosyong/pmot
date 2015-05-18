@@ -1,0 +1,398 @@
+\hypertarget{class_i_m_f_t}{\section{\-I\-M\-F\-T$<$ \-Object $>$ \-Class \-Template \-Reference}
+\label{class_i_m_f_t}\index{\-I\-M\-F\-T$<$ Object $>$@{\-I\-M\-F\-T$<$ Object $>$}}
+}
+
+
+{\ttfamily \#include $<$imft.\-h$>$}
+
+
+
+\-Collaboration diagram for \-I\-M\-F\-T$<$ \-Object $>$\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=295pt]{class_i_m_f_t__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{\-Public \-Types}
+\begin{DoxyCompactItemize}
+\item 
+typedef \hyperlink{class_track_container}{\-Track\-Container}$<$ \-Object $>$ \hyperlink{class_i_m_f_t_a8aad0b1bd309bfb92abb74ce45e549a9}{\-Track\-Container\-T}
+\item 
+typedef \hyperlink{class_track}{\-Track}$<$ \-Object $>$ \hyperlink{class_i_m_f_t_a37f74f73fc6d19920930474c5522e242}{\-Track\-T}
+\item 
+typedef \hyperlink{struct_track_1_1_frame}{\-Track\-T\-::\-Frame} \hyperlink{class_i_m_f_t_ab9da2d474c63076c3a194d343fc20169}{\-Ptr}
+\item 
+typedef vector$<$ \hyperlink{class_i_m_f_t_ab9da2d474c63076c3a194d343fc20169}{\-Ptr} $>$ \hyperlink{class_i_m_f_t_a47e5af5b3e023928bd7ddc6ddbf6044c}{\-Vec\-Ptr}
+\item 
+typedef \hyperlink{struct_track_1_1_v}{\-Track\-T\-::\-V} \hyperlink{class_i_m_f_t_ad22184fa80718f8e5087d8cec78a6323}{\-V}
+\item 
+typedef vector$<$ \hyperlink{class_i_m_f_t_a37f74f73fc6d19920930474c5522e242}{\-Track\-T} $>$ \hyperlink{class_i_m_f_t_a55e4fd327687c579749d3ca13e0f621e}{\-Vec\-Track}
+\item 
+typedef double($\ast$ \hyperlink{class_i_m_f_t_ae7436174afe28b7a25237c97b2b9f416}{func\-Weight} )(\-Object \&o1, \-Object \&o2)
+\item 
+typedef \-Object $\ast$ \hyperlink{class_i_m_f_t_a9f291b28e2caab20361d790d02774dfe}{\-Object\-Ptr}
+\item 
+typedef vector$<$ \-Object $\ast$ $>$ \hyperlink{class_i_m_f_t_a03dc658b57ff8debb2b6869be37c0d67}{\-Vec\-Object\-Ptr}
+\end{DoxyCompactItemize}
+\subsection*{\-Public \-Member \-Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_i_m_f_t_adfcb341712779443d1f22168b807f90c}{\-I\-M\-F\-T} (int \-\_\-window\-\_\-short=10, int \-\_\-window\-\_\-long=20, int \-\_\-max\-I\-D=100, \hyperlink{class_i_m_f_t_ae7436174afe28b7a25237c97b2b9f416}{func\-Weight} \-\_\-weight=0, \hyperlink{class_i_m_f_t_ae7436174afe28b7a25237c97b2b9f416}{func\-Weight} \-\_\-weight\-\_\-fast=0)
+\item 
+\hyperlink{class_i_m_f_t_ac669bb45bbc9b72c4dea37097c66d661}{$\sim$\-I\-M\-F\-T} ()
+\item 
+void \hyperlink{class_i_m_f_t_ad47b95cc538fd0b52e8f0cf276dda86c}{set\-Frame} (vector$<$ \-Object $\ast$ $>$ objects, int stamp)
+\item 
+void \hyperlink{class_i_m_f_t_acb040ebe38d14012375f000a9f4df0b9}{confirm\-D\-Graph} ()
+\item 
+void \hyperlink{class_i_m_f_t_a8a0e5ca756776227e239a67e186938f7}{extension} ()
+\item 
+void \hyperlink{class_i_m_f_t_a1c4e1853b1dcaf86e50a1ced421af6ad}{matching} ()
+\item 
+void \hyperlink{class_i_m_f_t_a7b9ee3a95b6586bb08152d872289e042}{update\-Tracks} ()
+\item 
+\hyperlink{class_i_m_f_t_a8aad0b1bd309bfb92abb74ce45e549a9}{\-Track\-Container\-T} $\ast$ \hyperlink{class_i_m_f_t_a0dcd3c2c2747177fc4ea4f1bb73bae7b}{extract\-Tracks} ()
+\item 
+\hyperlink{class_i_m_f_t_a03dc658b57ff8debb2b6869be37c0d67}{\-Vec\-Object\-Ptr} \hyperlink{class_i_m_f_t_ad9803bbc0eef9c8680377052793c029c}{get\-Unmatched\-Objects} ()
+\item 
+\hyperlink{class_i_m_f_t_a03dc658b57ff8debb2b6869be37c0d67}{\-Vec\-Object\-Ptr} \hyperlink{class_i_m_f_t_afe0b6e7d641820f7c8d3bd8b2ed42ec7}{get\-Terminal\-Nodes} ()
+\item 
+\hyperlink{class_i_m_f_t_a03dc658b57ff8debb2b6869be37c0d67}{\-Vec\-Object\-Ptr} \hyperlink{class_i_m_f_t_a51b02ea25f4830c396608e41ad2dda4d}{get\-Terminal\-Nodes\-Last\-Frame} ()
+\item 
+\hyperlink{class_i_m_f_t_a03dc658b57ff8debb2b6869be37c0d67}{\-Vec\-Object\-Ptr} \hyperlink{class_i_m_f_t_a981a25796eaf59f23c8819001ab9ee9e}{get\-Unmatched\-Tracks} ()
+\item 
+void \hyperlink{class_i_m_f_t_a0fc1cd8b04d246ef33f84f5b0c40ac6a}{get\-Maximum\-Matched\-Track} (\hyperlink{class_i_m_f_t_a9f291b28e2caab20361d790d02774dfe}{\-Object\-Ptr} object, \hyperlink{class_i_m_f_t_a9f291b28e2caab20361d790d02774dfe}{\-Object\-Ptr} \&max\-Track, double \&w\-Hypothesis, \hyperlink{class_i_m_f_t_a9f291b28e2caab20361d790d02774dfe}{\-Object\-Ptr} \&object\-Origin, double \&w\-Origin)
+\item 
+void \hyperlink{class_i_m_f_t_a4fa24de7283cacd230302a47bf9aa424}{get\-Maximum\-Matched\-Object} (\hyperlink{class_i_m_f_t_a9f291b28e2caab20361d790d02774dfe}{\-Object\-Ptr} track\-Unmatched, \hyperlink{class_i_m_f_t_a9f291b28e2caab20361d790d02774dfe}{\-Object\-Ptr} \&max\-Object, double \&w\-Hypothesis, \hyperlink{class_i_m_f_t_a9f291b28e2caab20361d790d02774dfe}{\-Object\-Ptr} \&track\-Origin, double \&w\-Origin)
+\item 
+bool \hyperlink{class_i_m_f_t_afc129366861aecc3edf1c98fef27f5bf}{delete\-Last\-Frame} ()
+\end{DoxyCompactItemize}
+\subsection*{\-Public \-Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_i_m_f_t_ae7436174afe28b7a25237c97b2b9f416}{func\-Weight} \hyperlink{class_i_m_f_t_ac25f8710b5133e975dd7be2e9909f0bd}{weight}
+\item 
+\hyperlink{class_i_m_f_t_ae7436174afe28b7a25237c97b2b9f416}{func\-Weight} \hyperlink{class_i_m_f_t_a9431008dbf21f96477c515c41b77014f}{weight\-\_\-fast}
+\item 
+\hyperlink{class_i_m_f_t_a8aad0b1bd309bfb92abb74ce45e549a9}{\-Track\-Container\-T} $\ast$ \hyperlink{class_i_m_f_t_a2b7798fca0fac14339c47ce517778560}{track\-Container}
+\item 
+int \hyperlink{class_i_m_f_t_aa470d46dee0f624f461d8854939cd6c5}{cnt}
+\item 
+int \hyperlink{class_i_m_f_t_ad2198a7256eb82e0c5ad0362abc5290a}{window\-\_\-short}
+\item 
+int \hyperlink{class_i_m_f_t_a90e2ffc6a77b2b27035c8dfc6cbb8378}{window\-\_\-long}
+\item 
+int \hyperlink{class_i_m_f_t_abb14e14b1278312f13d5e45bb0bedd47}{max\-I\-D}
+\item 
+bool \hyperlink{class_i_m_f_t_af10936c7ab5ea0b0d18e928365c6ff3d}{m\-\_\-is\-Debug}
+\item 
+\-List\-Graph \hyperlink{class_i_m_f_t_a03887af2ae2372fcbecc2525176bbef8}{m\-\_\-g}
+\item 
+\-List\-Graph\-::\-Node\-Map$<$ \hyperlink{class_i_m_f_t_ad22184fa80718f8e5087d8cec78a6323}{\-V} $>$ $\ast$ \hyperlink{class_i_m_f_t_a456c4e69b77870a87f0d6a86b33ce668}{m\-\_\-g\-Node\-Map}
+\item 
+\-List\-Graph\-::\-Edge\-Map$<$ double $>$ $\ast$ \hyperlink{class_i_m_f_t_a9629eb1da0d08013c87c4e679c176c6b}{m\-\_\-g\-Edge\-Map}
+\item 
+double \hyperlink{class_i_m_f_t_a157d578f41bcddf7355c9d0fc16c0f6e}{m\-\_\-max\-Weight}
+\item 
+vector$<$ int $>$ \hyperlink{class_i_m_f_t_a29f477074ca9cb6760c58c7312a0e2c6}{m\-\_\-vec\-Old\-Edge}
+\item 
+double \hyperlink{class_i_m_f_t_ac759c0713923c5a609ec3e90b942f606}{m\-\_\-wsum}
+\item 
+int \hyperlink{class_i_m_f_t_afd30e2f7af8158e10d95c1e55a05e17d}{m\-\_\-current\-T}
+\item 
+int \hyperlink{class_i_m_f_t_a1fbf73806f8ad8cc86261808f7c4ec09}{m\-\_\-new\-Track\-I\-D}
+\end{DoxyCompactItemize}
+\subsection*{\-Private \-Member \-Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{class_i_m_f_t_a4afe4b84cad4d3915d888d3da46496f1}{moving\-Window} ()
+\item 
+void \hyperlink{class_i_m_f_t_aba2080902249baf70c7788e97cf7f6a7}{add\-To\-D\-Graph} (\hyperlink{class_i_m_f_t_a47e5af5b3e023928bd7ddc6ddbf6044c}{\-Vec\-Ptr} ptrs)
+\item 
+void \hyperlink{class_i_m_f_t_a7f73ff3d638dd056ce848e50f18ec3a9}{two\-Frame\-Corresponding} (vector$<$ \-List\-Graph\-::\-Node $>$ vec\-U\-Frame, vector$<$ \-List\-Graph\-::\-Node $>$ vec\-V\-Frame)
+\end{DoxyCompactItemize}
+\subsubsection*{template$<$class \-Object$>$ class I\-M\-F\-T$<$ Object $>$}
+
+
+
+\subsection{\-Member \-Typedef \-Documentation}
+\hypertarget{class_i_m_f_t_ae7436174afe28b7a25237c97b2b9f416}{\index{\-I\-M\-F\-T@{\-I\-M\-F\-T}!func\-Weight@{func\-Weight}}
+\index{func\-Weight@{func\-Weight}!IMFT@{\-I\-M\-F\-T}}
+\subsubsection[{func\-Weight}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class \-Object$>$ typedef double($\ast$ {\bf \-I\-M\-F\-T}$<$ \-Object $>$\-::{\bf func\-Weight})(\-Object \&o1, \-Object \&o2)}}\label{class_i_m_f_t_ae7436174afe28b7a25237c97b2b9f416}
+\hypertarget{class_i_m_f_t_a9f291b28e2caab20361d790d02774dfe}{\index{\-I\-M\-F\-T@{\-I\-M\-F\-T}!\-Object\-Ptr@{\-Object\-Ptr}}
+\index{\-Object\-Ptr@{\-Object\-Ptr}!IMFT@{\-I\-M\-F\-T}}
+\subsubsection[{\-Object\-Ptr}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class \-Object$>$ typedef \-Object$\ast$ {\bf \-I\-M\-F\-T}$<$ \-Object $>$\-::{\bf \-Object\-Ptr}}}\label{class_i_m_f_t_a9f291b28e2caab20361d790d02774dfe}
+\hypertarget{class_i_m_f_t_ab9da2d474c63076c3a194d343fc20169}{\index{\-I\-M\-F\-T@{\-I\-M\-F\-T}!\-Ptr@{\-Ptr}}
+\index{\-Ptr@{\-Ptr}!IMFT@{\-I\-M\-F\-T}}
+\subsubsection[{\-Ptr}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class \-Object$>$ typedef {\bf \-Track\-T\-::\-Frame} {\bf \-I\-M\-F\-T}$<$ \-Object $>$\-::{\bf \-Ptr}}}\label{class_i_m_f_t_ab9da2d474c63076c3a194d343fc20169}
+\hypertarget{class_i_m_f_t_a8aad0b1bd309bfb92abb74ce45e549a9}{\index{\-I\-M\-F\-T@{\-I\-M\-F\-T}!\-Track\-Container\-T@{\-Track\-Container\-T}}
+\index{\-Track\-Container\-T@{\-Track\-Container\-T}!IMFT@{\-I\-M\-F\-T}}
+\subsubsection[{\-Track\-Container\-T}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class \-Object$>$ typedef {\bf \-Track\-Container}$<$\-Object$>$ {\bf \-I\-M\-F\-T}$<$ \-Object $>$\-::{\bf \-Track\-Container\-T}}}\label{class_i_m_f_t_a8aad0b1bd309bfb92abb74ce45e549a9}
+\hypertarget{class_i_m_f_t_a37f74f73fc6d19920930474c5522e242}{\index{\-I\-M\-F\-T@{\-I\-M\-F\-T}!\-Track\-T@{\-Track\-T}}
+\index{\-Track\-T@{\-Track\-T}!IMFT@{\-I\-M\-F\-T}}
+\subsubsection[{\-Track\-T}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class \-Object$>$ typedef {\bf \-Track}$<$\-Object$>$ {\bf \-I\-M\-F\-T}$<$ \-Object $>$\-::{\bf \-Track\-T}}}\label{class_i_m_f_t_a37f74f73fc6d19920930474c5522e242}
+\hypertarget{class_i_m_f_t_ad22184fa80718f8e5087d8cec78a6323}{\index{\-I\-M\-F\-T@{\-I\-M\-F\-T}!\-V@{\-V}}
+\index{\-V@{\-V}!IMFT@{\-I\-M\-F\-T}}
+\subsubsection[{\-V}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class \-Object$>$ typedef {\bf \-Track\-T\-::\-V} {\bf \-I\-M\-F\-T}$<$ \-Object $>$\-::{\bf \-V}}}\label{class_i_m_f_t_ad22184fa80718f8e5087d8cec78a6323}
+\hypertarget{class_i_m_f_t_a03dc658b57ff8debb2b6869be37c0d67}{\index{\-I\-M\-F\-T@{\-I\-M\-F\-T}!\-Vec\-Object\-Ptr@{\-Vec\-Object\-Ptr}}
+\index{\-Vec\-Object\-Ptr@{\-Vec\-Object\-Ptr}!IMFT@{\-I\-M\-F\-T}}
+\subsubsection[{\-Vec\-Object\-Ptr}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class \-Object$>$ typedef vector$<$\-Object$\ast$$>$ {\bf \-I\-M\-F\-T}$<$ \-Object $>$\-::{\bf \-Vec\-Object\-Ptr}}}\label{class_i_m_f_t_a03dc658b57ff8debb2b6869be37c0d67}
+\hypertarget{class_i_m_f_t_a47e5af5b3e023928bd7ddc6ddbf6044c}{\index{\-I\-M\-F\-T@{\-I\-M\-F\-T}!\-Vec\-Ptr@{\-Vec\-Ptr}}
+\index{\-Vec\-Ptr@{\-Vec\-Ptr}!IMFT@{\-I\-M\-F\-T}}
+\subsubsection[{\-Vec\-Ptr}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class \-Object$>$ typedef vector$<${\bf \-Ptr}$>$ {\bf \-I\-M\-F\-T}$<$ \-Object $>$\-::{\bf \-Vec\-Ptr}}}\label{class_i_m_f_t_a47e5af5b3e023928bd7ddc6ddbf6044c}
+\hypertarget{class_i_m_f_t_a55e4fd327687c579749d3ca13e0f621e}{\index{\-I\-M\-F\-T@{\-I\-M\-F\-T}!\-Vec\-Track@{\-Vec\-Track}}
+\index{\-Vec\-Track@{\-Vec\-Track}!IMFT@{\-I\-M\-F\-T}}
+\subsubsection[{\-Vec\-Track}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class \-Object$>$ typedef vector$<${\bf \-Track\-T}$>$ {\bf \-I\-M\-F\-T}$<$ \-Object $>$\-::{\bf \-Vec\-Track}}}\label{class_i_m_f_t_a55e4fd327687c579749d3ca13e0f621e}
+
+
+\subsection{\-Constructor \& \-Destructor \-Documentation}
+\hypertarget{class_i_m_f_t_adfcb341712779443d1f22168b807f90c}{\index{\-I\-M\-F\-T@{\-I\-M\-F\-T}!\-I\-M\-F\-T@{\-I\-M\-F\-T}}
+\index{\-I\-M\-F\-T@{\-I\-M\-F\-T}!IMFT@{\-I\-M\-F\-T}}
+\subsubsection[{\-I\-M\-F\-T}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Object $>$ {\bf \-I\-M\-F\-T}$<$ \-Object $>$\-::{\bf \-I\-M\-F\-T} (
+\begin{DoxyParamCaption}
+\item[{int}]{\-\_\-window\-\_\-short = {\ttfamily 10}, }
+\item[{int}]{\-\_\-window\-\_\-long = {\ttfamily 20}, }
+\item[{int}]{\-\_\-max\-I\-D = {\ttfamily 100}, }
+\item[{{\bf func\-Weight}}]{\-\_\-weight = {\ttfamily 0}, }
+\item[{{\bf func\-Weight}}]{\-\_\-weight\-\_\-fast = {\ttfamily 0}}
+\end{DoxyParamCaption}
+)}}\label{class_i_m_f_t_adfcb341712779443d1f22168b807f90c}
+\hypertarget{class_i_m_f_t_ac669bb45bbc9b72c4dea37097c66d661}{\index{\-I\-M\-F\-T@{\-I\-M\-F\-T}!$\sim$\-I\-M\-F\-T@{$\sim$\-I\-M\-F\-T}}
+\index{$\sim$\-I\-M\-F\-T@{$\sim$\-I\-M\-F\-T}!IMFT@{\-I\-M\-F\-T}}
+\subsubsection[{$\sim$\-I\-M\-F\-T}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Object $>$ {\bf \-I\-M\-F\-T}$<$ \-Object $>$\-::$\sim${\bf \-I\-M\-F\-T} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_i_m_f_t_ac669bb45bbc9b72c4dea37097c66d661}
+
+
+\subsection{\-Member \-Function \-Documentation}
+\hypertarget{class_i_m_f_t_aba2080902249baf70c7788e97cf7f6a7}{\index{\-I\-M\-F\-T@{\-I\-M\-F\-T}!add\-To\-D\-Graph@{add\-To\-D\-Graph}}
+\index{add\-To\-D\-Graph@{add\-To\-D\-Graph}!IMFT@{\-I\-M\-F\-T}}
+\subsubsection[{add\-To\-D\-Graph}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Object $>$ void {\bf \-I\-M\-F\-T}$<$ \-Object $>$\-::{\bf add\-To\-D\-Graph} (
+\begin{DoxyParamCaption}
+\item[{{\bf \-Vec\-Ptr}}]{ptrs}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}\label{class_i_m_f_t_aba2080902249baf70c7788e97cf7f6a7}
+\hypertarget{class_i_m_f_t_acb040ebe38d14012375f000a9f4df0b9}{\index{\-I\-M\-F\-T@{\-I\-M\-F\-T}!confirm\-D\-Graph@{confirm\-D\-Graph}}
+\index{confirm\-D\-Graph@{confirm\-D\-Graph}!IMFT@{\-I\-M\-F\-T}}
+\subsubsection[{confirm\-D\-Graph}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Object $>$ void {\bf \-I\-M\-F\-T}$<$ \-Object $>$\-::{\bf confirm\-D\-Graph} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_i_m_f_t_acb040ebe38d14012375f000a9f4df0b9}
+\hypertarget{class_i_m_f_t_afc129366861aecc3edf1c98fef27f5bf}{\index{\-I\-M\-F\-T@{\-I\-M\-F\-T}!delete\-Last\-Frame@{delete\-Last\-Frame}}
+\index{delete\-Last\-Frame@{delete\-Last\-Frame}!IMFT@{\-I\-M\-F\-T}}
+\subsubsection[{delete\-Last\-Frame}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Object $>$ bool {\bf \-I\-M\-F\-T}$<$ \-Object $>$\-::{\bf delete\-Last\-Frame} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_i_m_f_t_afc129366861aecc3edf1c98fef27f5bf}
+\hypertarget{class_i_m_f_t_a8a0e5ca756776227e239a67e186938f7}{\index{\-I\-M\-F\-T@{\-I\-M\-F\-T}!extension@{extension}}
+\index{extension@{extension}!IMFT@{\-I\-M\-F\-T}}
+\subsubsection[{extension}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Object $>$ void {\bf \-I\-M\-F\-T}$<$ \-Object $>$\-::{\bf extension} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_i_m_f_t_a8a0e5ca756776227e239a67e186938f7}
+\hypertarget{class_i_m_f_t_a0dcd3c2c2747177fc4ea4f1bb73bae7b}{\index{\-I\-M\-F\-T@{\-I\-M\-F\-T}!extract\-Tracks@{extract\-Tracks}}
+\index{extract\-Tracks@{extract\-Tracks}!IMFT@{\-I\-M\-F\-T}}
+\subsubsection[{extract\-Tracks}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Object $>$ {\bf \-I\-M\-F\-T}$<$ \-Object $>$\-::{\bf \-Track\-Container\-T} $\ast$ {\bf \-I\-M\-F\-T}$<$ \-Object $>$\-::{\bf extract\-Tracks} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_i_m_f_t_a0dcd3c2c2747177fc4ea4f1bb73bae7b}
+
+
+\-Here is the caller graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_i_m_f_t_a0dcd3c2c2747177fc4ea4f1bb73bae7b_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{class_i_m_f_t_a4fa24de7283cacd230302a47bf9aa424}{\index{\-I\-M\-F\-T@{\-I\-M\-F\-T}!get\-Maximum\-Matched\-Object@{get\-Maximum\-Matched\-Object}}
+\index{get\-Maximum\-Matched\-Object@{get\-Maximum\-Matched\-Object}!IMFT@{\-I\-M\-F\-T}}
+\subsubsection[{get\-Maximum\-Matched\-Object}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Object $>$ void {\bf \-I\-M\-F\-T}$<$ \-Object $>$\-::{\bf get\-Maximum\-Matched\-Object} (
+\begin{DoxyParamCaption}
+\item[{{\bf \-Object\-Ptr}}]{track\-Unmatched, }
+\item[{{\bf \-Object\-Ptr} \&}]{max\-Object, }
+\item[{double \&}]{w\-Hypothesis, }
+\item[{{\bf \-Object\-Ptr} \&}]{track\-Origin, }
+\item[{double \&}]{w\-Origin}
+\end{DoxyParamCaption}
+)}}\label{class_i_m_f_t_a4fa24de7283cacd230302a47bf9aa424}
+\hypertarget{class_i_m_f_t_a0fc1cd8b04d246ef33f84f5b0c40ac6a}{\index{\-I\-M\-F\-T@{\-I\-M\-F\-T}!get\-Maximum\-Matched\-Track@{get\-Maximum\-Matched\-Track}}
+\index{get\-Maximum\-Matched\-Track@{get\-Maximum\-Matched\-Track}!IMFT@{\-I\-M\-F\-T}}
+\subsubsection[{get\-Maximum\-Matched\-Track}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Object $>$ void {\bf \-I\-M\-F\-T}$<$ \-Object $>$\-::{\bf get\-Maximum\-Matched\-Track} (
+\begin{DoxyParamCaption}
+\item[{{\bf \-Object\-Ptr}}]{object, }
+\item[{{\bf \-Object\-Ptr} \&}]{max\-Track, }
+\item[{double \&}]{w\-Hypothesis, }
+\item[{{\bf \-Object\-Ptr} \&}]{object\-Origin, }
+\item[{double \&}]{w\-Origin}
+\end{DoxyParamCaption}
+)}}\label{class_i_m_f_t_a0fc1cd8b04d246ef33f84f5b0c40ac6a}
+\hypertarget{class_i_m_f_t_afe0b6e7d641820f7c8d3bd8b2ed42ec7}{\index{\-I\-M\-F\-T@{\-I\-M\-F\-T}!get\-Terminal\-Nodes@{get\-Terminal\-Nodes}}
+\index{get\-Terminal\-Nodes@{get\-Terminal\-Nodes}!IMFT@{\-I\-M\-F\-T}}
+\subsubsection[{get\-Terminal\-Nodes}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Object $>$ {\bf \-I\-M\-F\-T}$<$ \-Object $>$\-::{\bf \-Vec\-Object\-Ptr} {\bf \-I\-M\-F\-T}$<$ \-Object $>$\-::{\bf get\-Terminal\-Nodes} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_i_m_f_t_afe0b6e7d641820f7c8d3bd8b2ed42ec7}
+\hypertarget{class_i_m_f_t_a51b02ea25f4830c396608e41ad2dda4d}{\index{\-I\-M\-F\-T@{\-I\-M\-F\-T}!get\-Terminal\-Nodes\-Last\-Frame@{get\-Terminal\-Nodes\-Last\-Frame}}
+\index{get\-Terminal\-Nodes\-Last\-Frame@{get\-Terminal\-Nodes\-Last\-Frame}!IMFT@{\-I\-M\-F\-T}}
+\subsubsection[{get\-Terminal\-Nodes\-Last\-Frame}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Object $>$ {\bf \-I\-M\-F\-T}$<$ \-Object $>$\-::{\bf \-Vec\-Object\-Ptr} {\bf \-I\-M\-F\-T}$<$ \-Object $>$\-::{\bf get\-Terminal\-Nodes\-Last\-Frame} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_i_m_f_t_a51b02ea25f4830c396608e41ad2dda4d}
+\hypertarget{class_i_m_f_t_ad9803bbc0eef9c8680377052793c029c}{\index{\-I\-M\-F\-T@{\-I\-M\-F\-T}!get\-Unmatched\-Objects@{get\-Unmatched\-Objects}}
+\index{get\-Unmatched\-Objects@{get\-Unmatched\-Objects}!IMFT@{\-I\-M\-F\-T}}
+\subsubsection[{get\-Unmatched\-Objects}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Object $>$ {\bf \-I\-M\-F\-T}$<$ \-Object $>$\-::{\bf \-Vec\-Object\-Ptr} {\bf \-I\-M\-F\-T}$<$ \-Object $>$\-::{\bf get\-Unmatched\-Objects} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_i_m_f_t_ad9803bbc0eef9c8680377052793c029c}
+\hypertarget{class_i_m_f_t_a981a25796eaf59f23c8819001ab9ee9e}{\index{\-I\-M\-F\-T@{\-I\-M\-F\-T}!get\-Unmatched\-Tracks@{get\-Unmatched\-Tracks}}
+\index{get\-Unmatched\-Tracks@{get\-Unmatched\-Tracks}!IMFT@{\-I\-M\-F\-T}}
+\subsubsection[{get\-Unmatched\-Tracks}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Object $>$ {\bf \-I\-M\-F\-T}$<$ \-Object $>$\-::{\bf \-Vec\-Object\-Ptr} {\bf \-I\-M\-F\-T}$<$ \-Object $>$\-::{\bf get\-Unmatched\-Tracks} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_i_m_f_t_a981a25796eaf59f23c8819001ab9ee9e}
+\hypertarget{class_i_m_f_t_a1c4e1853b1dcaf86e50a1ced421af6ad}{\index{\-I\-M\-F\-T@{\-I\-M\-F\-T}!matching@{matching}}
+\index{matching@{matching}!IMFT@{\-I\-M\-F\-T}}
+\subsubsection[{matching}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Object $>$ void {\bf \-I\-M\-F\-T}$<$ \-Object $>$\-::{\bf matching} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_i_m_f_t_a1c4e1853b1dcaf86e50a1ced421af6ad}
+
+
+\-Here is the caller graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_i_m_f_t_a1c4e1853b1dcaf86e50a1ced421af6ad_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{class_i_m_f_t_a4afe4b84cad4d3915d888d3da46496f1}{\index{\-I\-M\-F\-T@{\-I\-M\-F\-T}!moving\-Window@{moving\-Window}}
+\index{moving\-Window@{moving\-Window}!IMFT@{\-I\-M\-F\-T}}
+\subsubsection[{moving\-Window}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Object $>$ void {\bf \-I\-M\-F\-T}$<$ \-Object $>$\-::{\bf moving\-Window} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}\label{class_i_m_f_t_a4afe4b84cad4d3915d888d3da46496f1}
+\hypertarget{class_i_m_f_t_ad47b95cc538fd0b52e8f0cf276dda86c}{\index{\-I\-M\-F\-T@{\-I\-M\-F\-T}!set\-Frame@{set\-Frame}}
+\index{set\-Frame@{set\-Frame}!IMFT@{\-I\-M\-F\-T}}
+\subsubsection[{set\-Frame}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class \-Object$>$ void {\bf \-I\-M\-F\-T}$<$ \-Object $>$\-::{\bf set\-Frame} (
+\begin{DoxyParamCaption}
+\item[{vector$<$ \-Object $\ast$ $>$}]{objects, }
+\item[{int}]{stamp}
+\end{DoxyParamCaption}
+)}}\label{class_i_m_f_t_ad47b95cc538fd0b52e8f0cf276dda86c}
+
+
+\-Here is the caller graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_i_m_f_t_ad47b95cc538fd0b52e8f0cf276dda86c_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{class_i_m_f_t_a7f73ff3d638dd056ce848e50f18ec3a9}{\index{\-I\-M\-F\-T@{\-I\-M\-F\-T}!two\-Frame\-Corresponding@{two\-Frame\-Corresponding}}
+\index{two\-Frame\-Corresponding@{two\-Frame\-Corresponding}!IMFT@{\-I\-M\-F\-T}}
+\subsubsection[{two\-Frame\-Corresponding}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename Object $>$ void {\bf \-I\-M\-F\-T}$<$ \-Object $>$\-::{\bf two\-Frame\-Corresponding} (
+\begin{DoxyParamCaption}
+\item[{vector$<$ \-List\-Graph\-::\-Node $>$}]{vec\-U\-Frame, }
+\item[{vector$<$ \-List\-Graph\-::\-Node $>$}]{vec\-V\-Frame}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}\label{class_i_m_f_t_a7f73ff3d638dd056ce848e50f18ec3a9}
+\hypertarget{class_i_m_f_t_a7b9ee3a95b6586bb08152d872289e042}{\index{\-I\-M\-F\-T@{\-I\-M\-F\-T}!update\-Tracks@{update\-Tracks}}
+\index{update\-Tracks@{update\-Tracks}!IMFT@{\-I\-M\-F\-T}}
+\subsubsection[{update\-Tracks}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Object $>$ void {\bf \-I\-M\-F\-T}$<$ \-Object $>$\-::{\bf update\-Tracks} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_i_m_f_t_a7b9ee3a95b6586bb08152d872289e042}
+
+
+\-Here is the caller graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_i_m_f_t_a7b9ee3a95b6586bb08152d872289e042_icgraph}
+\end{center}
+\end{figure}
+
+
+
+
+\subsection{\-Member \-Data \-Documentation}
+\hypertarget{class_i_m_f_t_aa470d46dee0f624f461d8854939cd6c5}{\index{\-I\-M\-F\-T@{\-I\-M\-F\-T}!cnt@{cnt}}
+\index{cnt@{cnt}!IMFT@{\-I\-M\-F\-T}}
+\subsubsection[{cnt}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class \-Object$>$ int {\bf \-I\-M\-F\-T}$<$ \-Object $>$\-::{\bf cnt}}}\label{class_i_m_f_t_aa470d46dee0f624f461d8854939cd6c5}
+\hypertarget{class_i_m_f_t_afd30e2f7af8158e10d95c1e55a05e17d}{\index{\-I\-M\-F\-T@{\-I\-M\-F\-T}!m\-\_\-current\-T@{m\-\_\-current\-T}}
+\index{m\-\_\-current\-T@{m\-\_\-current\-T}!IMFT@{\-I\-M\-F\-T}}
+\subsubsection[{m\-\_\-current\-T}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class \-Object$>$ int {\bf \-I\-M\-F\-T}$<$ \-Object $>$\-::{\bf m\-\_\-current\-T}}}\label{class_i_m_f_t_afd30e2f7af8158e10d95c1e55a05e17d}
+\hypertarget{class_i_m_f_t_a03887af2ae2372fcbecc2525176bbef8}{\index{\-I\-M\-F\-T@{\-I\-M\-F\-T}!m\-\_\-g@{m\-\_\-g}}
+\index{m\-\_\-g@{m\-\_\-g}!IMFT@{\-I\-M\-F\-T}}
+\subsubsection[{m\-\_\-g}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class \-Object$>$ \-List\-Graph {\bf \-I\-M\-F\-T}$<$ \-Object $>$\-::{\bf m\-\_\-g}}}\label{class_i_m_f_t_a03887af2ae2372fcbecc2525176bbef8}
+\hypertarget{class_i_m_f_t_a9629eb1da0d08013c87c4e679c176c6b}{\index{\-I\-M\-F\-T@{\-I\-M\-F\-T}!m\-\_\-g\-Edge\-Map@{m\-\_\-g\-Edge\-Map}}
+\index{m\-\_\-g\-Edge\-Map@{m\-\_\-g\-Edge\-Map}!IMFT@{\-I\-M\-F\-T}}
+\subsubsection[{m\-\_\-g\-Edge\-Map}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class \-Object$>$ \-List\-Graph\-::\-Edge\-Map$<$double$>$$\ast$ {\bf \-I\-M\-F\-T}$<$ \-Object $>$\-::{\bf m\-\_\-g\-Edge\-Map}}}\label{class_i_m_f_t_a9629eb1da0d08013c87c4e679c176c6b}
+\hypertarget{class_i_m_f_t_a456c4e69b77870a87f0d6a86b33ce668}{\index{\-I\-M\-F\-T@{\-I\-M\-F\-T}!m\-\_\-g\-Node\-Map@{m\-\_\-g\-Node\-Map}}
+\index{m\-\_\-g\-Node\-Map@{m\-\_\-g\-Node\-Map}!IMFT@{\-I\-M\-F\-T}}
+\subsubsection[{m\-\_\-g\-Node\-Map}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class \-Object$>$ \-List\-Graph\-::\-Node\-Map$<${\bf \-V}$>$$\ast$ {\bf \-I\-M\-F\-T}$<$ \-Object $>$\-::{\bf m\-\_\-g\-Node\-Map}}}\label{class_i_m_f_t_a456c4e69b77870a87f0d6a86b33ce668}
+\hypertarget{class_i_m_f_t_af10936c7ab5ea0b0d18e928365c6ff3d}{\index{\-I\-M\-F\-T@{\-I\-M\-F\-T}!m\-\_\-is\-Debug@{m\-\_\-is\-Debug}}
+\index{m\-\_\-is\-Debug@{m\-\_\-is\-Debug}!IMFT@{\-I\-M\-F\-T}}
+\subsubsection[{m\-\_\-is\-Debug}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class \-Object$>$ bool {\bf \-I\-M\-F\-T}$<$ \-Object $>$\-::{\bf m\-\_\-is\-Debug}}}\label{class_i_m_f_t_af10936c7ab5ea0b0d18e928365c6ff3d}
+\hypertarget{class_i_m_f_t_a157d578f41bcddf7355c9d0fc16c0f6e}{\index{\-I\-M\-F\-T@{\-I\-M\-F\-T}!m\-\_\-max\-Weight@{m\-\_\-max\-Weight}}
+\index{m\-\_\-max\-Weight@{m\-\_\-max\-Weight}!IMFT@{\-I\-M\-F\-T}}
+\subsubsection[{m\-\_\-max\-Weight}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class \-Object$>$ double {\bf \-I\-M\-F\-T}$<$ \-Object $>$\-::{\bf m\-\_\-max\-Weight}}}\label{class_i_m_f_t_a157d578f41bcddf7355c9d0fc16c0f6e}
+\hypertarget{class_i_m_f_t_a1fbf73806f8ad8cc86261808f7c4ec09}{\index{\-I\-M\-F\-T@{\-I\-M\-F\-T}!m\-\_\-new\-Track\-I\-D@{m\-\_\-new\-Track\-I\-D}}
+\index{m\-\_\-new\-Track\-I\-D@{m\-\_\-new\-Track\-I\-D}!IMFT@{\-I\-M\-F\-T}}
+\subsubsection[{m\-\_\-new\-Track\-I\-D}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class \-Object$>$ int {\bf \-I\-M\-F\-T}$<$ \-Object $>$\-::{\bf m\-\_\-new\-Track\-I\-D}}}\label{class_i_m_f_t_a1fbf73806f8ad8cc86261808f7c4ec09}
+\hypertarget{class_i_m_f_t_a29f477074ca9cb6760c58c7312a0e2c6}{\index{\-I\-M\-F\-T@{\-I\-M\-F\-T}!m\-\_\-vec\-Old\-Edge@{m\-\_\-vec\-Old\-Edge}}
+\index{m\-\_\-vec\-Old\-Edge@{m\-\_\-vec\-Old\-Edge}!IMFT@{\-I\-M\-F\-T}}
+\subsubsection[{m\-\_\-vec\-Old\-Edge}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class \-Object$>$ vector$<$int$>$ {\bf \-I\-M\-F\-T}$<$ \-Object $>$\-::{\bf m\-\_\-vec\-Old\-Edge}}}\label{class_i_m_f_t_a29f477074ca9cb6760c58c7312a0e2c6}
+\hypertarget{class_i_m_f_t_ac759c0713923c5a609ec3e90b942f606}{\index{\-I\-M\-F\-T@{\-I\-M\-F\-T}!m\-\_\-wsum@{m\-\_\-wsum}}
+\index{m\-\_\-wsum@{m\-\_\-wsum}!IMFT@{\-I\-M\-F\-T}}
+\subsubsection[{m\-\_\-wsum}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class \-Object$>$ double {\bf \-I\-M\-F\-T}$<$ \-Object $>$\-::{\bf m\-\_\-wsum}}}\label{class_i_m_f_t_ac759c0713923c5a609ec3e90b942f606}
+\hypertarget{class_i_m_f_t_abb14e14b1278312f13d5e45bb0bedd47}{\index{\-I\-M\-F\-T@{\-I\-M\-F\-T}!max\-I\-D@{max\-I\-D}}
+\index{max\-I\-D@{max\-I\-D}!IMFT@{\-I\-M\-F\-T}}
+\subsubsection[{max\-I\-D}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class \-Object$>$ int {\bf \-I\-M\-F\-T}$<$ \-Object $>$\-::{\bf max\-I\-D}}}\label{class_i_m_f_t_abb14e14b1278312f13d5e45bb0bedd47}
+\hypertarget{class_i_m_f_t_a2b7798fca0fac14339c47ce517778560}{\index{\-I\-M\-F\-T@{\-I\-M\-F\-T}!track\-Container@{track\-Container}}
+\index{track\-Container@{track\-Container}!IMFT@{\-I\-M\-F\-T}}
+\subsubsection[{track\-Container}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class \-Object$>$ {\bf \-Track\-Container\-T}$\ast$ {\bf \-I\-M\-F\-T}$<$ \-Object $>$\-::{\bf track\-Container}}}\label{class_i_m_f_t_a2b7798fca0fac14339c47ce517778560}
+\hypertarget{class_i_m_f_t_ac25f8710b5133e975dd7be2e9909f0bd}{\index{\-I\-M\-F\-T@{\-I\-M\-F\-T}!weight@{weight}}
+\index{weight@{weight}!IMFT@{\-I\-M\-F\-T}}
+\subsubsection[{weight}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class \-Object$>$ {\bf func\-Weight} {\bf \-I\-M\-F\-T}$<$ \-Object $>$\-::{\bf weight}}}\label{class_i_m_f_t_ac25f8710b5133e975dd7be2e9909f0bd}
+\hypertarget{class_i_m_f_t_a9431008dbf21f96477c515c41b77014f}{\index{\-I\-M\-F\-T@{\-I\-M\-F\-T}!weight\-\_\-fast@{weight\-\_\-fast}}
+\index{weight\-\_\-fast@{weight\-\_\-fast}!IMFT@{\-I\-M\-F\-T}}
+\subsubsection[{weight\-\_\-fast}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class \-Object$>$ {\bf func\-Weight} {\bf \-I\-M\-F\-T}$<$ \-Object $>$\-::{\bf weight\-\_\-fast}}}\label{class_i_m_f_t_a9431008dbf21f96477c515c41b77014f}
+\hypertarget{class_i_m_f_t_a90e2ffc6a77b2b27035c8dfc6cbb8378}{\index{\-I\-M\-F\-T@{\-I\-M\-F\-T}!window\-\_\-long@{window\-\_\-long}}
+\index{window\-\_\-long@{window\-\_\-long}!IMFT@{\-I\-M\-F\-T}}
+\subsubsection[{window\-\_\-long}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class \-Object$>$ int {\bf \-I\-M\-F\-T}$<$ \-Object $>$\-::{\bf window\-\_\-long}}}\label{class_i_m_f_t_a90e2ffc6a77b2b27035c8dfc6cbb8378}
+\hypertarget{class_i_m_f_t_ad2198a7256eb82e0c5ad0362abc5290a}{\index{\-I\-M\-F\-T@{\-I\-M\-F\-T}!window\-\_\-short@{window\-\_\-short}}
+\index{window\-\_\-short@{window\-\_\-short}!IMFT@{\-I\-M\-F\-T}}
+\subsubsection[{window\-\_\-short}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class \-Object$>$ int {\bf \-I\-M\-F\-T}$<$ \-Object $>$\-::{\bf window\-\_\-short}}}\label{class_i_m_f_t_ad2198a7256eb82e0c5ad0362abc5290a}
+
+
+\-The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+/home/koosy/koosywork/pmot\-\_\-realtime/pmot\-\_\-realtime/src/\hyperlink{imft_8h}{imft.\-h}\item 
+/home/koosy/koosywork/pmot\-\_\-realtime/pmot\-\_\-realtime/src/\hyperlink{imft_8hpp}{imft.\-hpp}\end{DoxyCompactItemize}

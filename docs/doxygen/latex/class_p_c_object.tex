@@ -1,0 +1,684 @@
+\hypertarget{class_p_c_object}{\section{\-P\-C\-Object \-Class \-Reference}
+\label{class_p_c_object}\index{\-P\-C\-Object@{\-P\-C\-Object}}
+}
+
+
+{\ttfamily \#include $<$pcobject.\-h$>$}
+
+
+
+\-Collaboration diagram for \-P\-C\-Object\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_p_c_object__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{\-Classes}
+\begin{DoxyCompactItemize}
+\item 
+struct \hyperlink{struct_p_c_object_1_1_edge}{\-Edge}
+\item 
+struct \hyperlink{struct_p_c_object_1_1_edge__spatial}{\-Edge\-\_\-spatial}
+\end{DoxyCompactItemize}
+\subsection*{\-Public \-Types}
+\begin{DoxyCompactItemize}
+\item 
+typedef double($\ast$ \hyperlink{class_p_c_object_a57717df0ff6fbc92e693c08485479da3}{func\-Weight\-Gaussian} )(\hyperlink{class_gaussian}{\-Gaussian} \&g1, \hyperlink{class_gaussian}{\-Gaussian} \&g2)
+\end{DoxyCompactItemize}
+\subsection*{\-Public \-Member \-Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_p_c_object_aad6caa1808cb593e46ff8cbf87c3a29a}{\-P\-C\-Object} ()
+\item 
+\hyperlink{class_p_c_object_ab5af2877120e54f89d4c4212b2285488}{\-P\-C\-Object} (int \-\_\-id)
+\item 
+\hyperlink{class_p_c_object_a51c8555367f90194d4c5cbfcd589e812}{$\sim$\-P\-C\-Object} ()
+\item 
+\hyperlink{common_8h_a36884aa4a3c181fa4c284d79329ad166}{\-Cloud\-Ptr} \hyperlink{class_p_c_object_ae1207c2fc7b1c91274287622c879e56a}{to\-Point\-Cloud} ()
+\item 
+void \hyperlink{class_p_c_object_ac8872c933f6ebf08abfd1aa4ebde6ebd}{insert} (\hyperlink{class_point}{\-Point} p)
+\item 
+\hyperlink{class_point}{\-Point} \hyperlink{class_p_c_object_a45a4d281641c441467c976bc390379af}{get\-Centroid} ()
+\item 
+void \hyperlink{class_p_c_object_a60989cacede56624284ad05f74df9c2a}{initial\-G\-M\-M} (double \-\_\-scale, double \-\_\-percent)
+\item 
+void \hyperlink{class_p_c_object_a20b15832e2475a1a14e47763a4960109}{filtering\-G\-M\-M\-\_\-\-E\-M} (\hyperlink{class_p_c_object}{\-P\-C\-Object} $\ast$prior)
+\item 
+void \hyperlink{class_p_c_object_ad85cb4f948c94eb35117fffe54b8d688}{filtering\-G\-M\-M\-\_\-incremental\-E\-M} (\hyperlink{class_p_c_object}{\-P\-C\-Object} $\ast$prior, double \hyperlink{class_p_c_object_a4ac23bed170d9a2993524e4b742c99a4}{percent})
+\item 
+double \hyperlink{class_p_c_object_a11cc868dc9f8712917148437dc026c57}{likelihood} (\hyperlink{class_point}{\-Point} point, \hyperlink{class_gaussian}{\-Gaussian} \hyperlink{class_p_c_object_a2a0a0fe603bac2c80a43d4f6e224bf98}{gaussian})
+\item 
+double \hyperlink{class_p_c_object_a2b88860d97b5c8f7b784427ce5a6f5b4}{likelihood\-\_\-standard} (\hyperlink{class_point}{\-Point} point, \hyperlink{class_gaussian}{\-Gaussian} \hyperlink{class_p_c_object_a2a0a0fe603bac2c80a43d4f6e224bf98}{gaussian})
+\item 
+void \hyperlink{class_p_c_object_adcf48887575738fff69b7e765529520a}{init\-Gaussian} (int dim)
+\item 
+double \hyperlink{class_p_c_object_a265bc3d88852829822e2954cd7453651}{eval\-G\-M\-M} (\hyperlink{class_point}{\-Point} x)
+\item 
+double \hyperlink{class_p_c_object_ad64e95414d9c60db29986e4408d64278}{eval\-Closest\-G\-M\-M} (\hyperlink{class_point}{\-Point} x)
+\item 
+double \hyperlink{class_p_c_object_ae9982821fa0ba9e4f3ae4566dcf535f1}{eval\-Normed\-G\-M\-M} (\hyperlink{class_point}{\-Point} x, double den)
+\item 
+double \hyperlink{class_p_c_object_a03ee69cf00009002b2868fb91b697116}{eval\-Closest\-Normed\-G\-M\-M} (\hyperlink{class_point}{\-Point} x, double den)
+\item 
+void \hyperlink{class_p_c_object_a50ee001efcde0b94846e8fbcf8302fb6}{simplify} (int dim, \hyperlink{pcobject_8h_a41767bf2343b5367995c795ada4b6946}{\-S\-I\-M\-P\-L\-E} method, double ratio, int n\-Cluster=0)
+\item 
+void \hyperlink{class_p_c_object_aad9af1a35617123738d53e1abc80980b}{set\-Trans\-Param} (vnl\-\_\-vector$<$ double $>$ param)
+\item 
+void \hyperlink{class_p_c_object_a2d282f88c1e9412c7e73cad48690a439}{merge\-Two\-G\-M\-Ms} (\hyperlink{class_p_c_object}{\-P\-C\-Object} $\ast$gmm1, \hyperlink{class_p_c_object}{\-P\-C\-Object} $\ast$gmm2)
+\item 
+void \hyperlink{class_p_c_object_a3a765ed1df3f4997c7255da3bd53ad6f}{set\-Scale} (double \-\_\-scale)
+\item 
+void \hyperlink{class_p_c_object_ac085f8a5dc44cfa8f4e4d2d1a9aeacd5}{gaussian\-Tracking\-Init} (int \-\_\-window\-\_\-short, int \-\_\-window\-\_\-long, int \-\_\-max\-I\-D, \hyperlink{class_p_c_object_a57717df0ff6fbc92e693c08485479da3}{func\-Weight\-Gaussian} \-\_\-weight\-\_\-gaussian, \hyperlink{class_p_c_object_a57717df0ff6fbc92e693c08485479da3}{func\-Weight\-Gaussian} \-\_\-weight\-\_\-gaussian\-\_\-fast)
+\item 
+void \hyperlink{class_p_c_object_a0631fbfafe8050f758c14f0b3791fa01}{gaussian\-Tracking} ()
+\item 
+void \hyperlink{class_p_c_object_ae117d9276dd14490027029e8b87e150f}{update\-Predictive\-Parameters} ()
+\item 
+void \hyperlink{class_p_c_object_acfdd2146d888b9d30e7fde9ea6a0727e}{calculate\-Velocity} ()
+\item 
+void \hyperlink{class_p_c_object_ad14e7453287b842ce8dced26c63d2899}{make\-Topology} ()
+\item 
+double \hyperlink{class_p_c_object_ae3eaf96866c11430868e643d7fa56eb9}{topology\-\_\-weight} (\hyperlink{class_gaussian}{\-Gaussian} g1, \hyperlink{class_gaussian}{\-Gaussian} g2)
+\item 
+double \hyperlink{class_p_c_object_a81bcc4f7794825ea6fe97c716e7d751e}{topology\-\_\-posweight\-\_\-rev} (\hyperlink{class_gaussian}{\-Gaussian} g1, \hyperlink{class_gaussian}{\-Gaussian} g2)
+\item 
+double \hyperlink{class_p_c_object_ae6714b4bc945ea46de699bba08e077b2}{topology\-\_\-velweight\-\_\-rev} (\hyperlink{class_gaussian}{\-Gaussian} g1, \hyperlink{class_gaussian}{\-Gaussian} g2)
+\item 
+int \hyperlink{class_p_c_object_a12dd695b331e394b56f54920c1b93972}{component\-Graph} (vector$<$ \hyperlink{class_p_c_object}{\-P\-C\-Object} $>$ \&new\-Objects)
+\item 
+void \hyperlink{class_p_c_object_a0f9cc4c246bd5dc449ba900ef203d82e}{setid} (int \-\_\-id)
+\item 
+int \hyperlink{class_p_c_object_ab5c524d8bf9e73ec56f5d848b026a13e}{getid} ()
+\end{DoxyCompactItemize}
+\subsection*{\-Public \-Attributes}
+\begin{DoxyCompactItemize}
+\item 
+vector$<$ \hyperlink{class_point}{\-Point} $>$ \hyperlink{class_p_c_object_a88519afe57e934c37b87cd74201573ae}{points}
+\item 
+vector$<$ \hyperlink{class_gaussian}{\-Gaussian} $>$ \hyperlink{class_p_c_object_a7eae3d72d8dfedee042050dc80df4423}{gmm}
+\item 
+\hyperlink{class_point}{\-Point} \hyperlink{class_p_c_object_a827d54b95fd8fbe64bd4f0fe7a7c1c80}{centroid}
+\item 
+\hyperlink{class_gaussian}{\-Gaussian} \hyperlink{class_p_c_object_a2a0a0fe603bac2c80a43d4f6e224bf98}{gaussian}
+\item 
+\hyperlink{pcobject_8h_a275a67132f10277ada3a0ee3d616b647}{\-S\-T\-A\-T\-E} \hyperlink{class_p_c_object_ad5a0566f1118a4e70d1de788c7dd4c06}{state}
+\item 
+int \hyperlink{class_p_c_object_aec75ff9931a685504afff6a7c1f78c02}{dimension}
+\item 
+int \hyperlink{class_p_c_object_a57cb1270dee62f9c65643f3cbe03347e}{id}
+\item 
+vnl\-\_\-vector$<$ double $>$ \hyperlink{class_p_c_object_aca5e8c66727c01980551ac8744bfb26a}{trans\-\_\-param}
+\item 
+bool \hyperlink{class_p_c_object_ab9a8f0b1f9d3b4851877e15e17582097}{is\-Param\-Exist}
+\item 
+\hyperlink{class_i_m_f_t}{\-I\-M\-F\-T}$<$ \hyperlink{class_gaussian}{\-Gaussian} $>$ $\ast$ \hyperlink{class_p_c_object_aa921fc68268138b7f5026ec1ccaef619}{imft\-Gaussians}
+\item 
+\hyperlink{class_track_container}{\-Track\-Container}$<$ \hyperlink{class_gaussian}{\-Gaussian} $>$ $\ast$ \hyperlink{class_p_c_object_a7d7a327eda5d75b554e2c83ba32a8517}{gaussian\-Tracks}
+\item 
+int \hyperlink{class_p_c_object_a1e854b1f05424e21b57571c4d5d3a639}{cnt}
+\item 
+vector$<$ \hyperlink{class_gaussian}{\-Gaussian} $\ast$ $>$ \hyperlink{class_p_c_object_acbc764cefd102f6b184192ffa266510f}{frame}
+\item 
+\-List\-Graph $\ast$ \hyperlink{class_p_c_object_a1e2497e50fb2af6cf043d91b3d2e14c6}{topology\-\_\-graph}
+\item 
+\-List\-Graph\-::\-Node\-Map$<$ \hyperlink{class_gaussian}{\-Gaussian} $>$ $\ast$ \hyperlink{class_p_c_object_a99eafcc86b98ec0f1d165b8a96d351dc}{topology\-\_\-node\-Map}
+\item 
+\-List\-Graph\-::\-Edge\-Map$<$ double $>$ $\ast$ \hyperlink{class_p_c_object_a5f09a7006b5499186fe9908143dfbee9}{topology\-\_\-edge\-Map}
+\item 
+vector$<$ \hyperlink{struct_p_c_object_1_1_edge}{\-Edge} $>$ \hyperlink{class_p_c_object_a0d6dab1fe4edd99095e1fe236d4910a5}{edges}
+\item 
+double \hyperlink{class_p_c_object_ac94a79d35dece547fab98be2b70e9604}{alpha}
+\item 
+double \hyperlink{class_p_c_object_a2e2e26d46ec23849c062e9d28d349778}{th\-\_\-edge}
+\item 
+double $\ast$ \hyperlink{class_p_c_object_ae08580ed200d25aa8304fde6f924c9f3}{diff\-Weight}
+\item 
+double \hyperlink{class_p_c_object_a959539770a6c61a3db3ef480140d1ed0}{filtered\-Weight}
+\item 
+double \hyperlink{class_p_c_object_a8737196626b96a2730810a9cee2330ed}{scale}
+\item 
+double \hyperlink{class_p_c_object_a4ac23bed170d9a2993524e4b742c99a4}{percent}
+\end{DoxyCompactItemize}
+\subsection*{\-Private \-Attributes}
+\begin{DoxyCompactItemize}
+\item 
+int \hyperlink{class_p_c_object_a6c90b358d6d19ab437841f829e448b7c}{window\-\_\-short}
+\item 
+int \hyperlink{class_p_c_object_a1606ff67b8422eac1ee46849bffdb69a}{window\-\_\-long}
+\end{DoxyCompactItemize}
+
+
+\subsection{\-Member \-Typedef \-Documentation}
+\hypertarget{class_p_c_object_a57717df0ff6fbc92e693c08485479da3}{\index{\-P\-C\-Object@{\-P\-C\-Object}!func\-Weight\-Gaussian@{func\-Weight\-Gaussian}}
+\index{func\-Weight\-Gaussian@{func\-Weight\-Gaussian}!PCObject@{\-P\-C\-Object}}
+\subsubsection[{func\-Weight\-Gaussian}]{\setlength{\rightskip}{0pt plus 5cm}typedef double($\ast$ {\bf \-P\-C\-Object\-::func\-Weight\-Gaussian})({\bf \-Gaussian} \&g1, {\bf \-Gaussian} \&g2)}}\label{class_p_c_object_a57717df0ff6fbc92e693c08485479da3}
+
+
+\subsection{\-Constructor \& \-Destructor \-Documentation}
+\hypertarget{class_p_c_object_aad6caa1808cb593e46ff8cbf87c3a29a}{\index{\-P\-C\-Object@{\-P\-C\-Object}!\-P\-C\-Object@{\-P\-C\-Object}}
+\index{\-P\-C\-Object@{\-P\-C\-Object}!PCObject@{\-P\-C\-Object}}
+\subsubsection[{\-P\-C\-Object}]{\setlength{\rightskip}{0pt plus 5cm}{\bf \-P\-C\-Object\-::\-P\-C\-Object} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_p_c_object_aad6caa1808cb593e46ff8cbf87c3a29a}
+\hypertarget{class_p_c_object_ab5af2877120e54f89d4c4212b2285488}{\index{\-P\-C\-Object@{\-P\-C\-Object}!\-P\-C\-Object@{\-P\-C\-Object}}
+\index{\-P\-C\-Object@{\-P\-C\-Object}!PCObject@{\-P\-C\-Object}}
+\subsubsection[{\-P\-C\-Object}]{\setlength{\rightskip}{0pt plus 5cm}{\bf \-P\-C\-Object\-::\-P\-C\-Object} (
+\begin{DoxyParamCaption}
+\item[{int}]{\-\_\-id}
+\end{DoxyParamCaption}
+)}}\label{class_p_c_object_ab5af2877120e54f89d4c4212b2285488}
+\hypertarget{class_p_c_object_a51c8555367f90194d4c5cbfcd589e812}{\index{\-P\-C\-Object@{\-P\-C\-Object}!$\sim$\-P\-C\-Object@{$\sim$\-P\-C\-Object}}
+\index{$\sim$\-P\-C\-Object@{$\sim$\-P\-C\-Object}!PCObject@{\-P\-C\-Object}}
+\subsubsection[{$\sim$\-P\-C\-Object}]{\setlength{\rightskip}{0pt plus 5cm}{\bf \-P\-C\-Object\-::$\sim$\-P\-C\-Object} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_p_c_object_a51c8555367f90194d4c5cbfcd589e812}
+
+
+\subsection{\-Member \-Function \-Documentation}
+\hypertarget{class_p_c_object_acfdd2146d888b9d30e7fde9ea6a0727e}{\index{\-P\-C\-Object@{\-P\-C\-Object}!calculate\-Velocity@{calculate\-Velocity}}
+\index{calculate\-Velocity@{calculate\-Velocity}!PCObject@{\-P\-C\-Object}}
+\subsubsection[{calculate\-Velocity}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf \-P\-C\-Object\-::calculate\-Velocity} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_p_c_object_acfdd2146d888b9d30e7fde9ea6a0727e}
+
+
+\-Here is the call graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_p_c_object_acfdd2146d888b9d30e7fde9ea6a0727e_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{class_p_c_object_a12dd695b331e394b56f54920c1b93972}{\index{\-P\-C\-Object@{\-P\-C\-Object}!component\-Graph@{component\-Graph}}
+\index{component\-Graph@{component\-Graph}!PCObject@{\-P\-C\-Object}}
+\subsubsection[{component\-Graph}]{\setlength{\rightskip}{0pt plus 5cm}int {\bf \-P\-C\-Object\-::component\-Graph} (
+\begin{DoxyParamCaption}
+\item[{vector$<$ {\bf \-P\-C\-Object} $>$ \&}]{new\-Objects}
+\end{DoxyParamCaption}
+)}}\label{class_p_c_object_a12dd695b331e394b56f54920c1b93972}
+\hypertarget{class_p_c_object_ad64e95414d9c60db29986e4408d64278}{\index{\-P\-C\-Object@{\-P\-C\-Object}!eval\-Closest\-G\-M\-M@{eval\-Closest\-G\-M\-M}}
+\index{eval\-Closest\-G\-M\-M@{eval\-Closest\-G\-M\-M}!PCObject@{\-P\-C\-Object}}
+\subsubsection[{eval\-Closest\-G\-M\-M}]{\setlength{\rightskip}{0pt plus 5cm}double {\bf \-P\-C\-Object\-::eval\-Closest\-G\-M\-M} (
+\begin{DoxyParamCaption}
+\item[{{\bf \-Point}}]{x}
+\end{DoxyParamCaption}
+)}}\label{class_p_c_object_ad64e95414d9c60db29986e4408d64278}
+\hypertarget{class_p_c_object_a03ee69cf00009002b2868fb91b697116}{\index{\-P\-C\-Object@{\-P\-C\-Object}!eval\-Closest\-Normed\-G\-M\-M@{eval\-Closest\-Normed\-G\-M\-M}}
+\index{eval\-Closest\-Normed\-G\-M\-M@{eval\-Closest\-Normed\-G\-M\-M}!PCObject@{\-P\-C\-Object}}
+\subsubsection[{eval\-Closest\-Normed\-G\-M\-M}]{\setlength{\rightskip}{0pt plus 5cm}double {\bf \-P\-C\-Object\-::eval\-Closest\-Normed\-G\-M\-M} (
+\begin{DoxyParamCaption}
+\item[{{\bf \-Point}}]{x, }
+\item[{double}]{den}
+\end{DoxyParamCaption}
+)}}\label{class_p_c_object_a03ee69cf00009002b2868fb91b697116}
+\hypertarget{class_p_c_object_a265bc3d88852829822e2954cd7453651}{\index{\-P\-C\-Object@{\-P\-C\-Object}!eval\-G\-M\-M@{eval\-G\-M\-M}}
+\index{eval\-G\-M\-M@{eval\-G\-M\-M}!PCObject@{\-P\-C\-Object}}
+\subsubsection[{eval\-G\-M\-M}]{\setlength{\rightskip}{0pt plus 5cm}double {\bf \-P\-C\-Object\-::eval\-G\-M\-M} (
+\begin{DoxyParamCaption}
+\item[{{\bf \-Point}}]{x}
+\end{DoxyParamCaption}
+)}}\label{class_p_c_object_a265bc3d88852829822e2954cd7453651}
+\hypertarget{class_p_c_object_ae9982821fa0ba9e4f3ae4566dcf535f1}{\index{\-P\-C\-Object@{\-P\-C\-Object}!eval\-Normed\-G\-M\-M@{eval\-Normed\-G\-M\-M}}
+\index{eval\-Normed\-G\-M\-M@{eval\-Normed\-G\-M\-M}!PCObject@{\-P\-C\-Object}}
+\subsubsection[{eval\-Normed\-G\-M\-M}]{\setlength{\rightskip}{0pt plus 5cm}double {\bf \-P\-C\-Object\-::eval\-Normed\-G\-M\-M} (
+\begin{DoxyParamCaption}
+\item[{{\bf \-Point}}]{x, }
+\item[{double}]{den}
+\end{DoxyParamCaption}
+)}}\label{class_p_c_object_ae9982821fa0ba9e4f3ae4566dcf535f1}
+\hypertarget{class_p_c_object_a20b15832e2475a1a14e47763a4960109}{\index{\-P\-C\-Object@{\-P\-C\-Object}!filtering\-G\-M\-M\-\_\-\-E\-M@{filtering\-G\-M\-M\-\_\-\-E\-M}}
+\index{filtering\-G\-M\-M\-\_\-\-E\-M@{filtering\-G\-M\-M\-\_\-\-E\-M}!PCObject@{\-P\-C\-Object}}
+\subsubsection[{filtering\-G\-M\-M\-\_\-\-E\-M}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf \-P\-C\-Object\-::filtering\-G\-M\-M\-\_\-\-E\-M} (
+\begin{DoxyParamCaption}
+\item[{{\bf \-P\-C\-Object} $\ast$}]{prior}
+\end{DoxyParamCaption}
+)}}\label{class_p_c_object_a20b15832e2475a1a14e47763a4960109}
+
+
+\-Here is the call graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_p_c_object_a20b15832e2475a1a14e47763a4960109_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{class_p_c_object_ad85cb4f948c94eb35117fffe54b8d688}{\index{\-P\-C\-Object@{\-P\-C\-Object}!filtering\-G\-M\-M\-\_\-incremental\-E\-M@{filtering\-G\-M\-M\-\_\-incremental\-E\-M}}
+\index{filtering\-G\-M\-M\-\_\-incremental\-E\-M@{filtering\-G\-M\-M\-\_\-incremental\-E\-M}!PCObject@{\-P\-C\-Object}}
+\subsubsection[{filtering\-G\-M\-M\-\_\-incremental\-E\-M}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf \-P\-C\-Object\-::filtering\-G\-M\-M\-\_\-incremental\-E\-M} (
+\begin{DoxyParamCaption}
+\item[{{\bf \-P\-C\-Object} $\ast$}]{prior, }
+\item[{double}]{percent}
+\end{DoxyParamCaption}
+)}}\label{class_p_c_object_ad85cb4f948c94eb35117fffe54b8d688}
+
+
+\-Here is the call graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_p_c_object_ad85cb4f948c94eb35117fffe54b8d688_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{class_p_c_object_a0631fbfafe8050f758c14f0b3791fa01}{\index{\-P\-C\-Object@{\-P\-C\-Object}!gaussian\-Tracking@{gaussian\-Tracking}}
+\index{gaussian\-Tracking@{gaussian\-Tracking}!PCObject@{\-P\-C\-Object}}
+\subsubsection[{gaussian\-Tracking}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf \-P\-C\-Object\-::gaussian\-Tracking} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_p_c_object_a0631fbfafe8050f758c14f0b3791fa01}
+
+
+\-Here is the call graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_p_c_object_a0631fbfafe8050f758c14f0b3791fa01_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{class_p_c_object_ac085f8a5dc44cfa8f4e4d2d1a9aeacd5}{\index{\-P\-C\-Object@{\-P\-C\-Object}!gaussian\-Tracking\-Init@{gaussian\-Tracking\-Init}}
+\index{gaussian\-Tracking\-Init@{gaussian\-Tracking\-Init}!PCObject@{\-P\-C\-Object}}
+\subsubsection[{gaussian\-Tracking\-Init}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf \-P\-C\-Object\-::gaussian\-Tracking\-Init} (
+\begin{DoxyParamCaption}
+\item[{int}]{\-\_\-window\-\_\-short, }
+\item[{int}]{\-\_\-window\-\_\-long, }
+\item[{int}]{\-\_\-max\-I\-D, }
+\item[{{\bf func\-Weight\-Gaussian}}]{\-\_\-weight\-\_\-gaussian, }
+\item[{{\bf func\-Weight\-Gaussian}}]{\-\_\-weight\-\_\-gaussian\-\_\-fast}
+\end{DoxyParamCaption}
+)}}\label{class_p_c_object_ac085f8a5dc44cfa8f4e4d2d1a9aeacd5}
+
+
+\-Here is the call graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_p_c_object_ac085f8a5dc44cfa8f4e4d2d1a9aeacd5_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{class_p_c_object_a45a4d281641c441467c976bc390379af}{\index{\-P\-C\-Object@{\-P\-C\-Object}!get\-Centroid@{get\-Centroid}}
+\index{get\-Centroid@{get\-Centroid}!PCObject@{\-P\-C\-Object}}
+\subsubsection[{get\-Centroid}]{\setlength{\rightskip}{0pt plus 5cm}{\bf \-Point} {\bf \-P\-C\-Object\-::get\-Centroid} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_p_c_object_a45a4d281641c441467c976bc390379af}
+\hypertarget{class_p_c_object_ab5c524d8bf9e73ec56f5d848b026a13e}{\index{\-P\-C\-Object@{\-P\-C\-Object}!getid@{getid}}
+\index{getid@{getid}!PCObject@{\-P\-C\-Object}}
+\subsubsection[{getid}]{\setlength{\rightskip}{0pt plus 5cm}int {\bf \-P\-C\-Object\-::getid} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}\label{class_p_c_object_ab5c524d8bf9e73ec56f5d848b026a13e}
+\hypertarget{class_p_c_object_adcf48887575738fff69b7e765529520a}{\index{\-P\-C\-Object@{\-P\-C\-Object}!init\-Gaussian@{init\-Gaussian}}
+\index{init\-Gaussian@{init\-Gaussian}!PCObject@{\-P\-C\-Object}}
+\subsubsection[{init\-Gaussian}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf \-P\-C\-Object\-::init\-Gaussian} (
+\begin{DoxyParamCaption}
+\item[{int}]{dim}
+\end{DoxyParamCaption}
+)}}\label{class_p_c_object_adcf48887575738fff69b7e765529520a}
+
+
+\-Here is the call graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=314pt]{class_p_c_object_adcf48887575738fff69b7e765529520a_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+\-Here is the caller graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_p_c_object_adcf48887575738fff69b7e765529520a_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{class_p_c_object_a60989cacede56624284ad05f74df9c2a}{\index{\-P\-C\-Object@{\-P\-C\-Object}!initial\-G\-M\-M@{initial\-G\-M\-M}}
+\index{initial\-G\-M\-M@{initial\-G\-M\-M}!PCObject@{\-P\-C\-Object}}
+\subsubsection[{initial\-G\-M\-M}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf \-P\-C\-Object\-::initial\-G\-M\-M} (
+\begin{DoxyParamCaption}
+\item[{double}]{\-\_\-scale, }
+\item[{double}]{\-\_\-percent}
+\end{DoxyParamCaption}
+)}}\label{class_p_c_object_a60989cacede56624284ad05f74df9c2a}
+
+
+\-Here is the call graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_p_c_object_a60989cacede56624284ad05f74df9c2a_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{class_p_c_object_ac8872c933f6ebf08abfd1aa4ebde6ebd}{\index{\-P\-C\-Object@{\-P\-C\-Object}!insert@{insert}}
+\index{insert@{insert}!PCObject@{\-P\-C\-Object}}
+\subsubsection[{insert}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf \-P\-C\-Object\-::insert} (
+\begin{DoxyParamCaption}
+\item[{{\bf \-Point}}]{p}
+\end{DoxyParamCaption}
+)}}\label{class_p_c_object_ac8872c933f6ebf08abfd1aa4ebde6ebd}
+
+
+\-Here is the caller graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_p_c_object_ac8872c933f6ebf08abfd1aa4ebde6ebd_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{class_p_c_object_a11cc868dc9f8712917148437dc026c57}{\index{\-P\-C\-Object@{\-P\-C\-Object}!likelihood@{likelihood}}
+\index{likelihood@{likelihood}!PCObject@{\-P\-C\-Object}}
+\subsubsection[{likelihood}]{\setlength{\rightskip}{0pt plus 5cm}double {\bf \-P\-C\-Object\-::likelihood} (
+\begin{DoxyParamCaption}
+\item[{{\bf \-Point}}]{point, }
+\item[{{\bf \-Gaussian}}]{gaussian}
+\end{DoxyParamCaption}
+)}}\label{class_p_c_object_a11cc868dc9f8712917148437dc026c57}
+
+
+\-Here is the caller graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_p_c_object_a11cc868dc9f8712917148437dc026c57_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{class_p_c_object_a2b88860d97b5c8f7b784427ce5a6f5b4}{\index{\-P\-C\-Object@{\-P\-C\-Object}!likelihood\-\_\-standard@{likelihood\-\_\-standard}}
+\index{likelihood\-\_\-standard@{likelihood\-\_\-standard}!PCObject@{\-P\-C\-Object}}
+\subsubsection[{likelihood\-\_\-standard}]{\setlength{\rightskip}{0pt plus 5cm}double {\bf \-P\-C\-Object\-::likelihood\-\_\-standard} (
+\begin{DoxyParamCaption}
+\item[{{\bf \-Point}}]{point, }
+\item[{{\bf \-Gaussian}}]{gaussian}
+\end{DoxyParamCaption}
+)}}\label{class_p_c_object_a2b88860d97b5c8f7b784427ce5a6f5b4}
+\hypertarget{class_p_c_object_ad14e7453287b842ce8dced26c63d2899}{\index{\-P\-C\-Object@{\-P\-C\-Object}!make\-Topology@{make\-Topology}}
+\index{make\-Topology@{make\-Topology}!PCObject@{\-P\-C\-Object}}
+\subsubsection[{make\-Topology}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf \-P\-C\-Object\-::make\-Topology} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_p_c_object_ad14e7453287b842ce8dced26c63d2899}
+
+
+\-Here is the call graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_p_c_object_ad14e7453287b842ce8dced26c63d2899_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{class_p_c_object_a2d282f88c1e9412c7e73cad48690a439}{\index{\-P\-C\-Object@{\-P\-C\-Object}!merge\-Two\-G\-M\-Ms@{merge\-Two\-G\-M\-Ms}}
+\index{merge\-Two\-G\-M\-Ms@{merge\-Two\-G\-M\-Ms}!PCObject@{\-P\-C\-Object}}
+\subsubsection[{merge\-Two\-G\-M\-Ms}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf \-P\-C\-Object\-::merge\-Two\-G\-M\-Ms} (
+\begin{DoxyParamCaption}
+\item[{{\bf \-P\-C\-Object} $\ast$}]{gmm1, }
+\item[{{\bf \-P\-C\-Object} $\ast$}]{gmm2}
+\end{DoxyParamCaption}
+)}}\label{class_p_c_object_a2d282f88c1e9412c7e73cad48690a439}
+\hypertarget{class_p_c_object_a0f9cc4c246bd5dc449ba900ef203d82e}{\index{\-P\-C\-Object@{\-P\-C\-Object}!setid@{setid}}
+\index{setid@{setid}!PCObject@{\-P\-C\-Object}}
+\subsubsection[{setid}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf \-P\-C\-Object\-::setid} (
+\begin{DoxyParamCaption}
+\item[{int}]{\-\_\-id}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}\label{class_p_c_object_a0f9cc4c246bd5dc449ba900ef203d82e}
+\hypertarget{class_p_c_object_a3a765ed1df3f4997c7255da3bd53ad6f}{\index{\-P\-C\-Object@{\-P\-C\-Object}!set\-Scale@{set\-Scale}}
+\index{set\-Scale@{set\-Scale}!PCObject@{\-P\-C\-Object}}
+\subsubsection[{set\-Scale}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf \-P\-C\-Object\-::set\-Scale} (
+\begin{DoxyParamCaption}
+\item[{double}]{\-\_\-scale}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}\label{class_p_c_object_a3a765ed1df3f4997c7255da3bd53ad6f}
+\hypertarget{class_p_c_object_aad9af1a35617123738d53e1abc80980b}{\index{\-P\-C\-Object@{\-P\-C\-Object}!set\-Trans\-Param@{set\-Trans\-Param}}
+\index{set\-Trans\-Param@{set\-Trans\-Param}!PCObject@{\-P\-C\-Object}}
+\subsubsection[{set\-Trans\-Param}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf \-P\-C\-Object\-::set\-Trans\-Param} (
+\begin{DoxyParamCaption}
+\item[{vnl\-\_\-vector$<$ double $>$}]{param}
+\end{DoxyParamCaption}
+)}}\label{class_p_c_object_aad9af1a35617123738d53e1abc80980b}
+\hypertarget{class_p_c_object_a50ee001efcde0b94846e8fbcf8302fb6}{\index{\-P\-C\-Object@{\-P\-C\-Object}!simplify@{simplify}}
+\index{simplify@{simplify}!PCObject@{\-P\-C\-Object}}
+\subsubsection[{simplify}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf \-P\-C\-Object\-::simplify} (
+\begin{DoxyParamCaption}
+\item[{int}]{dim, }
+\item[{{\bf \-S\-I\-M\-P\-L\-E}}]{method, }
+\item[{double}]{ratio, }
+\item[{int}]{n\-Cluster = {\ttfamily 0}}
+\end{DoxyParamCaption}
+)}}\label{class_p_c_object_a50ee001efcde0b94846e8fbcf8302fb6}
+
+
+\-Here is the call graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=336pt]{class_p_c_object_a50ee001efcde0b94846e8fbcf8302fb6_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+\-Here is the caller graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=328pt]{class_p_c_object_a50ee001efcde0b94846e8fbcf8302fb6_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{class_p_c_object_ae1207c2fc7b1c91274287622c879e56a}{\index{\-P\-C\-Object@{\-P\-C\-Object}!to\-Point\-Cloud@{to\-Point\-Cloud}}
+\index{to\-Point\-Cloud@{to\-Point\-Cloud}!PCObject@{\-P\-C\-Object}}
+\subsubsection[{to\-Point\-Cloud}]{\setlength{\rightskip}{0pt plus 5cm}{\bf \-Cloud\-Ptr} {\bf \-P\-C\-Object\-::to\-Point\-Cloud} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_p_c_object_ae1207c2fc7b1c91274287622c879e56a}
+
+
+\-Here is the caller graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_p_c_object_ae1207c2fc7b1c91274287622c879e56a_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{class_p_c_object_a81bcc4f7794825ea6fe97c716e7d751e}{\index{\-P\-C\-Object@{\-P\-C\-Object}!topology\-\_\-posweight\-\_\-rev@{topology\-\_\-posweight\-\_\-rev}}
+\index{topology\-\_\-posweight\-\_\-rev@{topology\-\_\-posweight\-\_\-rev}!PCObject@{\-P\-C\-Object}}
+\subsubsection[{topology\-\_\-posweight\-\_\-rev}]{\setlength{\rightskip}{0pt plus 5cm}double {\bf \-P\-C\-Object\-::topology\-\_\-posweight\-\_\-rev} (
+\begin{DoxyParamCaption}
+\item[{{\bf \-Gaussian}}]{g1, }
+\item[{{\bf \-Gaussian}}]{g2}
+\end{DoxyParamCaption}
+)}}\label{class_p_c_object_a81bcc4f7794825ea6fe97c716e7d751e}
+
+
+\-Here is the caller graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_p_c_object_a81bcc4f7794825ea6fe97c716e7d751e_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{class_p_c_object_ae6714b4bc945ea46de699bba08e077b2}{\index{\-P\-C\-Object@{\-P\-C\-Object}!topology\-\_\-velweight\-\_\-rev@{topology\-\_\-velweight\-\_\-rev}}
+\index{topology\-\_\-velweight\-\_\-rev@{topology\-\_\-velweight\-\_\-rev}!PCObject@{\-P\-C\-Object}}
+\subsubsection[{topology\-\_\-velweight\-\_\-rev}]{\setlength{\rightskip}{0pt plus 5cm}double {\bf \-P\-C\-Object\-::topology\-\_\-velweight\-\_\-rev} (
+\begin{DoxyParamCaption}
+\item[{{\bf \-Gaussian}}]{g1, }
+\item[{{\bf \-Gaussian}}]{g2}
+\end{DoxyParamCaption}
+)}}\label{class_p_c_object_ae6714b4bc945ea46de699bba08e077b2}
+
+
+\-Here is the caller graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_p_c_object_ae6714b4bc945ea46de699bba08e077b2_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{class_p_c_object_ae3eaf96866c11430868e643d7fa56eb9}{\index{\-P\-C\-Object@{\-P\-C\-Object}!topology\-\_\-weight@{topology\-\_\-weight}}
+\index{topology\-\_\-weight@{topology\-\_\-weight}!PCObject@{\-P\-C\-Object}}
+\subsubsection[{topology\-\_\-weight}]{\setlength{\rightskip}{0pt plus 5cm}double {\bf \-P\-C\-Object\-::topology\-\_\-weight} (
+\begin{DoxyParamCaption}
+\item[{{\bf \-Gaussian}}]{g1, }
+\item[{{\bf \-Gaussian}}]{g2}
+\end{DoxyParamCaption}
+)}}\label{class_p_c_object_ae3eaf96866c11430868e643d7fa56eb9}
+\hypertarget{class_p_c_object_ae117d9276dd14490027029e8b87e150f}{\index{\-P\-C\-Object@{\-P\-C\-Object}!update\-Predictive\-Parameters@{update\-Predictive\-Parameters}}
+\index{update\-Predictive\-Parameters@{update\-Predictive\-Parameters}!PCObject@{\-P\-C\-Object}}
+\subsubsection[{update\-Predictive\-Parameters}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf \-P\-C\-Object\-::update\-Predictive\-Parameters} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_p_c_object_ae117d9276dd14490027029e8b87e150f}
+
+
+\-Here is the call graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_p_c_object_ae117d9276dd14490027029e8b87e150f_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+\subsection{\-Member \-Data \-Documentation}
+\hypertarget{class_p_c_object_ac94a79d35dece547fab98be2b70e9604}{\index{\-P\-C\-Object@{\-P\-C\-Object}!alpha@{alpha}}
+\index{alpha@{alpha}!PCObject@{\-P\-C\-Object}}
+\subsubsection[{alpha}]{\setlength{\rightskip}{0pt plus 5cm}double {\bf \-P\-C\-Object\-::alpha}}}\label{class_p_c_object_ac94a79d35dece547fab98be2b70e9604}
+\hypertarget{class_p_c_object_a827d54b95fd8fbe64bd4f0fe7a7c1c80}{\index{\-P\-C\-Object@{\-P\-C\-Object}!centroid@{centroid}}
+\index{centroid@{centroid}!PCObject@{\-P\-C\-Object}}
+\subsubsection[{centroid}]{\setlength{\rightskip}{0pt plus 5cm}{\bf \-Point} {\bf \-P\-C\-Object\-::centroid}}}\label{class_p_c_object_a827d54b95fd8fbe64bd4f0fe7a7c1c80}
+\hypertarget{class_p_c_object_a1e854b1f05424e21b57571c4d5d3a639}{\index{\-P\-C\-Object@{\-P\-C\-Object}!cnt@{cnt}}
+\index{cnt@{cnt}!PCObject@{\-P\-C\-Object}}
+\subsubsection[{cnt}]{\setlength{\rightskip}{0pt plus 5cm}int {\bf \-P\-C\-Object\-::cnt}}}\label{class_p_c_object_a1e854b1f05424e21b57571c4d5d3a639}
+\hypertarget{class_p_c_object_ae08580ed200d25aa8304fde6f924c9f3}{\index{\-P\-C\-Object@{\-P\-C\-Object}!diff\-Weight@{diff\-Weight}}
+\index{diff\-Weight@{diff\-Weight}!PCObject@{\-P\-C\-Object}}
+\subsubsection[{diff\-Weight}]{\setlength{\rightskip}{0pt plus 5cm}double$\ast$ {\bf \-P\-C\-Object\-::diff\-Weight}}}\label{class_p_c_object_ae08580ed200d25aa8304fde6f924c9f3}
+\hypertarget{class_p_c_object_aec75ff9931a685504afff6a7c1f78c02}{\index{\-P\-C\-Object@{\-P\-C\-Object}!dimension@{dimension}}
+\index{dimension@{dimension}!PCObject@{\-P\-C\-Object}}
+\subsubsection[{dimension}]{\setlength{\rightskip}{0pt plus 5cm}int {\bf \-P\-C\-Object\-::dimension}}}\label{class_p_c_object_aec75ff9931a685504afff6a7c1f78c02}
+\hypertarget{class_p_c_object_a0d6dab1fe4edd99095e1fe236d4910a5}{\index{\-P\-C\-Object@{\-P\-C\-Object}!edges@{edges}}
+\index{edges@{edges}!PCObject@{\-P\-C\-Object}}
+\subsubsection[{edges}]{\setlength{\rightskip}{0pt plus 5cm}vector$<${\bf \-Edge}$>$ {\bf \-P\-C\-Object\-::edges}}}\label{class_p_c_object_a0d6dab1fe4edd99095e1fe236d4910a5}
+\hypertarget{class_p_c_object_a959539770a6c61a3db3ef480140d1ed0}{\index{\-P\-C\-Object@{\-P\-C\-Object}!filtered\-Weight@{filtered\-Weight}}
+\index{filtered\-Weight@{filtered\-Weight}!PCObject@{\-P\-C\-Object}}
+\subsubsection[{filtered\-Weight}]{\setlength{\rightskip}{0pt plus 5cm}double {\bf \-P\-C\-Object\-::filtered\-Weight}}}\label{class_p_c_object_a959539770a6c61a3db3ef480140d1ed0}
+\hypertarget{class_p_c_object_acbc764cefd102f6b184192ffa266510f}{\index{\-P\-C\-Object@{\-P\-C\-Object}!frame@{frame}}
+\index{frame@{frame}!PCObject@{\-P\-C\-Object}}
+\subsubsection[{frame}]{\setlength{\rightskip}{0pt plus 5cm}vector$<${\bf \-Gaussian}$\ast$$>$ {\bf \-P\-C\-Object\-::frame}}}\label{class_p_c_object_acbc764cefd102f6b184192ffa266510f}
+\hypertarget{class_p_c_object_a2a0a0fe603bac2c80a43d4f6e224bf98}{\index{\-P\-C\-Object@{\-P\-C\-Object}!gaussian@{gaussian}}
+\index{gaussian@{gaussian}!PCObject@{\-P\-C\-Object}}
+\subsubsection[{gaussian}]{\setlength{\rightskip}{0pt plus 5cm}{\bf \-Gaussian} {\bf \-P\-C\-Object\-::gaussian}}}\label{class_p_c_object_a2a0a0fe603bac2c80a43d4f6e224bf98}
+\hypertarget{class_p_c_object_a7d7a327eda5d75b554e2c83ba32a8517}{\index{\-P\-C\-Object@{\-P\-C\-Object}!gaussian\-Tracks@{gaussian\-Tracks}}
+\index{gaussian\-Tracks@{gaussian\-Tracks}!PCObject@{\-P\-C\-Object}}
+\subsubsection[{gaussian\-Tracks}]{\setlength{\rightskip}{0pt plus 5cm}{\bf \-Track\-Container}$<${\bf \-Gaussian}$>$$\ast$ {\bf \-P\-C\-Object\-::gaussian\-Tracks}}}\label{class_p_c_object_a7d7a327eda5d75b554e2c83ba32a8517}
+\hypertarget{class_p_c_object_a7eae3d72d8dfedee042050dc80df4423}{\index{\-P\-C\-Object@{\-P\-C\-Object}!gmm@{gmm}}
+\index{gmm@{gmm}!PCObject@{\-P\-C\-Object}}
+\subsubsection[{gmm}]{\setlength{\rightskip}{0pt plus 5cm}vector$<${\bf \-Gaussian}$>$ {\bf \-P\-C\-Object\-::gmm}}}\label{class_p_c_object_a7eae3d72d8dfedee042050dc80df4423}
+\hypertarget{class_p_c_object_a57cb1270dee62f9c65643f3cbe03347e}{\index{\-P\-C\-Object@{\-P\-C\-Object}!id@{id}}
+\index{id@{id}!PCObject@{\-P\-C\-Object}}
+\subsubsection[{id}]{\setlength{\rightskip}{0pt plus 5cm}int {\bf \-P\-C\-Object\-::id}}}\label{class_p_c_object_a57cb1270dee62f9c65643f3cbe03347e}
+\hypertarget{class_p_c_object_aa921fc68268138b7f5026ec1ccaef619}{\index{\-P\-C\-Object@{\-P\-C\-Object}!imft\-Gaussians@{imft\-Gaussians}}
+\index{imft\-Gaussians@{imft\-Gaussians}!PCObject@{\-P\-C\-Object}}
+\subsubsection[{imft\-Gaussians}]{\setlength{\rightskip}{0pt plus 5cm}{\bf \-I\-M\-F\-T}$<${\bf \-Gaussian}$>$$\ast$ {\bf \-P\-C\-Object\-::imft\-Gaussians}}}\label{class_p_c_object_aa921fc68268138b7f5026ec1ccaef619}
+\hypertarget{class_p_c_object_ab9a8f0b1f9d3b4851877e15e17582097}{\index{\-P\-C\-Object@{\-P\-C\-Object}!is\-Param\-Exist@{is\-Param\-Exist}}
+\index{is\-Param\-Exist@{is\-Param\-Exist}!PCObject@{\-P\-C\-Object}}
+\subsubsection[{is\-Param\-Exist}]{\setlength{\rightskip}{0pt plus 5cm}bool {\bf \-P\-C\-Object\-::is\-Param\-Exist}}}\label{class_p_c_object_ab9a8f0b1f9d3b4851877e15e17582097}
+\hypertarget{class_p_c_object_a4ac23bed170d9a2993524e4b742c99a4}{\index{\-P\-C\-Object@{\-P\-C\-Object}!percent@{percent}}
+\index{percent@{percent}!PCObject@{\-P\-C\-Object}}
+\subsubsection[{percent}]{\setlength{\rightskip}{0pt plus 5cm}double {\bf \-P\-C\-Object\-::percent}}}\label{class_p_c_object_a4ac23bed170d9a2993524e4b742c99a4}
+\hypertarget{class_p_c_object_a88519afe57e934c37b87cd74201573ae}{\index{\-P\-C\-Object@{\-P\-C\-Object}!points@{points}}
+\index{points@{points}!PCObject@{\-P\-C\-Object}}
+\subsubsection[{points}]{\setlength{\rightskip}{0pt plus 5cm}vector$<${\bf \-Point}$>$ {\bf \-P\-C\-Object\-::points}}}\label{class_p_c_object_a88519afe57e934c37b87cd74201573ae}
+\hypertarget{class_p_c_object_a8737196626b96a2730810a9cee2330ed}{\index{\-P\-C\-Object@{\-P\-C\-Object}!scale@{scale}}
+\index{scale@{scale}!PCObject@{\-P\-C\-Object}}
+\subsubsection[{scale}]{\setlength{\rightskip}{0pt plus 5cm}double {\bf \-P\-C\-Object\-::scale}}}\label{class_p_c_object_a8737196626b96a2730810a9cee2330ed}
+\hypertarget{class_p_c_object_ad5a0566f1118a4e70d1de788c7dd4c06}{\index{\-P\-C\-Object@{\-P\-C\-Object}!state@{state}}
+\index{state@{state}!PCObject@{\-P\-C\-Object}}
+\subsubsection[{state}]{\setlength{\rightskip}{0pt plus 5cm}{\bf \-S\-T\-A\-T\-E} {\bf \-P\-C\-Object\-::state}}}\label{class_p_c_object_ad5a0566f1118a4e70d1de788c7dd4c06}
+\hypertarget{class_p_c_object_a2e2e26d46ec23849c062e9d28d349778}{\index{\-P\-C\-Object@{\-P\-C\-Object}!th\-\_\-edge@{th\-\_\-edge}}
+\index{th\-\_\-edge@{th\-\_\-edge}!PCObject@{\-P\-C\-Object}}
+\subsubsection[{th\-\_\-edge}]{\setlength{\rightskip}{0pt plus 5cm}double {\bf \-P\-C\-Object\-::th\-\_\-edge}}}\label{class_p_c_object_a2e2e26d46ec23849c062e9d28d349778}
+\hypertarget{class_p_c_object_a5f09a7006b5499186fe9908143dfbee9}{\index{\-P\-C\-Object@{\-P\-C\-Object}!topology\-\_\-edge\-Map@{topology\-\_\-edge\-Map}}
+\index{topology\-\_\-edge\-Map@{topology\-\_\-edge\-Map}!PCObject@{\-P\-C\-Object}}
+\subsubsection[{topology\-\_\-edge\-Map}]{\setlength{\rightskip}{0pt plus 5cm}\-List\-Graph\-::\-Edge\-Map$<$double$>$$\ast$ {\bf \-P\-C\-Object\-::topology\-\_\-edge\-Map}}}\label{class_p_c_object_a5f09a7006b5499186fe9908143dfbee9}
+\hypertarget{class_p_c_object_a1e2497e50fb2af6cf043d91b3d2e14c6}{\index{\-P\-C\-Object@{\-P\-C\-Object}!topology\-\_\-graph@{topology\-\_\-graph}}
+\index{topology\-\_\-graph@{topology\-\_\-graph}!PCObject@{\-P\-C\-Object}}
+\subsubsection[{topology\-\_\-graph}]{\setlength{\rightskip}{0pt plus 5cm}\-List\-Graph$\ast$ {\bf \-P\-C\-Object\-::topology\-\_\-graph}}}\label{class_p_c_object_a1e2497e50fb2af6cf043d91b3d2e14c6}
+\hypertarget{class_p_c_object_a99eafcc86b98ec0f1d165b8a96d351dc}{\index{\-P\-C\-Object@{\-P\-C\-Object}!topology\-\_\-node\-Map@{topology\-\_\-node\-Map}}
+\index{topology\-\_\-node\-Map@{topology\-\_\-node\-Map}!PCObject@{\-P\-C\-Object}}
+\subsubsection[{topology\-\_\-node\-Map}]{\setlength{\rightskip}{0pt plus 5cm}\-List\-Graph\-::\-Node\-Map$<${\bf \-Gaussian}$>$$\ast$ {\bf \-P\-C\-Object\-::topology\-\_\-node\-Map}}}\label{class_p_c_object_a99eafcc86b98ec0f1d165b8a96d351dc}
+\hypertarget{class_p_c_object_aca5e8c66727c01980551ac8744bfb26a}{\index{\-P\-C\-Object@{\-P\-C\-Object}!trans\-\_\-param@{trans\-\_\-param}}
+\index{trans\-\_\-param@{trans\-\_\-param}!PCObject@{\-P\-C\-Object}}
+\subsubsection[{trans\-\_\-param}]{\setlength{\rightskip}{0pt plus 5cm}vnl\-\_\-vector$<$double$>$ {\bf \-P\-C\-Object\-::trans\-\_\-param}}}\label{class_p_c_object_aca5e8c66727c01980551ac8744bfb26a}
+\hypertarget{class_p_c_object_a1606ff67b8422eac1ee46849bffdb69a}{\index{\-P\-C\-Object@{\-P\-C\-Object}!window\-\_\-long@{window\-\_\-long}}
+\index{window\-\_\-long@{window\-\_\-long}!PCObject@{\-P\-C\-Object}}
+\subsubsection[{window\-\_\-long}]{\setlength{\rightskip}{0pt plus 5cm}int {\bf \-P\-C\-Object\-::window\-\_\-long}\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}\label{class_p_c_object_a1606ff67b8422eac1ee46849bffdb69a}
+\hypertarget{class_p_c_object_a6c90b358d6d19ab437841f829e448b7c}{\index{\-P\-C\-Object@{\-P\-C\-Object}!window\-\_\-short@{window\-\_\-short}}
+\index{window\-\_\-short@{window\-\_\-short}!PCObject@{\-P\-C\-Object}}
+\subsubsection[{window\-\_\-short}]{\setlength{\rightskip}{0pt plus 5cm}int {\bf \-P\-C\-Object\-::window\-\_\-short}\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}\label{class_p_c_object_a6c90b358d6d19ab437841f829e448b7c}
+
+
+\-The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+/home/koosy/koosywork/pmot\-\_\-realtime/pmot\-\_\-realtime/src/\hyperlink{pcobject_8h}{pcobject.\-h}\item 
+/home/koosy/koosywork/pmot\-\_\-realtime/pmot\-\_\-realtime/src/\hyperlink{pcobject_8cpp}{pcobject.\-cpp}\end{DoxyCompactItemize}

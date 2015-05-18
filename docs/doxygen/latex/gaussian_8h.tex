@@ -1,0 +1,64 @@
+\hypertarget{gaussian_8h}{\section{/home/koosy/koosywork/pmot\-\_\-realtime/pmot\-\_\-realtime/src/gaussian.h \-File \-Reference}
+\label{gaussian_8h}\index{/home/koosy/koosywork/pmot\-\_\-realtime/pmot\-\_\-realtime/src/gaussian.\-h@{/home/koosy/koosywork/pmot\-\_\-realtime/pmot\-\_\-realtime/src/gaussian.\-h}}
+}
+{\ttfamily \#include $<$pcl/common/time.\-h$>$}\*
+{\ttfamily \#include $<$pcl/kdtree/kdtree\-\_\-flann.\-h$>$}\*
+{\ttfamily \#include $<$pcl/octree/octree.\-h$>$}\*
+{\ttfamily \#include $<$vector$>$}\*
+{\ttfamily \#include $<$\-Eigen/\-Dense$>$}\*
+{\ttfamily \#include $<$vnl/vnl\-\_\-vector.\-h$>$}\*
+{\ttfamily \#include $<$vnl/vnl\-\_\-matrix.\-h$>$}\*
+\-Include dependency graph for gaussian.\-h\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{gaussian_8h__incl}
+\end{center}
+\end{figure}
+\-This graph shows which files directly or indirectly include this file\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{gaussian_8h__dep__incl}
+\end{center}
+\end{figure}
+\subsection*{\-Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \hyperlink{class_point}{\-Point}
+\item 
+class \hyperlink{class_gaussian}{\-Gaussian}
+\end{DoxyCompactItemize}
+\subsection*{\-Typedefs}
+\begin{DoxyCompactItemize}
+\item 
+typedef pcl\-::\-Point\-X\-Y\-Z\-R\-G\-B \hyperlink{gaussian_8h_af63aa02ad22799ec1b392e97942874b5}{\-Point\-T}
+\item 
+typedef pcl\-::\-Point\-Cloud$<$ \hyperlink{common_8h_af63aa02ad22799ec1b392e97942874b5}{\-Point\-T} $>$ \hyperlink{gaussian_8h_a42cb4850a47336c49f7bd8801b474c9b}{\-Cloud}
+\item 
+typedef \-Cloud\-::\-Ptr \hyperlink{gaussian_8h_a36884aa4a3c181fa4c284d79329ad166}{\-Cloud\-Ptr}
+\item 
+typedef \-Cloud\-::\-Const\-Ptr \hyperlink{gaussian_8h_a8286f33bc85caed6f93d955568cfcb16}{\-Cloud\-Const\-Ptr}
+\item 
+typedef vector$<$ \hyperlink{class_point}{\-Point} $>$ \hyperlink{gaussian_8h_a2786dfc8a28e30d6b6385f709a158a37}{\-Points}
+\end{DoxyCompactItemize}
+
+
+\subsection{\-Typedef \-Documentation}
+\hypertarget{gaussian_8h_a42cb4850a47336c49f7bd8801b474c9b}{\index{gaussian.\-h@{gaussian.\-h}!\-Cloud@{\-Cloud}}
+\index{\-Cloud@{\-Cloud}!gaussian.h@{gaussian.\-h}}
+\subsubsection[{\-Cloud}]{\setlength{\rightskip}{0pt plus 5cm}typedef pcl\-::\-Point\-Cloud$<${\bf \-Point\-T}$>$ {\bf \-Cloud}}}\label{gaussian_8h_a42cb4850a47336c49f7bd8801b474c9b}
+\hypertarget{gaussian_8h_a8286f33bc85caed6f93d955568cfcb16}{\index{gaussian.\-h@{gaussian.\-h}!\-Cloud\-Const\-Ptr@{\-Cloud\-Const\-Ptr}}
+\index{\-Cloud\-Const\-Ptr@{\-Cloud\-Const\-Ptr}!gaussian.h@{gaussian.\-h}}
+\subsubsection[{\-Cloud\-Const\-Ptr}]{\setlength{\rightskip}{0pt plus 5cm}typedef \-Cloud\-::\-Const\-Ptr {\bf \-Cloud\-Const\-Ptr}}}\label{gaussian_8h_a8286f33bc85caed6f93d955568cfcb16}
+\hypertarget{gaussian_8h_a36884aa4a3c181fa4c284d79329ad166}{\index{gaussian.\-h@{gaussian.\-h}!\-Cloud\-Ptr@{\-Cloud\-Ptr}}
+\index{\-Cloud\-Ptr@{\-Cloud\-Ptr}!gaussian.h@{gaussian.\-h}}
+\subsubsection[{\-Cloud\-Ptr}]{\setlength{\rightskip}{0pt plus 5cm}typedef \-Cloud\-::\-Ptr {\bf \-Cloud\-Ptr}}}\label{gaussian_8h_a36884aa4a3c181fa4c284d79329ad166}
+\hypertarget{gaussian_8h_a2786dfc8a28e30d6b6385f709a158a37}{\index{gaussian.\-h@{gaussian.\-h}!\-Points@{\-Points}}
+\index{\-Points@{\-Points}!gaussian.h@{gaussian.\-h}}
+\subsubsection[{\-Points}]{\setlength{\rightskip}{0pt plus 5cm}typedef vector$<${\bf \-Point}$>$ {\bf \-Points}}}\label{gaussian_8h_a2786dfc8a28e30d6b6385f709a158a37}
+\hypertarget{gaussian_8h_af63aa02ad22799ec1b392e97942874b5}{\index{gaussian.\-h@{gaussian.\-h}!\-Point\-T@{\-Point\-T}}
+\index{\-Point\-T@{\-Point\-T}!gaussian.h@{gaussian.\-h}}
+\subsubsection[{\-Point\-T}]{\setlength{\rightskip}{0pt plus 5cm}typedef pcl\-::\-Point\-X\-Y\-Z\-R\-G\-B {\bf \-Point\-T}}}\label{gaussian_8h_af63aa02ad22799ec1b392e97942874b5}

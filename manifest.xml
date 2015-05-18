@@ -1,0 +1,20 @@
+<package>
+  <description brief="dhri_multipleObjectTracking">
+
+     dhri_multipleObjectTracking
+
+  </description>
+  <author>dhri-karl</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/dhri_multipleObjectTracking</url>
+  <depend package="roscpp"/>
+
+  <depend package="opencv2"/>
+  <depend package="cv_bridge"/>
+  <depend package="pcl_ros"/>
+  <depend package="std_msgs"/>
+  <depend package="sensor_msgs"/>
+</package>
+
+

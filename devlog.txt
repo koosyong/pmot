@@ -1,0 +1,9 @@
+[goal]
+- multiple object stacking/unstacking in real-time until 10/20
+
+
+[done]
+2014.10.9:
+
+[to do]
+-initialization and deletion problems in the ambiguity graph

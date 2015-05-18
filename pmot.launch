@@ -1,0 +1,5 @@
+<launch>
+  <arg name="param" default="param.yaml" />
+  <rosparam command="load" file="$(find pmot)/$(arg param)" />
+  <node name="pmot" pkg="pmot" type="pmot" />
+</launch>
